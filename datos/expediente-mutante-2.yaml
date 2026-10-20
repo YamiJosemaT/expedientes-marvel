@@ -35,9 +35,13 @@ leyenda: |-
   <span class="tag t4">Realidad alterna</span>
   </div>
 cajas:
+- html: |-
+    <h2>Antes de empezar</h2>
+    <p>Este volumen da por leídos los doce números de <em>House of X</em> / <em>Powers of X</em> (Hickman, Larraz y Silva, 2019). Ahí se funda la nación de Krakoa y se presenta todo lo que la era da por sabido: el Consejo Silencioso, las leyes de Krakoa, la resurrección de los Cinco y el secreto de Moira MacTaggert sobre el que gira todo lo demás. Sin ellos, <em>Dawn of X</em> se lee a ciegas.</p>
+    <p>Están al final del <a href="Expediente-Mutante-2001-2019.html#hoxpox">Expediente Mutante I</a>, con su orden de lectura intercalado.</p>
 - ruta:
     titulo: La ruta corta
-    texto: 'Trece paradas que cuentan la historia completa de estos siete años. La era de Krakoa está mucho más cosida que la anterior: casi todo se cruza con casi todo, así que aquí la ruta corta se apoya más en los eventos que en las series.'
+    texto: 'Trece paradas que cuentan la historia completa de estos siete años, después de <em>House of X</em> / <em>Powers of X</em>. La era de Krakoa está mucho más cosida que la anterior: casi todo se cruza con casi todo, así que aquí la ruta corta se apoya más en los eventos que en las series.'
     pasos:
     - <span>X-Men vol. 5 <em>#1–21</em></span>
     - <span>X of Swords <em>crossover</em></span>

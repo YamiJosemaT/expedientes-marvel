@@ -201,6 +201,9 @@
     font-size:30px;letter-spacing:-.005em;line-height:1;margin:0 0 8px;
   }
   .ruta > p{margin:0 0 22px;color:var(--ink-2);font-size:14.5px;max-width:62ch}
+  .ruta > p + p{margin-top:-12px}
+  .ruta > p:last-child{margin-bottom:0}
+  .ruta > p a{color:var(--red);text-underline-offset:2px}
   .ruta ol{
     list-style:none;margin:0;padding:0;
     display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:0 28px;
@@ -372,7 +375,20 @@
   .theme-toggle:hover .dot{background:var(--red)}
   @media (max-width:900px){.theme-toggle{top:10px;right:10px;padding:6px 10px}}
 
-  /* ---------- Impresión ---------- */
+  /* ---------- Vuelta a la portada ---------- */
+  .home-link{
+    position:fixed;top:16px;left:16px;z-index:50;
+    display:flex;align-items:center;gap:7px;
+    font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;
+    text-transform:uppercase;text-decoration:none;color:var(--ink-3);
+    background:var(--surface);border:1px solid var(--line);
+    border-radius:999px;padding:7px 13px;
+    box-shadow:var(--shadow);
+    transition:color .15s, border-color .15s;
+  }
+  .home-link:hover{color:var(--ink);border-color:var(--ink-3)}
+  .home-link svg{flex:0 0 auto}
+  @media (max-width:900px){.home-link{top:10px;left:10px;padding:6px 10px}}
   @media print{
     :root{
       --paper:#fff;--surface:#fff;--surface-2:#fff;
@@ -384,7 +400,7 @@
       --shadow:none;
     }
     body{background:#fff;font-size:10.5pt}
-    .theme-toggle, nav.spine{display:none}
+    .theme-toggle, .home-link, nav.spine{display:none}
     .cols{display:block}
     main{padding-top:0}
     .wrap{max-width:none;padding:0}

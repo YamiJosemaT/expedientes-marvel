@@ -1637,6 +1637,7 @@ bloques:
             texto: '<em>War of the Realms: Uncanny X-Men</em> #1–3 colocados como arriba, leyendo al menos los números del evento que los rodean.'
   - evento:
       id: m1-b8-house-of-x-powers-of-x
+      ancla: hoxpox
       etiqueta: Meta · Julio – octubre 2019
       titulo: House of X / Powers of X
       creditos: Jonathan Hickman · Pepe Larraz &amp; R.B. Silva

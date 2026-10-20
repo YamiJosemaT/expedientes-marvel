@@ -133,8 +133,9 @@ def main():
 
         estilos = env.get_template('recursos/comun.css.j2').render(acento=exp['acento']).rstrip('\n')
         tema = env.get_template('recursos/tema.js.j2').render(tema_clave=exp['tema_clave'])
+        inicio = '../' * exp['archivo'].count('/') + quote(col['portada']['archivo'])
         html_exp = env.get_template('expediente.html.j2').render(
-            x=datos, recursos=rec, estilos=estilos, tema_js=tema,
+            x=datos, recursos=rec, estilos=estilos, tema_js=tema, inicio=inicio,
             lecturas_js=lecturas_js.replace("'__EXP__'", "'%s'" % exp['clave']))
         salidas[exp['archivo']] = html_exp
 
