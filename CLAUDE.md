@@ -64,8 +64,18 @@ Avisos de auditoría conocidos y correctos (no son errores):
   recuadro de Imperial. Se pensó reformular ese texto, sin hacerlo.
 
 Entorno: Python 3.13 en `.venv` (PyYAML, Jinja2, beautifulsoup4, websocket-client; ver
-`requirements.txt`). Git 2.51 instalado; el proyecto **no** está en git (se ofreció; no hacer
-commits sin su OK). **Node.js no está instalado.**
+`requirements.txt`). **Node.js no está instalado.**
+
+Git: el proyecto está en git (rama `main`) y en GitHub, repositorio **público**
+https://github.com/YamiJosemaT/expedientes-marvel (subido el 2026-10-20).
+- Autor configurado en el repo: `YamiJosemaT <345464977+YamiJosemaT@users.noreply.github.com>`.
+  La credencial antigua «YamiJosema» (sin T) de GitHub for Visual Studio no es la suya actual.
+- `.gitattributes` mantiene LF en todo y CRLF en el `.bat`; `.gitignore` excluye `.venv`,
+  `salida`, cachés y `*.db`.
+- Commits y push solo con su OK. El entorno de Claude Code tiene `GCM_INTERACTIVE=never`: si
+  la credencial caduca, el usuario debe hacer `git push` desde su propia terminal para iniciar
+  sesión en el navegador.
+- `gh` no está instalado. En PowerShell, el mensaje de commit va en un archivo (`git commit -F`).
 
 ## 4. Regla de oro: los `id`
 
@@ -252,5 +262,4 @@ Servicio (`servicio/`):
    instalados). Tras el APK, probar en móvil y tablet.
 3. Ofertas sin respuesta del usuario:
    - autoenlazar nombres de evento en las notas de continuidad;
-   - poner el proyecto en git;
    - reformular la mención del one-shot Imperial Guardians #1.
