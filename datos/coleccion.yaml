@@ -69,7 +69,7 @@ portada:
   entradilla: 'Cuatro guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
   notas:
     - titulo: Uno detrás de otro
-      html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza donde acaba el I, en <em>House of X</em> / <em>Powers of X</em>.</p>'
+      html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza justo donde acaba el I, con <em>House of X</em> / <em>Powers of X</em>.</p>'
     - titulo: En paralelo
       html: '<p>Eternos y Guardianes son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
     - titulo: Mismo sistema en los cuatro

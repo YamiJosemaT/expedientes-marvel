@@ -14,7 +14,7 @@ cabecera:
     texto: Años de continuidad
   - valor: '15'
     texto: Tramos de lectura
-  - valor: '19'
+  - valor: '20'
     texto: Eventos y crossovers
   - valor: ~900
     texto: Números en total
@@ -35,14 +35,11 @@ leyenda: |-
   <span class="tag t4">Realidad alterna</span>
   </div>
 cajas:
-- html: |-
-    <h2>Antes de empezar</h2>
-    <p>Este volumen da por leídos los doce números de <em>House of X</em> / <em>Powers of X</em> (Hickman, Larraz y Silva, 2019). Ahí se funda la nación de Krakoa y se presenta todo lo que la era da por sabido: el Consejo Silencioso, las leyes de Krakoa, la resurrección de los Cinco y el secreto de Moira MacTaggert sobre el que gira todo lo demás. Sin ellos, <em>Dawn of X</em> se lee a ciegas.</p>
-    <p>Están al final del <a href="Expediente-Mutante-2001-2019.html#hoxpox">Expediente Mutante I</a>, con su orden de lectura intercalado.</p>
 - ruta:
     titulo: La ruta corta
-    texto: 'Trece paradas que cuentan la historia completa de estos siete años, después de <em>House of X</em> / <em>Powers of X</em>. La era de Krakoa está mucho más cosida que la anterior: casi todo se cruza con casi todo, así que aquí la ruta corta se apoya más en los eventos que en las series.'
+    texto: 'Catorce paradas que cuentan la historia completa de estos siete años. La era de Krakoa está mucho más cosida que la anterior: casi todo se cruza con casi todo, así que aquí la ruta corta se apoya más en los eventos que en las series.'
     pasos:
+    - <span>House of X / Powers of X <em>#1–6</em></span>
     - <span>X-Men vol. 5 <em>#1–21</em></span>
     - <span>X of Swords <em>crossover</em></span>
     - <span>Hellfire Gala <em>2021</em></span>
@@ -58,13 +55,25 @@ cajas:
     - <span>Age of Revelation → Shadows of Tomorrow</span>
 bloques:
 - id: b1
-  fechas: Octubre 2019 — noviembre 2020
+  fechas: Julio 2019 — noviembre 2020
   titulo: Dawn of X
-  intro: 'Jonathan Hickman convierte a los mutantes en una nación soberana sobre una isla viva, con su propio idioma, su economía de medicamentos y —la pieza que lo cambia todo— un protocolo de resurrección que vuelve la muerte un trámite administrativo. Seis cabeceras simultáneas que comparten un mismo diseño editorial: cada número lleva páginas de datos, organigramas y actas del Consejo Silencioso.'
+  intro: 'Empieza con <em>House of X</em> / <em>Powers of X</em>, y no es negociable. Jonathan Hickman convierte a los mutantes en una nación soberana sobre una isla viva, con su propio idioma, su economía de medicamentos y —la pieza que lo cambia todo— un protocolo de resurrección que vuelve la muerte un trámite administrativo. Seis cabeceras simultáneas que comparten un mismo diseño editorial: cada número lleva páginas de datos, organigramas y actas del Consejo Silencioso.'
   navegacion:
     anio: 2019–2020
     texto: Dawn of X
   contenido:
+  - evento:
+      id: m1-b8-house-of-x-powers-of-x
+      ancla: hoxpox
+      etiqueta: Punto de partida · Julio – octubre 2019
+      titulo: House of X / Powers of X
+      creditos: Jonathan Hickman · Pepe Larraz &amp; R.B. Silva
+      descripcion:
+      - 'Doce números que refundan la especie mutante como nación en la isla viva de Krakoa. <strong>Léelos antes que nada:</strong> aquí se presenta todo lo que el resto del volumen da por sabido (el Consejo Silencioso, las leyes de Krakoa, la resurrección de los Cinco y el secreto de Moira MacTaggert sobre el que gira toda la era). Sin ellos, <em>Dawn of X</em> se lee a ciegas.'
+      - '<strong>Van intercalados, no seguidos:</strong> leerlos por separado destroza la estructura, que está montada para que cada número de <em>Powers</em> reencuadre el anterior de <em>House</em>.'
+      apartados:
+      - apartado: Orden completo
+        texto: 'HoX #1 → PoX #1 → HoX #2 → PoX #2 → HoX #3 → PoX #3 → HoX #4 → PoX #4 → HoX #5 → PoX #5 → HoX #6 → PoX #6'
   - tramo:
       numero: '1.1'
       titulo: La primera oleada
@@ -1130,7 +1139,7 @@ apendice:
   - titulo: Esta era está mucho más cosida
     html: '<p>En el volumen I podías leer cabeceras enteras durante años sin tropezar con nada. Aquí no: entre 2019 y 2024 casi todas las series comparten calendario y se cruzan cada pocos meses. Ve tramo a tramo y resiste la tentación de adelantar una sola serie.</p>'
   - titulo: Los dos eventos intercalados
-    html: '<p>La era abre y cierra con pares de series que se leen alternando número a número: <em>House of X</em> / <em>Powers of X</em> al principio (está al final del volumen I) y <em>Fall of the House of X</em> / <em>Rise of the Powers of X</em> al final. Leerlos seguidos por separado arruina el efecto en los dos casos.</p>'
+    html: '<p>La era abre y cierra con pares de series que se leen alternando número a número: <em>House of X</em> / <em>Powers of X</em> al principio (abre el bloque 1) y <em>Fall of the House of X</em> / <em>Rise of the Powers of X</em> al final. Leerlos seguidos por separado arruina el efecto en los dos casos.</p>'
   - titulo: Los eventos de toda la línea
     html: <p>Los recuadros con borde discontinuo son los grandes eventos de Marvel en los que participan los mutantes. Cada uno indica qué leer antes, el orden exacto con los números mutantes intercalados en la serie principal y una versión mínima. Varios se llevan números de series X —<em>Empyre</em>, <em>Judgment Day</em>, <em>One World Under Doom</em>— y esos no son opcionales; el resto son contexto.</p>
   - titulo: Dos clases de tie-in

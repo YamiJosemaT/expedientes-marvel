@@ -90,9 +90,14 @@ entre la web y `Comics` solo a través del entorno.
 Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p. ej.
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
-se mueva de bloque. Al partir una ficha en dos, la parte que conserva el contenido original se
-queda el `id`; la nueva recibe uno automáticamente al generar. Hay 247 entradas marcables
-(m1 117, m2 79, et 15, gg 36). Los recuadros «Dónde están ahora» / frontera de la guía no son
+se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 247 entradas
+marcables (m1 116, m2 80, et 15, gg 36).
+
+Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
+indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
+cuenta el progreso por ubicación real (`ubicacion(id)`), no por el prefijo. Ahora solo hay una:
+`m1-b8-house-of-x-powers-of-x` → `m2-b1` (HoX/PoX se movió al Mutante II el 2026-10-20). Los recuadros «Dónde están ahora» / frontera de la guía no son
 marcables; para excluir otra entrada: `marcable: false`.
 
 ## 5. Arquitectura
@@ -226,6 +231,11 @@ Servicio (`servicio/`):
 - **Mutante II (m2, 2019–2026)**, 7 bloques: Dawn of X → Reign of X → Destiny of X → Fall of X →
   From the Ashes → Age of Revelation → Shadows of Tomorrow. Incluye las tres Hellfire Gala,
   A.X.E., Sins of Sinister y The Last Annihilation (añadido a petición).
+- **HoX/PoX abre el Mutante II** (primera ficha del bloque 1, ancla `hoxpox`, «Léelos antes que
+  nada»), a petición del usuario. El Mutante I termina con un recuadro de frontera que enlaza
+  con ella. Cifras: m1 26 eventos, m2 20.
+- Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
+  plantilla: ruta relativa a la portada).
 - **Eterno (et, 2006–2026)**: Gaiman/Romita Jr. → Knauf → Final Host → Gillen → A.X.E. →
   actualidad, con fichas de apariciones en series ajenas.
 - **Guardianes (gg, 2007–2026)**: Annihilation: Conquest → Abnett & Lanning → Bendis → Gemas del

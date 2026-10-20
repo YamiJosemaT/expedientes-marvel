@@ -4,7 +4,7 @@
 
 clave: m1
 titulo_pagina: Expediente Mutante 2001-2019
-descripcion_pagina: Guía de lectura de toda la línea mutante de Marvel entre 2001 y House of X.
+descripcion_pagina: Guía de lectura de toda la línea mutante de Marvel entre 2001 y 2019, hasta las puertas de House of X.
 cabecera:
   antetitulo: Guía de lectura · Línea mutante Marvel
   titulo: Expediente<br/>Mutante<span class="thin">2001 — 2019</span>
@@ -14,7 +14,7 @@ cabecera:
     texto: Años de continuidad
   - valor: '25'
     texto: Tramos de lectura
-  - valor: '27'
+  - valor: '26'
     texto: Eventos y crossovers
   - valor: ~1.500
     texto: Números en total
@@ -1431,7 +1431,7 @@ bloques:
 - id: b8
   fechas: 2017 — 2019
   titulo: ResurrXion y el umbral de Krakoa
-  intro: Jean Grey vuelve, los cinco originales se van a casa, el equipo se hunde hasta su punto más bajo —y entonces Jonathan Hickman lo tira todo por la borda. El bloque termina exactamente donde empieza la era que quieres alcanzar.
+  intro: Jean Grey vuelve, los cinco originales se van a casa y el equipo se hunde hasta su punto más bajo, justo antes de que Jonathan Hickman lo tire todo por la borda. El bloque termina en la puerta de la era que quieres alcanzar, que abre el volumen II.
   navegacion:
     anio: 2017–2019
     texto: Hasta Krakoa
@@ -1636,16 +1636,10 @@ bloques:
           - apartado: Versión mínima
             texto: '<em>War of the Realms: Uncanny X-Men</em> #1–3 colocados como arriba, leyendo al menos los números del evento que los rodean.'
   - evento:
-      id: m1-b8-house-of-x-powers-of-x
-      ancla: hoxpox
-      etiqueta: Meta · Julio – octubre 2019
-      titulo: House of X / Powers of X
-      creditos: Jonathan Hickman · Pepe Larraz &amp; R.B. Silva
+      etiqueta: Frontera de la guía · Julio de 2019
+      titulo: Continúa en el Expediente Mutante II
       descripcion:
-      - Doce números que refundan la especie mutante como nación en la isla viva de Krakoa. Aquí termina este listado y empieza la era que querías alcanzar. <strong>Van intercalados, no seguidos:</strong> leerlos por separado destroza la estructura, que está montada para que cada número de <em>Powers</em> reencuadre el anterior de <em>House</em>.
-      apartados:
-      - apartado: Orden completo
-        texto: 'HoX #1 → PoX #1 → HoX #2 → PoX #2 → HoX #3 → PoX #3 → HoX #4 → PoX #4 → HoX #5 → PoX #5 → HoX #6 → PoX #6'
+      - 'Aquí termina este listado. Lo siguiente es <a href="Expediente-Mutante-II-Krakoa-2019-2026.html#hoxpox"><em>House of X</em> / <em>Powers of X</em></a>, los doce números de Hickman que fundan Krakoa y abren el volumen II: empieza por ahí.'
 apendice:
   titulo: Cómo recorrerlo
   notas:

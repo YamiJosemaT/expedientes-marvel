@@ -14,6 +14,8 @@
   var URL_SERVICIO = '__SYNC_URL__'.replace(/\/+$/, '');
   var K_LOCAL = 'expedientes-leidos', K_CONF = 'expedientes-sincronizacion', K_HIDE = 'expedientes-ocultar-leidos';
   var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eterno', gg: 'Expediente Guardianes' };
+  // Entradas que se movieron de sitio conservando su id: { id: 'expediente-bloque' donde estan ahora }
+  var REUBICADAS = {/*__REUBICADAS__*/};
   var ALFABETO = 'abcdefghijkmnpqrstuvwxyz23456789';   // sin l, o, 0, 1: no se confunden al escribirlo a mano
   var CADA_MS = 90000, ESPERA_MS = 1200, TIEMPO_MS = 15000;
 
@@ -21,6 +23,8 @@
     var d = new Date();
     return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
   }
+  // "expediente-bloque-..." de una entrada segun donde esta ahora, no segun su id
+  function ubicacion(id) { return REUBICADAS[id] ? REUBICADAS[id] + '-' : id; }
   function leerJSON(k, def) { try { var v = JSON.parse(localStorage.getItem(k)); return v == null ? def : v; } catch (e) { return def; } }
   function guardarJSON(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch (e) { return false; } }
   function pct(r, n) { return n ? Math.round(100 * r / n) : 0; }
@@ -417,7 +421,7 @@
       if (!e) return;
       m[id] = {
         e: e, ts: ahora, f: (iF >= 0 && limpio(r[iF])) || hoy(),
-        x: (iX >= 0 && inv[limpio(r[iX])]) || id.split('-')[0],
+        x: (iX >= 0 && inv[limpio(r[iX])]) || ubicacion(id).split('-')[0],
         b: iB >= 0 ? limpio(r[iB]) : '', tr: iT >= 0 ? limpio(r[iT]) : '', t: iN >= 0 ? limpio(r[iN]) : ''
       };
       ids.push(id);
@@ -501,7 +505,7 @@
     [].forEach.call(document.querySelectorAll('[data-prog][data-total]'), function (el) {
       var pre = el.getAttribute('data-prog'), n = +el.getAttribute('data-total'), r = 0, l = 0;
       for (var id in marks) {
-        if (pre && id.indexOf(pre + '-') !== 0) continue;
+        if (pre && ubicacion(id).indexOf(pre + '-') !== 0) continue;
         if (!activa(marks[id])) continue;
         if (marks[id].e === 'leido') r++; else l++;
       }

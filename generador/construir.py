@@ -10,6 +10,7 @@ Pasos: carga datos -> asigna id a las entradas nuevas (y lo guarda en su YAML) -
 unicos -> renderiza -> audita la continuidad -> escribe los archivos si todo esta bien.
 """
 import argparse
+import json
 import os
 import re
 import sys
@@ -113,8 +114,7 @@ def main():
     lecturas_js = leer('lecturas.js').replace("'__SYNC_URL__'", "'%s'" % url_sync)
     a0, a1 = col['anio_inicio'], col['anio_final']
 
-    salidas, problemas, todos_ids = {}, 0, {}
-    exps = []
+    cargados = []
     for exp in col['expedientes']:
         ruta = os.path.join(DATOS, exp['datos'])
         cab, datos = yamlio.cargar(ruta)
@@ -122,6 +122,22 @@ def main():
         if nuevos:
             yamlio.guardar(ruta, cab, datos)
             print('  ids nuevos en %s: %s' % (exp['datos'], ', '.join(nuevos)))
+        cargados.append((exp, datos))
+
+    # entradas movidas a otro expediente o bloque conservando su id (la portada cuenta por ubicacion)
+    reubicadas = {}
+    for exp, datos in cargados:
+        for b in datos['bloques']:
+            lugar = '%s-%s' % (exp['clave'], b['id'])
+            for x in entradas(b):
+                uid = cuerpo(x).get('id')
+                if uid and not uid.startswith(lugar + '-'):
+                    reubicadas[uid] = lugar
+    lecturas_js = lecturas_js.replace('{/*__REUBICADAS__*/}', json.dumps(reubicadas, sort_keys=True))
+
+    salidas, problemas, todos_ids = {}, 0, {}
+    exps = []
+    for exp, datos in cargados:
         for b in datos['bloques']:
             for x in entradas(b):
                 uid = cuerpo(x).get('id')
