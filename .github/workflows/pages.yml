@@ -1,0 +1,63 @@
+# Publica la colección en GitHub Pages cada vez que se sube un cambio a main.
+# Genera desde datos/ con el mismo construir.py (auditoría incluida: si hay huecos, no publica).
+
+name: Publicar en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar la colección
+        run: python generador/construir.py --destino web
+
+      - name: Comprobar que no hay ids sin guardar
+        # construir.py escribe en los YAML los id de las entradas nuevas: tienen que estar ya subidos,
+        # porque son la clave de las marcas de lectura.
+        run: |
+          if ! git diff --exit-code -- datos; then
+            echo "::error::Hay entradas sin id en datos/. Genera en local y sube los YAML actualizados."
+            exit 1
+          fi
+
+      - name: Portada como página de inicio
+        run: cp "web/Expedientes Marvel.html" web/index.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: web
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
