@@ -167,8 +167,17 @@ locales.
 - Gana el `ts` más reciente por entrada.
 - Indicador (punto en el botón): verde ok, ámbar pendiente, círculo vacío sin conexión/
   sincronizando, rojo error; sin entorno, sin punto.
-- Solo se activa si `coleccion.yaml` → `sincronizacion.url` tiene valor. **Ahora está vacío**:
-  las páginas publicadas funcionan solo en local, como antes.
+- Solo se activa si `coleccion.yaml` → `sincronizacion.url` tiene valor. **Activa desde el
+  2026-10-20** con `https://expediente-lecturas.josemapallero29.workers.dev`.
+
+Despliegue en Cloudflare (cuenta gratuita del usuario, todo desde el panel web, sin Wrangler):
+- Worker **`expediente-lecturas`**, en singular: con el plural da «error code: 1042», porque no existe.
+  Código: `servicio/worker.js` pegado en «Edit code». Para actualizarlo hay que volver a pegarlo.
+- D1 `expedientes-lecturas` (id `a32f1cb0-b6ba-4721-b56b-8757ddac8cfb`), enlazada como `DB`.
+  El esquema se creó en su consola.
+- Probado el 2026-10-20 con peticiones directas (8/8) y con dos Chrome sin ventana sobre `salida\` (7/7).
+- Entornos de prueba que quedaron en D1 (se pueden borrar desde su consola):
+  `prueb-aaaaa-aaaaa-aaaaa` y `9rdep-u3und-ycake-v6ahw`.
 
 Servicio (`servicio/`):
 - `worker.js`: Cloudflare Worker (módulo ES) con D1 enlazada como `DB`.
@@ -246,17 +255,9 @@ Servicio (`servicio/`):
 
 ## 9. Pendiente
 
-1. **Punto 2: desplegar el servicio** cuando el usuario cree su cuenta gratuita de Cloudflare
-   (él solo hace de administrador). Sin Node, todo desde el panel web:
-   1. crear la base D1 (p. ej. `expedientes-lecturas`) y ejecutar `esquema.sql` en su consola;
-   2. crear un Worker y pegar `worker.js`;
-   3. en Settings → Bindings, enlazar la D1 como `DB` y desplegar;
-   4. probar `https://<worker>.workers.dev/v1/salud`;
-   5. poner esa URL en `coleccion.yaml` → `sincronizacion.url`, regenerar, publicar y probar con
-      el PC y el móvil.
-
-   Plan gratuito: unas 100k peticiones al día, de sobra. Pendiente opcional: código QR del entorno
-   para pasarlo al móvil.
+1. **Servicio desplegado y publicado (2026-10-20)** (ver §6). Falta que el usuario lo pruebe
+   en su PC y en el móvil. Plan gratuito: unas 100k peticiones al día, de sobra. Pendiente
+   opcional: código QR del entorno para pasarlo al móvil.
 2. **Fase 2: APK Android independiente** («sin tener que registrarme ni nada»): empaquetar las
    páginas en una app. Comprobar antes qué toolchain hace falta (no hay Android SDK ni Node
    instalados). Tras el APK, probar en móvil y tablet.
