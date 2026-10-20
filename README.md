@@ -26,7 +26,20 @@ servicio/
   servidor_local.py            réplica local del servicio, para probar sin Cloudflare
   prueba_sincronizacion.py     prueba completa con dos navegadores (dos "dispositivos")
 Generar expedientes.bat        doble clic: genera y publica en la carpeta Comics
+.github/workflows/pages.yml    publica la web en GitHub Pages en cada push
 ```
+
+## La web
+
+La colección también está publicada en **https://yamijosemat.github.io/expedientes-marvel/**,
+para abrirla desde el móvil o la tablet. Se actualiza sola cada vez que se sube un cambio a la rama
+`main` de GitHub: GitHub ejecuta `construir.py` (con la auditoría) y publica el resultado. Si la
+auditoría encuentra un hueco, o hay entradas nuevas cuyo `id` no se ha guardado en los YAML,
+no publica y la web se queda como estaba. Antes de subir, genera en local para que los `id`
+nuevos queden en los YAML.
+
+Las marcas de la web y las de los archivos de `Comics` se guardan por separado en el navegador.
+Para compartirlas, usa el mismo código de entorno en las dos.
 
 ## Generar
 

@@ -76,6 +76,14 @@ https://github.com/YamiJosemaT/expedientes-marvel (subido el 2026-10-20).
   la credencial caduca, el usuario debe hacer `git push` desde su propia terminal para iniciar
   sesión en el navegador.
 - `gh` no está instalado. En PowerShell, el mensaje de commit va en un archivo (`git commit -F`).
+  El estado de Actions se puede consultar sin autenticación en la API pública
+  (`api.github.com/repos/YamiJosemaT/expedientes-marvel/actions/runs`).
+
+Web: **https://yamijosemat.github.io/expedientes-marvel/** (GitHub Pages, Source = GitHub
+Actions, desde el 2026-10-20). `.github/workflows/pages.yml` genera en cada push a `main`, falla si
+`construir.py` modifica `datos/` (ids sin guardar), copia la portada a `index.html` y publica. Es
+otro origen distinto de `file://`, así que tiene su propio localStorage: las marcas se comparten
+entre la web y `Comics` solo a través del entorno.
 
 ## 4. Regla de oro: los `id`
 
@@ -177,7 +185,8 @@ Despliegue en Cloudflare (cuenta gratuita del usuario, todo desde el panel web, 
   El esquema se creó en su consola.
 - Probado el 2026-10-20 con peticiones directas (8/8) y con dos Chrome sin ventana sobre `salida\` (7/7).
 - Entornos de prueba que quedaron en D1 (se pueden borrar desde su consola):
-  `prueb-aaaaa-aaaaa-aaaaa` y `9rdep-u3und-ycake-v6ahw`.
+  `prueb-aaaaa-aaaaa-aaaaa`, `9rdep-u3und-ycake-v6ahw` y `nxx36-h7k5k-cay55-4e2sw` (este último,
+  de la prueba de la web).
 
 Servicio (`servicio/`):
 - `worker.js`: Cloudflare Worker (módulo ES) con D1 enlazada como `DB`.
@@ -256,7 +265,7 @@ Servicio (`servicio/`):
 ## 9. Pendiente
 
 1. **Servicio desplegado y publicado (2026-10-20)** (ver §6). Falta que el usuario lo pruebe
-   en su PC y en el móvil. Plan gratuito: unas 100k peticiones al día, de sobra. Pendiente
+   en su PC y en el móvil (en el móvil, a través de la web de GitHub Pages). Plan gratuito: unas 100k peticiones al día, de sobra. Pendiente
    opcional: código QR del entorno para pasarlo al móvil.
 2. **Fase 2: APK Android independiente** («sin tener que registrarme ni nada»): empaquetar las
    páginas en una app. Comprobar antes qué toolchain hace falta (no hay Android SDK ni Node
