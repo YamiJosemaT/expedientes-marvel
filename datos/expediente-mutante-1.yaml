@@ -1,0 +1,1664 @@
+# Expediente Mutante 2001-2019
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: m1
+titulo_pagina: Expediente Mutante 2001-2019
+descripcion_pagina: Guía de lectura de toda la línea mutante de Marvel entre 2001 y House of X.
+cabecera:
+  antetitulo: Guía de lectura · Línea mutante Marvel
+  titulo: Expediente<br/>Mutante<span class="thin">2001 — 2019</span>
+  entradilla: 'De la reinvención de Grant Morrison al amanecer de Krakoa, en orden de lectura real: ocho bloques divididos en tramos de continuidad, con cada serie larga partida justo donde un crossover se lleva sus números.'
+  cifras:
+  - valor: '18'
+    texto: Años de continuidad
+  - valor: '25'
+    texto: Tramos de lectura
+  - valor: '27'
+    texto: Eventos y crossovers
+  - valor: ~1.500
+    texto: Números en total
+leyenda: |-
+  <p>Cada bloque se divide en <strong>tramos</strong>: fragmentos de continuidad que se leen en paralelo, alternando las cabeceras que hay dentro. Entre tramo y tramo se intercala el <strong>evento</strong> que los separa, con su orden capítulo a capítulo.</p>
+  <p>Cuando un crossover se lleva números de una serie en marcha, esa serie aparece <strong>partida</strong>: verás dónde se corta y en qué tramo se retoma. Dentro del orden de un evento, los capítulos <span class="cap">en rojo</span> son los que salen de cabeceras que ya venías leyendo.</p>
+  <div class="legend-row">
+  <span class="key"><span class="fwd">▸</span> Continúa después del evento</span>
+  <span class="key"><span class="back">◂</span> Viene de un tramo anterior</span>
+  </div>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie de la línea mutante</span>
+  <span class="key"><span class="swatch dashed"></span> Recuadro con borde discontinuo: evento de toda la línea Marvel en el que participan los X-Men</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Realidad alterna</span>
+  </div>
+cajas:
+- ruta:
+    titulo: La ruta corta
+    texto: 'Si 1.500 números te parecen demasiados, esta es la columna vertebral: quince paradas que, leídas en orden, cuentan la historia mutante completa de estos dieciocho años sin agujeros importantes.'
+    pasos:
+    - <span>New X-Men <em>#114–154</em></span>
+    - <span>Astonishing X-Men <em>#1–24</em></span>
+    - <span>House of M <em>#1–8</em></span>
+    - '<span>X-Men: Deadly Genesis <em>#1–6</em></span>'
+    - <span>X-Factor vol. 3 <em>#1–50</em></span>
+    - <span>Rise &amp; Fall of the Shi'ar Empire <em>#475–486</em></span>
+    - <span>Messiah Complex <em>crossover</em></span>
+    - <span>X-Force vol. 3 <em>#1–28</em></span>
+    - <span>Uncanny X-Men <em>#500–534</em></span>
+    - <span>Second Coming <em>crossover</em></span>
+    - <span>Uncanny X-Force <em>#1–35</em></span>
+    - <span>Schism + Wolverine and the X-Men <em>#1–42</em></span>
+    - <span>Avengers vs. X-Men <em>#1–12</em></span>
+    - <span>All-New X-Men <em>#1–41</em></span>
+    - <span>Death of X → IvX → Extermination</span>
+bloques:
+- id: b1
+  fechas: 2001 — 2004
+  titulo: La revolución Morrison
+  intro: 'El bloque más fácil de recorrer: no hay ni un solo crossover que corte una serie. Morrison, Claremont y Casey escriben en paralelo sin cruzarse, así que puedes leer cada cabecera entera de un tirón y en el orden que prefieras. Es la única vez en dieciocho años que esto se puede hacer.'
+  navegacion:
+    anio: 2001–2004
+    texto: Revolución Morrison
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: La puerta de entrada
+      cuando: Verano de 2001
+      nota: Seis números de transición que despiden la etapa anterior y colocan a cada equipo en su sitio. Puedes saltártelos y empezar directamente en el tramo 1.2.
+      entradas:
+      - serie:
+          id: m1-b1-eve-of-destruction-uncanny-x-men-391-393-x-men-vol-2-111-113
+          titulo: '«Eve of Destruction» <span class="nums">Uncanny X-Men #391–393 · X-Men vol. 2 #111–113</span>'
+          creditos: Scott Lobdell · 2001
+          descripcion:
+          - Magneto arrasa Genosha y Xavier monta un equipo de emergencia. Es el número anterior a la llegada de Morrison.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '1.2'
+      titulo: Líneas en paralelo
+      cuando: 2001 – 2004
+      nota: Ninguna de estas series se cruza con las demás en ningún punto. Lee cada una entera cuando quieras; solo <em>New X-Men</em> es obligatoria.
+      entradas:
+      - serie:
+          id: m1-b1-new-x-men-114-154
+          prioridad: p1
+          titulo: New X-Men <span class="nums">#114–154</span>
+          creditos: Grant Morrison · Frank Quitely, Chris Bachalo, Igor Kordey, Phil Jimenez, Marc Silvestri
+          descripcion:
+          - El eje absoluto del bloque. «E de Extinción», Imperial, «Nuevo Mundo Mutante», «Planeta X» y «Aquí llega el mañana». Es la cabecera <em>X-Men</em> vol. 2 renumerada, y se lee de principio a fin sin una sola interrupción.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b1-x-force-116-129-x-statix-1-26
+          prioridad: p2
+          titulo: X-Force <span class="nums">#116–129</span> → X-Statix <span class="nums">#1–26</span>
+          creditos: 'Peter Milligan · Michael Allred · 2001–2004 (+ <em>X-Statix Presents: Dead Girl</em> #1–5, 2006)'
+          descripcion:
+          - Sátira brutal sobre mutantes convertidos en reality show. Autoconclusiva y de lo más original que ha publicado la línea.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b1-district-x-1-14
+          prioridad: p2
+          titulo: District X <span class="nums">#1–14</span>
+          creditos: David Hine · David Yardin · 2004–2005
+          descripcion:
+          - Policiaco urbano en Mutant Town. Explica el estado social de los mutantes mejor que ninguna cabecera de equipo.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b1-wolverine-vol-3-1-32
+          prioridad: p2
+          titulo: Wolverine vol. 3 <span class="nums">#1–32</span>
+          creditos: 'Greg Rucka; Mark Millar &amp; John Romita Jr. («Enemy of the State», #20–31) · 2003–2005'
+          continuidad:
+          - sigue: '▸ Los números #33–35 son capítulos de <em>House of M</em> (tramo 2.1)'
+          descripcion:
+          - «Enemy of the State» es el arco que hay que leer sí o sí de esta etapa de Lobezno.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b1-uncanny-x-men-394-409
+          titulo: Uncanny X-Men <span class="nums">#394–409</span>
+          creditos: Joe Casey · «Poptopia», «Hope» · 2001–2002
+          descripcion:
+          - El equipo «de calle» en paralelo a Morrison. Irregular pero coherente con el tono del momento.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-uncanny-x-men-410-443
+          titulo: Uncanny X-Men <span class="nums">#410–443</span>
+          creditos: Chuck Austen · 2002–2004
+          continuidad:
+          - sigue: '▸ Continúa en el tramo 2.1 con Claremont desde el #444'
+          descripcion:
+          - Mala fama justificada. Sáltatela salvo que quieras contexto de Ave de Trueno del Norte, Juggernaut o la boda de Havok.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-x-treme-x-men-1-46
+          titulo: X-Treme X-Men <span class="nums">#1–46</span>
+          creditos: Chris Claremont · Salvador Larroca · 2001–2004 (+ anuales y <em>Savage Land</em>)
+          descripcion:
+          - Tormenta lidera un equipo itinerante tras los diarios de Destino. Totalmente aislada del resto.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-cable-97-107-soldier-x-1-12-weapon-x-vol-2-1-28
+          titulo: Cable <span class="nums">#97–107</span> → Soldier X <span class="nums">#1–12</span> · Weapon X vol. 2 <span class="nums">#1–28</span>
+          creditos: Igor Kordey, Darko Macan / Frank Tieri · 2001–2004
+          descripcion:
+          - Cable en modo mesiánico y el Arma X como agencia gubernamental. Marginales, pero <em>Weapon X</em> da contexto a Neverland y los campos mutantes.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-solitarios-de-la-etapa
+          titulo: Solitarios de la etapa
+          creditos: 'Emma Frost #1–18 · Mystique #1–24 · Nightcrawler #1–12 · Rogue #1–12 · Gambit #1–12 · Chamber #1–4'
+          descripcion:
+          - Todos prescindibles para la trama general. <em>Mystique</em> (Vaughan) y <em>Emma Frost</em> son los más sólidos si te interesa el personaje.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-exiles-1-100-ultimate-x-men-1-100
+          prioridad: p4
+          titulo: Exiles <span class="nums">#1–100</span> · Ultimate X-Men <span class="nums">#1–100</span>
+          creditos: Judd Winick, Tony Bedard / Mark Millar, Brian Bendis, Robert Kirkman · 2001–2009
+          descripcion:
+          - 'Realidades ajenas. No tocan la continuidad principal en ningún punto de esta guía: se leen aparte o no se leen.'
+          etiqueta:
+            clase: t4
+            texto: Alterna
+  - tramo:
+      numero: '1.3'
+      titulo: El relevo
+      cuando: 2004 – 2006
+      nota: Morrison se va y la cabecera vuelve a llamarse <em>X-Men</em>. En paralelo arrancan las dos series que enlazan con el bloque siguiente.
+      entradas:
+      - serie:
+          id: m1-b1-astonishing-x-men-vol-3-1-24-giant-size-1
+          prioridad: p1
+          titulo: 'Astonishing X-Men vol. 3 <span class="nums">#1–24 + Giant-Size #1</span>'
+          creditos: Joss Whedon · John Cassaday · 2004–2008
+          descripcion:
+          - 'Recoge el testigo de Morrison: la cura mutante, el regreso de Coloso, Breakworld. <strong>Marvel la mantuvo deliberadamente fuera de todos los crossovers</strong>, así que no la corta nada. Su calendario interno es vago: léela entera en cualquier hueco entre este tramo y el bloque 3.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b1-madrox-1-5
+          prioridad: p1
+          titulo: Madrox <span class="nums">#1–5</span>
+          creditos: Peter David · Pablo Raimondi · 2004
+          continuidad:
+          - sigue: ▸ Enlaza con X-Factor vol. 3, que arranca en el tramo 2.3
+          descripcion:
+          - Miniserie noir de Jamie Madrox como detective. Prólogo directo e imprescindible de <em>X-Factor</em> vol. 3.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b1-new-mutants-vol-2-1-13-new-x-men-academy-x-1-15
+          prioridad: p2
+          titulo: 'New Mutants vol. 2 <span class="nums">#1–13</span> → New X-Men: Academy X <span class="nums">#1–15</span>'
+          creditos: Nunzio DeFilippis &amp; Christina Weir · 2003–2005
+          continuidad:
+          - sigue: '▸ Los números #16–19 son capítulos de <em>House of M</em>'
+          descripcion:
+          - Los alumnos del Instituto. Tono ligero, con la serie renombrada a mitad de camino sin reiniciar numeración.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b1-new-x-men-155-156-x-men-vol-2-157-187
+          titulo: New X-Men <span class="nums">#155–156</span> → X-Men vol. 2 <span class="nums">#157–187</span>
+          creditos: Chuck Austen, luego Peter Milligan · 2004–2006
+          continuidad:
+          - sigue: '▸ Continúa en el tramo 2.3 con Carey desde el #188'
+          descripcion:
+          - 'El tramo de transición de la cabecera principal antes de que Mike Carey la coja en el #188. Prescindible.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-excalibur-vol-3-1-14
+          titulo: Excalibur vol. 3 <span class="nums">#1–14</span>
+          creditos: Chris Claremont · Aaron Lopresti · 2004–2005
+          descripcion:
+          - Xavier y Magneto reconstruyendo Genosha tras el ataque. La serie cierra justo en el umbral de <em>House of M</em>, cuya trama arranca precisamente ahí.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b1-avengers-disassembled
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Prólogo de House of M · 2004
+          titulo: Avengers Disassembled
+          creditos: Brian Michael Bendis · David Finch y otros
+          descripcion:
+          - 'La Bruja Escarlata pierde el control de sus poderes y desmantela a los Vengadores. Es el prólogo directo de <em>House of M</em>: sin él no se entiende por qué X-Men y Vengadores se reúnen para decidir qué hacer con Wanda.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Nada: es un punto de partida.'
+          - apartado: Orden de lectura
+            texto: '<strong>Avengers #500</strong> → <strong>#501</strong> → <strong>#502</strong> → <strong>#503</strong> → <strong>Avengers Finale #1</strong>, seguidos.'
+          - apartado: Prescindible
+            texto: 'Los números de otras series que las guías colocan alrededor del evento: no hacen falta para <em>House of M</em>.'
+          - apartado: Después
+            texto: <em>House of M</em>, al principio del bloque 2.
+- id: b2
+  fechas: 2005 — 2007
+  titulo: Dinastía de M y la Decimación
+  intro: Tres palabras —«No more mutants»— reducen la población mutante de millones a 198. Todo lo que viene después, hasta 2019, es consecuencia de este bloque. Aquí aparece el primer crossover que parte cabeceras en marcha, así que el orden empieza a importar.
+  navegacion:
+    anio: 2005–2007
+    texto: Dinastía de M
+  contenido:
+  - tramo:
+      numero: '2.1'
+      titulo: Antes del cataclismo
+      cuando: '2005'
+      entradas:
+      - serie:
+          id: m1-b2-uncanny-x-men-444-461
+          titulo: Uncanny X-Men <span class="nums">#444–461</span>
+          creditos: Chris Claremont · Alan Davis · 2004–2005
+          continuidad:
+          - viene: ◂ Viene del tramo 1.2
+          - sigue: '▸ Los números #462–465 son capítulos de <em>House of M</em>'
+          descripcion:
+          - Último tramo largo de Claremont en la casa. Denso y desconectado; solo si eres claremontista.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b2-x-men-age-of-apocalypse-one-shot-1-x-men-age-of-apocalypse-1-6
+          prioridad: p4
+          titulo: 'X-Men: Age of Apocalypse One-Shot <span class="nums">#1</span> + X-Men: Age of Apocalypse <span class="nums">#1–6</span>'
+          creditos: Scott Lobdell y otros (one-shot) · Akira Yoshida · Chris Bachalo y otros · 2005
+          continuidad:
+          - sigue: ▸ Esa realidad reaparece en <em>Uncanny X-Force</em> (tramo 4.5)
+          descripcion:
+          - 'La secuela del décimo aniversario de la Era de Apocalipsis de 1995: qué pasó en esa realidad después del evento original. Transcurre íntegra allí y no toca el universo principal. Es el trasfondo del mundo que visita <em>Uncanny X-Force</em> en la Dark Angel Saga (tramo 4.5).'
+          etiqueta:
+            clase: t4
+            texto: Alterna
+  - evento:
+      id: m1-b2-house-of-m
+      etiqueta: Evento · Julio – diciembre 2005
+      titulo: House of M
+      creditos: Brian Michael Bendis · Olivier Coipel
+      descripcion:
+      - Wanda Maximoff reescribe la realidad y luego la borra. Punto de no retorno de toda la era. La serie principal se entiende sola; los capítulos de apoyo solo añaden el punto de vista de cada equipo dentro de la realidad falsa.
+      apartados:
+      - apartado: Columna principal
+        texto: 'House of M #1–8 → <em>Decimation: House of M — The Day After</em> #1'
+      - apartado: Capítulos que salen de tus series en marcha
+        texto: '<span class="cap">Uncanny X-Men #462–465</span> · <span class="cap">New X-Men: Academy X #16–19</span> · <span class="cap">Wolverine vol. 3 #33–35</span>'
+      - apartado: Tie-ins ajenos a la línea mutante (opcionales)
+        texto: 'House of M: Avengers · Iron Man · Fantastic Four · Spider-Man · Mutopia X #1–5'
+  - tramo:
+      numero: '2.2'
+      titulo: La Decimación
+      cuando: '2006'
+      nota: 'El día después: 198 supervivientes bajo custodia militar y una generación entera sin poderes. Las miniseries se leen enteras y en cualquier orden entre sí.'
+      entradas:
+      - serie:
+          id: m1-b2-x-men-deadly-genesis-1-6
+          prioridad: p1
+          titulo: 'X-Men: Deadly Genesis <span class="nums">#1–6</span>'
+          creditos: Ed Brubaker · Trevor Hairsine · 2006
+          descripcion:
+          - 'Retcon mayúsculo sobre Giant-Size X-Men #1 y presentación de Vulcan, el tercer hermano Summers. Prepara el gran arco espacial del tramo 2.4.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b2-las-miniseries-de-la-decimacion
+          prioridad: p2
+          titulo: Las miniseries de la Decimación
+          creditos: 'Generation M #1–5 · X-Men: The 198 #1–5 · Sentinel Squad O*N*E #1–5 · 2006'
+          descripcion:
+          - <em>Generation M</em> (los que perdieron sus poderes) es claramente la mejor de las tres.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b2-new-x-men-academy-x-20-32
+          prioridad: p2
+          titulo: 'New X-Men: Academy X <span class="nums">#20–32</span>'
+          creditos: Craig Kyle &amp; Christopher Yost · Mark Brooks · 2006
+          continuidad:
+          - viene: ◂ Viene de <em>House of M</em>
+          - sigue: ▸ Continúa en el tramo 2.4
+          descripcion:
+          - 'Cambio de tono radical: «Childhood''s End». Los alumnos supervivientes, con muertes reales. Prepara a los personajes de <em>X-Force</em>.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b2-uncanny-x-men-466-474
+          titulo: Uncanny X-Men <span class="nums">#466–474</span>
+          creditos: Chris Claremont, Tony Bedard · 2006
+          continuidad:
+          - viene: ◂ Viene de <em>House of M</em>
+          - sigue: ▸ Continúa en el tramo 2.4
+          descripcion:
+          - Cierre apresurado de las tramas de Claremont antes del relevo de Brubaker.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b2-civil-war
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Junio 2006 – enero 2007
+          titulo: Civil War
+          creditos: Mark Millar · Steve McNiven (serie principal) · tie-in mutante de David Hine y Yanick Paquette
+          descripcion:
+          - 'La Ley de Registro de superhumanos parte en dos a los héroes. Los X-Men se declaran neutrales, y el tie-in cuenta qué supone eso para los 198 supervivientes de la Decimación, vigilados por el gobierno. <strong>El tie-in va partido</strong>: su primer número va antes que los otros tres.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Nada imprescindible: el evento arranca en <em>Civil War</em> #1.'
+          - apartado: Orden de lectura
+            texto: '<strong>Civil War #1</strong> → <strong>#2</strong> → <span class="cap">Civil War: X-Men #1</span> → <strong>Civil War #3</strong> → <strong>#4</strong> → <span class="cap">Civil War: X-Men #2–4</span> → <strong>Civil War #5</strong> → <strong>#6</strong> → <strong>#7</strong>'
+          - apartado: Versión mínima
+            texto: '<em>Civil War: X-Men</em> #1–4 seguidos: se entiende sin el evento, aunque pierdes el contexto de la guerra entre héroes.'
+          - apartado: Prescindible
+            texto: El resto de tie-ins, más de un centenar de números de otras series.
+  - tramo:
+      numero: '2.3'
+      titulo: Arrancan las dos series clave
+      cuando: '2006'
+      nota: Dos cabeceras que van a sostener los tres bloques siguientes. Ninguna se cruza con nada hasta <em>Messiah Complex</em>.
+      entradas:
+      - serie:
+          id: m1-b2-x-factor-vol-3-1-24
+          prioridad: p1
+          titulo: X-Factor vol. 3 <span class="nums">#1–24</span>
+          creditos: Peter David · Ryan Sook, Pablo Raimondi · 2006–2007
+          continuidad:
+          - viene: '◂ Viene de <em>Madrox</em> #1–5 (tramo 1.3)'
+          - sigue: '▸ Los números #25–27 son capítulos de <em>Messiah Complex</em>'
+          descripcion:
+          - La mejor serie mutante del periodo. Detectives en Mutant Town tras la Decimación, con la mejor prosa de personajes de la franquicia.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b2-x-men-vol-2-188-199
+          prioridad: p2
+          titulo: X-Men vol. 2 <span class="nums">#188–199</span>
+          creditos: Mike Carey · Chris Bachalo, Humberto Ramos · «Supernovas» · 2006–2007
+          continuidad:
+          - viene: ◂ Viene del tramo 1.3
+          - sigue: ▸ Continúa en el tramo 2.4
+          descripcion:
+          - Equipo de Rondador Nocturno con Rogue. Es la cabecera que arrastra las tramas hasta el gran crossover.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '2.4'
+      titulo: Vulcan y el Imperio Shi'ar
+      cuando: 2006 – 2007
+      nota: 'La cabecera principal se marcha al espacio doce números seguidos mientras el resto de la línea sigue en la Tierra. Lee la space opera entera y luego ponte al día con lo terrestre, o alterna: no se tocan.'
+      entradas:
+      - serie:
+          id: m1-b2-uncanny-x-men-475-486
+          prioridad: p1
+          titulo: Uncanny X-Men <span class="nums">#475–486</span>
+          creditos: Ed Brubaker · Billy Tan, Clayton Henry · «The Rise and Fall of the Shi'ar Empire» · 2006–2007
+          continuidad:
+          - viene: ◂ Viene del tramo 2.2
+          descripcion:
+          - Space opera de doce números que resuelve <em>Deadly Genesis</em>, arrasa el Imperio Shi'ar y define a Vulcan y a Rachel Summers. De lo mejor de la década.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b2-x-men-endangered-species
+          prioridad: p2
+          titulo: 'X-Men: Endangered Species'
+          creditos: Mike Carey · one-shot + historias de complemento · 2007
+          descripcion:
+          - Bestia recorre el mundo buscando revertir la Decimación. Los complementos salieron repartidos por Uncanny, X-Men, X-Factor y New X-Men; hay recopilatorio único que los reúne en orden.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b2-mientras-tanto-en-la-tierra-x-men-vol-2-200-204-new-x-men-33-43
+          prioridad: p2
+          titulo: 'Mientras tanto, en la Tierra <span class="nums">X-Men vol. 2 #200–204 · New X-Men #33–43</span>'
+          creditos: Mike Carey / Kyle &amp; Yost · «Blinded by the Light», «Quest for Magik» · 2007
+          continuidad:
+          - viene: ◂ Vienen de los tramos 2.2 y 2.3
+          - sigue: ▸ Ambas entregan sus tres siguientes números a <em>Messiah Complex</em>
+          descripcion:
+          - Las dos cabeceras terrestres quedan justo en la puerta del crossover.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b2-uncanny-x-men-487-491
+          titulo: Uncanny X-Men <span class="nums">#487–491</span>
+          creditos: Ed Brubaker · 2007
+          continuidad:
+          - sigue: '▸ Los números #492–494 son capítulos de <em>Messiah Complex</em>'
+          descripcion:
+          - Vuelta a la Tierra y antesala directa del crossover.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b2-world-war-hulk
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Junio 2007 – enero 2008
+          titulo: World War Hulk
+          creditos: Greg Pak · John Romita Jr. (serie principal) · tie-in mutante de Christos Gage
+          descripcion:
+          - Hulk vuelve del exilio espacial al que lo mandaron los Illuminati y va a por ellos uno a uno. Pasa por la mansión a pedirle cuentas a Xavier, que formaba parte de ese grupo.
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Contexto recomendado: <em>Planet Hulk</em> (<em>Incredible Hulk</em> #92–105), el exilio de Hulk en Sakaar. Justo antes del evento: <em>Incredible Hulk</em> #106 y el one-shot <em>World War Hulk Prologue: World Breaker</em> #1.'
+          - apartado: Orden de lectura
+            texto: 'Incredible Hulk #106 → World War Hulk Prologue: World Breaker #1 → <strong>World War Hulk #1</strong> → <span class="cap">World War Hulk: X-Men #1–3</span> → <strong>World War Hulk #2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong>'
+          - apartado: Versión mínima
+            texto: '<em>World War Hulk</em> #1 y después <em>World War Hulk: X-Men</em> #1–3.'
+      - serie:
+          id: m1-b2-satelites-del-bloque
+          titulo: Satélites del bloque
+          creditos: 'New Excalibur #1–24 (cierra en <em>X-Men: Die by the Sword</em> #1–5) · Wolverine: Origins #1–50 · Cable &amp; Deadpool #1–50'
+          descripcion:
+          - Ninguno se cruza con los eventos. <em>Cable &amp; Deadpool</em> es divertidísima y completamente autónoma.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b3
+  fechas: 2007 — 2008
+  titulo: El complejo del Mesías
+  intro: 'Nace el primer bebé mutante desde la Decimación. Cuatro facciones se lo disputan, los X-Men se disuelven y Cíclope funda un escuadrón de asesinato en secreto. El bloque más corto y más determinante: empieza directamente con el crossover que se lleva los números de las cuatro cabeceras que venías leyendo.'
+  navegacion:
+    anio: 2007–2008
+    texto: Complejo de Mesías
+  contenido:
+  - evento:
+      id: m1-b3-x-men-messiah-complex
+      etiqueta: Crossover · 13 partes · Noviembre 2007 – enero 2008
+      titulo: 'X-Men: Messiah Complex'
+      creditos: Ed Brubaker, Mike Carey, Peter David, Craig Kyle &amp; Christopher Yost
+      descripcion:
+      - 'Cada capítulo lleva su número de parte impreso en portada. No lo leas por cabeceras: sigue el orden de abajo, que es el de publicación.'
+      apartados:
+      - apartado: Orden completo
+        texto: 'X-Men: Messiah Complex #1 → <span class="cap">Uncanny #492</span> → <span class="cap">X-Factor #25</span> → <span class="cap">New X-Men #44</span> → <span class="cap">X-Men #205</span> → <span class="cap">Uncanny #493</span> → <span class="cap">X-Factor #26</span> → <span class="cap">New X-Men #45</span> → <span class="cap">X-Men #206</span> → <span class="cap">Uncanny #494</span> → <span class="cap">X-Factor #27</span> → <span class="cap">New X-Men #46</span> → <span class="cap">X-Men #207</span>'
+      - apartado: Qué pasa con esas cabeceras al terminar
+        texto: '<em>New X-Men</em> se cancela en el #46 · <em>X-Men</em> vol. 2 se convierte en <em>X-Men: Legacy</em> desde el #208 · <em>Uncanny</em> y <em>X-Factor</em> siguen con su numeración'
+  - tramo:
+      numero: '3.1'
+      titulo: Divided We Stand
+      cuando: '2008'
+      nota: Los X-Men se han disuelto. Interludio breve antes de la mudanza a San Francisco.
+      entradas:
+      - serie:
+          id: m1-b3-x-men-legacy-208-216
+          prioridad: p2
+          titulo: 'X-Men: Legacy <span class="nums">#208–216</span>'
+          creditos: Mike Carey · Scot Eaton · 2008
+          continuidad:
+          - viene: ◂ Viene de <em>Messiah Complex</em>
+          - sigue: ▸ Continúa en el tramo 4.1
+          descripcion:
+          - Xavier reconstruye su memoria repasando su propia historia. La cabecera <em>X-Men</em> vol. 2 renombrada, sin reiniciar numeración.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b3-x-factor-vol-3-28-38
+          prioridad: p2
+          titulo: X-Factor vol. 3 <span class="nums">#28–38</span>
+          creditos: Peter David · 2008
+          continuidad:
+          - viene: ◂ Viene de <em>Messiah Complex</em>
+          - sigue: ▸ Continúa en el tramo 4.1
+          descripcion:
+          - Sigue su camino al margen del resto de la línea, como casi siempre.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b3-uncanny-x-men-495-499-young-x-men-1-12
+          titulo: Uncanny X-Men <span class="nums">#495–499</span> · Young X-Men <span class="nums">#1–12</span>
+          creditos: Ed Brubaker / Marc Guggenheim · 2008
+          continuidad:
+          - viene: ◂ Uncanny viene de <em>Messiah Complex</em>
+          - sigue: '▸ Uncanny continúa en el tramo 4.1 desde el #500'
+          descripcion:
+          - El interludio y el epílogo de los alumnos. <em>Young X-Men</em> es floja pero cierra ese hilo.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '3.2'
+      titulo: Las dos ramas del bebé
+      cuando: 2008 – principios de 2009
+      nota: Cable huye al futuro con la niña; Cíclope monta un escuadrón para recuperarla. Las dos series corren en paralelo y convergen en <em>Messiah War</em>, ya en el bloque 4.
+      entradas:
+      - serie:
+          id: m1-b3-x-force-vol-3-1-13
+          prioridad: p1
+          titulo: X-Force vol. 3 <span class="nums">#1–13</span>
+          creditos: Craig Kyle &amp; Christopher Yost · Clayton Crain, Mike Choi · 2008–2009
+          continuidad:
+          - sigue: '▸ Los números #14–16 son capítulos de <em>Messiah War</em>'
+          descripcion:
+          - 'El escuadrón negro de Cíclope: Lobezno, X-23, Warpath, Wolfsbane. «Angels and Demons» y «Old Ghosts».'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b3-cable-vol-2-1-12
+          prioridad: p2
+          titulo: Cable vol. 2 <span class="nums">#1–12</span>
+          creditos: Duane Swierczynski · Ariel Olivetti · 2008–2009
+          continuidad:
+          - sigue: '▸ Los números #13–15 son capítulos de <em>Messiah War</em>'
+          descripcion:
+          - 'La mitad B de <em>X-Force</em>: la fuga hacia adelante en el tiempo, saltando décadas.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b3-wolverine-66-72-old-man-logan
+          prioridad: p4
+          titulo: Wolverine <span class="nums">#66–72</span> — «Old Man Logan»
+          creditos: Mark Millar · Steve McNiven · 2008
+          descripcion:
+          - Futuro alterno famosísimo, sin ningún impacto en la continuidad… hasta que el personaje cruza a la principal en el bloque 7.
+          etiqueta:
+            clase: t4
+            texto: Alterna
+- id: b4
+  fechas: 2008 — 2011
+  titulo: San Francisco, Utopía y la Segunda Venida
+  intro: 'Cíclope traslada a la especie entera a California y luego a una isla artificial frente a la costa. Los X-Men dejan de ser una escuela y se convierten en un estado mutante armado: el ensayo general de lo que Krakoa será una década después. Es el bloque con más crossovers de toda la guía —cinco— y el que peor funciona si vas cabecera por cabecera.'
+  navegacion:
+    anio: 2008–2011
+    texto: Utopía
+  contenido:
+  - tramo:
+      numero: '4.1'
+      titulo: Mudanza a San Francisco
+      cuando: 2008 – principios de 2009
+      entradas:
+      - serie:
+          id: m1-b4-uncanny-x-men-500-512
+          prioridad: p2
+          titulo: Uncanny X-Men <span class="nums">#500–512</span>
+          creditos: Matt Fraction &amp; Ed Brubaker · Greg Land, Terry Dodson · «Manifest Destiny», «Sisterhood» · 2008–2009
+          continuidad:
+          - viene: ◂ Viene del tramo 3.1
+          - sigue: '▸ Los números #513–514 son capítulos de <em>Utopía</em>'
+          descripcion:
+          - La cabecera principal del bloque instala a los mutantes en San Francisco.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-x-men-legacy-217-230
+          prioridad: p2
+          titulo: 'X-Men: Legacy <span class="nums">#217–230</span>'
+          creditos: Mike Carey · 2009
+          continuidad:
+          - viene: ◂ Viene del tramo 3.1
+          - sigue: '▸ Los números #231–234 son capítulos de <em>Necrosha</em>'
+          descripcion:
+          - Xavier busca a Rogue y a Gambit; la serie empieza a girar hacia Rogue como protagonista fija.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: m1-b4-secret-invasion
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Abril 2008 – enero 2009
+          titulo: Secret Invasion
+          creditos: Brian Michael Bendis · Leinil Francis Yu (serie principal) · tie-in mutante de Mike Carey y Cary Nord
+          descripcion:
+          - Los Skrull llevan años infiltrados entre los héroes y lanzan la invasión. Una de sus columnas ocupa San Francisco, recién convertida en el hogar de los X-Men, que montan una guerrilla para recuperarla.
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Opcional: <em>New Avengers: Illuminati</em> #1–4, de donde sale la infiltración, y el one-shot <em>Secret Invasion Prologue</em> #1.'
+          - apartado: Orden de lectura
+            texto: 'Secret Invasion Prologue #1 → <strong>Secret Invasion #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <span class="cap">Secret Invasion: X-Men #1–4</span> → <strong>Secret Invasion #5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong>'
+          - apartado: Versión mínima
+            texto: '<em>Secret Invasion: X-Men</em> #1–4 se entiende solo, pero llega mucho mejor después de <em>Secret Invasion</em> #1–4.'
+          - apartado: Después
+            texto: El final del evento abre <em>Dark Reign</em>, que desemboca en <em>Utopía</em> (tramo 4.3).
+      - serie:
+          id: m1-b4-x-factor-vol-3-39-50-x-factor-200-227
+          prioridad: p2
+          titulo: X-Factor vol. 3 <span class="nums">#39–50</span> → X-Factor <span class="nums">#200–227</span>
+          creditos: Peter David · Valentine De Landro, Sebastián Fiumara · 2009–2011
+          continuidad:
+          - viene: ◂ Viene del tramo 3.1
+          - sigue: '▸ Continúa en el tramo 5.1 desde el #228'
+          descripcion:
+          - 'Tres años de la serie que no cruzan con ningún evento: repártelos a tu ritmo a lo largo de todo el bloque. Tras el #50 la cabecera <strong>recupera la numeración del volumen 1 y salta al #200</strong> (diciembre de 2009), sin que falte nada entre medias.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-x-men-manifest-destiny-1-5-x-infernus-1-4-astonishing-x-men-25-35
+          titulo: 'X-Men: Manifest Destiny <span class="nums">#1–5</span> · X-Infernus <span class="nums">#1–4</span> · Astonishing X-Men <span class="nums">#25–35</span>'
+          creditos: Varios / C.B. Cebulski / Warren Ellis · 2008–2009
+          descripcion:
+          - Complementos de la mudanza y el regreso de Magik. La etapa Ellis de <em>Astonishing</em> sigue fuera de todo crossover, igual que la de Whedon.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: m1-b4-messiah-war
+      etiqueta: Crossover · 7 partes · 2009
+      titulo: Messiah War
+      creditos: Craig Kyle, Christopher Yost &amp; Duane Swierczynski · Clayton Crain
+      descripcion:
+      - X-Force salta al futuro y encuentra a Cable y a la niña. Cierra el paréntesis abierto en el tramo 3.2.
+      apartados:
+      - apartado: Orden completo
+        texto: 'X-Force/Cable: Messiah War #1 → <span class="cap">Cable #13</span> → <span class="cap">X-Force #14</span> → <span class="cap">Cable #14</span> → <span class="cap">X-Force #15</span> → <span class="cap">Cable #15</span> → <span class="cap">X-Force #16</span>'
+  - tramo:
+      numero: '4.2'
+      titulo: Entre guerras
+      cuando: Mediados de 2009
+      entradas:
+      - serie:
+          id: m1-b4-x-force-vol-3-17-20-cable-vol-2-16-20-new-mutants-vol-3-1-5
+          prioridad: p2
+          titulo: X-Force vol. 3 <span class="nums">#17–20</span> · Cable vol. 2 <span class="nums">#16–20</span> · New Mutants vol. 3 <span class="nums">#1–5</span>
+          creditos: Kyle &amp; Yost / Swierczynski / Zeb Wells · 2009
+          continuidad:
+          - viene: ◂ X-Force y Cable vienen de <em>Messiah War</em>
+          - sigue: '▸ X-Force #21–25 y New Mutants #6–8 son capítulos de <em>Necrosha</em>'
+          descripcion:
+          - Arranca <em>New Mutants</em> vol. 3 con el equipo original ya adulto.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: m1-b4-utopia
+      etiqueta: Crossover · 2009
+      titulo: Utopía
+      creditos: Matt Fraction · Marc Silvestri, Terry Dodson, Luke Ross
+      descripcion:
+      - Norman Osborn monta sus propios X-Men y los mutantes responden declarándose independientes en una isla frente a San Francisco. Cruza con la línea <em>Dark Reign</em> de los Vengadores; los dos números de <em>Dark Avengers</em> hacen falta para no perder el hilo.
+      apartados:
+      - apartado: Orden completo
+        texto: 'Dark Avengers/Uncanny X-Men: Utopia #1 → <span class="cap">Uncanny #513</span> → Dark Avengers #7 → <span class="cap">Uncanny #514</span> → Dark Avengers #8 → Dark Avengers/Uncanny X-Men: Exodus #1'
+      - apartado: Epílogos (opcionales)
+        texto: 'Dark X-Men: The Beginning #1–3 · Dark X-Men #1–5 · X-Men: Nation X #1–4'
+  - tramo:
+      numero: '4.3'
+      titulo: Nación X
+      cuando: Finales de 2009
+      entradas:
+      - serie:
+          id: m1-b4-uncanny-x-men-515-522
+          prioridad: p2
+          titulo: Uncanny X-Men <span class="nums">#515–522</span>
+          creditos: Matt Fraction · Greg Land, Whilce Portacio · «Nation X» · 2009–2010
+          continuidad:
+          - viene: ◂ Viene de <em>Utopía</em>
+          - sigue: '▸ Los números #523–525 son capítulos de <em>Second Coming</em>'
+          descripcion:
+          - La vida cotidiana en la isla recién fundada.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: m1-b4-necrosha
+      etiqueta: Crossover · 2009 – 2010
+      titulo: Necrosha
+      creditos: Craig Kyle, Christopher Yost, Zeb Wells, Mike Carey · Clayton Crain
+      descripcion:
+      - Selene resucita a todos los mutantes muertos de Genosha. Prescindible para la trama general, pero se lleva números de tres series que sí estás leyendo, así que conviene colocarlo aquí aunque decidas saltártelo.
+      apartados:
+      - apartado: Orden
+        texto: 'X Necrosha #1 → <span class="cap">X-Force #21</span> → <span class="cap">New Mutants #6</span> → <span class="cap">Legacy #231</span> → <span class="cap">X-Force #22</span> → <span class="cap">New Mutants #7</span> → <span class="cap">Legacy #232</span> → <span class="cap">X-Force #23</span> → <span class="cap">New Mutants #8</span> → <span class="cap">Legacy #233</span> → <span class="cap">X-Force #24</span> → <span class="cap">Legacy #234</span> → <span class="cap">X-Force #25</span>'
+  - tramo:
+      numero: '4.4'
+      titulo: Antes del asalto
+      cuando: Principios de 2010
+      entradas:
+      - serie:
+          id: m1-b4-new-mutants-vol-3-9-11-cable-vol-2-21-25
+          prioridad: p2
+          titulo: New Mutants vol. 3 <span class="nums">#9–11</span> · Cable vol. 2 <span class="nums">#21–25</span>
+          creditos: Zeb Wells / Duane Swierczynski · 2010
+          continuidad:
+          - viene: ◂ New Mutants viene de <em>Necrosha</em>
+          - sigue: '▸ New Mutants #12–14 son capítulos de <em>Second Coming</em>'
+          descripcion:
+          - 'Hope y Cable vuelven al presente. Último respiro antes del gran evento del bloque. <em>Cable</em> #25 es el último número de la serie y se recopila junto al evento: léelo justo antes de <em>Second Coming</em> #1.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: m1-b4-second-coming
+      etiqueta: Evento · 14 partes · 2010
+      titulo: Second Coming
+      creditos: Craig Kyle, Christopher Yost, Zeb Wells, Matt Fraction, Mike Carey
+      descripcion:
+      - Hope vuelve adulta y Bastion lanza el asalto final contra Utopía. Cierra la trilogía abierta en <em>Messiah Complex</em>, mata a personajes de peso y da paso a los primeros mutantes nuevos desde la Decimación.
+      apartados:
+      - apartado: Orden completo
+        texto: 'X-Men: Second Coming #1 → <span class="cap">Uncanny #523</span> → <span class="cap">New Mutants #12</span> → <span class="cap">Legacy #235</span> → <span class="cap">X-Force #26</span> → <span class="cap">Uncanny #524</span> → <span class="cap">New Mutants #13</span> → <span class="cap">Legacy #236</span> → <span class="cap">X-Force #27</span> → <span class="cap">Uncanny #525</span> → <span class="cap">New Mutants #14</span> → <span class="cap">Legacy #237</span> → <span class="cap">X-Force #28</span> → X-Men: Second Coming #2'
+      - apartado: Qué termina aquí
+        texto: '<em>X-Force</em> vol. 3 cierra en el #28 · <em>Cable</em> vol. 2 cierra en el #25 · complementos opcionales: <em>Second Coming: Prepare</em>, <em>Revelations: Hellbound</em> #1–3 y <em>Blind Science</em> #1'
+  - tramo:
+      numero: '4.5'
+      titulo: Después de la Segunda Venida
+      cuando: 2010 – principios de 2011
+      nota: 'Nacen cinco mutantes nuevos y arranca la mejor serie de todo el periodo. Tramo largo y tranquilo: aprovecha para ponerte al día con las cabeceras satélite.'
+      entradas:
+      - serie:
+          id: m1-b4-uncanny-x-force-vol-1-1-19
+          prioridad: p1
+          titulo: Uncanny X-Force vol. 1 <span class="nums">#1–19</span>
+          creditos: Rick Remender · Jerome Opeña, Esad Ribić · 2010–2011
+          continuidad:
+          - sigue: '▸ Continúa en el tramo 5.1 con el #19.1, el puente hacia la serie <em>Age of Apocalypse</em> (2012)'
+          descripcion:
+          - 'Cumbre absoluta del periodo: «The Apocalypse Solution» y «The Dark Angel Saga» (#11–18), que viaja a la realidad de la Era de Apocalipsis. <strong>Ningún crossover la corta en sus 35 números</strong>, así que puedes leerla de un tirón si lo prefieres.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b4-uncanny-x-men-526-534
+          prioridad: p2
+          titulo: Uncanny X-Men <span class="nums">#526–534</span>
+          creditos: Matt Fraction, Kieron Gillen · «The Five Lights», «Quarantine», «Breaking Point» · 2010–2011
+          continuidad:
+          - viene: ◂ Viene de <em>Second Coming</em>
+          descripcion:
+          - 'El #526 es el epílogo de <em>Second Coming</em> y la aparición de los cinco primeros mutantes nuevos desde la Decimación.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: m1-b4-chaos-war
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Diciembre 2010 – marzo 2011
+          titulo: Chaos War
+          creditos: Greg Pak &amp; Fred Van Lente · Khoi Pham (serie principal) · tie-in mutante de Chris Claremont y Louise Simonson, con Doug Braithwaite
+          descripcion:
+          - El Rey del Caos amenaza con borrar toda la existencia y Hércules lidera la resistencia. En el tie-in mutante, varios X-Men muertos vuelven a la Tierra a buscar un diario profético con la clave para derrotarlo, y algunos pagan el precio.
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Nada imprescindible. El evento continúa la etapa de Pak y Van Lente en <em>Incredible Hercules</em>, que es contexto opcional, y lo abre el one-shot <em>Chaos War: Chaos King</em> #1.'
+          - apartado: Orden de lectura
+            texto: 'Chaos War: Chaos King #1 → <strong>Chaos War #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <span class="cap">Chaos War: X-Men #1</span> → <span class="cap">Chaos War: X-Men #2</span> → <strong>Chaos War #5</strong>'
+          - apartado: Versión mínima
+            texto: '<em>Chaos War</em> #1–4 y después <em>Chaos War: X-Men</em> #1–2. El tie-in se puede leer suelto, pero sin el evento no sabes quién es el Rey del Caos.'
+          - apartado: Prescindible
+            texto: 'Los one-shots de otros frentes (<em>Ares</em>, <em>God Squad</em>, <em>Alpha Flight</em>, <em>Thor</em>, <em>Dead Avengers</em>) e <em>Incredible Hulks</em> #618–620.'
+          - apartado: Dónde va en tu lectura
+            texto: 'Entre los arcos «Quarantine» y «Breaking Point» de <em>Uncanny X-Men</em> (ficha anterior): léelo al terminar «Quarantine».'
+      - serie:
+          id: m1-b4-x-men-legacy-238-244-new-mutants-vol-3-15-21
+          prioridad: p2
+          titulo: 'X-Men: Legacy <span class="nums">#238–244</span> · New Mutants vol. 3 <span class="nums">#15–21</span>'
+          creditos: Mike Carey / Zeb Wells, Dan Abnett &amp; Andy Lanning · 2010–2011
+          continuidad:
+          - viene: ◂ Ambas vienen de <em>Second Coming</em>
+          - sigue: '▸ Legacy #245–247 y New Mutants #22–24 son capítulos de <em>Age of X</em>'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-x-23-vol-3-1-16
+          prioridad: p2
+          titulo: X-23 vol. 3 <span class="nums">#1–16</span>
+          creditos: Marjorie Liu · Will Conrad · 2010–2011
+          descripcion:
+          - Laura fuera de X-Force. Serie de personaje muy bien construida y sin cruces con nada.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-generation-hope-1-9-x-men-vol-3-1-15-wolverine-vol-4-1-16-astonishing
+          titulo: Generation Hope <span class="nums">#1–9</span> · X-Men vol. 3 <span class="nums">#1–15</span> · Wolverine vol. 4 <span class="nums">#1–16</span> · Astonishing X-Men <span class="nums">#36–47</span>
+          creditos: Kieron Gillen / Victor Gischler / Jason Aaron / varios · 2010–2011
+          continuidad:
+          - sigue: '▸ Generation Hope #10–11 son tie-in de <em>Schism</em>'
+          - sigue: ▸ X-Men vol. 3 y Wolverine continúan en el tramo 4.6
+          descripcion:
+          - <em>Generation Hope</em> sigue a las Cinco Luces; <em>X-Men</em> vol. 3 abre con vampiros («Curse of the Mutants»); <em>Wolverine</em> con «Wolverine Goes to Hell».
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: m1-b4-age-of-x
+      etiqueta: Crossover · 2011
+      titulo: Age of X
+      creditos: Mike Carey · Clay Mann
+      descripcion:
+      - Realidad alternativa creada sin querer por Legión. Autoconclusiva y saltable, pero se lleva seis números de dos series en marcha.
+      apartados:
+      - apartado: Orden
+        texto: 'Age of X: Alpha #1 → <span class="cap">Legacy #245</span> → <span class="cap">New Mutants #22</span> → <span class="cap">Legacy #246</span> → <span class="cap">New Mutants #23</span> → <span class="cap">Legacy #247</span> → <span class="cap">New Mutants #24</span> → Age of X: Universe #1–2'
+  - tramo:
+      numero: '4.6'
+      titulo: Cuenta atrás para la ruptura
+      cuando: '2011'
+      entradas:
+      - serie:
+          id: m1-b4-uncanny-x-men-535-539
+          prioridad: p2
+          titulo: Uncanny X-Men <span class="nums">#535–539</span>
+          creditos: Kieron Gillen · Greg Land, Carlos Pacheco · 2011
+          continuidad:
+          - sigue: '▸ Los #540–543 son el tie-in de <em>Fear Itself</em> (ficha siguiente)'
+          - sigue: '▸ El #544 va después de <em>Schism</em>; la cabecera reinicia como vol. 2 en el tramo 5.1'
+          descripcion:
+          - 'La recta final de la numeración clásica, que se cierra en el #544 tras 48 años.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: m1-b4-fear-itself
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Abril – octubre 2011
+          titulo: Fear Itself
+          creditos: Matt Fraction · Stuart Immonen (serie principal) · tie-in mutante de Kieron Gillen
+          descripcion:
+          - 'La Serpiente, dios asgardiano del miedo, reparte martillos que convierten a varios personajes en sus heraldos. Uno es Juggernaut, que marcha sobre San Francisco, y cuatro números de <em>Uncanny X-Men</em> cuentan esa batalla. <strong>Son números de la serie principal</strong>: esta parte no es opcional.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: Los números anteriores de <em>Uncanny X-Men</em>, hasta el 539 (ficha anterior).
+          - apartado: Orden de lectura
+            texto: '<strong>Fear Itself #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <span class="cap">Uncanny X-Men #540–543</span> → <strong>Fear Itself #6</strong> → <strong>#7</strong>'
+          - apartado: Versión mínima
+            texto: '<em>Uncanny X-Men</em> #540–543 seguidos: se entienden sin el evento.'
+          - apartado: Opcional
+            texto: '<em>Fear Itself: Uncanny X-Force</em> #1–3, <em>Fear Itself: Wolverine</em> #1–3 y un arco de <em>New Mutants</em> con Moonstar y Hela, dentro del evento.'
+          - apartado: Después
+            texto: El último número de <em>Uncanny X-Men</em>, el 544, va después de <em>Schism</em>.
+      - serie:
+          id: m1-b4-x-men-legacy-248-260-new-mutants-vol-3-25-33-x-23-17-21-x-men-vol-3-16
+          prioridad: p2
+          titulo: 'X-Men: Legacy <span class="nums">#248–260</span> · New Mutants vol. 3 <span class="nums">#25–33</span> · X-23 <span class="nums">#17–21</span> · X-Men vol. 3 <span class="nums">#16–20</span> · Wolverine vol. 4 <span class="nums">#17–20</span>'
+          creditos: Mike Carey / Abnett &amp; Lanning / Marjorie Liu / Victor Gischler / Jason Aaron · 2011
+          continuidad:
+          - viene: ◂ Legacy y New Mutants vienen de <em>Age of X</em>
+          - sigue: '▸ Wolverine sigue en 2012 con numeración clásica: #300–317'
+          descripcion:
+          - Carey cierra aquí cuatro años muy consistentes al frente de <em>Legacy</em>.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: m1-b4-x-men-schism
+      etiqueta: Evento · 2011 · Cierre del bloque
+      titulo: 'X-Men: Schism'
+      creditos: Jason Aaron · Carlos Pacheco, Frank Cho, Adam Kubert
+      descripcion:
+      - Cíclope y Lobezno rompen por el uso de menores en combate. La especie se parte en dos bandos y así seguirá hasta 2016.
+      apartados:
+      - apartado: Orden
+        texto: 'X-Men: Schism #1–5 → X-Men: Regenesis #1 (reparto de bandos)'
+      - apartado: Tie-in
+        texto: '<span class="cap">Generation Hope #10–11</span>'
+      - apartado: Epílogo
+        texto: '<span class="cap">Uncanny X-Men #544</span>, el último número de la numeración clásica tras 48 años, se lee después de <em>Schism</em>.'
+- id: b5
+  fechas: 2011 — 2012
+  titulo: Regénesis y Vengadores vs. X-Men
+  intro: 'Dos escuelas, dos filosofías: Lobezno reabre el Instituto en Westchester, Cíclope se queda en Utopía con un equipo de ataque. La tensión revienta cuando la Fuerza Fénix vuelve a la Tierra. Aquí está el caso más claro de por qué no conviene leer por cabeceras: las dos series principales entregan diez números cada una al evento, y una de ellas ni siquiera sobrevive.'
+  navegacion:
+    anio: 2011–2012
+    texto: Regénesis y AvX
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: Dos escuelas
+      cuando: Octubre 2011 – marzo 2012
+      nota: 'Los dos bandos, contados desde dentro. Léelas alternando: son el mismo conflicto visto desde los dos lados.'
+      entradas:
+      - serie:
+          id: m1-b5-wolverine-and-the-x-men-1-8
+          prioridad: p2
+          titulo: Wolverine and the X-Men <span class="nums">#1–8</span>
+          creditos: Jason Aaron · Chris Bachalo, Nick Bradshaw · 2011–2012
+          continuidad:
+          - sigue: '▸ Los números #9–18 son capítulos de <em>Avengers vs. X-Men</em>'
+          descripcion:
+          - La Escuela Jean Grey. Divertida, gamberra y con el mejor elenco juvenil de la década.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b5-uncanny-x-men-vol-2-1-10
+          prioridad: p2
+          titulo: Uncanny X-Men vol. 2 <span class="nums">#1–10</span>
+          creditos: Kieron Gillen · Carlos Pacheco, Greg Land · «Everything is Sinister», «Tabula Rasa» · 2011–2012
+          continuidad:
+          - viene: '◂ Viene del tramo 4.6, reiniciada desde el #1'
+          - sigue: '▸ Los números #11–20 son capítulos de <em>AvX</em>, y la serie termina ahí dentro'
+          descripcion:
+          - 'El «Escuadrón Extinción» de Cíclope: el punto de vista contrario al de Aaron.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b5-uncanny-x-force-vol-1-19-1-20-30
+          prioridad: p1
+          titulo: 'Uncanny X-Force vol. 1 <span class="nums">#19.1 → #20–30</span>'
+          creditos: Rick Remender · 2012
+          continuidad:
+          - viene: ◂ Viene del tramo 4.5
+          - sigue: '▸ Continúa en el tramo 5.2 hasta el #35'
+          descripcion:
+          - 'El #19.1 cuenta qué es de los personajes de la Era de Apocalipsis que ayudaron a X-Force en la Dark Angel Saga, y abre la serie de esa realidad (ficha siguiente). Después la serie sigue su propio camino, al margen del reparto de bandos y de AvX.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b5-age-of-apocalypse-2012-1-12
+          prioridad: p4
+          titulo: Age of Apocalypse (2012) <span class="nums">#1–12</span>
+          creditos: David Lapham · Roberto De La Torre · marzo 2012 – 2013
+          continuidad:
+          - viene: '◂ Viene de <em>Uncanny X-Force</em> #19.1'
+          - sigue: '▸ Los números #13–14 son capítulos de <em>X-Termination</em> (bloque 6)'
+          descripcion:
+          - 'Continuación directa de <em>Uncanny X-Force</em> #19.1, ambientada por completo en la realidad de la Era de Apocalipsis. No toca el universo principal hasta su final, así que puedes leerla a tu ritmo entre este tramo y el bloque 6: lo único importante es llegar a su #12 antes de empezar <em>X-Termination</em>.'
+          etiqueta:
+            clase: t4
+            texto: Alterna
+      - serie:
+          id: m1-b5-x-men-legacy-261-265-new-mutants-vol-3-34-42-x-men-vol-3-21-30-x-facto
+          titulo: 'X-Men: Legacy <span class="nums">#261–265</span> · New Mutants vol. 3 <span class="nums">#34–42</span> · X-Men vol. 3 <span class="nums">#21–30</span> · X-Factor <span class="nums">#228–233</span> · Generation Hope <span class="nums">#12–17</span>'
+          creditos: Christos Gage / Abnett &amp; Lanning / varios / Peter David · 2011–2012
+          continuidad:
+          - sigue: '▸ Legacy #266–270 son capítulos de <em>AvX</em>'
+          descripcion:
+          - 'Las cabeceras satélite del reparto de bandos. <em>Generation Hope</em> cierra en el #17, justo cuando arranca AvX.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: m1-b5-avengers-vs-x-men
+      etiqueta: Evento · Abril – diciembre 2012
+      titulo: Avengers vs. X-Men
+      creditos: Bendis, Aaron, Brubaker, Fraction, Hickman · John Romita Jr., Olivier Coipel, Adam Kubert
+      descripcion:
+      - 'Cinco mutantes reciben el poder del Fénix. El resultado reconfigura la línea entera y deja a Cíclope como criminal. Los tie-ins de las dos cabeceras mutantes son de lectura muy recomendable: cuentan el evento desde la escuela y desde Utopía.'
+      apartados:
+      - apartado: Columna principal
+        texto: 'AvX #0 → AvX #1–12 → AvX: Consequences #1–5'
+      - apartado: Capítulos que salen de tus series en marcha
+        texto: '<span class="cap">Wolverine and the X-Men #9–18</span> · <span class="cap">Uncanny X-Men vol. 2 #11–20</span> · <span class="cap">X-Men: Legacy #266–270</span>'
+      - apartado: Tie-ins ajenos a la línea mutante (opcionales)
+        texto: 'New Avengers #24–30 · Avengers #25–30 · Secret Avengers #26–28 · AvX: VS #1–6 (solo peleas, no aporta trama)'
+      - apartado: Qué termina aquí
+        texto: '<em>Uncanny X-Men</em> vol. 2 cierra en el #20, dentro del evento'
+  - tramo:
+      numero: '5.2'
+      titulo: Las consecuencias
+      cuando: Finales de 2012
+      nota: 'Cierre en cadena: cuatro cabeceras largas terminan aquí para dejar sitio al relanzamiento de Marvel NOW!.'
+      entradas:
+      - serie:
+          id: m1-b5-wolverine-and-the-x-men-19-24
+          prioridad: p2
+          titulo: Wolverine and the X-Men <span class="nums">#19–24</span>
+          creditos: Jason Aaron · 2012
+          continuidad:
+          - viene: ◂ Viene de <em>AvX</em>
+          - sigue: ▸ Continúa en el tramo 6.1
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b5-uncanny-x-force-31-35
+          prioridad: p1
+          titulo: Uncanny X-Force <span class="nums">#31–35</span>
+          creditos: Rick Remender · 2012
+          continuidad:
+          - viene: ◂ Viene del tramo 5.1
+          descripcion:
+          - Cierre de la etapa Remender, la mejor serie mutante de estos años.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b5-x-men-legacy-271-275-new-mutants-vol-3-43-50-x-men-vol-3-31-41-x-facto
+          titulo: 'X-Men: Legacy <span class="nums">#271–275</span> · New Mutants vol. 3 <span class="nums">#43–50</span> · X-Men vol. 3 <span class="nums">#31–41</span> · X-Factor <span class="nums">#234–245</span> · Astonishing X-Men <span class="nums">#48–56</span> · X-Treme X-Men vol. 2 <span class="nums">#1–11</span>'
+          creditos: Varios · 2012
+          continuidad:
+          - viene: ◂ Legacy viene de <em>AvX</em>
+          - sigue: '▸ X-Treme X-Men #12–13 y Astonishing X-Men #59–61 son capítulos de <em>X-Termination</em> (bloque 6)'
+          descripcion:
+          - 'Todas cierran salvo <em>X-Factor</em>, que aguanta hasta el #262.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b6
+  fechas: 2012 — 2015
+  titulo: Marvel NOW! y los cinco originales
+  intro: 'Bestia trae del pasado a los cinco X-Men adolescentes originales para que vean en qué se ha convertido Cíclope. Se quedan atrapados en el presente y ahí siguen hasta 2018: es la trama que estructura este bloque y el siguiente.'
+  navegacion:
+    anio: 2012–2015
+    texto: Marvel NOW!
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: Los cinco originales llegan
+      cuando: Noviembre 2012 – agosto 2013
+      nota: Cuatro cabeceras que van a converger en <em>Battle of the Atom</em>. Conviene llevarlas más o menos a la par para llegar al crossover con las cuatro al día.
+      entradas:
+      - serie:
+          id: m1-b6-all-new-x-men-1-15
+          prioridad: p1
+          titulo: All-New X-Men <span class="nums">#1–15</span>
+          creditos: Brian Michael Bendis · Stuart Immonen · 2012–2013
+          continuidad:
+          - sigue: '▸ Los números #16–17 son capítulos de <em>Battle of the Atom</em>'
+          descripcion:
+          - Columna vertebral del bloque y de la ruta corta.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b6-uncanny-x-men-vol-3-1-11
+          prioridad: p2
+          titulo: Uncanny X-Men vol. 3 <span class="nums">#1–11</span>
+          creditos: Brian Michael Bendis · Chris Bachalo, Frazer Irving · 2013
+          continuidad:
+          - sigue: '▸ Los números #12–13 son capítulos de <em>Battle of the Atom</em>'
+          descripcion:
+          - Cíclope como revolucionario fugitivo entrenando mutantes nuevos. Se lee alternando con <em>All-New X-Men</em>.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-wolverine-and-the-x-men-25-35
+          prioridad: p2
+          titulo: Wolverine and the X-Men <span class="nums">#25–35</span>
+          creditos: Jason Aaron · Nick Bradshaw · incluye «Hellfire Saga» (#33–35) · 2013
+          continuidad:
+          - viene: ◂ Viene del tramo 5.2
+          - sigue: '▸ Los números #36–37 son capítulos de <em>Battle of the Atom</em>'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-x-men-vol-4-1-4
+          titulo: X-Men vol. 4 <span class="nums">#1–4</span>
+          creditos: Brian Wood · Olivier Coipel · equipo íntegramente femenino · 2013
+          continuidad:
+          - sigue: '▸ Los números #5–6 son capítulos de <em>Battle of the Atom</em>'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b6-x-men-legacy-vol-2-1-12
+          prioridad: p2
+          titulo: 'X-Men: Legacy vol. 2 <span class="nums">#1–12</span>'
+          creditos: Simon Spurrier · Tan Eng Huat · 2012–2013
+          descripcion:
+          - 'Legión, el hijo de Xavier, contra su propia mente. Rareza brillante y completamente autoconclusiva: no la corta ningún crossover. La joya escondida de la década.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-cable-and-x-force-1-10-uncanny-x-force-vol-2-1-10-x-factor-246-262-ast
+          titulo: Cable and X-Force <span class="nums">#1–10</span> · Uncanny X-Force vol. 2 <span class="nums">#1–10</span> · X-Factor <span class="nums">#246–262</span> · Astonishing X-Men <span class="nums">#57–58</span> · Wolverine vol. 5 <span class="nums">#1–13</span>
+          creditos: Dennis Hopeless / Sam Humphries / Peter David / varios / Paul Cornell · 2012–2013
+          continuidad:
+          - sigue: '▸ Astonishing X-Men #59–61 son de <em>X-Termination</em>; sigue en el tramo 6.2 desde el #62'
+          descripcion:
+          - 'Satélites del relanzamiento. <em>X-Factor</em> cierra en el #262 los siete años de Peter David.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b6-age-of-ultron
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Marzo – junio 2013
+          titulo: Age of Ultron
+          creditos: Brian Michael Bendis · Bryan Hitch, Brandon Peterson, Carlos Pacheco
+          descripcion:
+          - Ultrón ha conquistado la Tierra y Lobezno viaja en el tiempo para impedirlo, con consecuencias para el propio tejido temporal. Lobezno es el protagonista, pero el evento no tiene tie-ins en las series mutantes.
+          apartados:
+          - apartado: Antes de empezar
+            texto: Nada.
+          - apartado: Orden de lectura
+            texto: '<strong>Age of Ultron #1–10</strong>, de corrido.'
+          - apartado: Prescindible
+            texto: Los números marcados «AU» de otras series.
+          - apartado: Conexión
+            texto: 'El #10 trae a Angela al universo Marvel (ver el Expediente Guardianes).'
+  - evento:
+      id: m1-b6-x-termination
+      etiqueta: Crossover · Realidad alterna y línea principal · Preludio + 8 capítulos · Marzo – abril 2013
+      titulo: X-Termination
+      creditos: David Lapham, Greg Pak &amp; Marjorie Liu · David López, Matteo Buffagni y otros
+      descripcion:
+      - 'El final del arco que abrió <em>Uncanny X-Force</em> #19.1: la serie de la Era de Apocalipsis se cruza con <em>Astonishing X-Men</em> y <em>X-Treme X-Men</em>, las dos realidades chocan y el arco termina aquí. <strong>Va entrelazado:</strong> las tres series se van alternando entre los dos números de <em>X-Termination</em>, que abren y cierran el cruce.'
+      apartados:
+      - apartado: Antes de empezar
+        texto: 'Llega con <em>Age of Apocalypse</em> leída hasta el #12 (tramo 5.1), <em>X-Treme X-Men</em> vol. 2 hasta el #11 (tramo 5.2) y <em>Astonishing X-Men</em> hasta el #58 (tramo 6.1).'
+      - apartado: Orden completo
+        texto: '<span class="cap">Astonishing X-Men #59</span> (preludio) → <span class="cap">Age of Apocalypse #13</span> → <span class="cap">X-Treme X-Men #12</span> → <strong>X-Termination #1</strong> → <span class="cap">Astonishing X-Men #60</span> → <span class="cap">Age of Apocalypse #14</span> → <span class="cap">X-Treme X-Men #13</span> → <span class="cap">Astonishing X-Men #61</span> → <strong>X-Termination #2</strong>'
+      - apartado: Qué termina aquí
+        texto: '<em>Age of Apocalypse</em> (2012) cierra en el #14 y <em>X-Treme X-Men</em> vol. 2 en el #13. <em>Astonishing X-Men</em> sigue hasta el #68 en el tramo 6.2.'
+      - apartado: Cuándo leerlo
+        texto: 'Es independiente de las cuatro series que convergen en <em>Battle of the Atom</em>: léelo en cualquier momento del tramo 6.1, cuando tengas al día las tres de arriba.'
+  - evento:
+      id: m1-b6-battle-of-the-atom
+      etiqueta: Crossover · 10 partes · Septiembre – octubre 2013
+      titulo: Battle of the Atom
+      creditos: Brian Michael Bendis, Jason Aaron, Brian Wood · varios
+      descripcion:
+      - Los X-Men del futuro vienen a obligar a los cinco originales a volver a su época. Cruza las cuatro cabeceras del tramo anterior en capítulos alternos numerados.
+      apartados:
+      - apartado: Orden completo
+        texto: 'X-Men: Battle of the Atom #1 → <span class="cap">All-New X-Men #16</span> → <span class="cap">X-Men vol. 4 #5</span> → <span class="cap">Uncanny X-Men #12</span> → <span class="cap">Wolverine and the X-Men #36</span> → <span class="cap">All-New X-Men #17</span> → <span class="cap">X-Men vol. 4 #6</span> → <span class="cap">Uncanny X-Men #13</span> → <span class="cap">Wolverine and the X-Men #37</span> → X-Men: Battle of the Atom #2'
+  - tramo:
+      numero: '6.2'
+      titulo: Tras la batalla
+      cuando: Finales de 2013 – 2014
+      nota: Tramo largo sin crossovers de línea. Las series retoman su camino y la única convergencia es hacia el final, con <em>Death of Wolverine</em>.
+      entradas:
+      - serie:
+          id: m1-b6-all-new-x-men-18-37
+          prioridad: p1
+          titulo: All-New X-Men <span class="nums">#18–37</span>
+          creditos: Brian Michael Bendis · David Marquez · 2013–2015
+          continuidad:
+          - viene: ◂ Viene de <em>Battle of the Atom</em>
+          - sigue: '▸ Los números #38–39 son capítulos de <em>The Black Vortex</em>'
+          descripcion:
+          - 'Incluye «The Trial of Jean Grey» (#22–24), cruzado con <em>Guardianes de la Galaxia</em> #11–13 en capítulos alternos.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b6-uncanny-x-men-vol-3-14-30
+          prioridad: p2
+          titulo: Uncanny X-Men vol. 3 <span class="nums">#14–30</span>
+          creditos: Brian Michael Bendis · Chris Bachalo, Kris Anka · 2013–2015
+          continuidad:
+          - viene: ◂ Viene de <em>Battle of the Atom</em>
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-wolverine-and-the-x-men-38-42-vol-2-1-12
+          prioridad: p2
+          titulo: Wolverine and the X-Men <span class="nums">#38–42</span> → vol. 2 <span class="nums">#1–12</span>
+          creditos: Jason Aaron, luego Jason Latour · 2013–2015
+          continuidad:
+          - viene: ◂ Viene de <em>Battle of the Atom</em>
+          descripcion:
+          - 'Aaron cierra su etapa en el #42 y la serie se relanza con otro autor.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-magneto-1-21
+          prioridad: p2
+          titulo: Magneto <span class="nums">#1–21</span>
+          creditos: Cullen Bunn · Gabriel Hernández Walta · 2014–2015
+          descripcion:
+          - Magneto solo, sin poderes plenos, cazando a quienes explotan mutantes. Seca, excelente y sin cruces.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-death-of-wolverine-1-4
+          prioridad: p2
+          titulo: Death of Wolverine <span class="nums">#1–4</span>
+          creditos: Charles Soule · Steve McNiven · 2014
+          descripcion:
+          - 'Logan muere y desaparece de la línea hasta 2018. Secuelas opcionales: <em>The Logan Legacy</em> #1–7, <em>The Weapon X Program</em> #1–5, <em>Wolverines</em> #1–20.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-x-men-vol-4-7-26-x-men-legacy-vol-2-13-24-amazing-x-men-1-19-cable-and
+          titulo: 'X-Men vol. 4 <span class="nums">#7–26</span> · X-Men: Legacy vol. 2 <span class="nums">#13–24</span> · Amazing X-Men <span class="nums">#1–19</span> · Cable and X-Force <span class="nums">#11–19</span> → X-Force vol. 4 <span class="nums">#1–15</span> · Uncanny X-Force vol. 2 <span class="nums">#11–17</span> · Astonishing X-Men <span class="nums">#62–68</span> · Nightcrawler <span class="nums">#1–12</span> · Storm <span class="nums">#1–11</span> · Cyclops <span class="nums">#1–11</span>'
+          creditos: Varios · 2013–2015
+          continuidad:
+          - viene: ◂ Astonishing X-Men viene de <em>X-Termination</em>
+          - sigue: '▸ Cyclops #12 es capítulo de <em>The Black Vortex</em>'
+          descripcion:
+          - 'Todas leíbles, ninguna imprescindible. <em>Amazing X-Men</em> #1–5 devuelve a Rondador Nocturno del más allá.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b6-axis
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Octubre – diciembre 2014
+          titulo: AXIS
+          creditos: Rick Remender · Adam Kubert, Leinil Francis Yu, Jim Cheung
+          descripcion:
+          - El Cráneo Rojo, con el cerebro robado de Xavier, se convierte en Onslaught Rojo y usa el odio como arma telepática; para pararlo, un hechizo de inversión cambia de bando a héroes y villanos. Magneto y Havok tienen papel protagonista.
+          apartados:
+          - apartado: Antes de empezar
+            texto: El preludio sale de <em>Uncanny Avengers</em>, la serie de Remender con un equipo mixto de Vengadores y X-Men (no incluida en esta guía), y de <em>Magneto</em>. Los dos números de <em>Magneto</em> ya los tienes si sigues su serie en este tramo.
+          - apartado: Orden de lectura
+            texto: 'Uncanny Avengers #23 → Magneto #9 → Uncanny Avengers #24 → Magneto #10 → Uncanny Avengers #25 → <strong>AXIS #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong> → <strong>#9</strong>'
+          - apartado: Versión mínima
+            texto: '<em>AXIS</em> #1–9: la serie de nueve números se sostiene sola.'
+          - apartado: Opcional
+            texto: '<em>AXIS: Revolutions</em> #1, que se puede leer tras <em>AXIS</em> #1, y los tie-ins de otras series.'
+  - evento:
+      id: m1-b6-the-black-vortex
+      etiqueta: Crossover · 13 partes · 2015
+      titulo: The Black Vortex
+      creditos: Sam Humphries · varios
+      descripcion:
+      - Cruce con los Guardianes de la Galaxia por un artefacto que amplifica poderes. Opcional en conjunto, pero se lleva tres números de series que estás leyendo.
+      apartados:
+      - apartado: Orden completo
+        texto: 'Black Vortex Alpha #1 → Guardians of the Galaxy #24 → Legendary Star-Lord #9 → <span class="cap">All-New X-Men #38</span> → <span class="cap">All-New X-Men #39</span> → Guardians Team-Up #3 → Guardians of the Galaxy #25 → Nova #28 → Legendary Star-Lord #10 → <span class="cap">Cyclops #12</span> → Captain Marvel #14 → Legendary Star-Lord #11 → Black Vortex Omega #1'
+  - tramo:
+      numero: '6.3'
+      titulo: El final del universo
+      cuando: '2015'
+      entradas:
+      - serie:
+          id: m1-b6-all-new-x-men-40-41-uncanny-x-men-vol-3-31-35-uncanny-x-men-600
+          prioridad: p1
+          titulo: All-New X-Men <span class="nums">#40–41</span> · Uncanny X-Men vol. 3 <span class="nums">#31–35</span> · Uncanny X-Men <span class="nums">#600</span>
+          creditos: Brian Michael Bendis · 2015
+          continuidad:
+          - viene: ◂ All-New X-Men viene de <em>The Black Vortex</em>
+          descripcion:
+          - 'Bendis cierra sus tres años. El #600 recupera la numeración clásica para un epílogo coral y es el verdadero punto final de la etapa.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b6-secret-wars-tie-ins-mutantes
+          prioridad: p4
+          titulo: Secret Wars — tie-ins mutantes
+          creditos: 'E is for Extinction · Years of Future Past · Age of Apocalypse · House of M · X-Tinction Agenda · Inferno · X-Men ''92 · Old Man Logan #1–5 · 2015'
+          descripcion:
+          - 'El universo Marvel se destruye y se reconstruye. Solo necesitas <em>Secret Wars</em> #1–9 para el contexto; los tie-ins son homenajes a etapas clásicas. <em>Inferno</em> (Coloso y Magik) y <em>Old Man Logan</em> son los únicos con consecuencias posteriores.'
+          etiqueta:
+            clase: t4
+            texto: Alterna
+- id: b7
+  fechas: 2015 — 2017
+  titulo: La niebla Terrígena
+  intro: Una nube Terrígena que activa a los Inhumanos resulta ser letal para los mutantes y esteriliza a la especie por segunda vez. El bloque más flojo de la guía en calidad media, pero contiene el conflicto que resetea el statu quo y saca a Cíclope de escena.
+  navegacion:
+    anio: 2015–2017
+    texto: Guerra inhumana
+  contenido:
+  - tramo:
+      numero: '7.1'
+      titulo: Ocho meses después
+      cuando: Finales de 2015 – principios de 2016
+      nota: Tras <em>Secret Wars</em> la línea salta ocho meses en el tiempo. Las tres cabeceras arrancan a la vez y convergen en <em>Apocalypse Wars</em>.
+      entradas:
+      - serie:
+          id: m1-b7-extraordinary-x-men-1-7
+          prioridad: p2
+          titulo: Extraordinary X-Men <span class="nums">#1–7</span>
+          creditos: Jeff Lemire · Humberto Ramos · 2015–2016
+          continuidad:
+          - sigue: '▸ Los números #8–12 son el arco de <em>Apocalypse Wars</em>'
+          descripcion:
+          - Tormenta traslada a la especie a Limbo para escapar de la niebla. Cabecera principal del bloque.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b7-all-new-x-men-vol-2-1-8-uncanny-x-men-vol-4-1-5
+          titulo: All-New X-Men vol. 2 <span class="nums">#1–8</span> · Uncanny X-Men vol. 4 <span class="nums">#1–5</span>
+          creditos: Dennis Hopeless / Cullen Bunn · 2015–2016
+          continuidad:
+          - sigue: '▸ All-New #9–11 y Uncanny #6–9 son los arcos de <em>Apocalypse Wars</em>'
+          descripcion:
+          - Los originales de gira y el escuadrón negro de Magneto.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b7-all-new-wolverine-1-6
+          prioridad: p2
+          titulo: All-New Wolverine <span class="nums">#1–6</span>
+          creditos: Tom Taylor · David López · 2015–2016
+          descripcion:
+          - Laura Kinney hereda el manto. La mejor serie de estos dos años con diferencia, y prácticamente independiente del resto.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: m1-b7-apocalypse-wars
+      etiqueta: Crossover temático · 2016
+      titulo: Apocalypse Wars
+      creditos: Jeff Lemire, Dennis Hopeless, Cullen Bunn
+      descripcion:
+      - No es un crossover de capítulos alternos, sino tres arcos paralelos sobre Apocalipsis publicados a la vez. Puedes leer cada arco entero por separado, en el orden que quieras.
+      apartados:
+      - apartado: Los tres arcos
+        texto: '<span class="cap">Extraordinary X-Men #8–12</span> · <span class="cap">All-New X-Men #9–11</span> · <span class="cap">Uncanny X-Men vol. 4 #6–9</span>'
+  - tramo:
+      numero: '7.2'
+      titulo: Camino a la guerra
+      cuando: Mediados – finales de 2016
+      entradas:
+      - serie:
+          id: m1-b7-death-of-x-1-4
+          prioridad: p1
+          titulo: Death of X <span class="nums">#1–4</span>
+          creditos: Jeff Lemire &amp; Charles Soule · Aaron Kuder · 2016
+          descripcion:
+          - 'Flashback obligatorio: cuenta qué pasó realmente con Cíclope y la niebla ocho meses antes. Sin esto, <em>IvX</em> no se entiende.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: m1-b7-extraordinary-x-men-13-16-all-new-x-men-vol-2-12-16-uncanny-x-men-vol
+          prioridad: p2
+          titulo: Extraordinary X-Men <span class="nums">#13–16</span> · All-New X-Men vol. 2 <span class="nums">#12–16</span> · Uncanny X-Men vol. 4 <span class="nums">#10–16</span>
+          creditos: Lemire / Hopeless / Bunn · 2016
+          continuidad:
+          - viene: ◂ Vienen de <em>Apocalypse Wars</em>
+          - sigue: '▸ Las tres entregan sus últimos números a <em>IvX</em> y terminan ahí: Extraordinary #17–20, All-New y Uncanny #17–19'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b7-all-new-wolverine-7-15-old-man-logan-vol-2-1-14
+          prioridad: p2
+          titulo: All-New Wolverine <span class="nums">#7–15</span> · Old Man Logan vol. 2 <span class="nums">#1–14</span>
+          creditos: Tom Taylor / Jeff Lemire · 2016
+          descripcion:
+          - El Logan viejo de la realidad alterna, ya instalado en la continuidad principal.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: m1-b7-civil-war-ii
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Junio – diciembre 2016
+          titulo: Civil War II
+          creditos: Brian Michael Bendis · David Marquez (serie principal) · tie-in mutante de Cullen Bunn y Andrea Broccardo
+          descripcion:
+          - 'Un Inhumano capaz de predecir el futuro enfrenta a Captain Marvel con Iron Man. En el tie-in, Magneto sale a por él por lo que su don puede significar para los mutantes: es la antesala de la guerra con los Inhumanos.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Nada imprescindible: el evento arranca en <em>Civil War II</em> #0.'
+          - apartado: Orden de lectura
+            texto: '<strong>Civil War II #0</strong> → <strong>#1</strong> → Free Comic Book Day 2016: Civil War II #1 → <strong>Civil War II #2</strong> → <span class="cap">Civil War II: X-Men #1–4</span> → <strong>Civil War II #3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong>'
+          - apartado: Versión mínima
+            texto: '<em>Civil War II</em> #0–2 y después <em>Civil War II: X-Men</em> #1–4.'
+          - apartado: Después
+            texto: <em>Death of X</em> e <em>Inhumans vs. X-Men</em>, en este mismo tramo.
+  - evento:
+      id: m1-b7-inhumans-vs-x-men
+      etiqueta: Evento · Diciembre 2016 – abril 2017
+      titulo: Inhumans vs. X-Men
+      creditos: Charles Soule &amp; Jeff Lemire · Leinil Francis Yu
+      descripcion:
+      - Guerra abierta por la nube Terrígena. Cierra el conflicto, devuelve a los mutantes a la Tierra y limpia la mesa para el relanzamiento del bloque 8.
+      apartados:
+      - apartado: Columna principal
+        texto: 'IvX #0 → IvX #1–6'
+      - apartado: Capítulos que salen de tus series en marcha
+        texto: '<span class="cap">Extraordinary X-Men #17–20</span> · <span class="cap">All-New X-Men #17–19</span> · <span class="cap">Uncanny X-Men vol. 4 #17–19</span> — las tres cabeceras se cancelan aquí'
+- id: b8
+  fechas: 2017 — 2019
+  titulo: ResurrXion y el umbral de Krakoa
+  intro: Jean Grey vuelve, los cinco originales se van a casa, el equipo se hunde hasta su punto más bajo —y entonces Jonathan Hickman lo tira todo por la borda. El bloque termina exactamente donde empieza la era que quieres alcanzar.
+  navegacion:
+    anio: 2017–2019
+    texto: Hasta Krakoa
+  contenido:
+  - tramo:
+      numero: '8.1'
+      titulo: ResurrXion
+      cuando: Abril – julio 2017
+      nota: 'Relanzamiento completo desde <em>X-Men: Prime</em> #1. Las dos cabeceras principales entran enseguida en <em>Secret Empire</em>, el evento de toda la línea Marvel de ese verano.'
+      entradas:
+      - serie:
+          id: m1-b8-x-men-blue-1-6
+          prioridad: p2
+          titulo: X-Men Blue <span class="nums">#1–6</span>
+          creditos: Cullen Bunn · Jorge Molina · 2017
+          continuidad:
+          - sigue: '▸ Los números #7–9 son el tie-in de <em>Secret Empire</em>; sigue en el tramo 8.2 desde el #10'
+          descripcion:
+          - 'Los cinco originales con Magneto. Es la mitad de ResurrXion que sí importa: conduce directamente a <em>Extermination</em>.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-x-men-gold-1-6
+          titulo: X-Men Gold <span class="nums">#1–6</span>
+          creditos: Marc Guggenheim · Ardian Syaf · 2017
+          continuidad:
+          - sigue: '▸ Los números #7–8 son el tie-in de <em>Secret Empire</em>; sigue en el tramo 8.2 desde el #9'
+          descripcion:
+          - El equipo clásico con Tormenta al mando, de vuelta en Nueva York.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-all-new-wolverine-16-35
+          prioridad: p2
+          titulo: All-New Wolverine <span class="nums">#16–35</span>
+          creditos: Tom Taylor · 2017–2018
+          continuidad:
+          - viene: ◂ Viene del tramo 7.2
+          descripcion:
+          - Cierra los 35 números de Laura sin haberse cruzado con casi nada.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-el-resto-de-resurrxion
+          titulo: El resto de ResurrXion
+          creditos: 'Weapon X vol. 3 #1–27 · Generation X #1–9 y #85–87 · Iceman #1–11 + vol. 2 #1–5 · Jean Grey #1–11 · Cable vol. 3 #150–159 · Astonishing X-Men vol. 4 #1–17 · Old Man Logan #15–50 · Rogue &amp; Gambit #1–5 → Mr. and Mrs. X #1–12 · New Mutants: Dead Souls #1–6 · Domino #1–10 · Multiple Man #1–5'
+          descripcion:
+          - Cabeceras de acompañamiento, ninguna cruzada con los eventos. <em>Mr. and Mrs. X</em> y <em>Domino</em> son las más disfrutables.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: m1-b8-secret-empire
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Abril – agosto 2017
+      titulo: Secret Empire
+      creditos: Nick Spencer · Steve McNiven, Andrea Sorrentino y otros
+      descripcion:
+      - Un Capitán América reescrito como agente de Hydra toma Estados Unidos y ofrece a los mutantes un territorio propio en California, Nueva Tian, gobernado por Emma Frost. Es la versión más incómoda de la idea de una nación mutante, dos años antes de Krakoa, y las dos cabeceras principales chocan con ella.
+      apartados:
+      - apartado: Antes de empezar
+        texto: 'Contexto recomendado: <em>Captain America: Steve Rogers</em> (2016), la serie donde se revela que Steve trabaja para Hydra. Opcional: el recopilatorio <em>Road to Secret Empire</em>.'
+      - apartado: Orden de lectura
+        texto: '<strong>Secret Empire #0</strong> → <span class="cap">X-Men Gold #7–8</span> → <strong>Secret Empire #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <span class="cap">X-Men Blue #7–9</span> → Secret Empire: United #1 → <strong>Secret Empire #5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong> → <strong>#9</strong> → <strong>#10</strong> → Secret Empire: Omega #1'
+      - apartado: Versión mínima
+        texto: '<em>Secret Empire</em> #0 → <em>Gold</em> #7–8 → <em>Blue</em> #7–9 → <em>United</em> #1. Se sigue, pero el régimen de Hydra se entiende mucho mejor con el evento.'
+      - apartado: Sobre United
+        texto: '<em>Secret Empire: United</em> #1 es un one-shot de Jim Zub y Ario Anindito con el equipo de Emma Frost en Nueva Tian.'
+  - tramo:
+      numero: '8.2'
+      titulo: Después del Imperio Secreto
+      cuando: Septiembre 2017 – julio 2018
+      nota: Las dos cabeceras retoman tras el evento y Jean Grey vuelve. Tramo largo y disperso, sin cruces salvo uno menor entre <em>Gold</em> y <em>Blue</em>.
+      entradas:
+      - serie:
+          id: m1-b8-x-men-blue-10-28
+          prioridad: p2
+          titulo: X-Men Blue <span class="nums">#10–28</span>
+          creditos: Cullen Bunn · Jorge Molina y otros · 2017–2018
+          continuidad:
+          - viene: ◂ Viene de <em>Secret Empire</em>
+          - sigue: '▸ Los números #29–36 acompañan a <em>Extermination</em>'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-x-men-gold-9-28
+          titulo: X-Men Gold <span class="nums">#9–28</span>
+          creditos: Marc Guggenheim · Ken Lashley y otros · 2017–2018
+          continuidad:
+          - viene: ◂ Viene de <em>Secret Empire</em>
+          - sigue: '▸ Los números #29–36 acompañan a <em>Extermination</em>'
+          descripcion:
+          - 'Incluye «Mojo Worldwide», crossover menor con <em>Blue</em>: Gold #13 → Blue #13 → Gold #14 → Blue #14.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-phoenix-resurrection-the-return-of-jean-grey-1-5
+          prioridad: p2
+          titulo: 'Phoenix Resurrection: The Return of Jean Grey <span class="nums">#1–5</span>'
+          creditos: Matthew Rosenberg · Leinil Francis Yu · 2017–2018
+          descripcion:
+          - 'Devuelve a la Jean adulta tras veinte años muerta. Requisito previo de <em>X-Men: Red</em>.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-x-men-red-1-11
+          prioridad: p2
+          titulo: 'X-Men: Red <span class="nums">#1–11</span>'
+          creditos: Tom Taylor · Mahmud Asrar · 2018
+          descripcion:
+          - Jean funda una nación mutante ante la ONU. Temáticamente es el borrador previo de Krakoa y una de las mejores series del bloque.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-el-regreso-de-lobezno
+          titulo: El regreso de Lobezno
+          creditos: 'Hunt for Wolverine #1 + 4 miniseries (Adamantium Agenda, Claws of a Killer, Mystery in Madripoor, Weapon Lost) → Return of Wolverine #1–5 · 2018'
+          descripcion:
+          - Paquete cerrado y autónomo. Solo hace falta si quieres seguir cómo vuelve Logan.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: m1-b8-extermination
+      etiqueta: Evento · Agosto – diciembre 2018
+      titulo: Extermination
+      creditos: Ed Brisson · Pepe Larraz
+      descripcion:
+      - Cierra por fin la trama de los cinco X-Men originales atrapados en el presente, abierta en 2012. Larraz vuelve un año después para dibujar <em>House of X</em>.
+      apartados:
+      - apartado: Columna principal
+        texto: 'Extermination #1–5'
+      - apartado: Cabeceras que acompañan y cierran
+        texto: '<span class="cap">X-Men Blue #29–36</span> · <span class="cap">X-Men Gold #29–36</span> · epílogo opcional: <em>X-Men: The Exterminated</em> #1'
+  - tramo:
+      numero: '8.3'
+      titulo: El fondo del pozo
+      cuando: Noviembre 2018 – julio 2019
+      nota: 'Los diez meses más sombríos de la franquicia. Se lee casi en línea recta: una sola cabecera con dos etapas seguidas.'
+      entradas:
+      - serie:
+          id: m1-b8-uncanny-x-men-vol-5-1-10-x-men-disassembled
+          prioridad: p2
+          titulo: Uncanny X-Men vol. 5 <span class="nums">#1–10</span> — «X-Men Disassembled»
+          creditos: Ed Brisson, Matthew Rosenberg &amp; Kelly Thompson · 2018–2019
+          descripcion:
+          - Publicada semanalmente y pensada para leerse del tirón. Legión desata el caos y los X-Men desaparecen del mapa.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-uncanny-x-men-vol-5-11-22
+          prioridad: p2
+          titulo: Uncanny X-Men vol. 5 <span class="nums">#11–22</span>
+          creditos: Matthew Rosenberg · Salvador Larroca, Carlos Gómez · 2019
+          continuidad:
+          - viene: '◂ Continúa directamente desde el #10'
+          descripcion:
+          - 'Un puñado de supervivientes en la clandestinidad, con Cíclope y Lobezno reunidos. Es la última página de la era anterior: el fondo del que Krakoa saca a los mutantes.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b8-age-of-x-man-alpha-5-miniseries-omega
+          prioridad: p4
+          titulo: Age of X-Man <span class="nums">Alpha + 5 miniseries + Omega</span>
+          creditos: Zac Thompson &amp; Lonnie Nadler · 2019
+          descripcion:
+          - 'Realidad utópica creada por Nate Grey, publicada entre los dos tramos de <em>Uncanny</em>. Autoconclusiva: Prisoner X, NextGen, Marvelous X-Men, Amazing Nightcrawler, X-Tremists.'
+          etiqueta:
+            clase: t4
+            texto: Alterna
+      - serie:
+          id: m1-b8-x-force-vol-5-1-10-wolverine-infinity-watch-1-5
+          titulo: 'X-Force vol. 5 <span class="nums">#1–10</span> · Wolverine: Infinity Watch <span class="nums">#1–5</span>'
+          creditos: Ed Brisson / Gerry Duggan · 2019
+          descripcion:
+          - Los últimos satélites antes del reinicio.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b8-war-of-the-realms
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Abril – junio 2019
+          titulo: War of the Realms
+          creditos: Jason Aaron · Russell Dauterman (serie principal) · tie-in mutante de Matthew Rosenberg y Pere Pérez
+          descripcion:
+          - 'Malekith y los ejércitos de los Diez Reinos invaden la Tierra, y Dani Moonstar, valquiria, lleva a los mutantes a la batalla con el equipo de Rosenberg. <strong>El tie-in va partido</strong>: su #1 va antes que los otros dos.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Contexto opcional: la etapa de Jason Aaron en <em>Thor</em>, que lleva años preparando a Malekith. Justo antes: <em>Tony Stark: Iron Man</em> #12–13.'
+          - apartado: Orden de lectura
+            texto: '<strong>War of the Realms #1</strong> → <strong>#2</strong> → <span class="cap">War of the Realms: Uncanny X-Men #1</span> → <strong>War of the Realms #3</strong> → <strong>#4</strong> → <span class="cap">War of the Realms: Uncanny X-Men #2–3</span> → <strong>War of the Realms #5</strong> → <strong>#6</strong> → War of the Realms Omega #1'
+          - apartado: Versión mínima
+            texto: '<em>War of the Realms: Uncanny X-Men</em> #1–3 colocados como arriba, leyendo al menos los números del evento que los rodean.'
+  - evento:
+      id: m1-b8-house-of-x-powers-of-x
+      etiqueta: Meta · Julio – octubre 2019
+      titulo: House of X / Powers of X
+      creditos: Jonathan Hickman · Pepe Larraz &amp; R.B. Silva
+      descripcion:
+      - Doce números que refundan la especie mutante como nación en la isla viva de Krakoa. Aquí termina este listado y empieza la era que querías alcanzar. <strong>Van intercalados, no seguidos:</strong> leerlos por separado destroza la estructura, que está montada para que cada número de <em>Powers</em> reencuadre el anterior de <em>House</em>.
+      apartados:
+      - apartado: Orden completo
+        texto: 'HoX #1 → PoX #1 → HoX #2 → PoX #2 → HoX #3 → PoX #3 → HoX #4 → PoX #4 → HoX #5 → PoX #5 → HoX #6 → PoX #6'
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Los eventos de toda la línea
+    html: '<p>Los recuadros con borde discontinuo son los grandes eventos de Marvel en los que participan los X-Men. Cada uno indica qué leer antes, el orden exacto con los números mutantes intercalados en la serie principal, y una versión mínima si solo quieres la parte mutante. Salvo <em>Fear Itself</em> y <em>Secret Empire</em>, que se llevan números de series mutantes, son <strong>contexto opcional</strong>: explican la relación de los mutantes con el resto de héroes y con el mundo, pero la historia X se entiende sin ellos.</p>'
+  - titulo: Dentro de un tramo, alterna
+    html: '<p>Las series de un mismo tramo transcurren a la vez. No hace falta un orden exacto entre ellas: ve alternando números y llegarás al evento con todas al día, que es justo lo que el crossover da por supuesto.</p>'
+  - titulo: Los números en rojo ya los tienes
+    html: '<p>En el orden de cada evento, un capítulo <span class="cap">en rojo</span> es un número de una serie que ya venías leyendo. No lo busques aparte: es el número siguiente al punto donde esa cabecera se cortó en el tramo anterior.</p>'
+  - titulo: Series que nunca se parten
+    html: '<p>Cuatro se mantuvieron deliberadamente al margen de todo: <em>Astonishing X-Men</em> de Whedon, <em>Uncanny X-Force</em> de Remender, <em>X-Men: Legacy</em> vol. 2 de Spurrier y <em>All-New Wolverine</em> de Taylor. Puedes leerlas enteras del tirón cuando te apetezca.</p>'
+  - titulo: Renumeraciones que despistan
+    html: '<p><em>X-Men</em> vol. 2 pasa a llamarse <em>New X-Men</em> en el #114, vuelve a <em>X-Men</em> en el #157 y se convierte en <em>X-Men: Legacy</em> en el #208, sin reiniciar nunca. <em>Uncanny</em> mantiene su numeración clásica hasta el #544, reinicia dos veces, recupera el #600 en 2015 y vuelve a reiniciar en 2016 y 2018.</p>'
+  - titulo: Dónde recortar sin perderte
+    html: '<p>Puedes saltarte enteros los tramos alternos (Ultimate, Exiles, Age of X-Man, los tie-ins de Secret Wars) y casi todos los solitarios. Lo que no se puede saltar son los quince eventos en recuadro: son los nudos donde se ata todo lo demás.</p>'
+  - titulo: Volumen real
+    html: <p>La lista completa ronda los 1.500 números; la ruta corta se queda en unos 350. Un punto intermedio razonable —todo lo esencial más lo recomendado— son unos 700, que es lo que la mayoría de lectores considera «estar al día» de estos dieciocho años.</p>

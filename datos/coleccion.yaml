@@ -1,0 +1,147 @@
+# Coleccion "Expedientes Marvel"
+# Metadatos de cada expediente, la pagina principal y la tabla de cruces entre expedientes.
+# Para anadir un expediente nuevo: una entrada en "expedientes" + su archivo de datos en esta carpeta.
+
+anio_inicio: 2001
+anio_final: 2026          # "hoy" en las fechas de los bloques se interpreta como este anio
+
+# Servicio en linea de las marcas de lectura (servicio/worker.js en Cloudflare).
+# Vacio: las marcas solo se guardan en cada navegador, como hasta ahora.
+sincronizacion:
+  url: ''
+
+expedientes:
+  - clave: m1
+    datos: expediente-mutante-1.yaml
+    archivo: Expediente Mutante/Expediente-Mutante-2001-2019.html
+    nombre: Expediente Mutante
+    nombre_corto: Mutante
+    subtitulo: Volumen I
+    periodo: 2001 — 2019
+    resumen: De la revolución de Morrison a las puertas de Krakoa.
+    numeros_aprox: 1500
+    tema_clave: expediente-mutante-tema
+    acento: {claro: '#BE2A16', claro_suave: '#F5DFDA', oscuro: '#FF7358', oscuro_suave: '#3A1D18'}
+
+  - clave: m2
+    datos: expediente-mutante-2.yaml
+    archivo: Expediente Mutante/Expediente-Mutante-II-Krakoa-2019-2026.html
+    nombre: Expediente Mutante II
+    nombre_corto: Mutante II
+    subtitulo: Krakoa
+    periodo: 2019 — hoy
+    resumen: De la fundación de Krakoa a la etapa actual.
+    numeros_aprox: 900
+    tema_clave: expediente-mutante-ii-tema
+    acento: {claro: '#C13F0E', claro_suave: '#F7E3D7', oscuro: '#FF8E52', oscuro_suave: '#3B2114'}
+
+  - clave: et
+    datos: expediente-eterno.yaml
+    archivo: Expediente Eterno/Expediente-Eterno-2006-2026.html
+    nombre: Expediente Eterno
+    nombre_corto: Eterno
+    subtitulo: Los Eternos
+    periodo: 2006 — hoy
+    resumen: De la reinvención de Gaiman al cincuenta aniversario.
+    numeros_aprox: 80
+    tema_clave: expediente-eterno-tema
+    acento: {claro: '#0B6F80', claro_suave: '#D6ECEF', oscuro: '#5CCBDB', oscuro_suave: '#11303A'}
+
+  - clave: gg
+    datos: expediente-guardianes.yaml
+    archivo: Expediente Guardianes/Expediente-Guardianes-2007-2026.html
+    nombre: Expediente Guardianes
+    nombre_corto: Guardianes
+    subtitulo: Guardianes de la Galaxia
+    periodo: 2007 — hoy
+    resumen: 'De Annihilation: Conquest a los Guardianes imperiales.'
+    numeros_aprox: 350
+    tema_clave: expediente-guardianes-tema
+    acento: {claro: '#AD1F74', claro_suave: '#F6DDEA', oscuro: '#F07CC0', oscuro_suave: '#3A1630'}
+
+portada:
+  archivo: Expedientes Marvel.html
+  titulo_pagina: Expedientes Marvel
+  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno y Expediente Guardianes.'
+  tema_clave: expedientes-indice-tema
+  antetitulo: Colección de guías de lectura · Marvel Comics
+  titulo: Expedientes<span class="thin">Marvel 2001 — hoy</span>
+  entradilla: 'Cuatro guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
+  notas:
+    - titulo: Uno detrás de otro
+      html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza donde acaba el I, en <em>House of X</em> / <em>Powers of X</em>.</p>'
+    - titulo: En paralelo
+      html: '<p>Eternos y Guardianes son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
+    - titulo: Mismo sistema en los cuatro
+      html: '<p>Las marcas ▸ y ◂ indican dónde se corta y se retoma una serie; los capítulos en color dentro de un evento son los de la línea de ese expediente, y los recuadros con borde discontinuo, eventos de toda la línea Marvel.</p>'
+    - titulo: Hasta dónde llegan
+      html: '<p>El volumen I está cerrado y completo. Los otros tres llegan al presente y se cerraron en octubre de 2026: lo más reciente de cada uno puede seguir avanzando.</p>'
+
+# Eventos que aparecen en mas de un expediente. "ancla" es el id de bloque (b4) o de recuadro (ev-si).
+cruces:
+  - evento: Secret Invasion
+    anio: 2008
+    enlaces:
+      - {expediente: m1, ancla: b4, texto: Mutante I · bloque 4}
+      - {expediente: gg, ancla: ev-si, texto: Guardianes · bloque 2}
+    nota: Cada expediente tiene su propio tie-in del evento.
+  - evento: War of Kings
+    anio: 2009
+    enlaces:
+      - {expediente: gg, ancla: ev-wok, texto: Guardianes · bloque 2}
+      - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
+    nota: En el volumen I está su antecedente, <em>The Rise and Fall of the Shi’ar Empire</em>.
+  - evento: Age of Ultron
+    anio: 2013
+    enlaces:
+      - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
+      - {expediente: gg, ancla: ev-ultron, texto: Guardianes · bloque 4}
+    nota: 'El #10 trae a Angela a los Guardianes.'
+  - evento: The Trial of Jean Grey
+    anio: 2014
+    enlaces:
+      - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
+      - {expediente: gg, ancla: ev-trial, texto: Guardianes · bloque 4}
+    nota: El mismo cruce de seis números, contado desde cada serie.
+  - evento: The Black Vortex
+    anio: 2015
+    enlaces:
+      - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
+      - {expediente: gg, ancla: ev-vortex, texto: Guardianes · bloque 4}
+    nota: Trece capítulos con el mismo orden en los dos expedientes.
+  - evento: Secret Wars
+    anio: 2015
+    enlaces:
+      - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
+      - {expediente: gg, ancla: ev-secretwars, texto: Guardianes · bloque 4}
+    nota: 'Realidad alterna en los dos: solo cuentan las miniseries de cada línea.'
+  - evento: Civil War II
+    anio: 2016
+    enlaces:
+      - {expediente: m1, ancla: b7, texto: Mutante I · bloque 7}
+      - {expediente: gg, ancla: ev-cw2, texto: Guardianes · bloque 5}
+    nota: Cada expediente tiene su propio tie-in del evento.
+  - evento: Empyre
+    anio: 2020
+    enlaces:
+      - {expediente: m2, ancla: b1, texto: Mutante II · bloque 1}
+      - {expediente: gg, ancla: ev-empyre, texto: Guardianes · bloque 7}
+    nota: En Mutante II se lleva dos números de <em>X-Men</em>; en Guardianes es contexto.
+  - evento: The Last Annihilation
+    anio: 2021
+    enlaces:
+      - {expediente: gg, ancla: ev-last, texto: Guardianes · bloque 7}
+      - {expediente: m2, ancla: b2, texto: Mutante II · bloque 2}
+    nota: 'Siete capítulos con el mismo orden en los dos expedientes; en Mutante II se lleva <em>S.W.O.R.D.</em> #7 y <em>Cable: Reloaded</em>.'
+  - evento: 'A.X.E.: Judgment Day'
+    anio: 2022
+    enlaces:
+      - {expediente: m2, ancla: b3, texto: Mutante II · bloque 3}
+      - {expediente: et, ancla: b5, texto: Eterno · bloque 5}
+    nota: El mismo orden entrelazado, visto desde mutantes y Eternos.
+  - evento: Imperial
+    anio: 2025
+    enlaces:
+      - {expediente: m2, ancla: b5, texto: Mutante II · bloque 5}
+      - {expediente: gg, ancla: ev-imperial, texto: Guardianes · bloque 9}
+    nota: En Mutante II es de refilón; en Guardianes, el evento central.

@@ -1,0 +1,578 @@
+# Auditoria de continuidad: series cuya numeracion debe quedar colocada sin huecos.
+# reglas: como se reconoce la serie en el texto (alias, vol, bloques donde vale sin volumen, rango de numeros).
+# esperado: rangos que deben estar colocados; [1, null] = serie en curso (sin huecos hasta el ultimo colocado).
+
+m1:
+- serie: X-Men vol.2 (111-275)
+  reglas:
+  - alias: X-Men
+    vol: '2'
+    bloques: [1, 2, 3]
+    rango: [111, 207]
+  - alias: New X-Men
+    bloques: [1]
+    rango: [114, 156]
+  - alias: 'X-Men: Legacy'
+    bloques: [3, 4, 5]
+    rango: [208, 275]
+  - alias: Legacy
+    bloques: [3, 4, 5]
+    rango: [208, 275]
+  esperado:
+  - [111, 275]
+- serie: 'New X-Men: Academy X'
+  reglas:
+  - alias: 'New X-Men: Academy X'
+    bloques: [1, 2, 3]
+    rango: [1, 46]
+  - alias: New X-Men
+    bloques: [2, 3]
+    rango: [1, 46]
+  esperado:
+  - [1, 46]
+- serie: Uncanny vol.1 (391-544)
+  reglas:
+  - alias: Uncanny X-Men
+    bloques: [1, 2, 3, 4]
+    rango: [391, 544]
+  - alias: Uncanny
+    bloques: [2, 3, 4]
+    rango: [391, 544]
+  esperado:
+  - [391, 544]
+- serie: Uncanny vol.2
+  reglas:
+  - alias: Uncanny X-Men
+    vol: '2'
+    rango: [1, 20]
+  esperado:
+  - [1, 20]
+- serie: Uncanny vol.3
+  reglas:
+  - alias: Uncanny X-Men
+    vol: '3'
+    bloques: [6]
+    rango: [1, 35]
+  - alias: Uncanny
+    bloques: [6]
+    rango: [1, 35]
+  esperado:
+  - [1, 35]
+- serie: Uncanny vol.4
+  reglas:
+  - alias: Uncanny X-Men
+    vol: '4'
+    bloques: [7]
+    rango: [1, 19]
+  esperado:
+  - [1, 19]
+- serie: Uncanny vol.5
+  reglas:
+  - alias: Uncanny X-Men
+    vol: '5'
+    bloques: [8]
+    rango: [1, 22]
+  esperado:
+  - [1, 22]
+- serie: X-Men vol.3 (2010)
+  reglas:
+  - alias: X-Men
+    vol: '3'
+    rango: [1, 41]
+  esperado:
+  - [1, 41]
+- serie: X-Men vol.4 (2013)
+  reglas:
+  - alias: X-Men
+    vol: '4'
+    bloques: [6]
+    rango: [1, 26]
+  esperado:
+  - [1, 26]
+- serie: X-Factor vol.3
+  reglas:
+  - alias: X-Factor
+    vol: '3'
+    bloques: [2, 3, 4, 5, 6]
+    rango: [1, 262]
+  esperado:
+  - [1, 50]
+  - [200, 262]
+- serie: X-Force vol.3
+  reglas:
+  - alias: X-Force
+    vol: '3'
+    bloques: [3, 4]
+    rango: [1, 28]
+  esperado:
+  - [1, 28]
+- serie: Cable vol.2
+  reglas:
+  - alias: Cable
+    vol: '2'
+    bloques: [3, 4]
+    rango: [1, 25]
+  esperado:
+  - [1, 25]
+- serie: New Mutants vol.3
+  reglas:
+  - alias: New Mutants
+    vol: '3'
+    bloques: [4, 5]
+    rango: [1, 50]
+  esperado:
+  - [1, 50]
+- serie: Uncanny X-Force vol.1
+  reglas:
+  - alias: Uncanny X-Force
+    vol: '1'
+    bloques: [4, 5]
+    rango: [1, 35]
+  esperado:
+  - [1, 35]
+- serie: Astonishing X-Men v3
+  reglas:
+  - alias: Astonishing X-Men
+    vol: '3'
+    bloques: [1, 4, 5, 6]
+    rango: [1, 68]
+  esperado:
+  - [1, 68]
+- serie: Wolverine and X-Men
+  reglas:
+  - alias: Wolverine and the X-Men
+    bloques: [5, 6]
+    rango: [1, 42]
+  esperado:
+  - [1, 42]
+- serie: All-New X-Men vol.1
+  reglas:
+  - alias: All-New X-Men
+    bloques: [6]
+    rango: [1, 41]
+  esperado:
+  - [1, 41]
+- serie: All-New X-Men vol.2
+  reglas:
+  - alias: All-New X-Men
+    vol: '2'
+    bloques: [7]
+    rango: [1, 19]
+  esperado:
+  - [1, 19]
+- serie: Extraordinary X-Men
+  reglas:
+  - alias: Extraordinary X-Men
+    bloques: [7]
+    rango: [1, 20]
+  esperado:
+  - [1, 20]
+- serie: X-Men Blue
+  reglas:
+  - alias: X-Men Blue
+    bloques: [8]
+    rango: [1, 36]
+  esperado:
+  - [1, 36]
+- serie: X-Men Gold
+  reglas:
+  - alias: X-Men Gold
+    bloques: [8]
+    rango: [1, 36]
+  esperado:
+  - [1, 36]
+- serie: X-23 vol.3
+  reglas:
+  - alias: X-23
+    vol: '3'
+    bloques: [4]
+    rango: [1, 21]
+  - alias: X-23
+    bloques: [4]
+    rango: [1, 21]
+  esperado:
+  - [1, 21]
+- serie: Generation Hope
+  reglas:
+  - alias: Generation Hope
+    bloques: [4, 5]
+    rango: [1, 17]
+  esperado:
+  - [1, 17]
+- serie: Wolverine vol.4 (2010)
+  reglas:
+  - alias: Wolverine
+    vol: '4'
+    rango: [1, 20]
+  esperado:
+  - [1, 20]
+- serie: Uncanny X-Force vol.2
+  reglas:
+  - alias: Uncanny X-Force
+    vol: '2'
+    rango: [1, 17]
+  esperado:
+  - [1, 17]
+- serie: Cable and X-Force
+  reglas:
+  - alias: Cable and X-Force
+    bloques: [6]
+    rango: [1, 19]
+  esperado:
+  - [1, 19]
+- serie: X-Force vol.4 (2014)
+  reglas:
+  - alias: X-Force
+    vol: '4'
+    rango: [1, 15]
+  esperado:
+  - [1, 15]
+- serie: Amazing X-Men vol.2
+  reglas:
+  - alias: Amazing X-Men
+    bloques: [6]
+    rango: [1, 19]
+  esperado:
+  - [1, 19]
+- serie: Magneto (2014)
+  reglas:
+  - alias: Magneto
+    bloques: [6]
+    rango: [1, 21]
+  esperado:
+  - [1, 21]
+- serie: 'X-Men: Legacy vol.2'
+  reglas:
+  - alias: 'X-Men: Legacy'
+    vol: '2'
+    rango: [1, 24]
+  esperado:
+  - [1, 24]
+- serie: All-New Wolverine
+  reglas:
+  - alias: All-New Wolverine
+    bloques: [7, 8]
+    rango: [1, 35]
+  esperado:
+  - [1, 35]
+- serie: Old Man Logan vol.2
+  reglas:
+  - alias: Old Man Logan
+    vol: '2'
+    bloques: [7, 8]
+    rango: [1, 50]
+  - alias: Old Man Logan
+    bloques: [8]
+    rango: [1, 50]
+  esperado:
+  - [1, 50]
+- serie: Young X-Men
+  reglas:
+  - alias: Young X-Men
+    bloques: [3]
+    rango: [1, 12]
+  esperado:
+  - [1, 12]
+- serie: 'X-Men: Red (2018)'
+  reglas:
+  - alias: 'X-Men: Red'
+    bloques: [8]
+    rango: [1, 11]
+  esperado:
+  - [1, 11]
+- serie: Weapon X vol.3
+  reglas:
+  - alias: Weapon X
+    vol: '3'
+    bloques: [8]
+    rango: [1, 27]
+  esperado:
+  - [1, 27]
+- serie: Astonishing X-Men v4
+  reglas:
+  - alias: Astonishing X-Men
+    vol: '4'
+    bloques: [8]
+    rango: [1, 17]
+  esperado:
+  - [1, 17]
+- serie: X-Treme X-Men vol.1
+  reglas:
+  - alias: X-Treme X-Men
+    bloques: [1]
+    rango: [1, 46]
+  esperado:
+  - [1, 46]
+- serie: Excalibur vol.3
+  reglas:
+  - alias: Excalibur
+    vol: '3'
+    bloques: [1]
+    rango: [1, 14]
+  esperado:
+  - [1, 14]
+- serie: New Excalibur
+  reglas:
+  - alias: New Excalibur
+    bloques: [2]
+    rango: [1, 24]
+  esperado:
+  - [1, 24]
+- serie: X-Treme X-Men vol.2
+  reglas:
+  - alias: X-Treme X-Men
+    vol: '2'
+    bloques: [6]
+    rango: [1, 13]
+  esperado:
+  - [1, 13]
+- serie: Age of Apocalypse 2012
+  reglas:
+  - alias: Age of Apocalypse (2012)
+    bloques: [5]
+    rango: [1, 14]
+  - alias: Age of Apocalypse
+    bloques: [6]
+    rango: [1, 14]
+  esperado:
+  - [1, 14]
+m2:
+- serie: X-Men vol.5
+  reglas:
+  - alias: X-Men
+    vol: '5'
+    bloques: [1, 2]
+  esperado:
+  - [1, 21]
+- serie: X-Men vol.6
+  reglas:
+  - alias: X-Men
+    vol: '6'
+    bloques: [3, 4]
+  esperado:
+  - [1, 35]
+- serie: X-Men vol.7
+  reglas:
+  - alias: X-Men
+    vol: '7'
+    bloques: [5, 6, 7]
+  esperado:
+  - [1, null]
+- serie: Uncanny vol.6
+  reglas:
+  - alias: Uncanny X-Men
+    vol: '6'
+    bloques: [5, 6, 7]
+  esperado:
+  - [1, null]
+- serie: Immortal X-Men
+  reglas:
+  - alias: Immortal X-Men
+    bloques: [3, 4]
+  esperado:
+  - [1, 18]
+- serie: X-Men Red vol.2
+  reglas:
+  - alias: X-Men Red
+    vol: '2'
+    bloques: [3, 4]
+  esperado:
+  - [1, 18]
+- serie: X-Force vol.6
+  reglas:
+  - alias: X-Force
+    vol: '6'
+    bloques: [1, 2, 3, 4]
+  esperado:
+  - [1, 50]
+- serie: X-Force vol.7
+  reglas:
+  - alias: X-Force
+    vol: '7'
+    bloques: [5]
+  esperado:
+  - [1, null]
+- serie: Wolverine vol.7
+  reglas:
+  - alias: Wolverine
+    vol: '7'
+    bloques: [1, 2, 3, 4]
+  esperado:
+  - [1, 50]
+- serie: Wolverine vol.8
+  reglas:
+  - alias: Wolverine
+    vol: '8'
+    bloques: [5, 7]
+  esperado:
+  - [1, null]
+- serie: Marauders vol.1
+  reglas:
+  - alias: Marauders
+    vol: '1'
+    bloques: [1, 2]
+  esperado:
+  - [1, 27]
+- serie: Marauders vol.2
+  reglas:
+  - alias: Marauders
+    vol: '2'
+    bloques: [3]
+  esperado:
+  - [1, 12]
+- serie: Excalibur vol.4
+  reglas:
+  - alias: Excalibur
+    vol: '4'
+    bloques: [1, 2]
+  esperado:
+  - [1, 26]
+- serie: Hellions
+  reglas:
+  - alias: Hellions
+    bloques: [1, 2]
+  esperado:
+  - [1, 18]
+- serie: New Mutants vol.4
+  reglas:
+  - alias: New Mutants
+    vol: '4'
+    bloques: [1, 2, 3]
+  esperado:
+  - [1, 33]
+- serie: Cable vol.4
+  reglas:
+  - alias: Cable
+    vol: '4'
+    bloques: [1, 2]
+  esperado:
+  - [1, 12]
+- serie: X-Factor vol.4
+  reglas:
+  - alias: X-Factor
+    vol: '4'
+    bloques: [1, 2]
+  esperado:
+  - [1, 10]
+- serie: X-Factor vol.5
+  reglas:
+  - alias: X-Factor
+    vol: '5'
+    bloques: [5]
+  esperado:
+  - [1, null]
+- serie: S.W.O.R.D. vol.2
+  reglas:
+  - alias: S.W.O.R.D.
+    vol: '2'
+    bloques: [2]
+  esperado:
+  - [1, 11]
+- serie: Legion of X
+  reglas:
+  - alias: Legion of X
+    bloques: [3]
+  esperado:
+  - [1, 10]
+- serie: NYX
+  reglas:
+  - alias: NYX
+    bloques: [5]
+  esperado:
+  - [1, null]
+- serie: Exceptional
+  reglas:
+  - alias: Exceptional X-Men
+    bloques: [5]
+  esperado:
+  - [1, null]
+- serie: Storm (2024)
+  reglas:
+  - alias: Storm
+    bloques: [5]
+  esperado:
+  - [1, null]
+et:
+- serie: Eternals vol.3
+  reglas:
+  - {alias: Eternals, vol: '3'}
+  esperado:
+  - [1, 7]
+- serie: Eternals vol.4
+  reglas:
+  - {alias: Eternals, vol: '4'}
+  esperado:
+  - [1, 9]
+- serie: Eternals vol.5
+  reglas:
+  - {alias: Eternals, vol: '5'}
+  esperado:
+  - [1, 12]
+gg:
+- serie: GotG vol.2
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '2'}
+  - alias: GotG
+    bloques: [2]
+  esperado:
+  - [1, 25]
+- serie: GotG vol.3
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '3'}
+  - alias: GotG
+    bloques: [4]
+  esperado:
+  - [1, 27]
+- serie: GotG vol.4
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '4'}
+  - alias: GotG
+    bloques: [5]
+  esperado:
+  - [1, 19]
+- serie: GotG vol.5
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '5'}
+  esperado:
+  - [1, 12]
+- serie: GotG vol.6
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '6'}
+  - alias: GotG
+    bloques: [7]
+  esperado:
+  - [1, 18]
+- serie: GotG vol.7
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '7'}
+  esperado:
+  - [1, 10]
+- serie: 'All-New Guardians + #146-150'
+  reglas:
+  - alias: All-New Guardians of the Galaxy
+    bloques: [6]
+    rango: [1, 12]
+  - alias: Guardians of the Galaxy
+    bloques: [6]
+    rango: [146, 150]
+  esperado:
+  - [1, 12]
+  - [146, 150]
+- serie: Legendary Star-Lord
+  reglas:
+  - alias: Legendary Star-Lord
+    bloques: [4]
+  esperado:
+  - [1, 12]
+- serie: Guardians Team-Up
+  reglas:
+  - alias: Guardians Team-Up
+    bloques: [4]
+  esperado:
+  - [1, 10]
+- serie: Imperial Guardians
+  reglas:
+  - alias: Imperial Guardians
+    bloques: [9]
+  esperado:
+  - [1, 5]

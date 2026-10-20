@@ -1,0 +1,693 @@
+# Expediente Guardianes
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: gg
+titulo_pagina: Expediente Guardianes
+descripcion_pagina: 'Guía de lectura de los Guardianes de la Galaxia desde Annihilation: Conquest (2007) hasta 2026, con todos sus cruces con X-Men, Vengadores y el resto del cosmos Marvel.'
+cabecera:
+  antetitulo: Guía de lectura · Marvel Comics · El cosmos Marvel
+  titulo: Expediente<br/>Guardianes<span class="thin">2007 — 2026</span>
+  entradilla: 'De la misión suicida de <em>Annihilation: Conquest – Starlord</em> al equipo imperial de 2026. Diecinueve años de Guardianes de la Galaxia en orden de lectura, con cada cruce con los X-Men, los Vengadores y el resto del cosmos colocado en su sitio y con su orden capítulo a capítulo.'
+  cifras:
+  - valor: '19'
+    texto: Años de continuidad
+  - valor: '9'
+    texto: Bloques de lectura
+  - valor: '15'
+    texto: Cruces con otras líneas
+  - valor: ~350
+    texto: Números en total
+leyenda: |-
+  <p>Mismo sistema que los otros expedientes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Cuando un crossover se lleva números de una serie de los Guardianes, la serie aparece <strong>partida</strong> en el punto exacto, y dentro del evento esos capítulos van <span class="cap">en color</span>.</p>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie de los Guardianes o de sus miembros</span>
+  <span class="key"><span class="swatch dashed"></span> Número de otra línea donde aparecen</span>
+  </div>
+  <div class="legend-row">
+  <span class="key"><span class="fwd" style="color:var(--red)">▸</span> Continúa después del evento</span>
+  <span class="key"><span class="back">◂</span> Viene de un tramo anterior</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Realidad alterna</span>
+  </div>
+cajas:
+- html: |-
+    <h2>Los cruces, por línea</h2>
+    <p>Todos los puntos en que los Guardianes se cruzan con otras colecciones. Cada uno enlaza con su ficha.</p>
+    <div class="cruces">
+    <div>
+    <h3>Con los X-Men</h3>
+    <ul>
+    <li><a href="#ev-wok">War of Kings · X-Men: Kingbreaker</a><em>2009</em></li>
+    <li><a href="#ev-trial">The Trial of Jean Grey</a><em>2014</em></li>
+    <li><a href="#ev-vortex">The Black Vortex</a><em>2015</em></li>
+    <li><a href="#ev-last">The Last Annihilation · S.W.O.R.D.</a><em>2021</em></li>
+    </ul>
+    </div>
+    <div>
+    <h3>Con los Vengadores</h3>
+    <ul>
+    <li><a href="#ev-si">Secret Invasion</a><em>2008</em></li>
+    <li><a href="#ev-assemble">Avengers Assemble</a><em>2012</em></li>
+    <li><a href="#ev-ultron">Age of Ultron</a><em>2013</em></li>
+    <li><a href="#ev-sin">Original Sin</a><em>2014</em></li>
+    <li><a href="#ev-cw2">Civil War II</a><em>2016</em></li>
+    <li><a href="#ev-empyre">Empyre</a><em>2020</em></li>
+    </ul>
+    </div>
+    <div>
+    <h3>Eventos cósmicos</h3>
+    <ul>
+    <li><a href="#ev-conquest">Annihilation: Conquest</a><em>2007</em></li>
+    <li><a href="#ev-thanos">The Thanos Imperative</a><em>2010</em></li>
+    <li><a href="#ev-infinity">Infinity Countdown / Wars</a><em>2018</em></li>
+    <li><a href="#ev-imperial">Imperial</a><em>2025</em></li>
+    <li><a href="#ev-secretwars">Secret Wars</a><em>2015</em></li>
+    </ul>
+    </div>
+    </div>
+- ruta:
+    titulo: La ruta corta
+    texto: 'Solo las series del equipo y los eventos imprescindibles: unos 170 números y la historia completa sin desvíos.'
+    pasos:
+    - '<span>Annihilation: Conquest – Starlord <em>#1–4</em></span>'
+    - '<span>Annihilation: Conquest <em>#1–6</em></span>'
+    - <span>Guardians of the Galaxy vol. 2 <em>#1–25</em></span>
+    - <span>War of Kings <em>#1–6</em></span>
+    - <span>The Thanos Imperative <em>#1–6</em></span>
+    - <span>Guardians of the Galaxy vol. 3 <em>#0.1–27</em></span>
+    - <span>Guardians of the Galaxy vol. 4 <em>#1–19</em></span>
+    - '<span>All-New Guardians <em>#1–12, #146–150</em></span>'
+    - <span>Infinity Wars <em>#1–6</em></span>
+    - <span>Guardians of the Galaxy vol. 5 <em>#1–12</em></span>
+    - <span>Guardians of the Galaxy vol. 6 <em>#1–18</em></span>
+    - <span>Guardians of the Galaxy vol. 7 <em>#1–10</em></span>
+    - <span>Imperial <em>#1–4</em> → Imperial Guardians <em>#1–5</em></span>
+bloques:
+- id: b1
+  fechas: 2007 — 2008
+  titulo: 'Annihilation: Conquest'
+  intro: La Falange invade el imperio Kree y un Peter Quill olvidado acaba al frente de un comando de inadaptados en misión suicida. De ese grupo —Rocket, Groot, Mantis, Bug— sale el equipo moderno de los Guardianes, que se funda al terminar el evento.
+  navegacion:
+    anio: 2007–2008
+    texto: 'Annihilation: Conquest'
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: La introducción
+      cuando: '2007'
+      entradas:
+      - serie:
+          id: gg-b1-annihilation-conquest-starlord-1-4
+          prioridad: p1
+          titulo: 'Annihilation: Conquest – Starlord <span class="nums">#1–4</span>'
+          creditos: Keith Giffen · Timothy Green II · 2007
+          continuidad:
+          - sigue: '▸ Desemboca en <em>Annihilation: Conquest</em> #1'
+          descripcion:
+          - Quill recluta para los Kree a un grupo de presos y sobrantes contra la Falange. Aquí nacen el Rocket y el Groot modernos y la dinámica del equipo. Es el punto de partida de toda la guía.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: gg-b1-annihilation-conquest
+      ancla: ev-conquest
+      etiqueta: Evento cósmico · 2007 – 2008
+      titulo: 'Annihilation: Conquest'
+      creditos: Dan Abnett &amp; Andy Lanning, Keith Giffen y otros
+      descripcion:
+      - El evento completo. Tres miniseries de cuatro números corren en paralelo como preludio —una de ellas es la de Star-Lord— y desembocan en la serie central de Abnett y Lanning, que serán después los guionistas de los Guardianes.
+      apartados:
+      - apartado: Orden
+        texto: 'Annihilation: Conquest – Prologue #1 → <span class="cap">Starlord #1–4</span> · Quasar #1–4 · Wraith #1–4 (las tres en paralelo) → <strong>Annihilation: Conquest #1–6</strong>'
+      - apartado: Qué hace falta
+        texto: 'Para los Guardianes basta con <em>Starlord</em> #1–4 y la serie central #1–6. <em>Quasar</em> y <em>Wraith</em> son opcionales, y los primeros números de <em>Nova</em> (2007) cuentan el mismo evento desde el lado de Richard Rider.'
+- id: b2
+  fechas: 2008 — 2010
+  titulo: Abnett &amp; Lanning
+  intro: 'Star-Lord funda los Guardianes en Knowhere para impedir la siguiente catástrofe galáctica antes de que ocurra. Veinticinco números que van cosidos a tres eventos seguidos: es el bloque que más se resiente si se lee la serie de un tirón.'
+  navegacion:
+    anio: 2008–2010
+    texto: Abnett & Lanning
+  contenido:
+  - tramo:
+      numero: '2.1'
+      titulo: La fundación
+      cuando: Julio – septiembre 2008
+      entradas:
+      - serie:
+          id: gg-b2-guardians-of-the-galaxy-vol-2-1-3
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 2 <span class="nums">#1–3</span>
+          creditos: Dan Abnett &amp; Andy Lanning · Paul Pelletier · 2008
+          continuidad:
+          - viene: '◂ Viene de <em>Annihilation: Conquest</em>'
+          - sigue: '▸ Los números #4–6 son el tie-in de <em>Secret Invasion</em>'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '2.2'
+      titulo: Skrulls en Knowhere
+      cuando: Finales de 2008
+      entradas:
+      - serie:
+          id: gg-b2-guardians-of-the-galaxy-vol-2-4-6
+          ancla: ev-si
+          prioridad: p1
+          donde: Cruce con los Vengadores · Secret Invasion
+          titulo: Guardians of the Galaxy vol. 2 <span class="nums">#4–6</span>
+          creditos: Dan Abnett &amp; Andy Lanning · Paul Pelletier · 2008
+          descripcion:
+          - 'Atrapados en Knowhere mientras los Skrull se infiltran, los Guardianes descubren que Mantis y Quill han manipulado mentalmente al equipo desde el principio, y el grupo se rompe. No hace falta leer <em>Secret Invasion</em>: el tie-in se entiende solo.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b2-guardians-of-the-galaxy-vol-2-7-12
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 2 <span class="nums">#7–12</span>
+          creditos: Dan Abnett &amp; Andy Lanning · Brad Walker, Wes Craig · 2009
+          continuidad:
+          - sigue: '▸ Los números #13–19 son capítulos de <em>War of Kings</em>'
+          descripcion:
+          - El equipo disperso, y los preparativos de la guerra entre los Shi'ar y los Kree.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: gg-b2-war-of-kings
+      ancla: ev-wok
+      etiqueta: Evento cósmico · Cruce con los X-Men · 2009
+      titulo: War of Kings
+      creditos: Dan Abnett &amp; Andy Lanning · Paul Pelletier · tie-ins de Chris Yost y otros
+      descripcion:
+      - 'El imperio Shi''ar de Vulcan contra el Kree de Rayo Negro y los Inhumanos. La puerta de entrada es una miniserie de la línea X-Men: <em>Kingbreaker</em> sigue a Havok y los Starjammers contra Vulcan y continúa directamente <em>The Rise and Fall of the Shi''ar Empire</em> (bloque 2 del Expediente Mutante).'
+      apartados:
+      - apartado: Orden completo
+        texto: 'X-Men: Kingbreaker #1–4 → War of Kings: Darkhawk #1–2 → Nova #23–24 → <strong>War of Kings #1–3</strong> → <span class="cap">GotG #13–14</span> → <strong>War of Kings #4–6</strong> → <span class="cap">GotG #15–17</span> → Nova #25–28 → War of Kings: Who Will Rule? #1 → <span class="cap">GotG #18–19</span> → Nova #29–31'
+      - apartado: Versión mínima
+        texto: 'War of Kings #1–6 + GotG #13–19 en el orden de arriba. <em>Kingbreaker</em> y los números de <em>Nova</em> son el otro frente del conflicto; los demás tie-ins (<em>Ascension</em>, <em>Warriors</em>, <em>Savage World of Sakaar</em>) son prescindibles.'
+  - tramo:
+      numero: '2.3'
+      titulo: Realm of Kings
+      cuando: 2009 – 2010
+      entradas:
+      - serie:
+          id: gg-b2-guardians-of-the-galaxy-vol-2-20-24
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 2 <span class="nums">#20–24</span>
+          creditos: Dan Abnett &amp; Andy Lanning · Wes Craig · 2009–2010
+          continuidad:
+          - viene: ◂ Viene de <em>War of Kings</em>
+          - sigue: '▸ El #25 es el preludio de <em>The Thanos Imperative</em>'
+          descripcion:
+          - Las consecuencias de la guerra abren la Falla, una grieta en el espacio, y al otro lado espera el Cancerverso. Los one-shots y miniseries de <em>Realm of Kings</em> son opcionales.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: gg-b2-the-thanos-imperative
+      ancla: ev-thanos
+      etiqueta: Evento cósmico · 2010 · Cierre del bloque
+      titulo: The Thanos Imperative
+      creditos: Dan Abnett &amp; Andy Lanning · Miguel Sepúlveda
+      descripcion:
+      - 'El Cancerverso invade, y para pararlo hace falta resucitar a Thanos. El final deja a Star-Lord y a Nova atrás, dados por muertos: es el cierre de la etapa de Abnett y Lanning y la última vez que se ve a este equipo.'
+      apartados:
+      - apartado: Orden completo
+        texto: '<span class="cap">GotG #25</span> → Nova #36 (preludios) → The Thanos Imperative: Ignition #1 → <strong>The Thanos Imperative #1–6</strong> → The Thanos Imperative: Devastation #1'
+      - apartado: Qué termina aquí
+        texto: '<em>Guardians of the Galaxy</em> vol. 2 cierra en el #25. Cómo escapó Star-Lord del Cancerverso no se cuenta hasta 2014, en el bloque 4.'
+- id: b3
+  fechas: 2011 — 2013
+  titulo: Entre equipos
+  intro: Sin serie propia durante tres años. Rocket y Groot sobreviven como historia de complemento en otra colección, y Bendis prepara el regreso del equipo metiéndolo en su serie de los Vengadores.
+  navegacion:
+    anio: 2011–2013
+    texto: Entre equipos
+  contenido:
+  - tramo:
+      numero: '3.1'
+      titulo: Los supervivientes
+      cuando: 2011 – 2012
+      entradas:
+      - serie:
+          id: gg-b3-annihilators-1-4-annihilators-earthfall-1-4
+          prioridad: p2
+          aparicion: true
+          donde: En otra serie · Annihilators
+          titulo: 'Annihilators <span class="nums">#1–4</span> → Annihilators: Earthfall <span class="nums">#1–4</span>'
+          creditos: Dan Abnett &amp; Andy Lanning · 2011
+          descripcion:
+          - 'La serie principal es el supergrupo cósmico de Quasar, Silver Surfer, Beta Ray Bill y compañía. Lo que interesa aquí son las historias de complemento de Rocket y Groot: el planeta natal de Groot, el regreso de Rocket a Halfworld y una visita a Mojo.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '3.2'
+      titulo: El regreso por la puerta de los Vengadores
+      cuando: '2012'
+      entradas:
+      - serie:
+          id: gg-b3-avengers-assemble-4-8
+          ancla: ev-assemble
+          prioridad: p2
+          aparicion: true
+          donde: Cruce con los Vengadores · Avengers Assemble
+          titulo: Avengers Assemble <span class="nums">#4–8</span>
+          creditos: Brian Michael Bendis · Mark Bagley · 2012
+          continuidad:
+          - sigue: ▸ Continúa en <em>Guardians of the Galaxy</em> vol. 3
+          descripcion:
+          - 'Thanos reclama la Tierra y los Vengadores llaman a los Guardianes. Es el ensayo de la etapa de Bendis y el regreso del equipo, con el reparto que se lleva al bloque siguiente. Los #1–3 son la antesala con los Vengadores solos.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b4
+  fechas: 2013 — 2015
+  titulo: 'Bendis: los Vengadores cósmicos'
+  intro: 'El relanzamiento que convierte a los Guardianes en una franquicia de primera fila, con Iron Man en el equipo y tres cruces con otras líneas en dos años. Es también el bloque con más cabeceras satélite: la marca se expande con series propias para Star-Lord, Rocket y compañía.'
+  navegacion:
+    anio: 2013–2015
+    texto: 'Bendis: los Vengadores cósmicos'
+  contenido:
+  - tramo:
+      numero: '4.1'
+      titulo: Vengadores cósmicos
+      cuando: Marzo – junio 2013
+      entradas:
+      - serie:
+          id: gg-b4-guardians-of-the-galaxy-vol-3-0-1-1-3-tomorrow-s-avengers-1
+          prioridad: p1
+          titulo: 'Guardians of the Galaxy vol. 3 <span class="nums">#0.1, #1–3</span> + Tomorrow''s Avengers <span class="nums">#1</span>'
+          creditos: Brian Michael Bendis · Steve McNiven · 2013
+          continuidad:
+          - viene: ◂ Viene de <em>Avengers Assemble</em>
+          descripcion:
+          - 'El #0.1 cuenta el origen de Peter Quill; el #1 suma a Iron Man al equipo.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '4.2'
+      titulo: Angela
+      cuando: '2013'
+      entradas:
+      - serie:
+          id: gg-b4-age-of-ultron-10
+          ancla: ev-ultron
+          aparicion: true
+          donde: Cruce con los Vengadores · Age of Ultron
+          titulo: Age of Ultron <span class="nums">#10</span>
+          creditos: Brian Michael Bendis · 2013
+          descripcion:
+          - El último número del evento rompe el tiempo y trae al universo Marvel a Angela, que aparece en los Guardianes en el número siguiente. No hace falta leer el resto de <em>Age of Ultron</em>.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: gg-b4-guardians-of-the-galaxy-vol-3-4-10
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 3 <span class="nums">#4–10</span>
+          creditos: Brian Michael Bendis · varios dibujantes · 2013
+          continuidad:
+          - sigue: '▸ Los números #11–13 son capítulos de <em>The Trial of Jean Grey</em>'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: gg-b4-the-trial-of-jean-grey
+      ancla: ev-trial
+      etiqueta: Cruce con los X-Men · 6 capítulos · 2014
+      titulo: The Trial of Jean Grey
+      creditos: Brian Michael Bendis · Stuart Immonen y otros
+      descripcion:
+      - Los Shi'ar secuestran a la Jean Grey adolescente —la de los cinco X-Men originales traídos al presente— para juzgarla por los crímenes del Fénix, y los Guardianes se ponen del lado de los X-Men. Alterna número a número.
+      apartados:
+      - apartado: Orden completo
+        texto: 'All-New X-Men #22 → <span class="cap">GotG #11</span> → All-New X-Men #23 → <span class="cap">GotG #12</span> → All-New X-Men #24 → <span class="cap">GotG #13</span>'
+      - apartado: Conexión
+        texto: Es el mismo cruce que aparece en el bloque 6 del Expediente Mutante (volumen I), visto desde los Guardianes.
+  - tramo:
+      numero: '4.3'
+      titulo: Nuevos fichajes y el secreto del Cancerverso
+      cuando: '2014'
+      nota: 'Arrancan las series en solitario. Llévalas a la par que la principal: tres de ellas entregan números al cruce del final del bloque.'
+      entradas:
+      - serie:
+          id: gg-b4-guardians-of-the-galaxy-vol-3-14-17
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 3 <span class="nums">#14–17</span>
+          creditos: Brian Michael Bendis · 2014
+          continuidad:
+          - viene: ◂ Viene de <em>The Trial of Jean Grey</em>
+          descripcion:
+          - Entran en el equipo Venom —Flash Thompson— y Captain Marvel.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b4-guardians-of-the-galaxy-vol-3-18-23
+          ancla: ev-sin
+          prioridad: p1
+          donde: Cruce con los Vengadores · Original Sin
+          titulo: Guardians of the Galaxy vol. 3 <span class="nums">#18–23</span>
+          creditos: Brian Michael Bendis · 2014
+          continuidad:
+          - sigue: '▸ Los números #24–25 son capítulos de <em>The Black Vortex</em>'
+          descripcion:
+          - Lleva el sello de <em>Original Sin</em>, el evento de los secretos destapados, y lo usa para contar por fin cómo salió Star-Lord del Cancerverso al final de <em>The Thanos Imperative</em>. Es la bisagra entre la etapa de Abnett y Lanning y la de Bendis. No hace falta leer el evento.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b4-legendary-star-lord-1-8-rocket-raccoon-1-11-guardians-team-up-1-2
+          prioridad: p2
+          titulo: Legendary Star-Lord <span class="nums">#1–8</span> · Rocket Raccoon <span class="nums">#1–11</span> · Guardians Team-Up <span class="nums">#1–2</span>
+          creditos: Sam Humphries / Skottie Young / varios · 2014–2015
+          continuidad:
+          - sigue: '▸ Legendary Star-Lord #9–11 y Guardians Team-Up #3 son capítulos de <em>The Black Vortex</em>'
+          descripcion:
+          - <em>Rocket Raccoon</em> es independiente y muy divertida; <em>Legendary Star-Lord</em> desarrolla la relación de Quill con Kitty Pryde, que pesa mucho en el bloque 5.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: gg-b4-guardians-3000-1-8
+          titulo: Guardians 3000 <span class="nums">#1–8</span>
+          creditos: Dan Abnett · Gerardo Sandoval · 2014–2015
+          descripcion:
+          - 'El equipo original del siglo XXXI, el de 1969. Otro grupo con el mismo nombre: no conecta con la trama del bloque.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: gg-b4-the-black-vortex
+      ancla: ev-vortex
+      etiqueta: Cruce con los X-Men · 13 capítulos · 2015
+      titulo: The Black Vortex
+      creditos: Sam Humphries · varios
+      descripcion:
+      - 'Un artefacto que concede poder cósmico a quien se mira en él. Es el cruce más grande de la etapa: tres series de los Guardianes, dos de los X-Men, <em>Nova</em> y <em>Captain Marvel</em>.'
+      apartados:
+      - apartado: Orden completo
+        texto: 'Guardians of the Galaxy &amp; X-Men: The Black Vortex Alpha #1 → <span class="cap">GotG #24</span> → <span class="cap">Legendary Star-Lord #9</span> → All-New X-Men #38 → All-New X-Men #39 → <span class="cap">Guardians Team-Up #3</span> → <span class="cap">GotG #25</span> → Nova #28 → <span class="cap">Legendary Star-Lord #10</span> → Cyclops #12 → Captain Marvel #14 → <span class="cap">Legendary Star-Lord #11</span> → The Black Vortex Omega #1'
+  - tramo:
+      numero: '4.4'
+      titulo: El final de la etapa
+      cuando: '2015'
+      entradas:
+      - serie:
+          id: gg-b4-guardians-of-the-galaxy-vol-3-26-27-annual-1
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 3 <span class="nums">#26–27</span> + Annual <span class="nums">#1</span>
+          creditos: Brian Michael Bendis · 2015
+          continuidad:
+          - viene: ◂ Viene de <em>The Black Vortex</em>
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b4-legendary-star-lord-12-guardians-team-up-4-10
+          prioridad: p2
+          titulo: Legendary Star-Lord <span class="nums">#12</span> · Guardians Team-Up <span class="nums">#4–10</span>
+          creditos: Sam Humphries / varios · 2015
+          continuidad:
+          - viene: ◂ Vienen de <em>The Black Vortex</em>
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: gg-b4-secret-wars
+      ancla: ev-secretwars
+      etiqueta: Evento de toda la línea · Realidad alterna · 2015
+      titulo: Secret Wars
+      creditos: Jonathan Hickman · Esad Ribić (serie central)
+      descripcion:
+      - El universo Marvel se destruye y se reconstruye. Las dos miniseries de los Guardianes transcurren en Battleworld y no afectan a la continuidad, salvo por lo que consolidan entre Peter Quill y Kitty Pryde.
+      apartados:
+      - apartado: Las de los Guardianes
+        texto: 'Star-Lord &amp; Kitty Pryde #1–3 · Guardians of Knowhere #1–4'
+- id: b5
+  fechas: Diciembre 2015 — junio 2017
+  titulo: 'Bendis: la nueva guardia'
+  intro: Tras <em>Secret Wars</em>, Peter Quill es emperador de Spartax, Kitty Pryde lleva el nombre de Star-Lord y la Cosa se ha sumado al equipo. La segunda etapa de Bendis, más corta, con un único cruce.
+  navegacion:
+    anio: 2015–2017
+    texto: 'Bendis: la nueva guardia'
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: Emperador Quill
+      cuando: Diciembre 2015 – mediados de 2016
+      entradas:
+      - serie:
+          id: gg-b5-guardians-of-the-galaxy-vol-4-1-10
+          prioridad: p2
+          titulo: Guardians of the Galaxy vol. 4 <span class="nums">#1–10</span>
+          creditos: Brian Michael Bendis · Valerio Schiti · 2015–2016
+          continuidad:
+          - sigue: '▸ Los números #11–14 son el tie-in de <em>Civil War II</em>'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: gg-b5-las-series-en-solitario
+          titulo: Las series en solitario
+          creditos: 'Star-Lord #1–8 (Sam Humphries) · Drax #1–11 (CM Punk) · Gamora #1–5 (Nicole Perlman) · Groot #1–6 (Jeff Loveness) · Guardians of Infinity #1–8 · 2015–2017'
+          descripcion:
+          - Independientes entre sí y del cruce. <em>Gamora</em>, de la guionista de la primera película, cuenta su pasado con Thanos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: gg-b5-civil-war-ii
+      ancla: ev-cw2
+      etiqueta: Cruce con los Vengadores · 2016
+      titulo: Civil War II
+      creditos: Brian Michael Bendis · Valerio Schiti
+      descripcion:
+      - Los Guardianes acaban en la Tierra en medio de la guerra entre Captain Marvel e Iron Man por un Inhumano que predice el futuro. Bendis escribe también el evento, así que el tie-in está bien integrado.
+      apartados:
+      - apartado: Orden
+        texto: 'Free Comic Book Day 2016: Civil War II #1 (prólogo) → <span class="cap">GotG #11–14</span>'
+      - apartado: Si quieres el evento
+        texto: '<em>Civil War II</em> #0–8 en paralelo, pero el tie-in se entiende sin él.'
+  - tramo:
+      numero: '5.2'
+      titulo: En tierra
+      cuando: Finales de 2016 – junio 2017
+      entradas:
+      - serie:
+          id: gg-b5-guardians-of-the-galaxy-vol-4-15-19
+          prioridad: p2
+          titulo: Guardians of the Galaxy vol. 4 <span class="nums">#15–19</span>
+          creditos: Brian Michael Bendis · Valerio Schiti · 2017
+          continuidad:
+          - viene: ◂ Viene de <em>Civil War II</em>
+          descripcion:
+          - Bendis cierra sus cuatro años con el equipo varado en la Tierra.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b6
+  fechas: Julio 2017 — 2018
+  titulo: Las Gemas del Infinito
+  intro: 'Gerry Duggan pone al equipo detrás de las Gemas del Infinito durante año y medio, y la búsqueda desemboca en los dos eventos cósmicos de 2018, que también escribe él. Es un único arco largo: se lee seguido.'
+  navegacion:
+    anio: 2017–2018
+    texto: Las Gemas del Infinito
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: La búsqueda
+      cuando: Julio 2017 – principios de 2018
+      entradas:
+      - serie:
+          id: gg-b6-all-new-guardians-of-the-galaxy-1-12-guardians-of-the-galaxy-146-150
+          prioridad: p1
+          titulo: All-New Guardians of the Galaxy <span class="nums">#1–12</span> → Guardians of the Galaxy <span class="nums">#146–150</span>
+          creditos: Gerry Duggan · Aaron Kuder, Marcus To · 2017–2018
+          descripcion:
+          - 'Tras el #12 la cabecera <strong>recupera la numeración histórica y salta al #146</strong> sin que falte nada. Los #146–150 llevan directamente a <em>Infinity Countdown</em>.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: gg-b6-infinity-countdown-infinity-wars
+      ancla: ev-infinity
+      etiqueta: Eventos cósmicos · Cruce con toda la línea · 2018
+      titulo: Infinity Countdown / Infinity Wars
+      creditos: Gerry Duggan · Aaron Kuder, Mike Deodato Jr.
+      descripcion:
+      - 'Dos eventos seguidos que funcionan como el final de la serie de Duggan: las Gemas reaparecen, todo el mundo las quiere, y Gamora llega más lejos que nadie. Los Guardianes son el centro de los dos.'
+      apartados:
+      - apartado: Orden
+        texto: 'Infinity Countdown: Prime #1 → <strong>Infinity Countdown #1–5</strong> → Infinity Wars: Prime #1 → <strong>Infinity Wars #1–6</strong> → Infinity Wars: Infinity #1 (epílogo)'
+      - apartado: Prescindible
+        texto: Los one-shots de <em>Infinity Countdown</em> dedicados a otros personajes y toda la línea <em>Infinity Warps</em>, que fusiona héroes de dos en dos en una realidad paralela.
+- id: b7
+  fechas: 2019 — 2021
+  titulo: Cates y Ewing
+  intro: Dos etapas seguidas de dos guionistas muy distintos. Donny Cates arranca con la muerte de Thanos y reúne un equipo enorme; Al Ewing convierte a los Guardianes en una pieza política del cosmos tras <em>Empyre</em> y termina con el cruce más reciente con la línea X-Men.
+  navegacion:
+    anio: 2019–2021
+    texto: Cates y Ewing
+  contenido:
+  - tramo:
+      numero: '7.1'
+      titulo: Tras la muerte de Thanos
+      cuando: Marzo 2019 – febrero 2020
+      entradas:
+      - serie:
+          id: gg-b7-guardians-of-the-galaxy-vol-5-1-12-annual-1
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 5 <span class="nums">#1–12</span> + Annual <span class="nums">#1</span>
+          creditos: Donny Cates · Geoff Shaw · 2019–2020
+          continuidad:
+          - viene: ◂ Viene de <em>Infinity Wars</em>
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.2'
+      titulo: La galaxia reordenada
+      cuando: Marzo 2020 – mediados de 2021
+      entradas:
+      - serie:
+          id: gg-b7-guardians-of-the-galaxy-vol-6-1-15
+          prioridad: p1
+          titulo: Guardians of the Galaxy vol. 6 <span class="nums">#1–15</span>
+          creditos: Al Ewing · Juann Cabal · 2020–2021
+          continuidad:
+          - sigue: '▸ Los números #16–18 son capítulos de <em>The Last Annihilation</em>'
+          descripcion:
+          - 'El #6 prepara <em>Empyre</em> y los #7–8 se ambientan en sus consecuencias, pero ninguno es tie-in: la serie se entiende sin el evento.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b7-empyre-0-6
+          ancla: ev-empyre
+          aparicion: true
+          donde: Cruce con los Vengadores y los 4 Fantásticos · Empyre
+          titulo: Empyre <span class="nums">#0–6</span>
+          creditos: Al Ewing &amp; Dan Slott · Valerio Schiti · 2020
+          descripcion:
+          - 'La alianza Kree-Skrull de Hulkling llega a la Tierra para enfrentarse a los Cotati. Reordena el mapa político de la galaxia en el que se mueve el resto de la etapa de Ewing. Contexto útil, no imprescindible: léelo entre el #6 y el #7 de los Guardianes.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: gg-b7-the-last-annihilation
+      ancla: ev-last
+      etiqueta: Cruce con los X-Men y Wakanda · 7 capítulos · 2021
+      titulo: The Last Annihilation
+      creditos: Al Ewing · varios
+      descripcion:
+      - Dormammu se ha fundido con Ego, el planeta viviente, y quiere conquistar el espacio. Los Guardianes lo paran junto a S.W.O.R.D., la agencia espacial de Krakoa. Es el cierre de la etapa de Ewing.
+      apartados:
+      - apartado: Orden completo
+        texto: '<span class="cap">GotG #16</span> → S.W.O.R.D. #7 → <span class="cap">GotG #17</span> → Cable: Reloaded #1 → The Last Annihilation: Wiccan &amp; Hulkling #1 → The Last Annihilation: Wakanda #1 → <span class="cap">GotG #18</span>'
+      - apartado: Conexión
+        texto: '<em>S.W.O.R.D.</em> #7 y <em>Cable: Reloaded</em> #1 son de la línea mutante de la era de Krakoa (bloque 2 del volumen II del Expediente Mutante). <em>Guardians of the Galaxy</em> vol. 6 cierra en el #18.'
+- id: b8
+  fechas: Junio 2023 — enero 2024
+  titulo: Grootfall
+  intro: 'Tras año y medio sin serie, los Guardianes vuelven coincidiendo con la tercera película: un año después de que uno de los suyos traicionara al equipo, los supervivientes malviven en los márgenes del espacio cartografiado.'
+  navegacion:
+    anio: 2023–2024
+    texto: Grootfall
+  contenido:
+  - tramo:
+      numero: '8.1'
+      titulo: Diez números
+      cuando: Junio 2023 – enero 2024
+      entradas:
+      - serie:
+          id: gg-b8-guardians-of-the-galaxy-vol-7-1-10
+          prioridad: p2
+          titulo: Guardians of the Galaxy vol. 7 <span class="nums">#1–10</span>
+          creditos: Collin Kelly &amp; Jackson Lanzing · Kev Walker · 2023–2024
+          descripcion:
+          - Pensada desde el principio como una historia cerrada de diez números, sin cruces. Se lee sola.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b9
+  fechas: Junio 2025 — hoy
+  titulo: Imperial
+  intro: 'Jonathan Hickman derriba el orden del cosmos Marvel y lo refunda como la Unión Galáctica. Star-Lord acaba al frente de ella, y los Guardianes de 2026 son un equipo de operaciones encubiertas al servicio de esa misma Unión: la versión más distinta del grupo en toda la guía.'
+  navegacion:
+    anio: 2025–2026
+    texto: Imperial
+  contenido:
+  - evento:
+      id: gg-b9-imperial
+      ancla: ev-imperial
+      etiqueta: Evento cósmico · Cruce con Hulk, Black Panther y Nova · Junio – octubre 2025
+      titulo: Imperial
+      creditos: Jonathan Hickman · Federico Vicentini, Marco Checchetto, Iban Coello
+      descripcion:
+      - Cuatro números que reparten el poder de todos los imperios galácticos. Participan Star-Lord, Nova, Hulk, She-Hulk, Brawn y Black Panther, y cada uno tiene un one-shot <em>Imperial War</em> con su frente de la guerra.
+      apartados:
+      - apartado: Columna principal
+        texto: '<strong>Imperial #1–4</strong> (4 de junio – 29 de octubre de 2025)'
+      - apartado: Los one-shots Imperial War
+        texto: 'Imperial Guardians #1 · Nova – Centurion #1 · Planet She-Hulk #1 · Exiles #1 · Panther Rex #1 — frentes paralelos de la guerra. Para seguir a los Guardianes, el que importa es <span class="cap">Imperial War: Imperial Guardians #1</span>, que presenta al equipo de 2026.'
+      - apartado: Cómo queda todo
+        texto: Nace la Unión Galáctica y Star-Lord queda a su frente, en un papel mucho más cercano al de antagonista que al de héroe.
+  - tramo:
+      numero: '9.1'
+      titulo: Los Guardianes imperiales
+      cuando: Marzo – julio 2026
+      entradas:
+      - serie:
+          id: gg-b9-imperial-guardians-1-5
+          prioridad: p1
+          titulo: Imperial Guardians <span class="nums">#1–5</span>
+          creditos: Dan Abnett · Marcelo Ferreira · 11 de marzo – 22 de julio de 2026
+          continuidad:
+          - viene: '◂ Viene de <em>Imperial</em> e <em>Imperial War: Imperial Guardians</em> #1'
+          descripcion:
+          - Gamora, Captain Marvel, Amadeus Cho, Darkhawk y el Cosmic Ghost Rider, como unidad encubierta dirigida por Maximus de los Inhumanos para proteger la Unión Galáctica. Abnett, coguionista de la primera etapa del bloque 2, vuelve al equipo dieciocho años después. Se anunció como serie regular y Marvel la recortó a cinco números antes de su salida.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: gg-b9-rocket-raccoon-rocket-rewind-1
+          titulo: 'Rocket Raccoon: Rocket Rewind <span class="nums">#1</span>'
+          creditos: J.M. DeMatteis, Christos Gage, MacKenzie Cadenhead · Shawn McManus, Todd Nauck, Enid Balám · 29 de julio de 2026
+          descripcion:
+          - Especial antológico sobre el pasado de Rocket, con una historia clásica de Bill Mantlo y Keith Giffen como complemento. Al margen de la trama principal.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      etiqueta: Frontera de la guía · 8 de octubre de 2026
+      titulo: Dónde están ahora
+      descripcion:
+      - 'Con <em>Imperial Guardians</em> terminada en julio, <strong>no hay ninguna serie de los Guardianes en publicación ni anunciada</strong> que haya podido encontrar. El equipo queda repartido: Star-Lord al frente de la Unión Galáctica, Gamora con los Guardianes imperiales y Rocket por su cuenta.'
+      apartados:
+      - apartado: Qué vigilar
+        texto: El siguiente paso de Star-Lord como líder de la Unión. Es el cabo suelto más grande que deja <em>Imperial</em>.
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Siete volúmenes y una numeración histórica
+    html: '<p>Ojo al comprar: la serie principal ha tenido siete cabeceras distintas desde 2008 y una de ellas recuperó la numeración histórica (<em>All-New Guardians</em> #12 salta a <em>Guardians of the Galaxy</em> #146). Cada ficha indica el volumen para que no se confundan.</p>'
+  - titulo: Dónde están los cruces de verdad
+    html: <p>Los cruces que van entrelazados —<em>War of Kings</em>, <em>Trial of Jean Grey</em>, <em>Black Vortex</em>, <em>The Last Annihilation</em>— hay que leerlos en su orden exacto. Los de los Vengadores (<em>Secret Invasion</em>, <em>Original Sin</em>, <em>Civil War II</em>) son tie-ins que se entienden sin leer el evento.</p>
+  - titulo: Conexiones con el resto de la colección
+    html: <p><em>War of Kings</em> continúa la etapa espacial de los X-Men del volumen I del Expediente Mutante; <em>Trial of Jean Grey</em> y <em>Black Vortex</em> también están allí. <em>The Last Annihilation</em> cruza con la era de Krakoa del volumen II. Si llevas los tres expedientes a la vez, lee cada cruce una sola vez.</p>
+  - titulo: Los años sin serie
+    html: '<p>Hay tres huecos largos: 2011–2012 (tras <em>Thanos Imperative</em>), finales de 2021–mediados de 2023 y principios de 2024–mediados de 2025. En el primero los Guardianes sobreviven en otras series; en los otros dos, sencillamente no aparecen como grupo.</p>'
+  - titulo: Si vienes con prisa
+    html: '<p>La ruta corta del principio son unos 170 números. Si quieres menos todavía: <em>Starlord</em> #1–4, la serie de Abnett y Lanning entera con <em>Thanos Imperative</em>, y el volumen 3 de Bendis. Con eso tienes el núcleo del equipo moderno.</p>'
+  - titulo: Hasta dónde llega esta guía
+    html: <p>Cerrada a <strong>8 de octubre de 2026</strong>. Los órdenes de <em>War of Kings</em>, <em>Thanos Imperative</em>, <em>Trial of Jean Grey</em>, <em>Black Vortex</em> y <em>The Last Annihilation</em> están contrastados con guías de lectura. El orden interno de los one-shots de <em>Imperial War</em> no lo he podido verificar, y por eso no lo doy.</p>

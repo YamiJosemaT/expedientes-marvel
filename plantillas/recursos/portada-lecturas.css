@@ -1,0 +1,6 @@
+  /* ---------- Lecturas en la pagina principal ---------- */
+  :root{--red:var(--ink-2)}
+  .card-prog{display:flex;align-items:center;gap:8px 12px;flex-wrap:wrap;margin:-2px 0 14px;font-family:var(--f-mono);font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+  .card-prog .pbar{flex:1 1 140px;width:auto;max-width:260px}
+  .bar{background:linear-gradient(var(--acc),var(--acc)) left bottom / var(--p,0%) 3px no-repeat, var(--acc-soft)}
+  .bar:hover,.bar:focus-visible{background:var(--acc)}

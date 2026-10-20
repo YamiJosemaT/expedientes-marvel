@@ -1,0 +1,104 @@
+{% import 'piezas.html.j2' as p %}<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ x.titulo_pagina | e }}</title>
+<meta name="description" content="{{ x.descripcion_pagina | e }}">
+<style>
+{{ recursos.fuentes }}</style>
+<style>
+{{ estilos }}
+{{ recursos.lecturas_css }}</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar entre tema claro y oscuro">
+  <span class="dot" aria-hidden="true"></span><span id="themeLabel">Tema</span>
+</button>
+
+<div class="wrap">
+
+<header class="top">
+  <p class="eyebrow">{{ x.cabecera.antetitulo }}</p>
+  <h1>{{ x.cabecera.titulo }}</h1>
+  <p class="lede">{{ x.cabecera.entradilla }}</p>
+  <div class="stats">
+{% for c in x.cabecera.cifras %}
+    <div class="stat"><b>{{ c.valor }}</b><span>{{ c.texto }}</span></div>
+{% endfor %}
+  </div>
+</header>
+
+<div class="cols">
+
+  <nav class="spine" aria-label="Bloques">
+    <p class="nav-title">Recorrido</p>
+    <ol>
+{% for b in x.bloques %}
+      <li><a href="#{{ b.id }}"><span class="yr">{{ b.navegacion.anio }}</span>{{ b.navegacion.texto }}</a></li>
+{% endfor %}
+      <li><a href="#notas"><span class="yr">Apéndice</span>Cómo leerlo</a></li>
+    </ol>
+  </nav>
+
+  <main>
+
+    <div class="legend">
+{{ x.leyenda }}
+    </div>
+
+{% for c in x.cajas %}
+{% if c.ruta is defined %}
+    <div class="ruta">
+      <h2>{{ c.ruta.titulo }}</h2>
+      <p>{{ c.ruta.texto }}</p>
+      <ol>
+{% for paso in c.ruta.pasos %}
+        <li>{{ paso }}</li>
+{% endfor %}
+      </ol>
+    </div>
+{% else %}
+    <div class="ruta">
+{{ c.html }}
+    </div>
+{% endif %}
+
+{% endfor %}
+{% for b in x.bloques %}
+    <section class="bloque" id="{{ b.id }}">
+      <div class="bloque-head">
+        <span class="bloque-num">Bloque <b>{{ '%02d' % (b.id[1:] | int) }}</b> · {{ b.fechas }}</span>
+        <h2 class="bloque-title">{{ b.titulo }}</h2>
+        <p class="bloque-intro">{{ b.intro }}</p>
+      </div>
+{% for c in b.contenido %}
+
+{% if c.tramo is defined %}{{ p.tramo(c.tramo) }}{% else %}{{ p.entrada(c) }}{% endif %}
+
+{% endfor %}
+    </section>
+
+{% endfor %}
+    <section class="cierre" id="notas">
+      <h2>{{ x.apendice.titulo }}</h2>
+      <div class="grid">
+{% for n in x.apendice.notas %}
+        <div>
+          <h4>{{ n.titulo }}</h4>
+          {{ n.html }}
+        </div>
+{% endfor %}
+      </div>
+    </section>
+
+  </main>
+</div>
+</div>
+
+<script>
+{{ tema_js }}</script>
+<script>
+{{ lecturas_js }}</script>
+</body>
+</html>

@@ -1,0 +1,332 @@
+# Expediente Eterno
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: et
+titulo_pagina: Expediente Eterno
+descripcion_pagina: Guía de lectura de los Eternos de Marvel desde Gaiman y Romita Jr. (2006) hasta 2026, con sus apariciones en otras series.
+cabecera:
+  antetitulo: Guía de lectura · Marvel Comics · Los hijos de los Celestiales
+  titulo: Expediente<br/>Eterno<span class="thin">2006 — 2026</span>
+  entradilla: De la reinvención de Neil Gaiman al especial del cincuenta aniversario. Veinte años en los que los Eternos han tenido solo tres series propias y han pasado más tiempo dentro de las colecciones de otros —o directamente muertos— que en la suya. Por eso esta guía cuenta también cada aparición que mueve su historia.
+  cifras:
+  - valor: '20'
+    texto: Años de continuidad
+  - valor: '3'
+    texto: Series propias
+  - valor: '2'
+    texto: Eventos que los cambian
+  - valor: ~80
+    texto: Números en total
+leyenda: |-
+  <p>Mismo sistema que los expedientes mutantes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Los capítulos <span class="cap">en color</span> dentro de un evento son los que más afectan a los Eternos.</p>
+  <p>La novedad es la franja de cada ficha: distingue lo que es de los Eternos de lo que solo los toma prestados.</p>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie propia de los Eternos</span>
+  <span class="key"><span class="swatch dashed"></span> Aparición en una serie ajena</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Al margen de la continuidad</span>
+  </div>
+cajas:
+- ruta:
+    titulo: La ruta corta
+    texto: Cinco paradas y unos 35 números. Es la historia completa de las tres reinvenciones —el olvido, la muerte y el precio de la resurrección— sin nada accesorio.
+    pasos:
+    - <span>Eternals vol. 3 <em>#1–7</em></span>
+    - <span>Avengers (2018) <em>#1–6</em></span>
+    - <span>Eternals vol. 5 <em>#1–12</em></span>
+    - '<span>A.X.E.: Judgment Day + Death to the Mutants</span>'
+    - <span>Eternals 50th Anniversary Special <em>#1</em></span>
+bloques:
+- id: b1
+  fechas: 2006 — 2007
+  titulo: El despertar
+  intro: 'Neil Gaiman parte de una idea sencilla: los Eternos llevan años viviendo como humanos corrientes, sin saber quiénes son. Un estudiante de medicina que no recuerda haber sido Makkari, una organizadora de fiestas que no sabe que es Sersi, y un Ikaris que es el único que recuerda e intenta despertarlos antes de que lo haga el Celestial dormido bajo San Francisco.'
+  navegacion:
+    anio: 2006–2007
+    texto: El despertar
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: Siete números
+      cuando: Junio 2006 – febrero 2007
+      nota: El punto de partida pensado para lectores que nunca han leído a los Eternos. No hace falta nada previo.
+      entradas:
+      - serie:
+          id: et-b1-eternals-vol-3-1-7
+          prioridad: p1
+          titulo: Eternals vol. 3 <span class="nums">#1–7</span>
+          creditos: Neil Gaiman · John Romita Jr. · 2006–2007
+          continuidad:
+          - sigue: ▸ Continúa directamente en el bloque 2
+          descripcion:
+          - 'Recupera la cosmología de Kirby —Celestiales, Eternos y Desviantes— y la vuelve a contar desde cero. De fondo está <em>Civil War</em>: Iron Man quiere que los Eternos se registren, y el choque entre seres de un millón de años y una ley de hace seis meses es de lo mejor de la serie. No hace falta haber leído <em>Civil War</em>.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+- id: b2
+  fechas: 2008 — 2009
+  titulo: El Celestial en pie
+  intro: 'Charles y Daniel Knauf recogen el testigo donde lo deja Gaiman: el Celestial Soñador está despierto y caminando, y los Eternos recuperan sus recuerdos uno a uno. La serie fue más ambiciosa que leída, se canceló en el #9 y varias de sus tramas quedaron sin cerrar.'
+  navegacion:
+    anio: 2008–2009
+    texto: El Celestial en pie
+  contenido:
+  - tramo:
+      numero: '2.1'
+      titulo: To Slay a God
+      cuando: Agosto 2008 – principios de 2009
+      entradas:
+      - serie:
+          id: et-b2-eternals-vol-4-1-6
+          prioridad: p2
+          titulo: Eternals vol. 4 <span class="nums">#1–6</span>
+          creditos: Charles &amp; Daniel Knauf · Daniel Acuña · 2008–2009
+          continuidad:
+          - viene: ◂ Viene del bloque 1
+          descripcion:
+          - El arco principal y el que mejor ha envejecido, en buena parte por el dibujo de Acuña. Destapa más sobre los Celestiales de lo que Marvel había contado hasta entonces.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '2.2'
+      titulo: Manifest Destiny
+      cuando: '2009'
+      entradas:
+      - serie:
+          id: et-b2-eternals-vol-4-7-9-annual-1
+          titulo: Eternals vol. 4 <span class="nums">#7–9</span> + Annual <span class="nums">#1</span>
+          creditos: Charles &amp; Daniel Knauf · Eric Nguyen · 2009
+          descripcion:
+          - 'El cierre apresurado de la cancelación. Se puede saltar: casi nada de lo que plantea se retoma después.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b3
+  fechas: 2009 — 2017
+  titulo: Los años de silencio
+  intro: Ocho años sin serie propia. Los Eternos solo existen como apariciones sueltas en colecciones de otros, y ninguna cambia su situación. Todo este bloque es opcional salvo su última ficha, que prepara directamente el bloque 4.
+  navegacion:
+    anio: 2009–2017
+    texto: Los años de silencio
+  contenido:
+  - tramo:
+      numero: '3.1'
+      titulo: Apariciones sueltas
+      cuando: 2012 – 2016
+      nota: Tres historias independientes entre sí. Puedes leerlas en cualquier orden, o ninguna.
+      entradas:
+      - serie:
+          id: et-b3-thor-the-deviants-saga-1-5
+          aparicion: true
+          donde: En otra serie · Thor
+          titulo: 'Thor: The Deviants Saga <span class="nums">#1–5</span>'
+          creditos: Rob Rodi · 2012
+          descripcion:
+          - Thor contra los Desviantes, la otra mitad de la mitología de Kirby. La única historia de estos años que trabaja de verdad esa cosmología.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: et-b3-thanos-rising-1-5
+          aparicion: true
+          donde: En otra serie · Thanos
+          titulo: Thanos Rising <span class="nums">#1–5</span>
+          creditos: Jason Aaron · Simone Bianchi · 2013
+          descripcion:
+          - La infancia de Thanos en Titán, entre los Eternos de esa luna. Es la rama titanita de la especie, y su origen como Eterno pesará mucho en la etapa de Gillen.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: et-b3-hercules-1-6
+          aparicion: true
+          donde: En otra serie · Hercules
+          titulo: Hercules <span class="nums">#1–6</span>
+          creditos: Dan Abnett · 2015–2016
+          descripcion:
+          - Gilgamesh, el Olvidado, acompaña a Hércules. Aparición de personaje, sin consecuencias para el grupo.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '3.2'
+      titulo: El prólogo del fin
+      cuando: Septiembre 2017 – mayo 2018
+      nota: Dos números que plantan la semilla de <em>The Final Host</em>. Si vas a leer el bloque 4, empieza aquí.
+      entradas:
+      - serie:
+          id: et-b3-marvel-legacy-1
+          prioridad: p2
+          aparicion: true
+          donde: En otra serie · Marvel Legacy
+          titulo: Marvel Legacy <span class="nums">#1</span>
+          creditos: Jason Aaron · Esad Ribić y otros · 2017
+          continuidad:
+          - sigue: '▸ Su historia continúa en <em>Avengers</em> (2018) #1'
+          descripcion:
+          - Los Vengadores de hace un millón de años y un Celestial que cae del cielo. El número que abre la línea Legacy y, a la vez, el primer acto de lo que les va a pasar a los Eternos.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: et-b3-free-comic-book-day-2018-avengers-1
+          aparicion: true
+          donde: En otra serie · Free Comic Book Day
+          titulo: 'Free Comic Book Day 2018: Avengers <span class="nums">#1</span>'
+          creditos: Jason Aaron · 2018
+          descripcion:
+          - Prólogo gratuito de la etapa de Aaron. Va recopilado junto a <em>The Final Host</em>.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b4
+  fechas: Mayo — octubre 2018
+  titulo: The Final Host
+  intro: 'La aparición más importante de los Eternos en veinte años no está en una serie suya: está en el primer arco de los <em>Vengadores</em> de Jason Aaron. Llegan los Celestiales Oscuros, los Eternos descubren para qué fueron creados de verdad, y la respuesta acaba con casi todos ellos.'
+  navegacion:
+    anio: '2018'
+    texto: The Final Host
+  contenido:
+  - evento:
+      id: et-b4-avengers-2018-1-6
+      etiqueta: Aparición clave · Serie ajena · 6 números
+      titulo: 'Avengers (2018) #1–6'
+      creditos: Jason Aaron · Ed McGuinness
+      descripcion:
+      - 'Se lee de corrido, sin cruces con nada. Los Eternos aparecen desde el principio y su papel en la historia de los Celestiales es el centro del arco. <strong>En el #4 mueren casi todos</strong>: no es un cliffhanger, es el statu quo de los siguientes tres años.'
+      apartados:
+      - apartado: Orden
+        texto: 'Marvel Legacy #1 (prólogo, tramo 3.2) → Avengers #1 → #2 → #3 → <span class="cap">Avengers #4</span> → #5 → #6'
+      - apartado: Qué deja
+        texto: 'Los Eternos de la Tierra están muertos. <strong>No hay nada suyo que leer entre octubre de 2018 y enero de 2021</strong>: el siguiente número relevante es el #1 de Gillen.'
+- id: b5
+  fechas: Enero 2021 — noviembre 2022
+  titulo: El precio de no morir
+  intro: 'Kieron Gillen los resucita y, en el mismo movimiento, convierte su inmortalidad en un problema moral: la Máquina que los devuelve a la vida se cobra el precio en vidas humanas. Es la etapa más sólida de los Eternos desde Kirby y desemboca en el único evento en el que han sido protagonistas.'
+  navegacion:
+    anio: 2021–2022
+    texto: El precio de no morir
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: Solo la muerte es eterna
+      cuando: Enero – junio 2021
+      entradas:
+      - serie:
+          id: et-b5-eternals-vol-5-1-6
+          prioridad: p1
+          titulo: Eternals vol. 5 <span class="nums">#1–6</span>
+          creditos: Kieron Gillen · Esad Ribić · 2021
+          continuidad:
+          - viene: '◂ Retoma la muerte del grupo en <em>Avengers</em> #4 (bloque 4)'
+          descripcion:
+          - Un asesinato entre inmortales y la investigación que destapa cómo funciona realmente su resurrección. Es la puerta de entrada de la etapa y se entiende sin haber leído nada anterior.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: et-b5-eternals-forever-1
+          prioridad: p4
+          titulo: Eternals Forever <span class="nums">#1</span>
+          creditos: Ralph Macchio · Ramón Bachs · octubre 2021
+          descripcion:
+          - One-shot publicado al calor de la película, al margen de la continuidad de Gillen. Se lee suelto o no se lee.
+          etiqueta:
+            clase: t4
+            texto: Al margen
+  - tramo:
+      numero: '5.2'
+      titulo: Hail Thanos
+      cuando: Septiembre 2021 – mayo 2022
+      nota: 'Thanos reclama su sitio como Eterno y llega a liderarlos. Tres one-shots acompañan al arco: van dentro de él, en el orden en que se publicaron.'
+      entradas:
+      - serie:
+          id: et-b5-eternals-vol-5-7-12
+          prioridad: p1
+          titulo: Eternals vol. 5 <span class="nums">#7–12</span>
+          creditos: Kieron Gillen · Esad Ribić · 2021–2022
+          continuidad:
+          - sigue: '▸ Desemboca en <em>A.X.E.: Judgment Day</em>'
+          descripcion:
+          - 'El arco termina dejando a Druig como Eterno Primordial, y es él quien declara la guerra a Krakoa. Los números #10–12 son el preludio directo del evento.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: et-b5-los-tres-one-shots
+          prioridad: p2
+          titulo: Los tres one-shots
+          creditos: 'Kieron Gillen · Eternals: Thanos Rises #1 → Eternals: Celestia #1 → Eternals: The Heretic #1 · 2021–2022'
+          descripcion:
+          - <em>Thanos Rises</em> cuenta el origen de Thanos visto desde la mitología de los Eternos; <em>Celestia</em> junta a dos Eternos con los Vengadores de hace un millón de años; <em>The Heretic</em> rasca en la historia oculta del grupo. Recopilados juntos como <em>A History Written in Blood</em>.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: et-b5-a-x-e-judgment-day
+      etiqueta: Evento · Julio – noviembre 2022
+      titulo: 'A.X.E.: Judgment Day'
+      creditos: Kieron Gillen · Valerio Schiti
+      descripcion:
+      - 'Los Eternos declaran a los mutantes «Desviantes excesivos» y van a la guerra contra Krakoa; para pararlos, se construye un Celestial que acaba juzgando a toda la humanidad. Es la culminación de la etapa de Gillen. <strong>Va entrelazado</strong>: la serie principal, <em>Death to the Mutants</em> (el lado de los Eternos) y los números de las series mutantes se van respondiendo.'
+      apartados:
+      - apartado: Orden — en este orden exacto
+        texto: 'Free Comic Book Day 2022: Avengers/X-Men #1 → A.X.E.: Eve of Judgment #1 → <strong>Judgment Day #1</strong> → Immortal X-Men #5 → <span class="cap">X-Men Red #5</span> → <strong>Judgment Day #2</strong> → <span class="cap">Death to the Mutants #1</span> → X-Men #13 → <strong>Judgment Day #3</strong> → <span class="cap">Death to the Mutants #2</span> → X-Men #14 → Immortal X-Men #6 → X-Men Red #6 → <strong>Judgment Day #4</strong> → X-Men Red #7 → <strong>Judgment Day #5</strong> → Immortal X-Men #7 → <span class="cap">Death to the Mutants #3</span> → <strong>Judgment Day #6</strong> → <span class="cap">A.X.E.: Eternals #1</span> → <span class="cap">A.X.E.: Starfox #1</span> → A.X.E.: Judgment Day Omega #1'
+      - apartado: Los capítulos que más importan a los Eternos
+        texto: '<em>Death to the Mutants</em> #1–3 es la guerra contada desde su bando. <em>X-Men Red</em> #5, «La hora de Uranos», ocurre a la vez que <em>Judgment Day</em> #1: los Eternos sueltan durante una hora sobre Arakko a Uranos, el tío abuelo de Thanos. <em>A.X.E.: Eternals</em> #1 y <em>A.X.E.: Starfox</em> #1 son los epílogos del grupo y de Eros de Titán.'
+      - apartado: La versión mínima
+        texto: 'Judgment Day #1–6 + Death to the Mutants #1–3, entrelazados como arriba. Si ya tienes el volumen II del Expediente Mutante, es el mismo evento visto desde el otro lado.'
+      - apartado: Cómo quedan los Eternos
+        texto: Zuras recupera el liderazgo mediante un pacto con Eros. Druig queda encerrado en la Exclusión junto a Uranos. El grupo se compromete con los mutantes como reparación y cede a Arakko el uso de Uranos durante una hora, cuando quiera reclamarla.
+- id: b6
+  fechas: 2023 — hoy
+  titulo: Después del juicio
+  intro: Otro silencio largo. Tras <em>Judgment Day</em> los Eternos vuelven a quedarse sin serie y no protagonizan nada documentado hasta su cincuenta aniversario.
+  navegacion:
+    anio: 2023–2026
+    texto: Después del juicio
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: Cincuenta años
+      cuando: Abril 2026
+      entradas:
+      - serie:
+          id: et-b6-eternals-50th-anniversary-special-1
+          prioridad: p2
+          titulo: Eternals 50th Anniversary Special <span class="nums">#1</span>
+          creditos: Ralph Macchio, Ethan S. Parker, Griffin Sheridan, Patrick Stump · Michael Cho, Dale Eaglesham, Phil Noto · 1 de abril de 2026
+          descripcion:
+          - 'Número especial de cuarenta páginas por los cincuenta años de la creación de Kirby: varias historias inéditas del pasado del grupo y el debut de un Eterno nuevo, «el Eterno perdido», presentado como un secreto con consecuencias para todo el universo Marvel.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      etiqueta: Frontera de la guía · 8 de octubre de 2026
+      titulo: Dónde están ahora
+      descripcion:
+      - 'El especial presenta al Eterno perdido como una amenaza abierta, pero <strong>a día de hoy no hay ninguna serie nueva anunciada</strong> que lo continúe. Tampoco he encontrado apariciones de grupo documentadas entre 2023 y 2025 en las guías de lectura: si las hay, son cameos menores sin consecuencias.'
+      apartados:
+      - apartado: Qué vigilar
+        texto: Cualquier anuncio que siga el hilo del Eterno perdido. Es el único cabo suelto que Marvel ha dejado a la vista.
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Tres reinvenciones
+    html: '<p>Esta guía se entiende mejor como tres versiones sucesivas del mismo grupo: Gaiman los hace <strong>olvidar</strong>, Aaron los <strong>mata</strong> y Gillen les pone <strong>precio</strong> a la resurrección. Cada una corrige a la anterior, y por eso la ruta corta es una parada por reinvención.</p>'
+  - titulo: Más apariciones que serie propia
+    html: '<p>De los aproximadamente 80 números, una buena parte no lleva su nombre en la portada. Las fichas con franja discontinua son las apariciones en series ajenas: solo están las que cambian algo, no cada cameo.</p>'
+  - titulo: ¿Y Thanos?
+    html: '<p>Thanos es técnicamente un Eterno de Titán, pero incluir todas sus apariciones convertiría esta guía en la suya. Solo están las historias donde su condición de Eterno importa: <em>Thanos Rising</em>, <em>Thanos Rises</em> y el arco «Hail Thanos».</p>'
+  - titulo: Si quieres ir más atrás
+    html: '<p>Gaiman reinterpreta material anterior que no hace falta conocer, pero que enriquece la lectura: los <em>Eternals</em> originales de Jack Kirby (1976, #1–19 y anual), la maxiserie de Englehart y Sal Buscema (1985, #1–12) y la saga de los Eternos en <em>Thor</em> de los años setenta y ochenta.</p>'
+  - titulo: Conexión con los X-Men
+    html: <p><em>Judgment Day</em> es el mismo evento que aparece en el bloque 3 del volumen II del Expediente Mutante. Allí está contado con los números de la línea mutante; aquí, con los de los Eternos. Si lees los dos expedientes, léelo una sola vez.</p>
+  - titulo: Hasta dónde llega esta guía
+    html: <p>Cerrada a <strong>8 de octubre de 2026</strong>. Las series propias y los dos eventos están completos y contrastados con guías de lectura. El último especial es de abril de 2026 y no tiene continuación anunciada.</p>

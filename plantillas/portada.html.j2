@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ portada.titulo_pagina | e }}</title>
+<meta name="description" content="{{ portada.descripcion_pagina | e }}">
+<style>
+{{ recursos.fuentes }}</style>
+<style>
+{{ estilos }}
+{{ recursos.lecturas_css }}
+{{ recursos.portada_lecturas }}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar entre tema claro y oscuro">
+  <span class="dot" aria-hidden="true"></span><span id="themeLabel">Tema</span>
+</button>
+
+<div class="wrap">
+
+<header class="top">
+  <p class="eyebrow"><span class="chips">{% for e in exps %}<i class="c-{{ e.clave }}"></i>{% endfor %}</span>{{ portada.antetitulo }}</p>
+  <h1>{{ portada.titulo }}</h1>
+  <p class="lede">{{ portada.entradilla }}</p>
+  <div class="stats">
+    <div class="stat"><b>{{ exps | length }}</b><span>Expedientes</span></div>
+    <div class="stat"><b>{{ total_bloques }}</b><span>Bloques de lectura</span></div>
+    <div class="stat"><b>{{ cruces | length }}</b><span>Cruces entre expedientes</span></div>
+    <div class="stat"><b>{{ total_numeros }}</b><span>Números en total</span></div>
+  </div>
+  <div class="prog-global" data-prog="" data-total="{{ total_entradas }}"></div>
+  <nav class="jump" aria-label="Secciones">
+    <a href="#expedientes">Los expedientes</a><a href="#cronologia">Cronología conjunta</a><a href="#cruces">Dónde se cruzan</a><a href="#uso">Cómo usarlos juntos</a>
+  </nav>
+</header>
+
+<section id="expedientes">
+  <div class="sec-head">
+    <span class="sec-num">01 · Índice</span>
+    <h2>Los expedientes</h2>
+    <p class="sec-intro">Cada bloque enlaza directamente con su sección dentro del expediente.</p>
+  </div>
+  <div class="cards">
+{% for e in exps %}
+      <article class="card c-{{ e.clave }}">
+        <p class="card-eyebrow">{{ e.subtitulo }} · {{ e.periodo }}</p>
+        <h3><a href="{{ e.href }}">{{ e.nombre }}</a></h3>
+        <p class="card-lede">{{ e.resumen }}</p>
+        <div class="minis">{% for c in e.cifras %}<div class="mini"><b>{{ c.valor }}</b><span>{{ c.texto }}</span></div>{% endfor %}</div>
+        <div class="card-prog" data-prog="{{ e.clave }}" data-total="{{ e.total }}"></div>
+        <ol class="blocks">{% for b in e.bloques %}<li><a href="{{ b.href }}"><span class="bn">{{ b.num }}</span><span class="bt">{{ b.titulo }}</span><span class="by">{{ b.anios }}</span></a></li>{% endfor %}</ol>
+        <a class="open" href="{{ e.href }}">Abrir expediente <span aria-hidden="true">→</span></a>
+      </article>
+{% endfor %}
+  </div>
+</section>
+
+<section id="cronologia">
+  <div class="sec-head">
+    <span class="sec-num">02 · Cronología</span>
+    <h2>Cronología conjunta</h2>
+    <p class="sec-intro">Los bloques de los {{ exps | length | numero_en_letras }} expedientes sobre el mismo eje de años. Sirve para saber qué se publicaba en paralelo si los lees a la vez. Cada barra es un bloque y lleva a él; al pasar por encima muestra su nombre.</p>
+  </div>
+  <div class="timeline-wrap">
+    <div class="timeline" role="group" aria-label="Cronología de bloques por expediente">
+      <div class="axis">{% for y in anios %}<span style="grid-column:{{ y.col }}">{{ y.texto }}</span>{% endfor %}</div>
+{% for e in exps %}
+        <div class="lane c-{{ e.clave }}">
+          <a class="lane-name" href="{{ e.href }}">{{ e.nombre_corto }}</a>
+          <div class="track">{% for b in e.bloques %}<a class="bar" href="{{ b.href }}" data-prog="{{ e.clave }}-{{ b.id }}" data-total="{{ b.total }}" style="grid-column:{{ b.col_ini }} / {{ b.col_fin }};grid-row:{{ b.fila }}" title="Bloque {{ b.num }} · {{ b.titulo }} · {{ b.fechas }}">{{ b.num }}</a>{% endfor %}</div>
+        </div>
+{% endfor %}
+    </div>
+  </div>
+  <p class="tl-note">Los números son los de cada bloque; los nombres están en las tarjetas de arriba.</p>
+</section>
+
+<section id="cruces">
+  <div class="sec-head">
+    <span class="sec-num">03 · Cruces</span>
+    <h2>Dónde se cruzan</h2>
+    <p class="sec-intro">Los eventos que aparecen en más de un expediente. Si llevas varios a la vez, léelos una sola vez, en el punto de cualquiera de los dos.</p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Evento</th><th scope="col">Aparece en</th><th scope="col">Nota</th></tr></thead>
+      <tbody>
+{% for c in cruces %}
+          <tr>
+            <th scope="row"><span class="cx-name">{{ c.evento }}</span><span class="cx-year">{{ c.anio }}</span></th>
+            <td class="cx-links">{% for l in c.enlaces %}<a class="x c-{{ l.expediente }}" href="{{ l.href }}"><span class="dot"></span>{{ l.texto }}</a>{% endfor %}</td>
+            <td class="cx-note">{{ c.nota }}</td>
+          </tr>
+{% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="uso">
+  <div class="sec-head">
+    <span class="sec-num">04 · Uso</span>
+    <h2>Cómo usarlos juntos</h2>
+  </div>
+  <div class="notes">
+{% for n in portada.notas %}
+    <div>
+      <h4>{{ n.titulo }}</h4>
+      {{ n.html }}
+    </div>
+{% endfor %}
+  </div>
+</section>
+
+</div>
+
+<script>
+{{ tema_js }}</script>
+<script>
+{{ lecturas_js }}</script>
+</body>
+</html>

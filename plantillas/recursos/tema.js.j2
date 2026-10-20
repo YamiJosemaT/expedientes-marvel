@@ -1,0 +1,34 @@
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById('themeToggle');
+  var label = document.getElementById('themeLabel');
+  var KEY = '{{ tema_clave }}';
+
+  function sistemaEsOscuro() {
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+  function pintar(tema) {
+    if (tema) { root.setAttribute('data-theme', tema); }
+    else { root.removeAttribute('data-theme'); }
+    var oscuro = tema ? tema === 'dark' : sistemaEsOscuro();
+    label.textContent = oscuro ? 'Oscuro' : 'Claro';
+  }
+
+  var guardado = null;
+  try { guardado = localStorage.getItem(KEY); } catch (e) {}
+  pintar(guardado);
+
+  btn.addEventListener('click', function () {
+    var actual = root.getAttribute('data-theme');
+    var oscuroAhora = actual ? actual === 'dark' : sistemaEsOscuro();
+    var nuevo = oscuroAhora ? 'light' : 'dark';
+    pintar(nuevo);
+    try { localStorage.setItem(KEY, nuevo); } catch (e) {}
+  });
+
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!root.hasAttribute('data-theme')) { pintar(null); }
+    });
+  }
+})();

@@ -1,0 +1,47 @@
+{# Piezas reutilizables de un expediente: ficha de serie, recuadro de evento y tramo. #}
+
+{% macro serie(e) -%}
+<article class="serie{{ ' guest' if e.aparicion }}{{ ' ' ~ e.prioridad if e.prioridad }}"{% if e.ancla %} id="{{ e.ancla }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
+  <div class="stripe"></div>
+  <div>
+    {% if e.donde %}<p class="where">{{ e.donde }}</p>
+    {% endif %}<h3>{{ e.titulo }}</h3>
+    <p class="cred">{{ e.creditos }}</p>
+    {% for d in e.descripcion or [] %}<p class="desc">{{ d }}</p>
+    {% endfor %}{% if e.continuidad %}<p class="cont">{% for n in e.continuidad %}{% if n.sigue is defined %}<span class="fwd">{{ n.sigue }}</span>{% else %}<span class="back">{{ n.viene }}</span>{% endif %}{% endfor %}</p>
+    {% endif %}
+  </div>
+  <span class="tag{{ '' if e.etiqueta.clase == 'opcional' else ' ' ~ e.etiqueta.clase }}">{{ e.etiqueta.texto }}</span>
+</article>
+{%- endmacro %}
+
+{% macro evento(e) -%}
+<article class="evento{{ ' linea' if e.linea_marvel }}"{% if e.ancla %} id="{{ e.ancla }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
+  <p class="ev-label">{{ e.etiqueta }}</p>
+  <h3>{{ e.titulo }}</h3>
+  {% if e.creditos %}<p class="cred">{{ e.creditos }}</p>
+  {% endif %}{% for d in e.descripcion or [] %}<p class="desc">{{ d }}</p>
+  {% endfor %}{% for a in e.apartados or [] %}<p class="orden">{% if a.apartado is defined %}<span class="lbl">{{ a.apartado }}</span>{% endif %}{{ a.texto }}</p>
+  {% endfor %}
+</article>
+{%- endmacro %}
+
+{% macro entrada(x) -%}
+{% if x.serie is defined %}{{ serie(x.serie) }}{% else %}{{ evento(x.evento) }}{% endif %}
+{%- endmacro %}
+
+{% macro tramo(t) -%}
+<div class="tramo">
+  <div class="tramo-head">
+    <span class="tramo-num">Tramo {{ t.numero }}</span>
+    <h3>{{ t.titulo }}</h3>
+    <span class="tramo-when">{{ t.cuando }}</span>
+  </div>
+  {% if t.nota %}<p class="tramo-nota">{{ t.nota }}</p>
+  {% endif %}<div class="lista">
+{% for x in t.entradas %}
+{{ entrada(x) }}
+{% endfor %}
+  </div>
+</div>
+{%- endmacro %}

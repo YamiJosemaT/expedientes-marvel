@@ -1,0 +1,5 @@
+.venv/
+salida/
+__pycache__/
+*.pyc
+*.db
