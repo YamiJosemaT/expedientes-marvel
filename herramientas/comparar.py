@@ -16,7 +16,8 @@ ARCHIVOS = ['Expedientes Marvel.html',
             'Expediente Mutante/Expediente-Mutante-2001-2019.html',
             'Expediente Mutante/Expediente-Mutante-II-Krakoa-2019-2026.html',
             'Expediente Eterno/Expediente-Eterno-2006-2026.html',
-            'Expediente Guardianes/Expediente-Guardianes-2007-2026.html']
+            'Expediente Guardianes/Expediente-Guardianes-2007-2026.html',
+            'Expediente Jovenes Vengadores/Expediente-Jovenes-Vengadores-2005-2026.html']
 # reglas CSS que pueden estar en una version y no en otra sin cambiar nada visible
 PERMITIDAS = re.compile(r'^(\.cruces|article\.evento, article\.serie\{scroll-margin|\.guest|\.where|\.swatch|article\.evento\.linea)')
 
@@ -96,6 +97,11 @@ def main():
     a, b = sys.argv[1], sys.argv[2]
     total = 0
     for rel in ARCHIVOS:
+        falta = [d for d in (a, b) if not os.path.exists(os.path.join(d, rel))]
+        if falta:
+            total += 1
+            print('%-62s %s' % (rel, 'NO EXISTE en ' + ' ni en '.join(falta)))
+            continue
         fallos, n = comparar(os.path.join(a, rel), os.path.join(b, rel))
         total += len(fallos)
         print('%-62s %s' % (rel, 'EQUIVALENTE (%d data-id)' % n if not fallos else 'DIFERENTE'))

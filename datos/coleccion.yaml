@@ -59,31 +59,50 @@ expedientes:
     tema_clave: expediente-guardianes-tema
     acento: {claro: '#AD1F74', claro_suave: '#F6DDEA', oscuro: '#F07CC0', oscuro_suave: '#3A1630'}
 
+  - clave: jv
+    datos: expediente-jovenes-vengadores.yaml
+    archivo: Expediente Jovenes Vengadores/Expediente-Jovenes-Vengadores-2005-2026.html
+    nombre: Expediente Jóvenes Vengadores
+    nombre_corto: Jóvenes Vengadores
+    subtitulo: Wiccan y Hulkling
+    periodo: 2005 — hoy
+    resumen: De Young Avengers a Witches’ Road, la historia de Billy y Teddy.
+    numeros_aprox: 200
+    tema_clave: expediente-jovenes-vengadores-tema
+    acento: {claro: '#3D7A1F', claro_suave: '#E0EED6', oscuro: '#8FD46B', oscuro_suave: '#1E3317'}
+
 portada:
   archivo: Expedientes Marvel.html
   titulo_pagina: Expedientes Marvel
-  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno y Expediente Guardianes.'
+  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno, Expediente Guardianes y Expediente Jóvenes Vengadores.'
   tema_clave: expedientes-indice-tema
   antetitulo: Colección de guías de lectura · Marvel Comics
   titulo: Expedientes<span class="thin">Marvel 2001 — hoy</span>
-  entradilla: 'Cuatro guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
+  entradilla: 'Cinco guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
   notas:
     - titulo: Uno detrás de otro
       html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza justo donde acaba el I, con <em>House of X</em> / <em>Powers of X</em>.</p>'
     - titulo: En paralelo
-      html: '<p>Eternos y Guardianes son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
-    - titulo: Mismo sistema en los cuatro
+      html: '<p>Eternos, Guardianes y Jóvenes Vengadores son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
+    - titulo: Mismo sistema en los cinco
       html: '<p>Las marcas ▸ y ◂ indican dónde se corta y se retoma una serie; los capítulos en color dentro de un evento son los de la línea de ese expediente, y los recuadros con borde discontinuo, eventos de toda la línea Marvel.</p>'
     - titulo: Hasta dónde llegan
-      html: '<p>El volumen I está cerrado y completo. Los otros tres llegan al presente y se cerraron en octubre de 2026: lo más reciente de cada uno puede seguir avanzando.</p>'
+      html: '<p>El volumen I está cerrado y completo. Los otros cuatro llegan al presente y se cerraron en octubre de 2026: lo más reciente de cada uno puede seguir avanzando.</p>'
 
 # Eventos que aparecen en mas de un expediente. "ancla" es el id de bloque (b4) o de recuadro (ev-si).
 cruces:
+  - evento: Civil War
+    anio: 2006
+    enlaces:
+      - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
+      - {expediente: jv, ancla: ev-civilwar, texto: Jóvenes Vengadores · bloque 2}
+    nota: Cada expediente tiene su propio tie-in del evento.
   - evento: Secret Invasion
     anio: 2008
     enlaces:
       - {expediente: m1, ancla: b4, texto: Mutante I · bloque 4}
       - {expediente: gg, ancla: ev-si, texto: Guardianes · bloque 2}
+      - {expediente: jv, ancla: ev-si, texto: Jóvenes Vengadores · bloque 2}
     nota: Cada expediente tiene su propio tie-in del evento.
   - evento: War of Kings
     anio: 2009
@@ -126,13 +145,15 @@ cruces:
     enlaces:
       - {expediente: m2, ancla: b1, texto: Mutante II · bloque 1}
       - {expediente: gg, ancla: ev-empyre, texto: Guardianes · bloque 7}
-    nota: En Mutante II se lleva dos números de <em>X-Men</em>; en Guardianes es contexto.
+      - {expediente: jv, ancla: ev-empyre, texto: Jóvenes Vengadores · bloque 6}
+    nota: En Mutante II se lleva dos números de <em>X-Men</em>; en Guardianes es contexto; en Jóvenes Vengadores, el evento de Hulkling.
   - evento: The Last Annihilation
     anio: 2021
     enlaces:
       - {expediente: gg, ancla: ev-last, texto: Guardianes · bloque 7}
       - {expediente: m2, ancla: b2, texto: Mutante II · bloque 2}
-    nota: 'Siete capítulos con el mismo orden en los dos expedientes; en Mutante II se lleva <em>S.W.O.R.D.</em> #7 y <em>Cable: Reloaded</em>.'
+      - {expediente: jv, ancla: ev-last, texto: Jóvenes Vengadores · bloque 7}
+    nota: 'Siete capítulos con el mismo orden en los tres expedientes; en Mutante II se lleva <em>S.W.O.R.D.</em> #7 y <em>Cable: Reloaded</em>.'
   - evento: 'A.X.E.: Judgment Day'
     anio: 2022
     enlaces:
@@ -144,4 +165,5 @@ cruces:
     enlaces:
       - {expediente: m2, ancla: b5, texto: Mutante II · bloque 5}
       - {expediente: gg, ancla: ev-imperial, texto: Guardianes · bloque 9}
-    nota: En Mutante II es de refilón; en Guardianes, el evento central.
+      - {expediente: jv, ancla: ev-imperial, texto: Jóvenes Vengadores · bloque 9}
+    nota: En Mutante II es de refilón; en Guardianes, el evento central; en Jóvenes Vengadores, el preludio de <em>Witches’ Road</em>.

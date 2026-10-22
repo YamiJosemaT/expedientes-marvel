@@ -576,3 +576,64 @@ gg:
     bloques: [9]
   esperado:
   - [1, 5]
+jv:
+- serie: Young Avengers vol.1
+  reglas:
+  - alias: Young Avengers
+    bloques: [1]
+  esperado:
+  - [1, 12]
+- serie: Young Avengers vol.2
+  reglas:
+  - {alias: Young Avengers, vol: '2'}
+  esperado:
+  - [1, 15]
+- serie: Children’s Crusade
+  reglas:
+  - alias: Children’s Crusade
+    bloques: [3]
+  esperado:
+  - [1, 9]
+- serie: New Avengers vol.4
+  reglas:
+  - {alias: New Avengers, vol: '4'}
+  esperado:
+  - [1, 18]
+- serie: Death’s Head
+  reglas:
+  - alias: Death’s Head
+    bloques: [6]
+  esperado:
+  - [1, 4]
+- serie: Strikeforce
+  reglas:
+  - alias: Strikeforce
+    bloques: [6]
+  esperado:
+  - [1, 9]
+- serie: Empyre
+  reglas:
+  - alias: Empyre
+    bloques: [6]
+    rango: [1, 6]
+  esperado:
+  - [1, 6]
+- serie: GotG vol.6 (13-18)
+  reglas:
+  - {alias: Guardians of the Galaxy, vol: '6'}
+  - alias: GotG
+    bloques: [7]
+  esperado:
+  - [13, 18]
+- serie: Imperial
+  reglas:
+  - alias: Imperial
+    bloques: [9]
+  esperado:
+  - [1, 4]
+- serie: 'Wiccan: Witches’ Road'
+  reglas:
+  - alias: 'Wiccan: Witches’ Road'
+    bloques: [9]
+  esperado:
+  - [1, 5]

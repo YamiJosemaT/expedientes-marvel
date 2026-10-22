@@ -1,0 +1,657 @@
+# Expediente Jovenes Vengadores
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: jv
+titulo_pagina: Expediente Jóvenes Vengadores
+descripcion_pagina: Guía de lectura de los Jóvenes Vengadores centrada en Wiccan y Hulkling, desde Young Avengers (2005) hasta 2026, con sus eventos y sus apariciones en otras series.
+cabecera:
+  antetitulo: Guía de lectura · Marvel Comics · Wiccan y Hulkling
+  titulo: Expediente<br/>Jóvenes Vengadores<span class="thin">2005 — 2026</span>
+  entradilla: 'Billy Kaplan y Teddy Altman se conocen en el primer número de <em>Young Avengers</em>, en 2005. Veintiún años después están casados, han gobernado un imperio galáctico y lo han visto caer. Esta guía sigue su historia de principio a fin: las series del grupo, los eventos que los cambian y cada aparición en series ajenas que mueve algo en la vida de la pareja.'
+  cifras:
+  - valor: '21'
+    texto: Años de continuidad
+  - valor: '9'
+    texto: Bloques de lectura
+  - valor: '7'
+    texto: Eventos que los cambian
+  - valor: ~200
+    texto: Números en total
+leyenda: |-
+  <p>Mismo sistema que los otros expedientes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Los capítulos <span class="cap">en color</span> dentro de un evento son los que más importan a Wiccan y Hulkling.</p>
+  <p>Como en el Expediente Eterno, la franja de cada ficha distingue las series del grupo o de la pareja de las apariciones en colecciones ajenas.</p>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie de los Jóvenes Vengadores, de Wiccan o de Hulkling</span>
+  <span class="key"><span class="swatch dashed"></span> Aparición en una serie ajena</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Futuro posible</span>
+  </div>
+cajas:
+- ruta:
+    titulo: La ruta corta
+    texto: 'Seis paradas y unos 55 números: el origen de los dos, la búsqueda de la Bruja Escarlata, la crisis de pareja de Gillen, la boda y el trono, la caída del imperio y lo que Billy hace para salvar a Teddy.'
+    pasos:
+    - '<span>Young Avengers <em>#1–12 + Special #1</em></span>'
+    - '<span>Avengers: The Children’s Crusade <em>#1–9</em></span>'
+    - <span>Young Avengers vol. 2 <em>#1–15</em></span>
+    - <span>Empyre <em>#1–6</em> + Emperor Hulkling + Aftermath</span>
+    - <span>Imperial <em>#1–4</em></span>
+    - '<span>Wiccan: Witches’ Road <em>#1–5</em></span>'
+bloques:
+- id: b1
+  fechas: 2005 — 2006
+  titulo: Los herederos
+  intro: 'Los Vengadores se han disuelto tras <em>Avengers Disassembled</em> y un grupo de adolescentes ocupa su sitio sin pedir permiso. Allan Heinberg y Jim Cheung presentan a la vez a los dos protagonistas de esta guía: Billy, un chico con poderes mágicos que no entiende, y Teddy, un cambiaformas que cree ser mutante. Doce números y un especial bastan para dejar plantadas las dos grandes preguntas de los siguientes veinte años: de quién es hijo cada uno.'
+  navegacion:
+    anio: 2005–2006
+    texto: Los herederos
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: Sidekicks
+      cuando: Febrero – julio 2005
+      nota: El punto de partida. No hace falta nada previo, aunque <em>Avengers Disassembled</em> (Expediente Mutante I, bloque 1) explica por qué no quedan Vengadores.
+      entradas:
+      - serie:
+          id: jv-b1-young-avengers-1-6
+          prioridad: p1
+          titulo: Young Avengers <span class="nums">#1–6</span>
+          creditos: Allan Heinberg · Jim Cheung · 2005
+          continuidad:
+          - sigue: ▸ Continúa en el tramo 1.2
+          descripcion:
+          - Iron Lad, un Kang adolescente que huye de su propio futuro, reúne a un equipo de chavales con los poderes de los Vengadores desaparecidos. Billy empieza llamándose Asgardian, como un Thor adolescente, y Teddy es Hulkling. Lo que hay entre los dos se va insinuando hasta que el <em>Special</em> lo hace público.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '1.2'
+      titulo: Family Matters
+      cuando: Septiembre 2005 – junio 2006
+      nota: 'El <em>Special</em> salió entre el #9 y el #10, y ese es su sitio: Young Avengers #7–9 → Special #1 → #10–12.'
+      entradas:
+      - serie:
+          id: jv-b1-young-avengers-7-12-special-1
+          prioridad: p1
+          titulo: Young Avengers <span class="nums">#7–12</span> + Special <span class="nums">#1</span>
+          creditos: Allan Heinberg · Jim Cheung y otros · 2005–2006
+          continuidad:
+          - viene: ◂ Viene del tramo 1.1
+          descripcion:
+          - 'El origen de Teddy: es Dorrek VIII, hijo del Capitán Marvel kree y de la princesa skrull Anelle, y los dos imperios vienen a la Tierra a reclamarlo. En el <em>Special</em>, una entrevista con Jessica Jones, Billy y Teddy cuentan que son pareja. En el #12 aparece Tommy Shepherd, Speed, idéntico a Billy: la primera pista de que los dos podrían ser los gemelos perdidos de la Bruja Escarlata.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+- id: b2
+  fechas: 2006 — 2010
+  titulo: De evento en evento
+  intro: 'Heinberg deja la serie en pausa y el grupo sobrevive cuatro años en miniseries y tie-ins de los grandes eventos. Casi todo es opcional, pero aquí se cocinan dos cosas que pesarán después: Teddy descubre lo que significa ser el heredero skrull durante una invasión skrull, y Billy empieza a buscar por su cuenta a la Bruja Escarlata.'
+  navegacion:
+    anio: 2006–2010
+    texto: De evento en evento
+  contenido:
+  - evento:
+      id: jv-b2-civil-war
+      ancla: ev-civilwar
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Junio 2006 – enero 2007
+      titulo: Civil War
+      creditos: Mark Millar · Steve McNiven (serie principal) · tie-in de Zeb Wells y Stefano Caselli
+      descripcion:
+      - La Ley de Registro de superhumanos parte en dos a los héroes, y los Jóvenes Vengadores —menores, sin entrenar y sin registrar— se unen a la resistencia del Capitán América. En la recta final, Hulkling se hace pasar por Hank Pym para liberar a los héroes presos en la Zona Negativa. El tie-in los junta con los Runaways y con Xavin, que como skrull ve en Teddy a su soberano.
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Civil War #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Civil War: Young Avengers &amp; Runaways #1–2</span> → <strong>Civil War #4</strong> → <span class="cap">Young Avengers &amp; Runaways #3</span> → <strong>Civil War #5</strong> → <span class="cap">Young Avengers &amp; Runaways #4</span> → <strong>Civil War #6</strong> → <strong>#7</strong>'
+      - apartado: Versión mínima
+        texto: '<em>Civil War: Young Avengers &amp; Runaways</em> #1–4 seguidos. Se entiende sin el evento.'
+      - apartado: Conexión
+        texto: Es el mismo evento del bloque 2 del Expediente Mutante I. Si lo lees allí, aquí solo tienes que añadir el tie-in en los huecos indicados.
+  - tramo:
+      numero: '2.1'
+      titulo: Young Avengers Presents
+      cuando: Enero – junio 2008
+      nota: Seis one-shots, uno por miembro. Se publicaron justo antes de <em>Secret Invasion</em> y están pensados para leerse antes del evento.
+      entradas:
+      - serie:
+          id: jv-b2-young-avengers-presents-1-6
+          prioridad: p2
+          titulo: Young Avengers Presents <span class="nums">#1–6</span>
+          creditos: 'Ed Brubaker, Brian Reed, Roberto Aguirre-Sacasa y otros · #2 Harvey Tolibao, #3 Alina Urusov · 2008'
+          continuidad:
+          - sigue: ▸ Lo del
+          descripcion:
+          - Los dos que importan aquí son el <strong>#2</strong> (Hulkling), en el que Teddy conoce al Capitán Marvel recién vuelto de la muerte y le dice que es su padre, y el <strong>#3</strong> (Wiccan y Speed), en el que los dos hermanos buscan a la Bruja Escarlata por Genosha y la montaña Wundagore. El resto son historias de Patriot, Vision, Stature y Hawkeye.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: jv-b2-secret-invasion
+      ancla: ev-si
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Abril – diciembre 2008
+      titulo: Secret Invasion
+      creditos: Brian Michael Bendis · Leinil Francis Yu (serie principal) · tie-in de Christopher Yost y Takeshi Miyazawa
+      descripcion:
+      - 'Los skrulls invaden la Tierra, y Teddy, su heredero por sangre, intenta pararlos diciéndoles quién es. No funciona, y además descubre que el Capitán Marvel con el que habló en <em>Young Avengers Presents</em> #2 era un skrull. El tie-in vuelve a juntar al grupo con los Runaways y con Xavin, que le echa en cara a Teddy no haber reclamado el trono a tiempo.'
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Secret Invasion #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Secret Invasion: Runaways/Young Avengers #1</span> → <strong>Secret Invasion #4</strong> → <strong>#5</strong> → <span class="cap">Runaways/Young Avengers #2</span> → <strong>Secret Invasion #6</strong> → <span class="cap">Runaways/Young Avengers #3</span> → <strong>Secret Invasion #7</strong> → <strong>#8</strong>'
+      - apartado: Versión mínima
+        texto: '<em>Secret Invasion: Runaways/Young Avengers</em> #1–3 seguidos, después de <em>Young Avengers Presents</em> #2.'
+      - apartado: Conexión
+        texto: El mismo evento está en el bloque 4 del Expediente Mutante I y en el bloque 2 del Expediente Guardianes, cada uno con su tie-in.
+  - tramo:
+      numero: '2.2'
+      titulo: Reinado Oscuro y Asedio
+      cuando: Mayo 2009 – abril 2010
+      nota: 'Dos tie-ins opcionales. <em>Siege: Young Avengers</em> va entre <em>Siege</em> #3 y #4, después de la caída de Asgard.'
+      entradas:
+      - serie:
+          id: jv-b2-dark-reign-young-avengers-1-5
+          titulo: 'Dark Reign: Young Avengers <span class="nums">#1–5</span>'
+          creditos: Paul Cornell · Mark Brooks · 2009
+          descripcion:
+          - Un grupo nuevo de adolescentes con poderes se presenta en Nueva York como los Jóvenes Vengadores en pleno reinado de Norman Osborn, y el equipo original tiene que decidir qué hace con ellos. Teddy y Billy tienen un papel secundario.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b2-siege-young-avengers-1
+          titulo: 'Siege: Young Avengers <span class="nums">#1</span>'
+          creditos: Sean McKeever · Mahmud Asrar · 2010
+          descripcion:
+          - Wiccan y Hulkling, entre las ruinas de Asgard, se enfrentan solos a la Brigada de Demolición. Un número suelto que muestra lo lejos que ha llegado ya el poder de Billy.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b3
+  fechas: 2010 — 2012
+  titulo: La cruzada de los niños
+  intro: 'Heinberg y Cheung vuelven para contestar la pregunta que dejaron abierta en 2006: si Billy y Tommy son los hijos de Wanda Maximoff, ¿dónde está ella? Desde <em>House of M</em> nadie sabe nada de la Bruja Escarlata, y el poder de Billy empieza a parecerse demasiado al suyo. Es la historia más grande de los Jóvenes Vengadores y deja al grupo disuelto hasta 2013.'
+  navegacion:
+    anio: 2010–2012
+    texto: La cruzada de los niños
+  contenido:
+  - evento:
+      id: jv-b3-avengers-the-childrens-crusade
+      ancla: ev-crusade
+      etiqueta: Evento · Maxiserie de 9 números y un one-shot · Julio 2010 – marzo 2012
+      titulo: 'Avengers: The Children’s Crusade'
+      creditos: Allan Heinberg · Jim Cheung
+      descripcion:
+      - 'Billy, Tommy y el resto del grupo salen a buscar a Wanda, y por el camino se cruzan con Magneto, Quicksilver y un Ant-Man sacado del pasado. La encuentran en Latveria a punto de casarse con el Doctor Muerte, y lo que viene después enfrenta otra vez a Vengadores y X-Men por la culpa de la Decimación. <strong>Es caro: muere Stature</strong>, y la serie se cierra con Teddy pidiéndole a Billy que se case con él.'
+      apartados:
+      - apartado: Antes de empezar
+        texto: '<em>Avengers Disassembled</em> y <em>House of M</em> (Expediente Mutante I, bloques 1 y 2) explican qué hizo Wanda y por qué la buscan los X-Men. No son imprescindibles: la serie lo resume.'
+      - apartado: Orden de lectura
+        texto: 'Children’s Crusade #1 → #2 → #3 → #4 → <span class="cap">Children’s Crusade: Young Avengers #1</span> → Children’s Crusade #5 → #6 → #7 → #8 → #9'
+      - apartado: El one-shot
+        texto: 'Se publicó entre el #4 y el #5. Iron Lad se cruza con versiones futuras del grupo, entre ellas un Teddy que ha heredado el nombre de su padre, Capitán Marvel.'
+      - apartado: Después
+        texto: Wanda vuelve a la línea Marvel, y lo siguiente que hace pesa en <em>Avengers vs. X-Men</em> (Expediente Mutante I, bloque 5). Para Billy y Teddy, la historia sigue en <em>Young Avengers</em> vol. 2.
+- id: b4
+  fechas: 2013 — 2014
+  titulo: Estilo &gt; sustancia
+  intro: Kieron Gillen y Jamie McKelvie relanzan el grupo con otro tono —pop, metaficción, dimensiones paralelas— y ponen a la pareja en el centro. Billy intenta devolverle a Teddy a su madre con magia, y lo que trae es otra cosa. Para muchos lectores, es la mejor etapa del personaje.
+  navegacion:
+    anio: 2013–2014
+    texto: Estilo &gt; sustancia
+  contenido:
+  - tramo:
+      numero: '4.1'
+      titulo: Quince números
+      cuando: Enero 2013 – enero 2014
+      nota: 'El prólogo de la serie va en <em>Marvel NOW! Point One</em> #1 (octubre de 2012) y está recopilado en el primer tomo.'
+      entradas:
+      - serie:
+          id: jv-b4-young-avengers-vol-2-1-15
+          prioridad: p1
+          titulo: Young Avengers vol. 2 <span class="nums">#1–15</span>
+          creditos: Kieron Gillen · Jamie McKelvie, Mike Norton y otros · 2013–2014
+          continuidad:
+          - viene: ◂ Viene de <em>Children’s Crusade</em> (bloque 3)
+          descripcion:
+          - El hechizo de Billy invoca a Madre, un parásito interdimensional que se apodera de los padres de los chicos. Con Kate Bishop, America Chavez, Noh-Varr, Prodigy y un Loki adolescente que no es de fiar, el grupo huye por media realidad. Loki le mete a Teddy una duda en la cabeza —si existe de verdad o si Billy lo creó sin saberlo como el novio perfecto— y la serie la toma en serio.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: jv-b4-original-sins-1-5
+          aparicion: true
+          donde: En otra serie · Original Sin
+          titulo: Original Sins <span class="nums">#1–5</span>
+          creditos: Ryan North · Ramón Villalobos (historia de los Jóvenes Vengadores) · 2014
+          descripcion:
+          - Tie-in antológico de <em>Original Sin</em>. En la historia por entregas de los Jóvenes Vengadores, Hulkling, Prodigy y Speed intentan salvar a la gente desbordada por los secretos del Vigilante, y para hacerlo necesitan la ayuda de Hood. Billy no sale.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b5
+  fechas: 2015 — 2016
+  titulo: Los Nuevos Vengadores
+  intro: 'Tras <em>Secret Wars</em>, Sunspot compra A.I.M. y la convierte en un equipo de Vengadores de rescate. Al Ewing ficha a Billy y a Teddy, y empieza a preparar con años de antelación lo que llegará en <em>Empyre</em>: la profecía del unificador kree-skrull y la espada que lo demuestra.'
+  navegacion:
+    anio: 2015–2016
+    texto: Los Nuevos Vengadores
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: Avengers Idea Mechanics
+      cuando: Octubre 2015 – noviembre 2016
+      nota: 'Las cabeceras de <em>Standoff</em> (#8–10) y <em>Civil War II</em> (#12 en adelante) no obligan a leer esos eventos: la serie se entiende sola.'
+      entradas:
+      - serie:
+          id: jv-b5-avengers-0-new-avengers-vol-4-1-6
+          prioridad: p2
+          titulo: Avengers <span class="nums">#0</span> + New Avengers vol. 4 <span class="nums">#1–6</span>
+          creditos: Al Ewing y otros · Gerardo Sandoval (New Avengers) · 2015–2016
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Unos híbridos kree-skrull secuestran a Teddy para que reclame los dos tronos, y él recupera la espada legendaria Excelsior, la prueba de que es el unificador de la profecía. Dice que volverá cuando esté preparado. El equipo conoce además a sus versiones del futuro: Teddy como Rey Hulk y Billy como el Demiurgo, un villano.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: jv-b5-new-avengers-vol-4-7-11
+          prioridad: p2
+          titulo: New Avengers vol. 4 <span class="nums">#7–11</span>
+          creditos: Al Ewing · Joshua Cassara, Marcus To y otros · 2016
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - El choque con S.H.I.E.L.D. durante <em>Standoff</em>. Wiccan, Hulkling y Squirrel Girl dejan el equipo por negarse a ir a la guerra contra los suyos.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: jv-b5-new-avengers-vol-4-12-18
+          prioridad: p2
+          titulo: New Avengers vol. 4 <span class="nums">#12–18</span>
+          creditos: Al Ewing · Paco Medina y otros · 2016
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - Vuelven para rescatar al equipo de Sunspot de los Revengers del Hacedor. En el último número, Sunspot les regala un piso en Nueva York, y ahí empiezan a vivir como pareja prometida, medio retirados.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b6
+  fechas: 2019 — 2020
+  titulo: El rey del espacio
+  intro: 'Después de dos años casi sin aparecer, la pareja vuelve en series menores y en seguida llega el momento que Ewing llevaba preparando desde 2015: Teddy acepta ser Dorrek VIII, une a kree y skrulls bajo su corona y vuelve a la Tierra al frente de una flota. <em>Empyre</em> es el evento de Hulkling, y también el de su boda.'
+  navegacion:
+    anio: 2019–2020
+    texto: El rey del espacio
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: Antes del trono
+      cuando: Mayo 2019 – agosto 2020
+      nota: Tres lecturas sueltas e independientes entre sí. Ninguna es necesaria para <em>Empyre</em>.
+      entradas:
+      - serie:
+          id: jv-b6-war-of-the-realms-war-scrolls-2
+          aparicion: true
+          donde: En otra serie · War of the Realms
+          titulo: 'War of the Realms: War Scrolls <span class="nums">#2</span>'
+          creditos: Anthony Oliveira · Nick Robles (historia «My Drag Brunch with Loki») · 2019
+          descripcion:
+          - Historia corta en mitad de <em>War of the Realms</em>, con Billy, Teddy y Loki. Un respiro sin consecuencias.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b6-deaths-head-1-4
+          aparicion: true
+          donde: En otra serie · Death’s Head
+          titulo: Death’s Head <span class="nums">#1–4</span>
+          creditos: Tini Howard · Kei Zama · 2019
+          descripcion:
+          - Billy decide robar a Vee, una versión adolescente del robot mercenario, y los dos acaban haciendo equipo a la fuerza con Death’s Head. Son coprotagonistas.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b6-strikeforce-1-9
+          aparicion: true
+          donde: En otra serie · Strikeforce
+          titulo: Strikeforce <span class="nums">#1–9</span>
+          creditos: Tini Howard · Germán Peralta · 2019–2020
+          descripcion:
+          - Wiccan, solo, en un equipo de operaciones sobrenaturales con Blade, Angela y Spider-Woman, entre otros, contra los Vridai, una amenaza demoníaca escondida entre los humanos. Teddy sale en algunos números. Termina el mismo mes que <em>Empyre</em> llega a su mitad, sin cruzarse con él.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: jv-b6-empyre
+      ancla: ev-empyre
+      etiqueta: Evento · Vengadores y 4 Fantásticos · Diciembre 2019 – septiembre 2020
+      titulo: Empyre
+      creditos: Al Ewing &amp; Dan Slott · Valerio Schiti · Lords of Empyre de Chip Zdarsky, Anthony Oliveira y Manuel García
+      descripcion:
+      - 'Hulkling, ya emperador de la alianza kree-skrull, llega a la Luna para la guerra final contra los Cotati, y a mitad del evento parece volverse contra la Tierra. En el #4 Billy lo ve y lo tiene claro: ese no es el hombre con el que se casó —y así se descubre que ya se habían casado en secreto—. La traición viene de R’Klll, la abuela de Teddy.'
+      apartados:
+      - apartado: Antes de empezar
+        texto: '<span class="cap">Incoming! #1</span>, donde Teddy aparece coronado, y <em>Road to Empyre: The Kree/Skrull War</em> #1. El primero sí conviene.'
+      - apartado: Orden de lectura
+        texto: 'Empyre: Avengers #0 → Empyre: Fantastic Four #0 → <strong>Empyre #1</strong> → <strong>#2</strong> → <span class="cap">Lords of Empyre: Emperor Hulkling #1</span> → <strong>Empyre #3</strong> → <span class="cap">Empyre #4</span> → <strong>#5</strong> → <strong>#6</strong> → <span class="cap">Empyre: Aftermath Avengers #1</span> → Empyre: Fallout Fantastic Four #1'
+      - apartado: Los capítulos de la pareja
+        texto: '<em>Lords of Empyre: Emperor Hulkling</em> cuenta cómo Teddy unió los dos imperios y por qué tuvo que dejar a Billy en la Tierra. <em>Empyre: Aftermath Avengers</em> #1 es <strong>la boda real</strong>: Billy queda como príncipe consorte y mago de la corte.'
+      - apartado: Cómo queda
+        texto: Teddy gana la guerra con clemencia y, en vez de ejecutar al Super-Skrull que mató a su madre adoptiva, lo convierte en diplomático de la alianza.
+      - apartado: Prescindible
+        texto: '<em>Captain Marvel</em> #18–20 (Carol como Acusadora Suprema de Hulkling) y el resto de tie-ins de <em>Empyre</em>.'
+      - apartado: Conexión
+        texto: El mismo evento está en el bloque 1 del Expediente Mutante II y en el bloque 7 del Expediente Guardianes. Allí es contexto; aquí, el centro.
+- id: b7
+  fechas: 2021 — 2022
+  titulo: Emperador y consorte
+  intro: La luna de miel dura un número. Desde su trono en el espacio, la pareja se mezcla con los Guardianes de la Galaxia y con el cosmos de Al Ewing, y entre medias Marvel les da su primera serie propia, en formato digital.
+  navegacion:
+    anio: 2021–2022
+    texto: Emperador y consorte
+  contenido:
+  - tramo:
+      numero: '7.1'
+      titulo: Recién casados
+      cuando: Marzo – junio 2021
+      entradas:
+      - serie:
+          id: jv-b7-king-in-black-wiccan-and-hulkling-1
+          prioridad: p2
+          titulo: 'King in Black: Wiccan and Hulkling <span class="nums">#1</span>'
+          creditos: Tini Howard · Luciano Vecchio · marzo de 2021
+          descripcion:
+          - Los shi’ar los invitan a una luna de miel en su mejor playa, justo cuando Knull y sus simbiontes deciden atacarla. El primer número con los dos nombres en la portada.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: jv-b7-guardians-of-the-galaxy-vol-6-13-15
+          aparicion: true
+          prioridad: p2
+          donde: En otra serie · Guardianes de la Galaxia
+          titulo: Guardians of the Galaxy vol. 6 <span class="nums">#13–15</span>
+          creditos: Al Ewing · Juan Frigeri · 2021
+          continuidad:
+          - sigue: ▸ Los números
+          descripcion:
+          - 'El emperador y su consorte se unen a los Guardianes para defender Hala. Es la misma serie del bloque 7 del Expediente Guardianes: si ya la llevas allí, no la leas dos veces.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: jv-b7-marvels-voices-pride-1
+          aparicion: true
+          prioridad: p2
+          donde: En otra serie · Antología
+          titulo: 'Marvel’s Voices: Pride <span class="nums">#1</span>'
+          creditos: Allan Heinberg · Jim Cheung (historia «The Vows») · junio de 2021
+          descripcion:
+          - Antología del Orgullo con una historia corta de Billy y Teddy hecha por sus creadores, quince años después del primer número.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: jv-b7-the-last-annihilation
+      ancla: ev-last
+      etiqueta: Cruce con los Guardianes y los X-Men · 7 capítulos · Julio – septiembre 2021
+      titulo: The Last Annihilation
+      creditos: Al Ewing · varios
+      descripcion:
+      - Dormammu, fundido con Ego, el planeta viviente, quiere conquistar el espacio, y el imperio de Hulkling está en su camino. El one-shot de la pareja cuenta la defensa del Mundo Trono II mientras los Guardianes y S.W.O.R.D. pelean en el otro frente.
+      apartados:
+      - apartado: Orden completo
+        texto: '<span class="cap">GotG #16</span> → S.W.O.R.D. #7 → GotG #17 → Cable: Reloaded #1 → <span class="cap">The Last Annihilation: Wiccan &amp; Hulkling #1</span> → The Last Annihilation: Wakanda #1 → <span class="cap">GotG #18</span>'
+      - apartado: Versión mínima
+        texto: '<em>The Last Annihilation: Wiccan &amp; Hulkling</em> #1 suelto (Anthony Oliveira · Jan Bazaldua). Se entiende sin el resto.'
+      - apartado: Conexión
+        texto: Es el mismo cruce del bloque 7 del Expediente Guardianes y del bloque 2 del Expediente Mutante II, en el mismo orden.
+  - tramo:
+      numero: '7.2'
+      titulo: Caminos no tomados
+      cuando: Octubre 2021 – diciembre 2022
+      nota: Las <em>Infinity Comics</em> son cómics digitales en formato vertical de Marvel Unlimited. Las dos historias de la pareja forman una sola trama.
+      entradas:
+      - serie:
+          id: jv-b7-x-men-the-trial-of-magneto-3-5
+          aparicion: true
+          donde: En otra serie · X-Men
+          titulo: 'X-Men: The Trial of Magneto <span class="nums">#3–5</span>'
+          creditos: Leah Williams · Lucas Werneck · 2021
+          descripcion:
+          - La Bruja Escarlata, asesinada en la Hellfire Gala de 2021, vuelve de entre los muertos, y Billy aparece en los tres últimos números. El juicio a Magneto es asunto mutante; aquí solo interesa el regreso de su madre.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b7-hulkling-wiccan-infinity-comic-1-4
+          prioridad: p2
+          titulo: Hulkling &amp; Wiccan Infinity Comic <span class="nums">#1–4</span>
+          creditos: Josh Trujillo · Jodi Nishijima · noviembre de 2021
+          continuidad:
+          - sigue: ▸ Sigue en <em>Love Unlimited</em>
+          descripcion:
+          - 'Un artefacto mágico les enseña a los dos las vidas que no eligieron, y Billy crea sin querer una realidad en la que cada uno se enamoró de otra persona. Salió en papel como el one-shot <em>Hulkling &amp; Wiccan</em> #1 (junio de 2022).'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: jv-b7-love-unlimited-infinity-comic-25-30
+          titulo: Love Unlimited Infinity Comic <span class="nums">#25–30</span>
+          creditos: Josh Trujillo · Tokitokoro · noviembre – diciembre de 2022
+          continuidad:
+          - viene: ◂ Viene de <em>Hulkling &amp; Wiccan</em>
+          descripcion:
+          - Goebig, el novio de Teddy en la realidad alternativa, se presenta en su puerta pidiendo ayuda. Seis capítulos sobre celos y sobre qué hacer con alguien que ha vivido otra vida con tu marido.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b8
+  fechas: 2023 — 2024
+  titulo: La corte de Hala
+  intro: 'Dos años sin serie propia, pero con el imperio de Hulkling convertido en escenario habitual del cosmos Marvel. Son apariciones en colecciones ajenas, independientes entre sí: todo el bloque es opcional, y se puede leer en cualquier orden o saltar entero.'
+  navegacion:
+    anio: 2023–2024
+    texto: La corte de Hala
+  contenido:
+  - tramo:
+      numero: '8.1'
+      titulo: Visitas a palacio
+      cuando: Julio – octubre 2023
+      entradas:
+      - serie:
+          id: jv-b8-scarlet-witch-2023-6
+          aparicion: true
+          donde: En otra serie · Scarlet Witch
+          titulo: Scarlet Witch (2023) <span class="nums">#6</span>
+          creditos: Steve Orlando · Lorenzo Tammetta · julio de 2023
+          descripcion:
+          - Un enemigo del imperio kree-skrull cruza la Última Puerta de la tienda de Wanda pidiendo ayuda, y ella tiene que elegir entre su promesa de ayudar a quien llame y su hijo y su yerno.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b8-loki-2023-3
+          aparicion: true
+          donde: En otra serie · Loki
+          titulo: Loki (2023) <span class="nums">#3</span>
+          creditos: Dan Watters · Germán Peralta · agosto de 2023
+          descripcion:
+          - Loki necesita un fragmento de Naglfar que se ha convertido en reliquia sagrada en el imperio, y el emperador y su consorte tienen que ayudarle. Diez años después de Gillen, las cuentas pendientes con él siguen ahí.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b8-guardians-of-the-galaxy-vol-7-7
+          aparicion: true
+          donde: En otra serie · Guardianes de la Galaxia
+          titulo: Guardians of the Galaxy vol. 7 <span class="nums">#7</span>
+          creditos: Collin Kelly &amp; Jackson Lanzing · Kev Walker · octubre de 2023
+          descripcion:
+          - 'Con los Guardianes derrotados, Hulkling y Wiccan intentan contener el Grootfall antes de que se extienda al resto del universo. Es un capítulo de <em>Grootfall</em> (bloque 8 del Expediente Guardianes): se entiende mejor dentro de esa serie.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b8-captain-marvel-assault-on-eden-1
+          aparicion: true
+          donde: En otra serie · Captain Marvel
+          titulo: 'Captain Marvel: Assault on Eden <span class="nums">#1</span>'
+          creditos: Anthony Oliveira · Eleonora Carlini · octubre de 2023
+          descripcion:
+          - Hala, el planeta natal de los kree, vive en paz bajo el emperador Hulkling hasta que los Centinelas kree empiezan a atacar a civiles y a llevarse niños. Carol Danvers acude a ayudar.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '8.2'
+      titulo: El otro hijo de Mar-Vell
+      cuando: Febrero – diciembre 2024
+      entradas:
+      - serie:
+          id: jv-b8-captain-marvel-2023-5-10
+          aparicion: true
+          donde: En otra serie · Captain Marvel
+          titulo: Captain Marvel (2023) <span class="nums">#5–10</span>
+          creditos: Alyssa Wong · Jan Bazaldua y otros · 2024
+          descripcion:
+          - 'Genis-Vell, el otro hijo del Capitán Marvel original, va a por su medio hermano Teddy y a por las Nega-Bandas que esconden los anillos de boda de la pareja. Teddy es secundario en casi todos los números; el #6 es el suyo.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b8-scarlet-witch-2024-7
+          aparicion: true
+          donde: En otra serie · Scarlet Witch
+          titulo: Scarlet Witch (2024) <span class="nums">#7</span>
+          creditos: Steve Orlando · Lorenzo Tammetta · diciembre de 2024
+          descripcion:
+          - Wanda, Billy, Tommy y su nueva alumna Amaranth atrapados en una casa del terror de feria. Una historia de madre e hijos, sin Teddy.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b9
+  fechas: 2025 — hoy
+  titulo: El camino de las brujas
+  intro: 'Jonathan Hickman derriba el orden del cosmos Marvel en <em>Imperial</em>, y el imperio de Hulkling cae con él. Billy y Teddy vuelven a la Tierra estrellados, Teddy al borde de la muerte, y Billy hace un trato con una bruja para salvarlo: así empieza <em>Witches’ Road</em>, la primera serie de Wiccan en solitario.'
+  navegacion:
+    anio: 2025–2026
+    texto: El camino de las brujas
+  contenido:
+  - evento:
+      id: jv-b9-imperial
+      ancla: ev-imperial
+      etiqueta: Evento cósmico · Junio – octubre 2025
+      titulo: Imperial
+      creditos: Jonathan Hickman · Federico Vicentini, Iban Coello
+      descripcion:
+      - Alguien envenena a varios miembros del Consejo Galáctico, y el emperador J’son de Spartax acusa a la alianza kree-skrull, que ni sabía que su propio ministerio de ciencia había fabricado el veneno. Un francotirador ataca el consejo, Hulkling y Wiccan desaparecen, y cuando aparecen están perdidos en el espacio sin que nadie responda a sus llamadas.
+      apartados:
+      - apartado: Orden
+        texto: '<span class="cap">Imperial #1</span> → #2 → <span class="cap">Imperial #3</span> → <span class="cap">Imperial #4</span>. La pareja no sale en el #2.'
+      - apartado: Cómo quedan
+        texto: 'Kl’rt, el Super-Skrull, traiciona a la alianza; el imperio skrull se rompe y queda fuera de la nueva Unión Galáctica, y los kree se abstienen. En el #4, America Chavez saca de allí a Teddy porque Billy ha perdido mucha sangre. Su papel en el evento es pequeño, pero todo lo que sigue sale de aquí.'
+      - apartado: Prescindible
+        texto: Los one-shots <em>Imperial War</em>. La pareja no sale en ninguno.
+      - apartado: Conexión
+        texto: El mismo evento está en el bloque 9 del Expediente Guardianes, donde es el centro, y en el bloque 5 del Expediente Mutante II.
+  - tramo:
+      numero: '9.1'
+      titulo: Wiccan en solitario
+      cuando: Diciembre 2025 – mayo 2026
+      nota: '<em>Witches’ Road</em> arranca justo donde los deja <em>Imperial</em> #4, y <em>Raid of Ultron</em> recoge donde termina la miniserie.'
+      entradas:
+      - serie:
+          id: jv-b9-wiccan-witches-road-1-5
+          prioridad: p1
+          titulo: 'Wiccan: Witches’ Road <span class="nums">#1–5</span>'
+          creditos: Wyatt Kennedy · Andy Pereira · 3 de diciembre de 2025 – 29 de abril de 2026
+          continuidad:
+          - viene: ◂ Viene de <em>Imperial</em>
+          descripcion:
+          - 'De vuelta en la Tierra, la magia de Billy apenas responde y Teddy se está muriendo. Para salvarlo, Billy hace un trato con una bruja oscura, Baba Yaga, y recorre el Camino de las Brujas hasta verse enfrentado a ella y a Morgan le Fay a la vez. En el #5 se reúnen los Jóvenes Vengadores para la batalla final, por primera vez en años.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: jv-b9-wiccan-hulkling-raid-of-ultron-1
+          prioridad: p2
+          titulo: 'Wiccan &amp; Hulkling: Raid of Ultron <span class="nums">#1</span>'
+          creditos: Wyatt Kennedy, Tegan Quin, Josh Trujillo, Zoe Tunnell · Stephen Byrne, Rachael Stott, Luciano Vecchio, Bradley Clayton · 27 de mayo de 2026
+          continuidad:
+          - viene: ◂ Viene de <em>Witches’ Road</em>
+          descripcion:
+          - 'Especial del Orgullo de 2026: Billy y Teddy reúnen a amigos y familia para celebrar su aniversario de boda, y Ultron se presenta a reclamar a Vision y a su hija Viv. Varias historias encadenadas que forman una sola.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '9.2'
+      titulo: Al margen
+      cuando: Octubre 2025 – septiembre 2026
+      nota: Tres lecturas que no cambian nada en la historia de la pareja. Solo para completistas.
+      entradas:
+      - serie:
+          id: jv-b9-world-of-revelation-1
+          aparicion: true
+          prioridad: p4
+          donde: Futuro posible · Age of Revelation
+          titulo: World of Revelation <span class="nums">#1</span>
+          creditos: Ryan North, Al Ewing, Steve Foxe · Adam Szalowski, Jesús Merino · 8 de octubre de 2025
+          descripcion:
+          - Antología del mundo de <em>Age of Revelation</em>, diez años en el futuro. Una de sus historias muestra a un Teddy que cuida de Billy sin haber podido curarlo. Es un futuro posible, no la continuidad actual.
+          etiqueta:
+            clase: t4
+            texto: Futuro posible
+      - serie:
+          id: jv-b9-strange-tales-2025-1
+          aparicion: true
+          donde: En otra serie · Strange Tales
+          titulo: Strange Tales (2025) <span class="nums">#1</span>
+          creditos: Jeremy Whitley · Bayleigh Underwood · octubre de 2025
+          descripcion:
+          - Una partida de rol en Halloween entre Nico Minoru, Karolina Dean, Teddy y Billy sale mal cuando los dados empiezan a hacer aparecer monstruos de verdad. Los dos desaparecen pronto de la historia.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: jv-b9-sorcerer-supreme-1-10
+          aparicion: true
+          donde: En otra serie · Sorcerer Supreme
+          titulo: Sorcerer Supreme <span class="nums">#1–10</span>
+          creditos: Steve Orlando · Bernard Chang y otros · 31 de diciembre de 2025 – 30 de septiembre de 2026
+          descripcion:
+          - 'Wanda se proclama Hechicera Suprema tras la caída de Doom. Billy aparece como secundario en algunos números (#1, #3, #6, #9 y #10). Es la serie de su madre, no la suya.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      etiqueta: Frontera de la guía · 22 de octubre de 2026
+      titulo: Dónde están ahora
+      descripcion:
+      - Tras <em>Raid of Ultron</em>, <strong>no hay ninguna serie de Wiccan, de Hulkling ni de los Jóvenes Vengadores en publicación ni anunciada</strong> que haya podido encontrar. Billy sigue apareciendo en <em>Sorcerer Supreme</em>, la serie de Wanda.
+      apartados:
+      - apartado: Qué vigilar
+        texto: Qué queda del imperio de Hulkling después de <em>Imperial</em>, y si la reunión de los Jóvenes Vengadores en <em>Witches’ Road</em>
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Una pareja, no un equipo
+    html: <p>Esta guía sigue a Billy y a Teddy, no a cada miembro del grupo. Las series de los Jóvenes Vengadores están enteras porque los dos salen en todas; de Kate Bishop, America Chavez o Patriot solo está lo que comparten con ellos.</p>
+  - titulo: Si quieres ir más atrás
+    html: '<p>Los gemelos de Wanda y Vision nacen en <em>The Vision and the Scarlet Witch</em> vol. 2 #12 (1986) y desaparecen en la etapa de John Byrne en <em>Avengers West Coast</em> (1989–1990), donde resultan ser fragmentos del alma de Mefisto. Su pérdida es lo que rompe a Wanda en <em>Avengers Disassembled</em> y <em>House of M</em>, en los bloques 1 y 2 del Expediente Mutante I.</p>'
+  - titulo: Conexiones con el resto de la colección
+    html: <p><em>Civil War</em> y <em>Secret Invasion</em> están también en el Expediente Mutante I; <em>Empyre</em>, <em>The Last Annihilation</em> e <em>Imperial</em>, en el Mutante II y en Guardianes. <em>Children’s Crusade</em> lleva directamente a <em>Avengers vs. X-Men</em> (Mutante I, bloque 5). Si llevas varios expedientes a la vez, lee cada evento una sola vez.</p>
+  - titulo: Las Infinity Comics
+    html: <p><em>Hulkling &amp; Wiccan</em> y <em>Love Unlimited</em> se publicaron primero en Marvel Unlimited, en formato vertical para leer en el móvil. La primera tiene edición en papel; la segunda, de momento, solo digital.</p>
+  - titulo: Lo que se ha quedado fuera
+    html: '<p>Cameos y apariciones de grupo que no mueven nada: <em>Mighty Avengers</em> (2009), los números de los Vengadores de <em>Dark Reign</em> y <em>Siege</em>, <em>Fantastic Four</em> #42–45 (2022), las antologías <em>Marvel’s Voices: Pride</em> de 2022 y 2023, las historias de <em>Avengers Academy: Marvel’s Voices</em> (2024) y los one-shots de <em>Imperial War</em>.</p>'
+  - titulo: Hasta dónde llega esta guía
+    html: '<p>Cerrada a <strong>22 de octubre de 2026</strong>. Las apariciones están contrastadas con las listas de Marvel Fandom y las guías de Comic Book Herald, y las fechas, con Marvel.com. Los órdenes de <em>Civil War</em> y <em>Secret Invasion</em> siguen la cronología de Marvel Fandom: los tie-ins están colocados entre los números del evento en que ocurren.</p>'

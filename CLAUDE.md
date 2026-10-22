@@ -30,6 +30,7 @@ C:\Users\josem\Desktop\Josema\
     Expediente Mutante\Expediente-Mutante-II-Krakoa-2019-2026.html (m2)
     Expediente Eterno\Expediente-Eterno-2006-2026.html        (et)
     Expediente Guardianes\Expediente-Guardianes-2007-2026.html (gg)
+    Expediente Jovenes Vengadores\Expediente-Jovenes-Vengadores-2005-2026.html (jv)
     */Older Versions\              copias anteriores a mano (Mutante I v0–v7, II v1–v5, Eterno v2, Guardianes v2)
 ```
 
@@ -91,8 +92,8 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 247 entradas
-marcables (m1 116, m2 80, et 15, gg 36).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 283 entradas
+marcables (m1 116, m2 80, et 15, gg 36, jv 36).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -130,7 +131,7 @@ servicio/               sincronización en línea (§6)
 ```
 
 Campos de una **serie**: `id`, `ancla?`, `prioridad?` (p1 esencial · p2 recomendado · sin campo
-opcional · p4 alterna), `aparicion?` (ficha "guest": aparición en serie ajena, usado en Eterno),
+opcional · p4 alterna), `aparicion?` (ficha "guest": aparición en serie ajena, usado en Eterno y Jóvenes Vengadores),
 `donde?`, `titulo`, `creditos`, `descripcion[]`, `continuidad[{sigue | viene}]`,
 `etiqueta{clase t1|t2|t4|opcional, texto}`.
 
@@ -241,9 +242,17 @@ Servicio (`servicio/`):
 - **Guardianes (gg, 2007–2026)**: Annihilation: Conquest → Abnett & Lanning → Bendis → Gemas del
   Infinito → Cates/Ewing → Grootfall → Imperial (guionista **Jonathan Hickman**). Recoge los
   crossovers con otras líneas.
-- **Portada** (`Expedientes Marvel.html`): índice, cronología 2001–2026 y tabla de 11 «cruces»
-  (Secret Invasion, War of Kings, Age of Ultron, Trial of Jean Grey, Black Vortex, Secret Wars,
-  Civil War II, Empyre, The Last Annihilation, A.X.E., Imperial).
+- **Jóvenes Vengadores (jv, 2005–2026)**, añadido el 2026-10-22 y centrado en **Wiccan y Hulkling**
+  (Billy Kaplan y Teddy Altman), a petición del usuario: Heinberg/Cheung → eventos 2006–2010 →
+  Children's Crusade → Gillen/McKelvie → New Avengers de Ewing → Empyre → Emperador y consorte →
+  apariciones 2023–2024 → Imperial y *Wiccan: Witches' Road* (2025–2026) + *Raid of Ultron*.
+  9 bloques, 36 entradas. Fuentes: listas de apariciones de Marvel Fandom (categoría
+  `William_Kaplan_(Earth-616)/Appearances` y `Theodore_Altman_(Earth-616)/Appearances`, vía su API
+  `api.php`, porque la web da 402/403) y Comic Book Herald (descargado con curl y user-agent de
+  navegador). Solo incluye lo que mueve algo de la pareja; lo descartado está en su apéndice.
+- **Portada** (`Expedientes Marvel.html`): índice, cronología 2001–2026 y tabla de 12 «cruces»
+  (Civil War, Secret Invasion, War of Kings, Age of Ultron, Trial of Jean Grey, Black Vortex,
+  Secret Wars, Civil War II, Empyre, The Last Annihilation, A.X.E., Imperial).
 - Criterios:
   - una serie larga se parte justo donde un crossover se lleva sus números;
   - cada parte indica de dónde viene y adónde sigue (`continuidad`);

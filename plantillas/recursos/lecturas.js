@@ -13,7 +13,7 @@
   var EXP = '__EXP__';
   var URL_SERVICIO = '__SYNC_URL__'.replace(/\/+$/, '');
   var K_LOCAL = 'expedientes-leidos', K_CONF = 'expedientes-sincronizacion', K_HIDE = 'expedientes-ocultar-leidos';
-  var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eterno', gg: 'Expediente Guardianes' };
+  var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eterno', gg: 'Expediente Guardianes', jv: 'Expediente Jóvenes Vengadores' };
   // Entradas que se movieron de sitio conservando su id: { id: 'expediente-bloque' donde estan ahora }
   var REUBICADAS = {/*__REUBICADAS__*/};
   var ALFABETO = 'abcdefghijkmnpqrstuvwxyz23456789';   // sin l, o, 0, 1: no se confunden al escribirlo a mano
