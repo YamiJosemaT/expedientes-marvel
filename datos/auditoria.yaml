@@ -637,3 +637,90 @@ jv:
     bloques: [9]
   esperado:
   - [1, 5]
+4f:
+- serie: Fantastic Four vol.3
+  reglas:
+  - alias: Fantastic Four
+    bloques: [1, 2]
+    rango: [35, 70]
+  - alias: Fantastic Four
+    bloques: [2, 3, 4, 5, 6]
+    rango: [500, 611]
+  esperado:
+  - [35, 70]
+  - [500, 588]
+  - [600, 611]
+- serie: FF vol.1
+  reglas:
+  - alias: FF
+    bloques: [6]
+  esperado:
+  - [1, 23]
+- serie: FF vol.2
+  reglas:
+  - {alias: FF, vol: '2'}
+  esperado:
+  - [1, 16]
+- serie: Fantastic Four vol.4
+  reglas:
+  - {alias: Fantastic Four, vol: '4'}
+  esperado:
+  - [1, 16]
+- serie: Fantastic Four vol.5
+  reglas:
+  - {alias: Fantastic Four, vol: '5'}
+  esperado:
+  - [1, 14]
+  - [642, 645]
+- serie: Fantastic Four vol.6
+  reglas:
+  - {alias: Fantastic Four, vol: '6'}
+  - alias: Fantastic Four
+    bloques: [9]
+    rango: [1, 48]
+  esperado:
+  - [1, 48]
+- serie: Fantastic Four vol.7
+  reglas:
+  - {alias: Fantastic Four, vol: '7'}
+  esperado:
+  - [1, 33]
+- serie: Fantastic Four vol.8
+  reglas:
+  - {alias: Fantastic Four, vol: '8'}
+  - alias: Fantastic Four
+    bloques: [11]
+    rango: [1, 30]
+  esperado:
+  - [1, null]
+- serie: Marvel Knights 4
+  reglas:
+  - alias: Marvel Knights 4
+    bloques: [2, 3]
+  esperado:
+  - [1, 30]
+- serie: Marvel 2-In-One
+  reglas:
+  - alias: Marvel 2-In-One
+    bloques: [8, 9]
+  esperado:
+  - [1, 12]
+- serie: 'Dark Reign: Fantastic Four'
+  reglas:
+  - alias: 'Dark Reign: Fantastic Four'
+    bloques: [5]
+  esperado:
+  - [1, 5]
+- serie: Thing vol.2
+  reglas:
+  - alias: Thing
+    bloques: [3]
+    rango: [1, 8]
+  esperado:
+  - [1, 8]
+- serie: Human Torch vol.3
+  reglas:
+  - alias: Human Torch
+    bloques: [2]
+  esperado:
+  - [1, 12]

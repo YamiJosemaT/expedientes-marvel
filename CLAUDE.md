@@ -31,6 +31,7 @@ C:\Users\josem\Desktop\Josema\
     Expediente Eterno\Expediente-Eterno-2006-2026.html        (et)
     Expediente Guardianes\Expediente-Guardianes-2007-2026.html (gg)
     Expediente Jovenes Vengadores\Expediente-Jovenes-Vengadores-2005-2026.html (jv)
+    Expediente 4 Fantasticos\Expediente-4-Fantasticos-2000-2026.html (4f)
     */Older Versions\              copias anteriores a mano (Mutante I v0–v7, II v1–v5, Eterno v2, Guardianes v2)
 ```
 
@@ -89,11 +90,11 @@ entre la web y `Comics` solo a través del entorno.
 ## 4. Regla de oro: los `id`
 
 Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p. ej.
-`m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg). Es la clave de las marcas de lectura
+`m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 283 entradas
-marcables (m1 116, m2 80, et 15, gg 36, jv 36).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 446 entradas
+marcables (m1 116, m2 80, et 15, gg 36, jv 36, 4f 163).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -105,7 +106,7 @@ marcables; para excluir otra entrada: `marcable: false`.
 
 ```
 datos/
-  coleccion.yaml        anio_inicio 2001, anio_final 2026 ("hoy"), sincronizacion.url,
+  coleccion.yaml        anio_inicio 2000, anio_final 2026 ("hoy"), sincronizacion.url,
                         expedientes (clave, datos, archivo, nombre, nombre_corto, subtitulo, periodo,
                         resumen, numeros_aprox, tema_clave, acento{claro, claro_suave, oscuro, oscuro_suave}),
                         portada (textos de la página índice), cruces (eventos presentes en varios
@@ -250,9 +251,28 @@ Servicio (`servicio/`):
   `William_Kaplan_(Earth-616)/Appearances` y `Theodore_Altman_(Earth-616)/Appearances`, vía su API
   `api.php`, porque la web da 402/403) y Comic Book Herald (descargado con curl y user-agent de
   navegador). Solo incluye lo que mueve algo de la pareja; lo descartado está en su apéndice.
-- **Portada** (`Expedientes Marvel.html`): índice, cronología 2001–2026 y tabla de 12 «cruces»
-  (Civil War, Secret Invasion, War of Kings, Age of Ultron, Trial of Jean Grey, Black Vortex,
-  Secret Wars, Civil War II, Empyre, The Last Annihilation, A.X.E., Imperial).
+- **4 Fantásticos (4f, 2000–2026)**, añadido el 2026-10-26 y centrado en **Franklin Richards**, a
+  petición del usuario. Arranca en *Fantastic Four* vol.3 #35 (septiembre de 2000, Pacheco/Marín),
+  elegido por él; lo anterior a 2000 va en el recuadro «Antes de empezar». 11 bloques, 163 entradas,
+  unos 750 números: Pacheco → Waid/Wieringo (+ *Marvel Knights 4*) → Straczynski/McDuffie y Civil
+  War → Millar/Hitch → Hickman I → Hickman II (*FF* + «Forever» entrelazado) → Fraction/Robinson y
+  Secret Wars → años sin serie (*Marvel Two-in-One*) → Slott → Ryan North vol.7 → One World Under
+  Doom, vol.8 y DNX (en curso). Criterio acordado con el usuario: **amplio**, la serie principal y
+  sus series hermanas enteras aunque no salga Franklin; fichas de otras series si sale Franklin o
+  el grupo pesa; cameos y promocionales en listas del apéndice por época; especiales *Franklin
+  Richards: Son of a Genius* como ficha «al margen de la continuidad» (no son de su gusto).
+  Comprobado que todas las apariciones de Franklin (categoría
+  `Franklin_Richards_(Earth-616)/Appearances`) tienen ficha o mención. Órdenes de Civil War, Secret
+  Invasion y Forever según las notas de cronología de Marvel Fandom; los de Empyre, Fear Itself: FF,
+  Reckoning War y OWUD, por publicación (cada recuadro lo indica). Datos clave de Franklin ya
+  verificados: pierde los poderes en el #49 (2001); provoca sin querer a Modulus (#62); libera a Ben
+  de Angrir en Fear Itself #5; muere y vuelve en Secret Wars; deja de ser «mutante» en vol.6 #26, y
+  en vol.7 #18 se revela que se bloqueó él mismo los poderes salvo un día al año. Valeria muere en
+  OWUD #8, vuelve en el #9 a cambio de la vida de Doom y hereda Latveria en *Will of Doom* #1.
+- **Portada** (`Expedientes Marvel.html`): índice, cronología 2000–2026 y tabla de 17 «cruces»
+  (Civil War, World War Hulk, Secret Invasion, War of Kings, Fear Itself, Age of Ultron, Trial of
+  Jean Grey, Black Vortex, Secret Wars, Civil War II, X-Men/Fantastic Four, Empyre, The Last
+  Annihilation, A.X.E., Imperial, One World Under Doom, DNX).
 - Criterios:
   - una serie larga se parte justo donde un crossover se lleva sus números;
   - cada parte indica de dónde viene y adónde sigue (`continuidad`);
@@ -280,6 +300,9 @@ Servicio (`servicio/`):
   - tras recargar, esperar a un marcador de página nueva;
   - matar las instancias huérfanas filtrando por `remote-debugging-port`.
 - Chrome: `C:\Program Files\Google\Chrome\Application\chrome.exe`.
+- Marvel Fandom (vía `api.php`): de los números de 2018 en adelante casi nunca hay `Synopsis1`,
+  pero sí `Solicit` (texto de presentación de Marvel). Las notas `Continuity Notes` dicen entre qué
+  números ocurre cada tie-in; son la fuente de los órdenes de eventos.
 
 ## 9. Pendiente
 

@@ -1,0 +1,2307 @@
+# Expediente 4 Fantasticos
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: 4f
+titulo_pagina: Expediente 4 Fantásticos
+descripcion_pagina: Guía de lectura de los 4 Fantásticos desde el año 2000 hasta 2026 siguiendo a Franklin Richards, con todas sus series, sus eventos y las apariciones de Franklin en otras colecciones.
+cabecera:
+  antetitulo: Guía de lectura · Marvel Comics · Franklin Richards
+  titulo: Expediente<br/>4 Fantásticos<span class="thin">2000 — 2026</span>
+  entradilla: 'Franklin Richards nació en 1968, pero esta guía lo recoge en el año 2000: un niño escondido en otra dimensión mientras sus padres se quedan sin dinero y sin casa. En los veintiséis años siguientes crea universos, tiene a Galactus de heraldo y llega a perder sus poderes. Aquí está la serie de los 4 Fantásticos completa, con sus series hermanas y sus eventos, y cada aparición de Franklin en las colecciones de otros.'
+  cifras:
+  - valor: '27'
+    texto: Años de continuidad
+  - valor: '11'
+    texto: Bloques de lectura
+  - valor: '8'
+    texto: Eventos de toda la línea
+  - valor: ~750
+    texto: Números en total
+leyenda: |-
+  <p>Mismo sistema que los otros expedientes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Los capítulos <span class="cap">en color</span> dentro de un evento son los de los 4 Fantásticos.</p>
+  <p>La serie principal está entera, número a número, salga Franklin o no: es una guía del grupo. La etiqueta de cada ficha mide lo que importa para la familia Richards; la franja distingue lo que es de los 4 Fantásticos de lo que solo los toma prestados.</p>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie de los 4 Fantásticos o de uno de sus miembros</span>
+  <span class="key"><span class="swatch dashed"></span> Aparición en una serie ajena</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Al margen de la continuidad</span>
+  </div>
+cajas:
+- ruta:
+    titulo: La ruta corta
+    texto: 'Nueve paradas y unos 120 números, solo con lo que gira alrededor de Franklin: su hermana, el Infierno, el yo adulto que le devuelve los poderes, la muerte y la vuelta de <em>Secret Wars</em>, la pérdida de su identidad mutante, su secreto y lo que le pasa a Valeria al final.'
+    pasos:
+    - '<span>Fantastic Four Annual 2001 + Fantastic Four <em>#46–54</em></span>'
+    - '<span>Fantastic Four <em>#67–70, #500–502</em></span>'
+    - '<span>Marvel Knights 4 <em>#15–18</em></span>'
+    - '<span>Dark Reign: Fantastic Four <em>#1–5</em> + Fantastic Four <em>#570–588</em></span>'
+    - '<span>FF <em>#1–23</em> + Fantastic Four <em>#600–611</em></span>'
+    - '<span>Secret Wars <em>#1–9</em></span>'
+    - '<span>Fantastic Four vol. 6 <em>#1–4</em> + X-Men/Fantastic Four <em>#1–4</em> + vol. 6 <em>#25–26</em></span>'
+    - '<span>Fantastic Four vol. 7 <em>#1–4, #14–18</em></span>'
+    - '<span>One World Under Doom <em>#1–9</em> + Will of Doom <em>#1</em></span>'
+- html: |-
+    <h2>Antes de empezar</h2>
+    <p>No hace falta haber leído nada: el primer bloque arranca con equipo creativo nuevo y pone al día lo justo. Esto es lo que conviene saber de Franklin hasta el año 2000.</p>
+    <ol>
+    <li><span>Nace en Fantastic Four Annual #6 (1968): para salvar a Sue en el parto, Reed, Ben y Johnny tienen que robarle a Annihilus su Vara de Control Cósmico en la Zona Negativa.</span></li>
+    <li><span>Es un mutante de nivel Omega capaz de alterar la realidad desde muy pequeño. En el #141 (1973) Reed le «apaga» la mente para frenar sus poderes, y desde entonces la familia vive poniéndole cerrojos mentales que acaban saltando. En la etapa de John Byrne (#244–245, 1982) se convierte a sí mismo en adulto.</span></li>
+    <li><span>El segundo embarazo de Sue acaba en un parto en el que la niña nace muerta (#267, 1984). Esa hermana es la Valeria de esta guía.</span></li>
+    <li><span>De niño entra en Power Pack con el nombre de Tattletale (Power Pack #17, 1985). En Days of Future Present (anuales de 1990) se cruza con su yo adulto de Days of Future Past, y a mediados de los noventa pasa una temporada sustituido por una versión adolescente, Psi-Lord.</span></li>
+    <li><span>En Onslaught (1996) los héroes desaparecen dentro de un universo de bolsillo que ha creado él, la Contra-Tierra de Heroes Reborn, y en Heroes Reborn: The Return (1997) los Celestiales lo examinan como a uno de los suyos.</span></li>
+    <li><span>En la etapa de Chris Claremont (Fantastic Four vol. 3, 1998–2000) aparece Valeria von Doom, una adolescente de un futuro en el que Sue se casó con el Doctor Muerte. Al final de esa etapa Franklin y Valeria quedan escondidos en Otromundo, y Galactus está muerto desde Galactus: The Devourer (1999–2000).</span></li>
+    </ol>
+    <p>Si quieres enlazar sin saltos con Claremont, lee antes <em>Fantastic Four Annual 2000</em>: Reed sale de la armadura de Doom en la que estaba atrapado y Sue y él se reconcilian.</p>
+bloques:
+- id: b1
+  fechas: 2000 — 2002
+  titulo: El regreso al Baxter Building
+  intro: 'Carlos Pacheco y Rafael Marín, con Jeph Loeb a partir del #38, recogen a unos 4 Fantásticos arruinados, sin cuartel general y con los niños lejos de casa. En dos años recuperan el Edificio Baxter, pasan por la Zona Negativa y salvan el multiverso de Abraxas. Ahí entra Franklin: él es la clave de esa victoria, y al terminar Sue vuelve a estar embarazada de una niña que traerá al mundo el Doctor Muerte. Todas las fichas de <em>Fantastic Four</em> de este bloque son del volumen 3 (1998).'
+  navegacion:
+    anio: 2000–2002
+    texto: El regreso al Baxter Building
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: Sin casa
+      cuando: Septiembre 2000 – enero 2001
+      nota: 'El punto de partida. Franklin está en Otromundo con Valeria hasta el #46, así que aquí solo sale en la historia marco de una miniserie opcional.'
+      entradas:
+      - serie:
+          id: 4f-b1-fantastic-four-35-36
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#35–36</span>
+          creditos: Carlos Pacheco y Rafael Marín · Carlos Pacheco · 2000
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - El grupo necesita dinero y Reed está a punto de vender sus patentes al Gideon Trust, una empresa con muy mala fama. Mientras tanto, Diablo vuelve del Infierno a través de un espejo y destruye el cuartel general de los 4 Fantásticos en el Pier 4.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b1-fantastic-four-37-39
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#37–39</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Carlos Pacheco · 2000–2001
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          - sigue: ▸ Sigue en el tramo 1.2
+          descripcion:
+          - 'Realojados en Control de Daños, se enfrentan al Súper-Skrull en el rodaje de un western que protagoniza Johnny, y la Gárgola Gris convierte a Ben en piedra. Noah Baxter, el antiguo profesor de Reed, les tiene preparado un regalo: un Edificio Baxter nuevo, construido en órbita, que aterriza en su solar de siempre en Manhattan.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b1-before-the-fantastic-four-ben-grimm-and-logan-reed-richards-the-storms
+          titulo: 'Before the Fantastic Four: Ben Grimm and Logan / Reed Richards / The Storms <span class="nums">#1–3</span>'
+          creditos: Larry Hama · Peter David · Terry Kavanagh · 2000
+          descripcion:
+          - 'Tres miniseries de tres números sobre la vida de los cuatro antes del vuelo espacial: Ben de piloto de pruebas con Logan, Reed de aventurero con su novia Alyssa Moy y Sue y Johnny de adolescentes. En la de Reed, el narrador es él mismo, contándole la historia a Franklin.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-sentry-fantastic-four-1
+          aparicion: true
+          donde: En otra serie · The Sentry
+          titulo: Sentry/Fantastic Four <span class="nums">#1</span>
+          creditos: Paul Jenkins · Phil Winslade · 2000
+          descripcion:
+          - Uno de los cinco one-shots de <em>The Sentry</em>, la miniserie de Paul Jenkins y Jae Lee sobre un héroe al que todo el mundo había olvidado. Reed recupera el recuerdo de las aventuras que vivieron juntos. Solo tiene sentido si lees la miniserie, y el Centinela no vuelve a importar hasta <em>New Avengers</em> (2005).
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '1.2'
+      titulo: La Zona Negativa
+      cuando: Febrero – julio 2001
+      entradas:
+      - serie:
+          id: 4f-b1-fantastic-four-40-44
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#40–44</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Pacheco, Stuart Immonen y Joe Bennett · 2001
+          continuidad:
+          - viene: ◂ Viene del tramo 1.1
+          descripcion:
+          - 'El Gideon Trust abre un portal a la Zona Negativa con la tecnología de Reed para saquearla, y Reed, Sue y Ben se quedan atrapados allí: peregrinos del siglo XV, Maximus el Loco entre las ruinas de las Cuatro Libertades y un Annihilus capturado. En la Tierra, Johnny monta un equipo de emergencia con Namor, Namorita, Hulka y Ant-Man.'
+          - Detrás del Trust está Richard Janus, el Nega-Hombre, compañero de universidad de Reed y de Doom. Noah Baxter desaparece salvando Nueva York, y Johnny absorbe tanta energía negativa que ya no puede apagar su llama.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b1-fantastic-four-45
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#45</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Jeff Johnson · 2001
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 1.3
+          descripcion:
+          - Ben, que ahora puede pasar a voluntad de humano a Cosa, deja el grupo y se va a Florida a buscar a Alicia Masters. Allí le espera el Amo de las Marionetas. Al final, Ben y Alicia deciden quedarse como amigos. Mientras, Reed le fabrica a Johnny un traje que contenga su llama.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '1.3'
+      titulo: Abraxas
+      cuando: Julio – diciembre 2001
+      nota: El anual se publicó entre el
+      entradas:
+      - serie:
+          id: 4f-b1-fantastic-four-annual-2001
+          prioridad: p1
+          titulo: Fantastic Four Annual <span class="nums">2001</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Kevin Maguire y Leinil Francis Yu · 2001
+          continuidad:
+          - viene: ◂ Viene del tramo 1.2
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - La cabeza cortada de un Galactus de otra realidad cae en Central Park, y dentro hay una Nova de otro universo. El Vigilante ha perdido la memoria, las realidades empiezan a mezclarse, y lejos de allí una sombra persigue a Franklin y a Valeria y hace desaparecer a la niña.
+          - En la historia corta, Ben sale a cazar al Hombre Dragón para regalárselo a Franklin por su cumpleaños.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b1-fantastic-four-46-49
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#46–49</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Pacheco y Jeff Johnson · 2001
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          - sigue: ▸ Sigue en el
+          descripcion:
+          - 'Franklin y Valeria vuelven a casa, y Franklin dice que conoce a Abraxas de sus sueños: un ser que va de universo en universo destruyendo a cada Galactus. Reed, Sue y Ben recorren realidades alternativas buscando las coordenadas del Anulador Supremo, mientras Roma y Saturnyne les enseñan a los niños cómo avanza la búsqueda.'
+          - <strong>El momento clave de Franklin en este bloque.</strong> Les revela a su madre y a su hermana que Valeria es la niña que nació muerta, y que fue él quien la salvó sin saberlo y la llevó a un futuro posible. Juntos resucitan a Galactus. Tras derrotar a Abraxas, Valeria ha desaparecido y Sue vuelve a estar embarazada.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b1-fantastic-four-1-2-3-4-1-4
+          titulo: 'Fantastic Four: 1 2 3 4 <span class="nums">#1–4</span>'
+          creditos: Grant Morrison · Jae Lee · 2001
+          descripcion:
+          - 'Doom usa una máquina que altera la realidad para desmontar al grupo de uno en uno: devuelve a Ben a su forma humana, empuja a Sue hacia Namor y va a por Reed con un Doombot gigante. Salió a la vez que la saga de Abraxas, pero se lee aparte: es una miniserie autoconclusiva con un tono muy distinto, y Franklin no sale.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-fantastic-four-50
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#50</span>
+          creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Tom Grummett y otros · 2001
+          continuidad:
+          - viene: ◂ Viene del
+          - sigue: ▸ Sigue en el tramo 1.4
+          descripcion:
+          - El aniversario del grupo, contado sin una sola palabra (forma parte del mes «’Nuff Said» de Marvel). Cada uno de los cuatro recuerda sus primeros días con poderes, y Sue se hace la primera ecografía del nuevo embarazo. Incluye dos historias cortas, una de ellas de humor.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '1.4'
+      titulo: Valeria
+      cuando: Noviembre 2001 – abril 2002
+      entradas:
+      - serie:
+          id: 4f-b1-doom-the-emperor-returns-1-3
+          aparicion: true
+          donde: En otra serie · Doctor Muerte
+          titulo: 'Doom: The Emperor Returns <span class="nums">#1–3</span>'
+          creditos: Chuck Dixon · Leonardo Manco · 2001–2002
+          descripcion:
+          - 'Doom sigue siendo emperador de la Contra-Tierra, el mundo que creó Franklin. Absorbe la energía del núcleo del planeta y se aburre de un mundo que ya no le opone resistencia. Franklin solo aparece en una pantalla. Es una aventura de Doom en solitario, y en el #53 vuelve a estar en Nueva York.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-thing-she-hulk-the-long-night-1
+          titulo: 'Thing &amp; She-Hulk: The Long Night <span class="nums">#1</span>'
+          creditos: Todd DeZago · Bryan Hitch e Ivan Reis · 2002
+          descripcion:
+          - Un derrumbe atrapa en el metro a Ben y a Hulka, cada uno en su vagón, entre una secta de vampiros que intenta salir a la superficie y un Hombre Dragón al que un laboratorio de Roxxon intentaba controlar. Un one-shot suelto, sin consecuencias.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-fantastic-four-51-54
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#51–54</span>
+          creditos: Carlos Pacheco, Rafael Marín y Karl Kesel · Mark Bagley · 2002
+          continuidad:
+          - viene: ◂ Viene del tramo 1.3
+          - sigue: ▸ Sigue en el tramo 1.5
+          descripcion:
+          - Los Inhumanos llegan a la ONU huyendo de unos cazarrecompensas shi’ar, y el miedo a los alienígenas se dispara. Detrás están los Ocultos, una rama perdida de los Inhumanos infiltrada en los gobiernos desde la Segunda Guerra Mundial. Doom ofrece asilo en Latveria. Franklin empieza el colegio con nombre falso, Richard Franklin, y tiene su primer amigo y su primer matón.
+          - 'En el #54, el parto se complica por la energía de la Zona Negativa y Reed está desaparecido. Johnny va a pedirle ayuda al único que puede salvar a su hermana: <strong>el Doctor Muerte trae al mundo a la niña</strong>, cura de paso a Johnny, y a cambio exige elegir el nombre. La llama Valeria y la pone bajo su protección. Johnny será el padrino.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '1.5'
+      titulo: Entre etapas
+      cuando: Mayo – septiembre 2002
+      nota: 'Números sueltos de Karl Kesel y Adam Warren hasta que llegue Mark Waid. <em>Thing: Freakshow</em> va antes de los #57–59, el arco en el que Ben pierde la capacidad de volver a ser humano.'
+      entradas:
+      - serie:
+          id: 4f-b1-fantastic-four-55
+          titulo: Fantastic Four <span class="nums">#55</span>
+          creditos: Karl Kesel · Stuart Immonen · 2002
+          continuidad:
+          - viene: ◂ Viene del tramo 1.4
+          descripcion:
+          - 'Una noche de chicos: Sue sale con Janet van Dyne, Reed se queda en el laboratorio y Ben y Johnny persiguen por media ciudad a un «skrull» que les ha robado el Fantasticoche.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-fantastic-four-56
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#56</span>
+          creditos: Karl Kesel · Stuart Immonen · 2002
+          descripcion:
+          - Ben vuelve a la calle Yancy y a la casa de empeños del señor Sheckerberg, a quien le robó una estrella de David de pequeño. Es el número en que se dice por primera vez, sin rodeos, que Ben Grimm es judío. Franklin no sale, pero es una de las historias más recordadas de la Cosa.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b1-thing-freakshow-1-4
+          titulo: 'Thing: Freakshow <span class="nums">#1–4</span>'
+          creditos: Geoff Johns · Scott Kolins · 2002
+          descripcion:
+          - 'Ben se reencuentra en una feria ambulante con Istvan, el chico albino del que se burló de niño y cuya madre lo maldijo por ello. En el pueblo de la feria pasa algo raro: kree y skrulls se disputan un bebé Vigilante.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b1-fantastic-four-57-59
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#57–59</span>
+          creditos: Adam Warren · Keron Grant · 2002
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 2 (Waid y Wieringo)
+          descripcion:
+          - A Ben le salen de la piel nódulos que crecen hasta convertirse en copias suyas, cada vez más violentas. Reed las encierra con él en un universo de bolsillo y consulta a un «Congreso de Reeds» de otras realidades. Para pararlas, <strong>Ben pierde la capacidad de volver a su forma humana</strong>, que había recuperado poco antes de este bloque.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b2
+  fechas: 2002 — 2005
+  titulo: Imaginautas
+  intro: 'Mark Waid y Mike Wieringo entienden a los 4 Fantásticos como una familia de exploradores más que como superhéroes, y escriben una de las etapas más queridas del grupo. Es también la más dura para Franklin: Doom, convertido en hechicero, lo arrastra al Infierno, y el niño vuelve traumatizado. Después el grupo gobierna Latveria, pierde a Ben y va a buscarlo al Cielo. En paralelo, <em>Marvel Knights 4</em> los deja sin dinero y sin casa. Las fichas de <em>Fantastic Four</em> siguen siendo del volumen 3, que en el #70 recupera la numeración histórica y salta al #500.'
+  navegacion:
+    anio: 2002–2005
+    texto: Imaginautas
+  contenido:
+  - tramo:
+      numero: '2.1'
+      titulo: Una familia de exploradores
+      cuando: Agosto 2002 – febrero 2003
+      nota: El
+      entradas:
+      - serie:
+          id: 4f-b2-fantastic-four-60-61
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#60–61</span>
+          creditos: Mark Waid · Mike Wieringo · 2002
+          continuidad:
+          - viene: ◂ Viene del bloque 1
+          descripcion:
+          - 'Un relaciones públicas contratado para mejorar la imagen del grupo pasa un domingo con ellos y descubre que no son superhéroes, sino una familia que se dedica a explorar. En el #61, Sue nombra a Johnny director financiero de Fantastic Four Inc. para obligarlo a madurar.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-62-64
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#62–64</span>
+          creditos: Mark Waid · Mike Wieringo · 2002
+          descripcion:
+          - ? Un ataque místico contra Franklin y Valeria burla la seguridad del edificio, y es el primer aviso de lo que prepara Doom. Mientras, una expresión matemática viva, Modulus, nace de las ecuaciones de Reed, se enamora de él y quiere eliminar a todo lo que le hace sombra, empezando por su familia. Detrás está Franklin
+            : sin poderes desde que resucitó a su hermana y sintiéndose desplazado por ella, lo provoca sin querer intentando llamar la atención de su padre.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-65-66
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#65–66</span>
+          creditos: Mark Waid · Mark Buckingham · 2003
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 2.2
+          descripcion:
+          - Johnny estrena su cargo vendiendo licencias de las moléculas inestables de Reed, con su ayudante Jian Feeta y dos ejecutivos que quieren verlo fracasar. Mientras, Reed y Ben se encogen para cazar un bicho de otra dimensión que se ha colado en el edificio.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '2.2'
+      titulo: Unthinkable
+      cuando: Marzo – agosto 2003
+      nota: 'La historia central de este bloque, y una de las más importantes de Franklin. El #67 es el prólogo: no te lo saltes.'
+      entradas:
+      - serie:
+          id: 4f-b2-fantastic-four-67
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#67</span>
+          creditos: Mark Waid · Mike Wieringo · 2003
+          continuidad:
+          - viene: ◂ Viene del tramo 2.1
+          descripcion:
+          - Doom busca a Valeria, su amor de juventud, para entregarla a unos demonios a cambio de un poder mágico inmenso. Ha decidido abandonar la ciencia por la magia, y su piel se convierte en su nueva armadura.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b2-fantastic-four-68-70-500
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#68–70</span>, <span class="nums">#500</span>
+          creditos: Mark Waid · Mike Wieringo · 2003
+          descripcion:
+          - 'La primera palabra de la pequeña Valeria es «Doom»: al ayudar en su parto, Doom la convirtió en su familiar. Franklin cae al Infierno a través del teletransportador de Reed, y Johnny se quema con fuego infernal intentando sacarlo. En Latveria, ni los poderes ni los inventos del grupo sirven contra la magia de Doom.'
+          - Reed, encerrado en la biblioteca mística de Doom, tiene que aprender magia con la ayuda del Doctor Extraño para rescatar a su hijo. Lo consigue y Doom acaba en el Infierno, pero Reed sale con media cara desfigurada.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b2-fantastic-four-501-502
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#501–502</span>
+          creditos: Mark Waid · Casey Jones · 2003
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 2.3
+          descripcion:
+          - '<strong>Las secuelas en Franklin.</strong> Vuelve del Infierno cerrado en sí mismo, dibujando lo que vio allí, y estalla contra los fans en una excursión a Coney Island. Ben le cuenta cómo nació: su familia entró en la Zona Negativa y se jugó la vida contra Annihilus para salvarlo. Así Franklin entiende que puede volver a sentirse a salvo.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '2.3'
+      titulo: Latveria y el Cielo
+      cuando: Agosto 2003 – marzo 2004
+      nota: <em>Human Torch</em>, la serie de Johnny, se publicó a lo largo de todo este tramo y del anterior; léela al final o intercalada.
+      entradas:
+      - serie:
+          id: 4f-b2-fantastic-four-503-508
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#503–508</span>
+          creditos: Mark Waid · Howard Porter · 2003
+          continuidad:
+          - viene: ◂ Viene del tramo 2.2
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Con Doom en el Infierno, los 4 Fantásticos ocupan Latveria para desmantelar su arsenal antes de que vuelva, y Reed se proclama su gobernante. La ONU y Nick Fury los tratan como invasores. Doom escapa poseyendo a Sue y después a Ben, y Reed tiene que matar a su mejor amigo para detenerlo. El grupo vuelve a casa odiado por el público.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-509-511
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#509–511</span>
+          creditos: Mark Waid · Mike Wieringo · 2004
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          - sigue: ▸ Sigue en el tramo 2.4
+          descripcion:
+          - Reed, Sue y Johnny viajan al Cielo para traer de vuelta el alma de Ben, que no quiere volver. Al final del camino les espera Dios, que tiene el aspecto de Jack Kirby. Ben resucita y a Reed se le cura la cara.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-human-torch-1-12
+          titulo: Human Torch <span class="nums">#1–12</span>
+          creditos: Karl Kesel · Skottie Young y otros · 2003–2004
+          descripcion:
+          - La serie en solitario de Johnny. El primer arco lo enfrenta a un pirómano que mata a los bomberos del equipo de Mike Snow, su rival del instituto, y saca a la luz un secreto de juventud de los dos. Después, una orden de caballeros en los Balcanes con una máquina para encoger a la gente, y dos números sueltos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '2.4'
+      titulo: Sin un dólar
+      cuando: Abril – noviembre 2004
+      nota: Según Marvel Fandom, los
+      entradas:
+      - serie:
+          id: 4f-b2-fantastic-four-512-513
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#512–513</span>
+          creditos: Mark Waid · Mike Wieringo y Paul Smith · 2004
+          continuidad:
+          - viene: ◂ Viene del tramo 2.3
+          descripcion:
+          - Johnny no soporta que Spider-Man sea más popular que él, y Franklin le gasta una broma con una gorra de Spider-Man. Lo arreglan peleando juntos contra Hydro-Man. En las historias cortas reaparece Alyssa Moy, la exnovia de Reed, y Sue la acompaña al pasado.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-514-516
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#514–516</span>
+          creditos: Mark Waid y Karl Kesel · Paco Medina · 2004
+          continuidad:
+          - sigue: ▸ Sigue en <em>Marvel Knights 4</em>
+          descripcion:
+          - Los Cuatro Terribles vuelven a la carga, y el Hombre Mago infiltra en el Edificio Baxter a su propia hija, Cole, que empieza a salir con Johnny. Ella acaba cambiando de bando.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-marvel-knights-4-1-4
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#1–4</span>
+          creditos: Roberto Aguirre-Sacasa · Steve McNiven · 2004
+          continuidad:
+          - viene: ◂ Viene del
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Empieza en el octavo cumpleaños de Franklin, y ese mismo día se enteran de que están arruinados. La ciudad les reclama los daños de todos estos años y tienen que dejar el Edificio Baxter. Se mudan a un hotel modesto de Washington Heights y buscan trabajos normales. Es una serie de los 4 Fantásticos del sello Marvel Knights, con tono de drama familiar.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-marvel-knights-4-5-9
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#5–9</span>
+          creditos: Roberto Aguirre-Sacasa · Steve McNiven y Jim Muniz · 2004
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - Una acampada con Franklin y sus amigos del colegio en los Pine Barrens de Nueva Jersey termina con una nave alienígena aterrizada al lado. Johnny entra en el cuerpo de bomberos de Nueva York, y Reed y Namor se pegan en la calle porque Namor ha vuelto a tirarle los tejos a Sue.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-marvel-knights-4-10-12
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#10–12</span>
+          creditos: Roberto Aguirre-Sacasa · Jim Muniz · 2004
+          continuidad:
+          - sigue: ▸ Sigue en el
+          descripcion:
+          - El Psico-Hombre vuelve para vengarse de Sue y siembra el pánico en toda la ciudad. Sue teme que la ausencia de Reed esté afectando a Franklin. Al derrotarlo, el grupo recupera el Edificio Baxter y su fortuna.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-hulk-thing-hard-knocks-1-4
+          titulo: 'Hulk &amp; Thing: Hard Knocks <span class="nums">#1–4</span>'
+          creditos: Bruce Jones · Jae Lee · 2004
+          descripcion:
+          - Ben busca a Bruce Banner en un bar perdido del desierto porque quiere hablar con Hulk, y le cuenta cómo fue su primera pelea de verdad. Conversación y puñetazos a partes iguales.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '2.5'
+      titulo: Heraldo de Galactus
+      cuando: Agosto 2004 – marzo 2005
+      nota: 'Los #517–519 llevan la cabecera de <em>Avengers Disassembled</em> solo porque pasan justo después: los Vengadores se acaban de disolver (Expediente Mutante I, bloque 1). No hace falta leerlo.'
+      entradas:
+      - serie:
+          id: 4f-b2-fantastic-four-517-519
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#517–519</span>
+          creditos: Mark Waid · Mike Wieringo · 2004
+          continuidad:
+          - viene: ◂ Viene de <em>Marvel Knights 4</em>
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Empieza con Sue y Ben llevando a Franklin y a Valeria a pedir caramelos en Halloween. Unos supervivientes de un mundo devorado por Galactus levantan Manhattan en el aire, porque los poderes de Sue pueden revelar los planetas que se esconden de él. Para salvarla, Reed le intercambia los poderes con Johnny, y Galactus se lleva a Johnny como heraldo.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-520-523
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#520–523</span>
+          creditos: Mark Waid · Mike Wieringo · 2004–2005
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - Con ayuda de Quasar, el grupo persigue a Galactus por el espacio mientras Johnny, convertido en heraldo, se niega a ayudarlo a matar. Johnny consigue devolver a Galactus a su forma mortal, Galan, y Ben se lo lleva a la calle Yancy a que aprenda lo que es ser humano. Al final, un aparato de Reed reparte sus poderes entre cuatro neoyorquinos al azar.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-fantastic-four-524
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#524</span>
+          creditos: Mark Waid · Mike Wieringo · 2005
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 2.6
+          descripcion:
+          - Recuperan sus poderes persiguiéndolos por la ciudad, vuelven a casa con los niños y parten hacia el Microverso. Es la despedida de Waid y Wieringo.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '2.6'
+      titulo: Cambio de guardia
+      cuando: Diciembre 2004 – junio 2005
+      nota: '<em>Marvel Knights 4</em> #13–18 se publicó a la vez que «Rising Storm», pero va mejor después: así no interrumpe la historia de Galactus. Las tres miniseries del final son opcionales y salieron en los mismos meses.'
+      entradas:
+      - serie:
+          id: 4f-b2-marvel-knights-4-13-14
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#13–14</span>
+          creditos: Roberto Aguirre-Sacasa · Jim Muniz · 2004–2005
+          continuidad:
+          - viene: ◂ Viene del tramo 2.5
+          descripcion:
+          - El Amo de las Marionetas le devuelve la vista a Alicia Masters, su hijastra, con unas operaciones para las que roba los ojos de mujeres asesinadas. Después va a por los de Sue. Con Daredevil.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-marvel-knights-4-15-18
+          prioridad: p1
+          titulo: Marvel Knights 4 <span class="nums">#15–18</span>
+          creditos: Roberto Aguirre-Sacasa · Jim Muniz · 2005
+          descripcion:
+          - <strong>Una historia de Franklin.</strong> Concentrado en batear el golpe de la victoria en un partido de béisbol, borra sin querer ocho minutos del tiempo. En plena crisis temporal, un viajero en el tiempo, Ramades, deja a sus padres y a Ben atrapados en el antiguo Egipto, y Franklin y H.E.R.B.I.E. se quedan solos en el presente para arreglarlo.
+          - Johnny acaba en un futuro gobernado por Doom, donde lo ayuda una Valeria adulta, y en Egipto aparece Nathaniel Richards, el padre de Reed.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b2-fantastic-four-525-526
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#525–526</span>
+          creditos: Karl Kesel · Tom Grummett · 2005
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 3
+          descripcion:
+          - De vuelta del Microverso, la familia entera contrae una enfermedad que les hace soñar los sueños de los demás, justo cuando reaparece Diablo. Dos números de transición antes de que llegue Straczynski.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b2-x-men-fantastic-four-1-5
+          titulo: X-Men/Fantastic Four <span class="nums">#1–5</span>
+          creditos: Akira Yoshida · Pat Lee · 2004–2005
+          descripcion:
+          - X-Men y 4 Fantásticos contra los Brood, que han tomado una estación espacial. Cuatro X-Men quedan expuestos a rayos cósmicos y Reed y Bestia tienen que curarlos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b2-spider-man-human-torch-1-5
+          titulo: Spider-Man/Human Torch <span class="nums">#1–5</span>
+          creditos: Dan Slott · Ty Templeton · 2005
+          descripcion:
+          - La amistad entre Johnny y Peter Parker contada en cinco épocas, de sus primeros piques a la actualidad. En el último número, Peter lleva a la tía May y a Mary Jane a cenar con los 4 Fantásticos por primera vez. Franklin sale en ese número.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b2-fantastic-four-foes-1-6
+          titulo: 'Fantastic Four: Foes <span class="nums">#1–6</span>'
+          creditos: Robert Kirkman · Cliff Rathburn · 2005
+          descripcion:
+          - 'Los villanos del grupo empiezan a atacar uno tras otro, y Reed calcula que a ese ritmo estarán todos muertos en dos años. La pista lleva a un vecino del propio Edificio Baxter. Franklin sale en los #1–4.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b3
+  fechas: 2005 — 2008
+  titulo: Guerra civil
+  intro: 'J. Michael Straczynski devuelve el dinero al grupo y busca el origen de sus poderes, pero la etapa la define <em>Civil War</em>: Reed apoya el registro de superhéroes, Sue se va con la resistencia y la familia se rompe. Dwayne McDuffie la recompone con Pantera Negra y Tormenta cubriendo las plazas de Reed y Sue. Franklin, sin poderes desde que resucitó a su hermana, pasa por una amenaza de los servicios sociales y por la vuelta de Onslaught. <em>Marvel Knights 4</em> termina a mediados de 2006.'
+  navegacion:
+    anio: 2005–2008
+    texto: Guerra civil
+  contenido:
+  - tramo:
+      numero: '3.1'
+      titulo: Ricos otra vez
+      cuando: Mayo 2005 – febrero 2006
+      nota: Las dos series se publicaron a la vez y no se cruzan. <em>Marvel Knights 4</em> puede leerse antes o después de la ficha de Straczynski.
+      entradas:
+      - serie:
+          id: 4f-b3-fantastic-four-527-532
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#527–532</span>
+          creditos: J. Michael Straczynski · Mike McKone · 2005
+          continuidad:
+          - viene: ◂ Viene del bloque 2
+          - sigue: ▸ Sigue en el tramo 3.2
+          descripcion:
+          - Ben descubre que tiene una fortuna ahorrada, y el gobierno ficha a Reed para un proyecto que quiere repetir la tormenta de rayos cósmicos que creó a los 4 Fantásticos y fabricar supersoldados. Reed lo sabotea y el grupo sale al encuentro de la tormenta. Resulta ser el mensaje de una entidad alienígena perseguida por los suyos, que arrastra a Reed hasta el Big Bang.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-marvel-knights-4-19-24
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#19–24</span>
+          creditos: Roberto Aguirre-Sacasa · Valentine De Landro y Mizuki Sakakibara · 2005
+          continuidad:
+          - viene: ◂ Viene del bloque 2
+          descripcion:
+          - Una inhumana y un alfa primitivo huyen juntos de la Luna y Franklin los ayuda a escapar de Gorgon. Después, el aniversario de boda de Reed y Sue, un gólem en la calle Yancy y la familia Imposible, que secuestra a Franklin y a Valeria en una historia en la que el propio guionista entra en el Edificio Baxter.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-thing-1-8
+          titulo: Thing <span class="nums">#1–8</span>
+          creditos: Dan Slott · Andrea Di Vito y Kieron Dwyer · 2005–2006
+          descripcion:
+          - 'La serie de Ben como millonario: sale con una actriz, cae en la trampa mortal de Arcade, viaja a la antigua Grecia con Alicia y celebra la partida de póquer de superhéroes más grande de la historia. Franklin y Valeria salen en los #4 y #7. Ligera y muy querida.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b3-fantastic-four-the-wedding-special-1-fantastic-four-special-1
+          titulo: 'Fantastic Four: The Wedding Special <span class="nums">#1</span> · Fantastic Four Special <span class="nums">#1</span>'
+          creditos: Karl Kesel · Drew Johnson / Dwayne McDuffie · Casey Jones · 2005
+          descripcion:
+          - 'Dos especiales. En el primero, Kesel recorre la historia de Reed y Sue, desde la víspera del vuelo espacial hasta una vejez juntos. En el segundo, Reed cena con Doom en la embajada latveriana y le devuelve algo que recuperó del accidente que le desfiguró la cara: un medallón con una foto de su madre.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b3-fantastic-four-iron-man-big-in-japan-1-4-captain-universe-invisible-wo
+          titulo: 'Fantastic Four/Iron Man: Big in Japan <span class="nums">#1–4</span> · Captain Universe/Invisible Woman <span class="nums">#1</span>'
+          creditos: Zeb Wells · Seth Fisher / Jay Faerber · James Raiz · 2005–2006
+          descripcion:
+          - Monstruos gigantes en Tokio, en homenaje a Godzilla, con Iron Man. Y un one-shot en el que la Uni-Fuerza del Capitán Universo elige a Sue y Gladiador viene a reclamarla para el imperio shi’ar.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b3-franklin-richards-son-of-a-genius-y-otros-quince-especiales
+          titulo: 'Franklin Richards: Son of a Genius y otros quince especiales'
+          creditos: Chris Eliopoulos y Marc Sumerak · Chris Eliopoulos · 2005–2009
+          descripcion:
+          - 'Dieciséis one-shots de humor para todos los públicos, a lo <em>Calvin y Hobbes</em>: Franklin, con H.E.R.B.I.E. de niñera, usa los inventos de su padre y siempre acaba desastre. Van de <em>Son of a Genius</em> (septiembre de 2005) a <em>School’s Out</em> (julio de 2009), y varios parodian los eventos del momento (<em>World War Hulk</em>, <em>Secret Invasion</em>, <em>Dark Reign</em>). No cuentan para la continuidad.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+  - tramo:
+      numero: '3.2'
+      titulo: Camino de la guerra
+      cuando: Diciembre 2005 – junio 2006
+      entradas:
+      - serie:
+          id: 4f-b3-fantastic-four-533-535
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#533–535</span>
+          creditos: J. Michael Straczynski · Mike McKone · 2005–2006
+          continuidad:
+          - viene: ◂ Viene del tramo 3.1
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Los servicios sociales de Nueva York deciden que el Edificio Baxter no es lugar para criar niños y se llevan a Franklin y a Valeria a una casa de acogida secreta. Reed no se opone: tiene un plan para demostrar que donde están más seguros es en casa. Mientras, Ben y Johnny intentan frenar a un Hulk gris enloquecido en Las Vegas, la pelea que convence a los Illuminati de exiliarlo al espacio.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b3-marvel-knights-4-25-30
+          prioridad: p2
+          titulo: Marvel Knights 4 <span class="nums">#25–30</span>
+          creditos: Roberto Aguirre-Sacasa · Valentine De Landro, Mizuki Sakakibara y Clay Mann · 2005–2006
+          continuidad:
+          - sigue: ▸ Fin de la serie
+          descripcion:
+          - Los Siete de Salem quieren resucitar a Nicholas Scratch y poseen a Valeria; el grupo pide ayuda al Doctor Extraño, y se recuerda a Agatha Harkness, la antigua niñera de Franklin. Después, Sue ayuda a una empleada maltratada, Reed borra en secreto las pruebas del exilio de Hulk —Franklin le pregunta a su madre en qué anda su padre— y un último número sobre lo que el grupo es más allá de los trajes.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-fantastic-four-536-537
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#536–537</span>
+          creditos: J. Michael Straczynski · Mike McKone · 2006
+          continuidad:
+          - viene: ◂ Viene del
+          - sigue: ▸ Sigue en <em>Civil War</em>
+          descripcion:
+          - 'El martillo de Thor cae en Oklahoma, y Doom, escapado del Infierno, intenta hacerse con él. Mientras, Reed vuelve de una reunión de los Illuminati y en la tele se habla de una ley de registro de superhumanos: el preludio de <em>Civil War</em>.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: 4f-b3-civil-war
+      ancla: ev-civilwar
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Mayo 2006 – marzo 2007
+      titulo: Civil War
+      creditos: 'Mark Millar · Steve McNiven (serie principal) · capítulos de los 4 Fantásticos: J. Michael Straczynski y Dwayne McDuffie · Mike McKone'
+      descripcion:
+      - La Ley de Registro de superhumanos parte en dos a los héroes, y a la familia Richards con ellos. Reed es uno de los arquitectos del registro; Sue se pasa a la resistencia del Capitán América, y Johnny, que acaba en coma por una paliza de una multitud, también. Ben se niega a elegir bando y se va a Francia.
+      - 'Los seis números de <em>Fantastic Four</em> (#538–543) son la mejor parte del evento para esta guía. El #543 cierra la guerra con Ben y Johnny cuidando de Franklin y Valeria, y con Reed y Sue anunciando que dejan el grupo para salvar su matrimonio.'
+      apartados:
+      - apartado: Antes de empezar
+        texto: 'Los #536–537 de la ficha anterior. Si quieres más contexto, <em>New Avengers: Illuminati</em> #1 (2006) cuenta quiénes son los Illuminati y por qué Reed está entre ellos.'
+      - apartado: Orden de lectura
+        texto: '<strong>Civil War #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Fantastic Four #538</span> → <strong>Civil War #4</strong> → <span class="cap">Fantastic Four #539</span> → <span class="cap">#540</span> → <strong>Civil War #5</strong> → <span class="cap">Fantastic Four #541</span> → <span class="cap">#542</span> → <strong>Civil War #6</strong> → <strong>#7</strong> → <span class="cap">Fantastic Four #543</span>'
+      - apartado: Versión mínima
+        texto: '<em>Fantastic Four</em> #538–543 seguidos: se entienden sin el evento, aunque pierdes las peleas grandes.'
+      - apartado: Nota
+        texto: 'El orden sigue la cronología de Marvel Fandom. Comic Book Herald pone el #538 antes de <em>Civil War</em> #3; los dos encajan.'
+      - apartado: Conexión
+        texto: Es el mismo evento del bloque 2 del Expediente Mutante I y del bloque 2 de Jóvenes Vengadores. Si lo lees allí, aquí solo tienes que añadir los números de los 4 Fantásticos.
+  - tramo:
+      numero: '3.3'
+      titulo: Los nuevos 4 Fantásticos
+      cuando: Marzo 2007 – febrero 2008
+      nota: 'Orden según Marvel Fandom: <em>Black Panther</em> #26–30 y <em>World War Hulk</em> pasan entre los #546 y #547; <em>Black Panther</em> #31–34, entre el #550 y el #551.'
+      entradas:
+      - serie:
+          id: 4f-b3-fantastic-four-544-546
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#544–546</span>
+          creditos: Dwayne McDuffie · Paul Pelletier · 2007
+          continuidad:
+          - viene: ◂ Viene de <em>Civil War</em>
+          - sigue: ▸ Sigue en <em>Black Panther</em>
+          descripcion:
+          - 'Con Reed y Sue de segunda luna de miel en Titán, Pantera Negra y Tormenta ocupan sus puestos junto a Ben y Johnny. El primer caso los lleva al espacio: Gravity, el joven héroe muerto en <em>Civil War</em>, ha recibido el poder del guardián del universo, y Galactus lo persigue.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-black-panther-26-30
+          aparicion: true
+          donde: En otra serie · Pantera Negra
+          titulo: Black Panther <span class="nums">#26–30</span>
+          creditos: Reginald Hudlin · Francis Portela · 2007
+          continuidad:
+          - sigue: ▸ Sigue en <em>World War Hulk</em>
+          descripcion:
+          - Los nuevos 4 Fantásticos en la serie de T’Challa. Después de su primera misión juntos, acaban en un planeta skrull invadido por los zombis cósmicos de <em>Marvel Zombies</em> (#28–30).
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: 4f-b3-world-war-hulk
+          ancla: ev-wwh
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Junio 2007 – enero 2008
+          titulo: World War Hulk
+          creditos: Greg Pak · John Romita Jr.
+          descripcion:
+          - 'Hulk vuelve del exilio al que lo mandaron los Illuminati —Reed entre ellos— y declara la guerra a la Tierra. En el #2 derrota a los 4 Fantásticos uno tras otro, con Reed y Sue recién llegados de Titán, y en el #4 obliga a Reed a pelear contra Iron Man en un estadio.'
+          apartados:
+          - apartado: Orden de lectura
+            texto: 'Incredible Hulk #106 → World War Hulk Prologue: World Breaker #1 → <strong>World War Hulk #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong>'
+          - apartado: Conexión
+            texto: Es el mismo evento del bloque 2 del Expediente Mutante I, allí con sus capítulos mutantes. Si lo lees allí, no hace falta repetirlo.
+      - serie:
+          id: 4f-b3-fantastic-four-547-550
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#547–550</span>
+          creditos: Dwayne McDuffie · Paul Pelletier · 2007
+          continuidad:
+          - viene: ◂ Viene de <em>World War Hulk</em>
+          descripcion:
+          - Los Cuatro Terribles, con Klaw de refuerzo, secuestran a Sue en Titán para tender una trampa a todo el grupo. La pelea abre una grieta en el espacio-tiempo que hay que cerrar. Al final, Reed y Sue han arreglado su matrimonio, vuelven al grupo, y Pantera Negra y Tormenta se despiden.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-black-panther-31-34
+          aparicion: true
+          donde: En otra serie · Pantera Negra
+          titulo: Black Panther <span class="nums">#31–34</span>
+          creditos: Reginald Hudlin · Francis Portela y otros · 2007–2008
+          descripcion:
+          - Una última aventura del grupo provisional en la serie de Pantera Negra, por otras realidades.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b3-fantastic-four-551-553
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#551–553</span>
+          creditos: Dwayne McDuffie · Paul Pelletier · 2007–2008
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 4
+          descripcion:
+          - Un Doom del futuro viene a avisar de que el Reed de dentro de setenta y cinco años se ha convertido en un tirano. El Reed del presente lo comprueba de la peor manera, hasta que llegan los 4 Fantásticos de ese futuro. Es el cierre de McDuffie.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b3-onslaught-reborn-1-5
+          titulo: Onslaught Reborn <span class="nums">#1–5</span>
+          creditos: Jeph Loeb · Rob Liefeld · 2006–2008
+          descripcion:
+          - Onslaught vuelve diez años después y va a por Franklin, que usa sus poderes para recrear el universo de <em>Heroes Reborn</em> y esconderse en él. Allí lo protege una Bucky adolescente, Rikki Barnes, que acaba arrastrando a Onslaught a la Zona Negativa. Es la secuela directa de la historia de Franklin en los noventa, pero tiene muy mala fama y salió con muchos retrasos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b3-fantastic-four-isla-de-la-muerte-1
+          titulo: 'Fantastic Four: ¡Isla de la Muerte! <span class="nums">#1</span>'
+          creditos: Tom Beland · Juan Doe · 2007
+          descripcion:
+          - El grupo sigue a Ben en sus vacaciones secretas en Puerto Rico y descubre que allí es un héroe local, «El Morrito». Un one-shot amable con el Hombre Topo de villano.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b4
+  fechas: 2008 — 2009
+  titulo: El mejor grupo del mundo
+  intro: 'Mark Millar y Bryan Hitch escriben dieciséis números a lo grande: una Tierra de repuesto, refugiados de quinientos años en el futuro, la muerte de una Sue anciana y un enemigo capaz de asustar al propio Doom. Ben se promete con una profesora y Johnny forma un grupo de música. En medio, la invasión skrull deja a Franklin y a Valeria atrapados en la Zona Negativa con Ben y Johnny.'
+  navegacion:
+    anio: 2008–2009
+    texto: El mejor grupo del mundo
+  contenido:
+  - tramo:
+      numero: '4.1'
+      titulo: Nu-Earth
+      cuando: Febrero – mayo 2008
+      entradas:
+      - serie:
+          id: 4f-b4-fantastic-four-554-557
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#554–557</span>
+          creditos: Mark Millar · Bryan Hitch · 2008
+          continuidad:
+          - viene: ◂ Viene del bloque 3
+          - sigue: ▸ Sigue en el tramo 4.2
+          descripcion:
+          - Alyssa Moy, la exnovia de Reed, y su marido han construido en secreto una copia de la Tierra, Nu-Earth, por si la nuestra muere; su robot guardián se escapa y empieza a desarmar el planeta. Ben empieza a salir con Debbie Green, una profesora, y llega una niñera nueva para Franklin y Valeria. Al final, un Doom malherido entra en el Edificio Baxter pidiendo ayuda.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: 4f-b4-secret-invasion
+      ancla: ev-si
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Abril – diciembre 2008
+      titulo: Secret Invasion
+      creditos: Brian Michael Bendis · Leinil Francis Yu (serie principal) · tie-in de Roberto Aguirre-Sacasa y Barry Kitson
+      descripcion:
+      - Los skrulls, infiltrados desde hace años, invaden la Tierra. Reed es uno de los primeros a los que capturan, porque es el único capaz de descubrirlos. En el tie-in, Ben, Johnny, Franklin y Valeria quedan atrapados en la Zona Negativa, con Lyja, la exmujer skrull de Johnny, de por medio, y tienen que volver pasando por la prisión que construyó Reed.
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Secret Invasion #1</strong> → <span class="cap">Secret Invasion: Fantastic Four #1–3</span> → <strong>Secret Invasion #2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong>'
+      - apartado: Nota
+        texto: 'Según Marvel Fandom, el tie-in empieza durante <em>Secret Invasion</em> #1 y termina antes del #8. Como no se cruza con el resto, se lee seguido.'
+      - apartado: Versión mínima
+        texto: '<em>Secret Invasion: Fantastic Four</em> #1–3 seguidos: es la parte de los niños.'
+      - apartado: Conexión
+        texto: El mismo evento está en el bloque 4 del Expediente Mutante I, en el bloque 2 de Guardianes y en el bloque 2 de Jóvenes Vengadores, cada uno con su tie-in.
+  - tramo:
+      numero: '4.2'
+      titulo: La muerte de la Mujer Invisible
+      cuando: Junio 2008 – enero 2009
+      entradas:
+      - serie:
+          id: 4f-b4-fantastic-four-558-562
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#558–562</span>
+          creditos: Mark Millar · Bryan Hitch · 2008–2009
+          continuidad:
+          - viene: ◂ Viene del tramo 4.1
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Unos superhéroes del año 2509, los Nuevos Defensores, vienen a llevarse a Doom: quieren usarlo, con Johnny y con un Galactus capturado, para traer a los últimos humanos de un futuro helado. Su líder resulta ser la nueva niñera de los niños, Tabitha, que en realidad es Sue con quinientos años más; Valeria la reconoce y le suplica que no siga adelante.'
+          - Al final Doom mata a la Sue del futuro, y la del presente despide a su yo anciano en un funeral con medio universo Marvel. Ben le pide matrimonio a Debbie.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b4-fantastic-four-563
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#563</span>
+          creditos: Mark Millar · Bryan Hitch · 2009
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 4.3
+          descripcion:
+          - 'Toda la familia celebra el compromiso de Ben. En otra realidad, dos figuras encapuchadas, un maestro y su aprendiz, aniquilan a toda la población de la Tierra y se preparan para visitar a su «alumno favorito»: Victor von Doom.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b4-fantastic-four-true-story-1-4
+          titulo: 'Fantastic Four: True Story <span class="nums">#1–4</span>'
+          creditos: Paul Cornell · Horacio Domingues · 2008
+          descripcion:
+          - 'Sue no consigue concentrarse en ningún libro, y Reed descubre por qué: Pesadilla está conquistando el mundo de la ficción. El grupo entra en <em>Sentido y sensibilidad</em> y en <em>Alicia en el país de las maravillas</em> para pararlo.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b4-fantastic-four-cosmic-size-special-1
+          titulo: Fantastic Four Cosmic-Size Special <span class="nums">#1</span>
+          creditos: Cary Bates · Bing Cansino · 2009
+          descripcion:
+          - Una planta de otra dimensión se alimenta de las mentes de la familia. Valeria repasa lo que se sabe de los poderes de Franklin. Según Marvel Fandom, pasa entre la pelea con el Marqués de la Muerte y la boda de Ben (tramo 4.3).
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '4.3'
+      titulo: El amo de Doom
+      cuando: Febrero – julio 2009
+      nota: '<em>Dark Reign: Fantastic Four</em>, el prólogo de Hickman, empezó a publicarse en marzo de 2009, pero va al principio del bloque 5.'
+      entradas:
+      - serie:
+          id: 4f-b4-fantastic-four-564-565
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#564–565</span>
+          creditos: Mark Millar · Bryan Hitch · 2009
+          continuidad:
+          - viene: ◂ Viene del tramo 4.2
+          descripcion:
+          - 'La familia pasa la Navidad en Escocia con un primo de Reed, y Valeria desaparece en el bosque: el pueblo tiene la costumbre de sacrificar niños a un monstruo, Korgo. Ben y Debbie se apuntan al viaje.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b4-fantastic-four-566-569
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#566–569</span>
+          creditos: Mark Millar y Joe Ahearne · Bryan Hitch, Neil Edwards y Stuart Immonen · 2009
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 5
+          descripcion:
+          - El Marqués de la Muerte, el antiguo maestro de Doom, mata Vigilantes, destroza a Doom y lanza contra el Edificio Baxter a infinitos 4 Fantásticos de otras realidades. Para vencerlo, Ben viaja al pasado. Muere la tía Petunia de Ben, y en el último número Ben cancela la boda con Debbie para no ponerla en peligro.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b4-fantastic-force-1-4
+          titulo: Fantastic Force <span class="nums">#1–4</span>
+          creditos: Joe Ahearne · Steve Kurth y Neil Edwards · 2009
+          descripcion:
+          - Los Nuevos Defensores del futuro, que se quedan en el presente tras «La muerte de la Mujer Invisible», actúan como grupo con un nombre nuevo.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b4-mighty-avengers-25-26
+          aparicion: true
+          donde: En otra serie · Vengadores
+          titulo: Mighty Avengers <span class="nums">#25–26</span>
+          creditos: Dan Slott · Stephen Segovia · 2009
+          descripcion:
+          - Los Vengadores de Hank Pym asaltan el Edificio Baxter disfrazados de villanos para robar un invento que necesitan. Sue saca a los niños de allí.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b4-amazing-spider-man-590-591
+          aparicion: true
+          donde: En otra serie · Spider-Man
+          titulo: Amazing Spider-Man <span class="nums">#590–591</span>
+          creditos: Dan Slott · Barry Kitson · 2009
+          descripcion:
+          - Spider-Man y los 4 Fantásticos vuelven a un mundo que visitaron años atrás, el Macroverso. Johnny descubre que ya no recuerda quién es Peter Parker (la consecuencia de <em>One More Day</em>), y Peter se lo vuelve a contar.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b4-spider-man-the-human-torch-in-bahia-de-los-muertos-1
+          titulo: Spider-Man &amp; the Human Torch in… ¡Bahía de los Muertos! <span class="nums">#1</span>
+          creditos: Tom Beland · Juan Doe · 2009
+          descripcion:
+          - Johnny y Spider-Man vuelven a Puerto Rico, donde algo que sale de una bahía bioluminiscente devora a los bañistas. Del mismo equipo que <em>¡Isla de la Muerte!</em>.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b5
+  fechas: 2009 — 2011
+  titulo: Resolverlo todo
+  intro: Jonathan Hickman empieza una etapa larga y muy planificada, la más importante para Franklin desde los noventa. Reed descubre un consejo de versiones suyas de otras realidades que quiere «resolverlo todo». Franklin cumple años y recibe la visita de su yo adulto, que le devuelve los poderes, y Reed funda la Fundación Futuro con los niños más listos del mundo. Cuatro civilizaciones ocultas despiertan a la vez y el bloque termina con la muerte de Johnny.
+  navegacion:
+    anio: 2009–2011
+    texto: Resolverlo todo
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: El puente
+      cuando: Marzo – julio 2009
+      nota: El prólogo de Hickman. Se publicó en paralelo al final de Millar, pero va después.
+      entradas:
+      - serie:
+          id: 4f-b5-dark-reign-fantastic-four-1-5
+          prioridad: p1
+          titulo: 'Dark Reign: Fantastic Four <span class="nums">#1–5</span>'
+          creditos: Jonathan Hickman · Sean Chen · 2009
+          continuidad:
+          - viene: ◂ Viene del bloque 4
+          descripcion:
+          - ? Reed construye un puente a otras realidades para averiguar en qué se equivocó en <em>Civil War</em>, y un apagón lanza a Sue, Ben y Johnny por el tiempo. <strong>Franklin y Valeria se quedan solos en el Edificio Baxter</strong> cuando Norman Osborn, ahora jefe de la seguridad del país, viene a por sus padres. Los dos le plantan cara a su manera, y al final Franklin le dispara con una pistola de juguete… que funciona
+            : la primera señal de que sus poderes vuelven.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '5.2'
+      titulo: El Consejo de Reeds
+      cuando: Agosto – diciembre 2009
+      entradas:
+      - serie:
+          id: 4f-b5-fantastic-four-570-572
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#570–572</span>
+          creditos: Jonathan Hickman · Dale Eaglesham · 2009
+          continuidad:
+          - viene: ◂ Viene del tramo 5.1
+          descripcion:
+          - El puente lleva a Reed ante el Consejo Interdimensional de Reeds, versiones suyas de otras realidades que se han propuesto arreglar el multiverso. Reed se une a ellos hasta que aparecen los Celestiales locos de otra Tierra. Al final elige a su familia, y recuerda lo que le enseñó su padre.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b5-fantastic-four-573
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#573</span>
+          creditos: Jonathan Hickman · Neil Edwards · 2009
+          descripcion:
+          - 'Ben, Johnny, Franklin y Valeria visitan Nu-World, la Tierra de repuesto de Millar, que se está deshaciendo. Al volver es medianoche: el día del cumpleaños de Franklin.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b5-fantastic-four-574
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#574</span>
+          creditos: Jonathan Hickman · Neil Edwards · 2009
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 5.3
+          descripcion:
+          - <strong>El cumpleaños de Franklin.</strong> Vienen Power Pack, Leech, Artie, el Hombre Dragón y Bentley, un clon del Hombre Mago. Un desconocido con capucha se cuela en la fiesta, le dice a Franklin «recuerda lo que eres», y esa noche, bajo las sábanas, Franklin crea un universo diminuto. Es su yo adulto.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '5.3'
+      titulo: Cuatro ciudades
+      cuando: Diciembre 2009 – abril 2010
+      entradas:
+      - serie:
+          id: 4f-b5-fantastic-four-575-578
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#575–578</span>
+          creditos: Jonathan Hickman · Dale Eaglesham · 2010
+          continuidad:
+          - viene: ◂ Viene del
+          descripcion:
+          - 'Cuatro civilizaciones despiertan a la vez: la ciudad abandonada del Alto Evolucionador, bajo tierra, los viejos reyes de una Atlántida anterior a Namor, una armada de Inhumanos venidos del espacio y una secta de la Zona Negativa. Hickman las presenta de una en una; volverán todas en «Three».'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b5-x-factor-200-202
+          aparicion: true
+          donde: En otra serie · X-Factor
+          titulo: X-Factor <span class="nums">#200–202</span>
+          creditos: Peter David · Bing Cansino y otros · 2009–2010
+          descripcion:
+          - Sue ha desaparecido, y X-Factor Investigations, la agencia de detectives de Madrox, se encarga de buscarla. Franklin y Valeria están en el caso.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b5-doomwar-1-6
+          aparicion: true
+          donde: En otra serie · Pantera Negra
+          titulo: Doomwar <span class="nums">#1–6</span>
+          creditos: Jonathan Maberry · Scot Eaton · 2010
+          descripcion:
+          - Doom invade Wakanda para quedarse con su vibranio, y Shuri, ahora Pantera Negra, pide ayuda a los 4 Fantásticos. Al final todo el vibranio de la Tierra queda inerte, algo que se nota en «Three».
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '5.4'
+      titulo: La Fundación Futuro
+      cuando: Mayo – agosto 2010
+      entradas:
+      - serie:
+          id: 4f-b5-fantastic-four-579-580
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#579–580</span>
+          creditos: Jonathan Hickman · Neil Edwards · 2010
+          continuidad:
+          - viene: ◂ Viene del tramo 5.3
+          descripcion:
+          - 'Harto de los congresos de genios, Reed funda la Fundación Futuro: una escuela para los niños más listos del mundo, con Valeria, Franklin, sus amigos Leech y Artie, los moloides que rescataron y Bentley, el clon del Hombre Mago. En el #580, Franklin y Leech salen de aventura con Johnny, y los alumnos le regalan a Ben una fórmula para ser humano una semana al año.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b5-fantastic-four-annual-32
+          prioridad: p2
+          titulo: Fantastic Four Annual <span class="nums">#32</span>
+          creditos: Joe Ahearne · Bryan Hitch · 2010
+          descripcion:
+          - 'Una joven, Amy Brys, se presenta buscando a Johnny: está embarazada de él, y el embarazo tiene una energía que Reed solo ha visto en los partos de Sue. Al final desaparece por la plataforma temporal con el bebé por nacer. Escrito por el coguionista del final de Millar.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b5-fantastic-four-581-582
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#581–582</span>
+          creditos: Jonathan Hickman · Neil Edwards · 2010
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 5.5
+          descripcion:
+          - <strong>Franklin y Valeria, adultos.</strong> Después de visitar su propio cumpleaños, el Franklin del futuro recupera sus poderes de alterar la realidad y crea un refugio para los dos. Mientras, Nathaniel Richards, el abuelo, termina la «Gran Cacería» contra sus versiones alternativas, con un Reed, un Ben y un Victor universitarios de su lado.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b5-spider-man-fantastic-four-1-4-fantastic-four-in-ataque-del-m-o-d-o-k-1
+          titulo: Spider-Man/Fantastic Four <span class="nums">#1–4</span> · Fantastic Four in… ¡Ataque del M.O.D.O.K.! <span class="nums">#1</span>
+          creditos: Christos Gage · Mario Alberti / Tom Beland · Juan Doe · 2010
+          descripcion:
+          - Cuatro historias de Spider-Man con el grupo, de distintas épocas; la última es en el presente, con Franklin. Y el tercer one-shot de Tom Beland y Juan Doe, con M.O.D.O.K.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '5.5'
+      titulo: Three
+      cuando: Septiembre 2010 – febrero 2011
+      nota: 'La serie se cerró en el #588 y en marzo de 2011 la sustituyó <em>FF</em>, con el bloque 6.'
+      entradas:
+      - serie:
+          id: 4f-b5-fantastic-four-583-587
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#583–587</span>
+          creditos: Jonathan Hickman · Steve Epting · 2010–2011
+          continuidad:
+          - viene: ◂ Viene del tramo 5.4
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Valeria descubre que su padre no destruyó el puente y hace un trato con Doom. Galactus viene a pedir cuentas por el cadáver de su yo futuro, la guerra entre las dos Atlántidas estalla con Sue de mediadora y una oleada de Annihilus atraviesa el portal de la Zona Negativa.
+          - '<strong>Muere Johnny</strong>: cierra la puerta para salvar a Ben y a los niños y se queda solo frente a la oleada. Franklin y Ben lo ven todo desde el otro lado.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b5-fantastic-four-588
+          prioridad: p1
+          titulo: Fantastic Four <span class="nums">#588</span>
+          creditos: Jonathan Hickman · Nick Dragotta y Mark Brooks · 2011
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 6
+          descripcion:
+          - El mes de luto, casi sin palabras. En la historia corta, «Uncles», Spider-Man invita a comer a Franklin, que se siente culpable por no haber salvado a su tío, y le habla del suyo.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+- id: b6
+  fechas: 2011 — 2012
+  titulo: La Fundación Futuro
+  intro: 'Sin Johnny, la serie cambia de nombre a <em>FF</em> y de uniforme a blanco. Spider-Man ocupa su plaza, Doom se une a la Fundación Futuro y los Reeds malvados del Consejo desatan una guerra entre las cuatro ciudades. En noviembre de 2011 vuelve <em>Fantastic Four</em> con el #600, y las dos series se leen juntas hasta que Hickman cierra su etapa. Es el gran momento de Franklin: su yo adulto, con Galactus de heraldo, se enfrenta a los Celestiales locos.'
+  navegacion:
+    anio: 2011–2012
+    texto: La Fundación Futuro
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: El sustituto de Johnny
+      cuando: Marzo – octubre 2011
+      nota: '<em>FF</em> #1–11 cuentan como los números 589–599 de la serie original; por eso la siguiente <em>Fantastic Four</em> es la #600.'
+      entradas:
+      - serie:
+          id: 4f-b6-ff-1-5
+          prioridad: p1
+          titulo: FF <span class="nums">#1–5</span>
+          creditos: Jonathan Hickman · Steve Epting y Barry Kitson · 2011
+          continuidad:
+          - viene: ◂ Viene del bloque 5
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - En su testamento, Johnny le deja su sitio en el grupo a Spider-Man. Valeria cumple su trato y Doom entra en la Fundación Futuro para recuperar su mente, aunque su objetivo sigue siendo derrotar a Reed. Mientras, tres Reeds malvados del Consejo, a los que Valeria ayudó a escapar, empiezan una guerra entre la Atlántida antigua, los moloides y la ciudad del Alto Evolucionador.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b6-ff-6-11
+          prioridad: p2
+          titulo: FF <span class="nums">#6–11</span>
+          creditos: Jonathan Hickman · Greg Tocchini, Steve Epting y Barry Kitson · 2011
+          continuidad:
+          - sigue: ▸ Sigue en «Forever» (tramo 6.2)
+          descripcion:
+          - 'Rayo Negro vuelve de entre los muertos y los Inhumanos regresan a la Tierra con sus nuevas esposas; Reed, su padre y Spider-Man negocian con Rayo Negro, y el Pensador Loco y Diablo traicionan a Doom. En el #11, la Inteligencia Suprema kree lanza su flota contra Nueva York, y Valeria ya ha preparado un plan de huida para los niños.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b6-amazing-spider-man-657-661
+          aparicion: true
+          donde: En otra serie · Spider-Man
+          titulo: Amazing Spider-Man <span class="nums">#657–661</span>
+          creditos: Dan Slott y otros · Marcos Martín, Stefano Caselli y otros · 2011
+          descripcion:
+          - 'El homenaje a Johnny (#657) y los primeros pasos de Peter en la Fundación Futuro: una misión en el Caribe contra los Seis Siniestros y un día como profesor sustituto. Franklin sale en los #658–661.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b6-x-men-16-19-x-23-14-19
+          aparicion: true
+          donde: En otra serie · X-Men
+          titulo: X-Men <span class="nums">#16–19</span> · X-23 <span class="nums">#14–19</span>
+          creditos: Victor Gischler / Marjorie Liu · 2011
+          descripcion:
+          - 'Dos encuentros con los X-Men: una misión conjunta en el Triángulo de las Bermudas y Laura Kinney, X-23, que pasa una temporada con la Fundación Futuro y acaba de canguro de Franklin y Valeria, a los que tiene que rescatar del Coleccionista.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - evento:
+      id: 4f-b6-fear-itself
+      ancla: ev-fearitself
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Abril – octubre 2011
+      titulo: Fear Itself
+      creditos: Matt Fraction · Stuart Immonen (serie principal) · tie-in de Cullen Bunn y Tom Grummett
+      descripcion:
+      - 'La Serpiente, dios asgardiano del miedo, reparte martillos que convierten a varios personajes en sus heraldos, los Dignos. <strong>Uno es Ben</strong>, que se convierte en Angrir, Quebrantador de Almas, y arrasa Nueva York. En el tie-in, su familia intenta frenarlo y solo Alicia llega hasta él. En el #5, Thor lo derrota, y <strong>Franklin usa sus poderes para liberarlo de Angrir</strong> y devolverle su forma de la Cosa, en contra de lo que le había pedido su padre.'
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Fear Itself #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Fear Itself: FF #1</span> → <strong>Fear Itself #4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong>'
+      - apartado: Nota
+        texto: 'El tie-in va donde se publicó, entre el #3 y el #4, cuando Ben ya es Angrir. Se publicó a la vez que <em>FF</em> #6–8, pero no se cruza con ellos.'
+      - apartado: Conexión
+        texto: 'Es el mismo evento del bloque 4 del Expediente Mutante I, con su tie-in mutante. Si lo lees allí, aquí solo tienes que añadir <em>Fear Itself: FF</em>.'
+  - evento:
+      id: 4f-b6-forever
+      ancla: ev-forever
+      etiqueta: Saga · Diez números entre dos series · Noviembre 2011 – marzo 2012
+      titulo: Forever
+      creditos: Jonathan Hickman · Steve Epting, Barry Kitson, Juan Bobillo y Nick Dragotta
+      descripcion:
+      - El clímax de Hickman. Johnny vuelve de la Zona Negativa convertido en su gobernante, con el ejército de Annihilus a sus órdenes. Los kree atacan Manhattan, Galactus llega para frenar a los Celestiales locos y los niños de la Fundación, refugiados cerca de Latveria, piden ayuda al «tío» Doom.
+      - <strong>Franklin, en el centro:</strong> el niño se enfrenta a los Celestiales y, cuando parece perdido, llega su yo adulto, con la Valeria adulta, para salvar la Tierra. Al final, Reed le pide a su hijo que salte, que él lo coge, como hizo Nathaniel con él.
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Fantastic Four #600</strong> → <strong>#601</strong> → <span class="cap">FF #12</span> → <span class="cap">FF #13</span> → <strong>Fantastic Four #602</strong> → <span class="cap">FF #14</span> → <strong>Fantastic Four #603</strong> → <span class="cap">FF #15</span> → <strong>Fantastic Four #604</strong> → <span class="cap">FF #16</span>'
+      - apartado: Por qué este orden
+        texto: Marvel Fandom indica qué números de <em>FF</em> ocurren a la vez que cada <em>Fantastic Four</em>. Leídos por tomos (#600–604 y luego <em>FF</em>
+  - tramo:
+      numero: '6.2'
+      titulo: Después de Forever
+      cuando: Abril – octubre 2012
+      nota: 'Orden de publicación: Fantastic Four #605 → #605.1 → FF #17 → Fantastic Four #606 → FF #18 → Fantastic Four #607 → FF #19 → Fantastic Four #608 → FF #20 → Fantastic Four #609 → FF #21 → Fantastic Four #610 → FF #22 → Fantastic Four #611 → FF #23. Las fichas los agrupan por historias.'
+      entradas:
+      - serie:
+          id: 4f-b6-fantastic-four-605-605-1
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#605</span> + <span class="nums">#605.1</span>
+          creditos: Jonathan Hickman · Ron Garney y Mike Choi · 2012
+          continuidad:
+          - viene: ◂ Viene de «Forever»
+          descripcion:
+          - 'Reed y su padre viajan al futuro para saber qué será de Ben, y en el año 3012 encuentran unos 4 Fantásticos liderados por Franklin. El #605.1 cuenta el origen del Consejo de Reeds: un Reed de una Tierra donde ganaron los nazis.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b6-ff-17-18-fantastic-four-606
+          prioridad: p2
+          titulo: FF <span class="nums">#17–18</span> · Fantastic Four <span class="nums">#606</span>
+          creditos: Jonathan Hickman · Nick Dragotta y Ron Garney · 2012
+          descripcion:
+          - 'Johnny se instala en el piso de Peter Parker hasta que Peter lo echa, se estrena como profesor de la Fundación y pierde unas elecciones en la Zona Negativa frente a Annihilus. En el #606, el grupo se encoge para salvar al cartero Willie Lumpkin de un tumor.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b6-fantastic-four-607-608-ff-19
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#607–608</span> · FF <span class="nums">#19</span>
+          creditos: Jonathan Hickman · Giuseppe Camuncoli y Gabriel Hernández Walta · 2012
+          descripcion:
+          - Excursión a Wakanda. Reed acompaña a T’Challa a la Ciudad de los Muertos, bajo el reino, donde Bast le devuelve el manto de Pantera Negra. Los niños, de safari, conocen a Onome, que se une a la Fundación.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b6-ff-20-21
+          prioridad: p1
+          titulo: FF <span class="nums">#20–21</span>
+          creditos: Jonathan Hickman · Nick Dragotta · 2012
+          descripcion:
+          - El Franklin adulto negocia la paz entre los kree y los Inhumanos, y el precio es la relación entre Cristal y Ronan.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b6-fantastic-four-609-610
+          prioridad: p2
+          titulo: Fantastic Four <span class="nums">#609–610</span>
+          creditos: Jonathan Hickman · Ryan Stegman · 2012
+          descripcion:
+          - Los refugiados del futuro de Nu-Earth se marchan en una nave construida a partir del cadáver del Galactus futuro. A.I.M. compra un país, y Reed visita al Hombre Mago en la cárcel con Bentley, su clon.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b6-ff-22-fantastic-four-611-ff-23
+          prioridad: p1
+          titulo: FF <span class="nums">#22</span> · Fantastic Four <span class="nums">#611</span> · FF <span class="nums">#23</span>
+          creditos: Jonathan Hickman · André Lima Araújo, Ryan Stegman y Nick Dragotta · 2012
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 7
+          descripcion:
+          - 'El cierre de Hickman. Doom, superviviente de los Celestiales, usa los Guanteletes del Infinito de los Reeds muertos para crear su propio universo, y la Valeria adulta se va con el abuelo Nathaniel. El Franklin adulto se despide de su yo niño y de sus padres: cuando Sue le pregunta si fueron buenos padres, le dice que los mejores.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b6-fantastic-four-annual-33
+          titulo: Fantastic Four Annual <span class="nums">#33</span>
+          creditos: Alan Davis · 2012
+          descripcion:
+          - Ben y Johnny se quedan solos en el Edificio Baxter mientras la familia está de vacaciones, y una alarma los mete en una aventura con el Doctor Extraño de por medio. Suelto y de dibujo clásico.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b7
+  fechas: 2012 — 2015
+  titulo: El fin del universo
+  intro: 'Matt Fraction se lleva a la familia entera de viaje por el tiempo y el espacio —Reed esconde que sus poderes los están matando— y Mike Allred dibuja al equipo de sustitutos que se queda en casa. James Robinson desmonta después al grupo pieza a pieza: Johnny pierde los poderes, Ben va a la cárcel y los niños pasan a la custodia del gobierno. Todo acaba en <em>Secret Wars</em>, donde el multiverso muere y Franklin con él, hasta que Reed lo trae de vuelta para reconstruirlo todo.'
+  navegacion:
+    anio: 2012–2015
+    texto: El fin del universo
+  contenido:
+  - tramo:
+      numero: '7.1'
+      titulo: Cuatro minutos
+      cuando: Noviembre 2012 – septiembre 2013
+      nota: 'Dos series a la vez: <em>Fantastic Four</em> sigue a la familia en su viaje y <em>FF</em> al equipo que se queda en el Edificio Baxter. Se pueden alternar o leer una tras otra. Las dos son volumen nuevo y empiezan en el #1.'
+      entradas:
+      - serie:
+          id: 4f-b7-fantastic-four-vol-4-1-5
+          prioridad: p2
+          titulo: Fantastic Four vol. 4 <span class="nums">#1–5</span>
+          creditos: Matt Fraction · Mark Bagley · 2012–2013
+          continuidad:
+          - viene: ◂ Viene del bloque 6
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Reed descubre que los rayos cósmicos les están degradando las células, y se lleva a toda la familia, con Franklin y Valeria, a un viaje por el tiempo y el espacio con la excusa de que sea educativo. En la Tierra solo pasarán cuatro minutos, así que deja a cuatro sustitutos al cargo de la Fundación. Primeras paradas: un planeta que caza a sus visitantes y la Roma de Julio César.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-fantastic-four-vol-4-6-12
+          prioridad: p2
+          titulo: Fantastic Four vol. 4 <span class="nums">#6–12</span>
+          creditos: Matt Fraction · Mark Bagley · 2013
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          - sigue: ▸ Sigue en el tramo 7.2
+          descripcion:
+          - Franklin teletransporta a Blastaar fuera de la nave en el instante del Big Bang, y el esfuerzo lo deja al límite. Después, Ben viaja a la calle Yancy de los años treinta y a la universidad del joven Victor von Doom, y los Fundadores de Estados Unidos resultan tener un problema skrull. Valeria descubre lo que Reed escondía, y la piel de Ben empieza a desmoronarse.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-fantastic-four-vol-4-5au
+          titulo: Fantastic Four (Age of Ultron) <span class="nums">#5AU</span>
+          creditos: Matt Fraction · André Lima Araújo · 2013
+          descripcion:
+          - 'Tie-in de <em>Age of Ultron</em> en una línea temporal que acaba borrada: Franklin y Valeria se quedan solos en la nave escuchando el último mensaje de sus padres. Muy triste, y sin consecuencias.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+      - serie:
+          id: 4f-b7-ff-vol-2-1-8
+          prioridad: p2
+          titulo: FF vol. 2 <span class="nums">#1–8</span>
+          creditos: Matt Fraction · Mike Allred y Joe Quinones · 2012–2013
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Los sustitutos: Ant-Man, Medusa, Hulka y la estrella del pop Darla Deering, que se pone una armadura de la Cosa. Pasan los cuatro minutos y no vuelve nadie; en su lugar llega un Johnny anciano que dice que los 4 Fantásticos han muerto a manos de Doom. Franklin y Valeria solo salen en el #1, presentándole la Fundación a Ant-Man antes de irse.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-ff-vol-2-9-13
+          prioridad: p2
+          titulo: FF vol. 2 <span class="nums">#9–13</span>
+          creditos: Matt Fraction · Mike Allred y Joe Quinones · 2013
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - Los niños de la Fundación, Annihilus colado en el edificio, el hijo del Hombre Imposible y un Ant-Man decidido a acabar con Doom, que mató a su hija. Tono pop y humor, sin perder el hilo de la búsqueda de la familia.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-infinity-the-hunt-1
+          aparicion: true
+          donde: En otra serie · Infinity
+          titulo: 'Infinity: The Hunt <span class="nums">#1</span>'
+          creditos: Matt Kindt · Steven Sanders · 2013
+          descripcion:
+          - Un torneo entre las escuelas de jóvenes superhéroes, con la Fundación Futuro como uno de los equipos, interrumpido por la invasión de Thanos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '7.2'
+      titulo: Los 4 Fantásticos están condenados
+      cuando: Octubre 2013 – enero 2014
+      nota: 'Orden de publicación, que conviene seguir: Fantastic Four #13 → #14 → FF #14 → Fantastic Four #15 → FF #15 → Fantastic Four #16 → FF #16.'
+      entradas:
+      - serie:
+          id: 4f-b7-fantastic-four-vol-4-13-16
+          prioridad: p2
+          titulo: Fantastic Four vol. 4 <span class="nums">#13–16</span>
+          creditos: Matt Fraction y Karl Kesel · Mark Bagley y Raffaele Ienco · 2013–2014
+          continuidad:
+          - viene: ◂ Viene del tramo 7.1
+          descripcion:
+          - El Johnny anciano viene de otra realidad, donde Doom, Kang y Annihilus se han fundido en un solo tirano. Los 4 Fantásticos, con trajes de contención porque sus poderes fallan, viajan allí a pararlo mientras mandan a Franklin y Valeria de vuelta a casa. Termina con una barbacoa en la Luna.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-ff-vol-2-14-16
+          prioridad: p2
+          titulo: FF vol. 2 <span class="nums">#14–16</span>
+          creditos: Matt Fraction, Lee Allred y Karl Kesel · Mike Allred · 2013–2014
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 7.3
+          descripcion:
+          - El asalto final de los sustitutos a Latveria, con Ant-Man contra Doom cara a cara. Franklin y Valeria, ya de vuelta en casa, aparecen en el desenlace.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '7.3'
+      titulo: La caída de los 4 Fantásticos
+      cuando: Febrero 2014 – abril 2015
+      nota: 'Robinson vuelve a la numeración histórica a mitad de etapa: después del #14 viene el #642. Los #6–8 llevan la cabecera de <em>Original Sin</em>, pero se entienden sin el evento.'
+      entradas:
+      - serie:
+          id: 4f-b7-fantastic-four-vol-5-1-5
+          prioridad: p1
+          titulo: Fantastic Four vol. 5 <span class="nums">#1–5</span>
+          creditos: James Robinson · Leonard Kirk · 2014
+          continuidad:
+          - viene: ◂ Viene del tramo 7.2
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Sue lo cuenta en una carta a sus hijos. Unos monstruos salen de la dimensión de bolsillo que Franklin creó de niño, el arma que los detiene le quita los poderes a Johnny y los villanos se ceban con el grupo. El gobierno cierra el Edificio Baxter, juzga a los 4 Fantásticos y <strong>se lleva a los niños de la Fundación, Franklin incluido</strong>, a un campamento de S.H.I.E.L.D.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b7-fantastic-four-vol-5-6-8-fantastic-four-annual-1
+          prioridad: p2
+          titulo: Fantastic Four vol. 5 <span class="nums">#6–8</span> · Fantastic Four Annual <span class="nums">#1</span>
+          creditos: James Robinson · Leonard Kirk y Tom Grummett · 2014
+          descripcion:
+          - Ben se somete a una cura que sale mal y acaba acusado de matar al Amo de las Marionetas. Valeria, enfadada con su padre, se ha ido a vivir con su «tío» Doom, y en el anual Sue, poseída por Malicia, va a buscarla a Latveria.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b7-fantastic-four-vol-5-9-13
+          prioridad: p1
+          titulo: Fantastic Four vol. 5 <span class="nums">#9–13</span>
+          creditos: James Robinson · Marc Laming y Leonard Kirk · 2014
+          descripcion:
+          - Ben, en la cárcel; Johnny, sin poderes; Reed, desaparecido. Detrás de todo hay alguien que odia a Reed, y que secuestra a Franklin y a los niños de la Fundación del campamento de S.H.I.E.L.D. Sue, Ben y Johnny vuelven a ponerse los uniformes azules.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b7-fantastic-four-14-642-645
+          prioridad: p1
+          titulo: Fantastic Four vol. 5 <span class="nums">#14</span>, <span class="nums">#642–645</span>
+          creditos: James Robinson y otros · Leonard Kirk y otros · 2014–2015
+          continuidad:
+          - sigue: ▸ Sigue en <em>Secret Wars</em>
+          descripcion:
+          - 'El responsable, el Hombre Silencioso, un antiguo compañero de universidad obsesionado con Sue, se ha aliado con el Psico-Hombre en la dimensión de bolsillo de Franklin, la del viejo <em>Heroes Reborn</em>, y lanza su invasión. El grupo gana, Johnny recupera los poderes y Ben queda libre. El #645 cierra la serie antes de <em>Secret Wars</em>, con una última escena de Sue y un Franklin que no puede dormir.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b7-new-avengers-vol-3-29
+          aparicion: true
+          donde: En otra serie · Vengadores
+          titulo: New Avengers vol. 3 <span class="nums">#29</span>
+          creditos: Jonathan Hickman · Kev Walker · 2015
+          descripcion:
+          - Con el multiverso a punto de morir por las incursiones, los Illuminati prueban una máquina para aprovechar los poderes dormidos de Franklin y crear un universo de bolsillo donde poner a salvo a la Tierra. No funciona, y Franklin se queda con la sensación de haber decepcionado a su padre.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: 4f-b7-secret-wars
+      ancla: ev-secretwars
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Mayo 2015 – enero 2016
+      titulo: Secret Wars
+      creditos: Jonathan Hickman · Esad Ribić
+      descripcion:
+      - El universo Marvel y el Ultimate chocan y desaparecen. Franklin y la Fundación Futuro construyen las naves para salvar a unos pocos, pero en el último segundo el módulo en el que van Sue, Franklin y Valeria se rompe. <strong>Mueren los tres.</strong> Ocho años después, en el Mundo de Batalla, Doom gobierna como un dios con Sue por esposa y Valeria por hija, sin que ellas recuerden otra vida. Franklin no está.
+      - Al final, Reed le quita a Doom el poder de los Beyonders, devuelve la vida a su familia y a la Fundación, y se marcha con ellos y con el Hombre Molécula a reconstruir el multiverso. Franklin, con sus poderes, crea universos nuevos. Es el final de la etapa de Hickman y lo más parecido a un evento de los 4 Fantásticos.
+      apartados:
+      - apartado: Antes de empezar
+        texto: '<em>New Avengers</em> vol. 3 #29 (ficha anterior). Si quieres todo el camino, la etapa de Hickman en <em>Avengers</em> y <em>New Avengers</em> (2013–2015) termina en <em>Time Runs Out</em>.'
+      - apartado: Orden de lectura
+        texto: 'Free Comic Book Day 2015: Secret Wars #1 → <strong>Secret Wars #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong> → <strong>#9</strong>'
+      - apartado: Prescindible
+        texto: Las decenas de miniseries de Battleworld. Ninguna afecta a la familia Richards.
+      - apartado: Conexión
+        texto: 'El mismo evento cierra el bloque 6 del Expediente Mutante I y el bloque 4 de Guardianes, allí como realidad alterna. Aquí es la historia central: léelo aquí.'
+- id: b8
+  fechas: 2015 — 2018
+  titulo: Los años sin 4 Fantásticos
+  intro: 'Tras <em>Secret Wars</em>, Reed, Sue, Franklin, Valeria y la Fundación Futuro están fuera de nuestra realidad reconstruyendo el multiverso, y en la Tierra todos los dan por muertos. No hay serie de los 4 Fantásticos durante casi tres años: Ben se va con los Guardianes de la Galaxia, Johnny con los Inhumanos y los Vengadores, y Doom intenta ser un héroe. Este bloque es corto y casi todo opcional; lo importante es <em>Marvel Two-in-One</em>, que prepara el regreso.'
+  navegacion:
+    anio: 2015–2018
+    texto: Los años sin 4 Fantásticos
+  contenido:
+  - tramo:
+      numero: '8.1'
+      titulo: Cada uno por su lado
+      cuando: Octubre 2015 – septiembre 2017
+      nota: Ninguna de estas series es de los 4 Fantásticos. Están por si quieres seguir a Ben, a Johnny o a Doom en esos años.
+      entradas:
+      - serie:
+          id: 4f-b8-guardians-of-the-galaxy-vol-4-1-19
+          aparicion: true
+          donde: En otra serie · Guardianes de la Galaxia
+          titulo: Guardians of the Galaxy vol. 4 <span class="nums">#1–19</span>
+          creditos: Brian Michael Bendis · Valerio Schiti y otros · 2015–2017
+          descripcion:
+          - 'Ben se une a los Guardianes de la Galaxia y pasa en el espacio buena parte de estos años. El #15 está dedicado a él. Es la etapa del bloque 5 del Expediente Guardianes; léela allí si llevas los dos expedientes.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b8-uncanny-inhumans-0-20-uncanny-avengers-vol-3-1-30
+          aparicion: true
+          donde: En otra serie · Inhumanos y Vengadores
+          titulo: Uncanny Inhumans <span class="nums">#0–20</span> · Uncanny Avengers vol. 3 <span class="nums">#1–30</span>
+          creditos: Charles Soule / Gerry Duggan · 2015–2017
+          descripcion:
+          - Johnny, solo, se une a los Inhumanos de Medusa, con la que tiene una relación, y al escuadrón de Vengadores y mutantes del Capitán América. Dos series largas en las que es secundario.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b8-infamous-iron-man-1-12
+          aparicion: true
+          donde: En otra serie · Doctor Muerte
+          titulo: Infamous Iron Man <span class="nums">#1–12</span>
+          creditos: Brian Michael Bendis · Alex Maleev · 2016–2017
+          descripcion:
+          - Doom sale de <em>Secret Wars</em> con la cara curada y decidido a ser un héroe, y se pone una armadura de Iron Man. Ben le da caza. Explica por qué Doom está como está cuando vuelven los 4 Fantásticos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b8-marvel-legacy-1
+          prioridad: p2
+          aparicion: true
+          donde: En otra serie · Marvel Legacy
+          titulo: Marvel Legacy <span class="nums">#1</span>
+          creditos: Jason Aaron · Esad Ribić y otros · 2017
+          descripcion:
+          - 'El especial que relanza la línea Marvel. La narradora resulta ser Valeria, y en la última página Franklin y ella aparecen en otra realidad, creando universos y echando carreras de uno a otro: la primera señal de que la familia sigue viva.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '8.2'
+      titulo: Marvel Two-in-One
+      cuando: Diciembre 2017 – septiembre 2018
+      nota: 'Los #11–12 se publicaron después del regreso de los 4 Fantásticos y van en el bloque 9.'
+      entradas:
+      - serie:
+          id: 4f-b8-marvel-2-in-one-1-6
+          prioridad: p1
+          titulo: Marvel 2-In-One <span class="nums">#1–6</span>
+          creditos: Chip Zdarsky · Jim Cheung y Valerio Schiti · 2017–2018
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Los poderes de Johnny se apagan sin su familia, y Ben le miente: le dice que Reed y los demás siguen vivos en algún lugar del multiverso. Con un aparato que Reed dejó escondido y la ayuda de la doctora Rachna Koul salen a buscarlos, mientras Doom los vigila. Encuentran un mundo donde su versión de Doom se convirtió en Galactus.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b8-marvel-2-in-one-annual-1-marvel-2-in-one-7-10
+          prioridad: p2
+          titulo: Marvel 2-In-One Annual <span class="nums">#1</span> · Marvel 2-In-One <span class="nums">#7–10</span>
+          creditos: Chip Zdarsky · Declan Shalvey y Ramón Pérez · 2018
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          - sigue: ▸ Sigue en el bloque 9
+          descripcion:
+          - En el anual, Ben y el Doom de <em>Infamous Iron Man</em> se meten en la guarida del Consejo de Reeds para desvelar secretos de <em>Secret Wars</em>. En «Next of Kin», Ben y Johnny, sin poderes y perdidos en otra realidad, encuentran unos 4 Fantásticos que no son lo que parecen.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b9
+  fechas: 2018 — 2022
+  titulo: Powerhouse
+  intro: 'Dan Slott trae de vuelta a la familia: tras años creando universos, Franklin se ha quedado sin fuerzas para seguir, y vuelven a la Tierra convertidos en adolescentes con nombre en clave, Powerhouse y Brainstorm. Ben se casa con Alicia, el grupo se muda a la calle Yancy y descubre el origen de la tormenta cósmica. Para Franklin es la etapa de la pérdida: los X-Men de Krakoa lo quieren con ellos, sus poderes se apagan del todo y le dicen que ya ni siquiera es mutante. Termina con la «Reckoning War», la guerra contra los enemigos de los Vigilantes.'
+  navegacion:
+    anio: 2018–2022
+    texto: Powerhouse
+  contenido:
+  - tramo:
+      numero: '9.1'
+      titulo: Fourever
+      cuando: Agosto 2018 – abril 2019
+      entradas:
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-1-4
+          prioridad: p1
+          titulo: Fantastic Four vol. 6 <span class="nums">#1–4</span>
+          creditos: Dan Slott · Sara Pichelli y Stefano Caselli · 2018
+          continuidad:
+          - viene: ◂ Viene del bloque 8
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'En la Tierra, Ben y Johnny reciben una señal en el cielo: un «4». Al otro lado del multiverso, la familia y la Fundación llevan años creando universos, hasta que <strong>Franklin se queda sin poder para hacer más</strong> y un ser del fin de los tiempos, el Doliente, empieza a destruirlos. Reed llama a todos los que han sido alguna vez de los 4 Fantásticos. Franklin y Valeria vuelven ya adolescentes, como Powerhouse y Brainstorm, y se encuentran con unos impostores, los Fantastix, instalados en el Edificio Baxter.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b9-marvel-2-in-one-11-12
+          prioridad: p2
+          titulo: Marvel 2-In-One <span class="nums">#11–12</span>
+          creditos: Chip Zdarsky · Ramón Pérez · 2018
+          continuidad:
+          - viene: ◂ Viene del bloque 8
+          descripcion:
+          - 'El cierre de la serie de Ben y Johnny, ya con la familia de vuelta: Ben y Reed viajan para reparar lo que dejó su ausencia, y Sue y Johnny buscan a Rachna Koul, que los traicionó.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-5-fantastic-four-wedding-special-1
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#5</span> · Fantastic Four Wedding Special <span class="nums">#1</span>
+          creditos: Dan Slott y otros · Aaron Kuder y otros / Gail Simone y otros · 2018
+          descripcion:
+          - 'Ben y Alicia se casan, esta vez de verdad: sin skrulls ni trampas. El especial cuenta la despedida de soltera de Alicia y la visita de Ben a su futuro suegro, el Amo de las Marionetas.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-6-9
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#6–9</span>
+          creditos: Dan Slott · Aaron Kuder · 2019
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 9.2
+          descripcion:
+          - Galactus vuelve a por la Tierra y Doom se presenta como su salvador, con una heroína latveriana nueva, Victorious, mientras el grupo entra en Latveria como invasor. Termina con un acto de Doom que cambia su relación con los 4 Fantásticos.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '9.2'
+      titulo: El origen de la tormenta
+      cuando: Mayo 2019 – febrero 2020
+      nota: 'El #10 es un tie-in de <em>War of the Realms</em> en la calle Yancy y se entiende solo. Los one-shots y miniseries del final del tramo salieron en los mismos meses.'
+      entradas:
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-10-13
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#10–13</span>
+          creditos: Dan Slott y Clay McLeod Chapman · Paco Medina y Sean Izaakse · 2019
+          continuidad:
+          - viene: ◂ Viene del tramo 9.1
+          descripcion:
+          - La guerra de los Reinos llega a la calle Yancy. Franklin y Valeria se examinan del carné de conducir justo cuando el Microverso amenaza con implosionar. Ben y Alicia se van de luna de miel y Hulk, el inmortal, se la estropea.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-14-19
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#14–19</span>
+          creditos: Dan Slott · Paco Medina y otros · 2019–2020
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 9.3
+          descripcion:
+          - «Point of Origin». Reed lleva al grupo a un planeta donde unos héroes, los Unparalleled, obtuvieron sus poderes de la misma tormenta cósmica, y que cree que los 4 Fantásticos son los villanos de su profecía. Johnny conoce a Sky, y Reed descubre por fin quién estaba detrás de la tormenta que los transformó.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-history-of-the-marvel-universe-1-6
+          aparicion: true
+          prioridad: p2
+          donde: En otra serie · Historia del universo Marvel
+          titulo: History of the Marvel Universe <span class="nums">#1–6</span>
+          creditos: Mark Waid · Javier Rodríguez · 2019
+          descripcion:
+          - Toda la historia del universo Marvel, del Big Bang a su final, contada como una conversación entre un Franklin anciano y Galactus en el fin de los tiempos, justo antes de que empiece el universo siguiente.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-future-foundation-1-5
+          titulo: Future Foundation <span class="nums">#1–5</span>
+          creditos: Jeremy Whitley · Will Robson y otros · 2019
+          descripcion:
+          - Los niños de la Fundación, que se quedaron en el multiverso, intentan reconstruir al Hombre Molécula con Alex y Julie Power al frente. Franklin aparece en algunos números.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b9-fantastic-four-the-prodigal-sun-4-yancy-street-negative-zone-grimm-noi
+          titulo: 'Fantastic Four: The Prodigal Sun · 4 Yancy Street · Negative Zone · Grimm Noir · Annihilation – Scourge: Fantastic Four'
+          creditos: Varios autores · one-shots · 2019–2020
+          descripcion:
+          - 'Cinco números sueltos: un alien estrellado en la Tierra Salvaje (primero de un cruce con Silver Surfer y Guardianes), la vida en la calle Yancy, una visita a la Zona Negativa, Ben de detective y un tie-in de <em>Annihilation – Scourge</em>.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '9.3'
+      titulo: Krakoa y Empyre
+      cuando: Febrero – septiembre 2020
+      entradas:
+      - serie:
+          id: 4f-b9-x-men-fantastic-four-1-4
+          ancla: xmff
+          prioridad: p1
+          titulo: X-Men/Fantastic Four <span class="nums">#1–4</span>
+          creditos: Chip Zdarsky · Terry Dodson · 2020
+          continuidad:
+          - viene: ◂ Viene del tramo 9.2
+          descripcion:
+          - <strong>La custodia de Franklin.</strong> Xavier quiere a Franklin en Krakoa, la nación mutante, porque sus poderes se están apagando y cree poder ayudarlo. Franklin, que ya no se fía de su padre, acepta la oferta de Doom para arreglarlos en su isla, pero renuncia a la cura para detener a los robots de Doom. Al final se hace ciudadano de Krakoa.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-20
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#20</span>
+          creditos: Dan Slott · Paco Medina · 2020
+          continuidad:
+          - sigue: ▸ Sigue en <em>Empyre</em>
+          descripcion:
+          - El Hombre Topo vuelve a la superficie con sus kaijus, y Johnny y Sky salen al rescate de Wyatt Wingfoot. Aparece un Anciano del Universo nuevo, el Especulador, que será clave en <em>Empyre</em>.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: 4f-b9-empyre
+      ancla: ev-empyre
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Julio – septiembre 2020
+      titulo: Empyre
+      creditos: Al Ewing y Dan Slott · Valerio Schiti (serie principal) · capítulos de los 4 Fantásticos de Dan Slott, R.B. Silva y Paco Medina
+      descripcion:
+      - 'Los kree y los skrulls, unidos bajo el emperador Hulkling, vienen a la Tierra para frenar a los Cotati, y los 4 Fantásticos están en el centro de la guerra en el espacio. En el #0 aparecen dos niños soldado, un kree y una skrull, que son los hijos adoptivos de Ben y Alicia.'
+      - 'En la Tierra, Powerhouse y Brainstorm forman unos «nuevos 4 Fantásticos» con Spider-Man y Lobezno y cumplen una misión secreta de sus padres: un arma diseñada por Valeria y alimentada por Franklin.'
+      apartados:
+      - apartado: Orden de lectura
+        texto: 'Empyre: Avengers #0 → <span class="cap">Empyre: Fantastic Four #0</span> → <strong>Empyre #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → Empyre: Aftermath Avengers #1 → <span class="cap">Empyre: Fallout Fantastic Four #1</span>'
+      - apartado: Durante el evento
+        texto: '<span class="cap">Fantastic Four #21–23</span> pasan en la Tierra mientras el grupo está en el espacio. Se publicaron a la vez que <em>Empyre</em> #1–6 y se pueden leer en cualquier punto entre el #1 y el #6.'
+      - apartado: Conexión
+        texto: Es el mismo evento del bloque 1 del Mutante II, del bloque 7 de Guardianes y del bloque 6 de Jóvenes Vengadores. Si ya lo has leído, aquí solo añades los números de los 4 Fantásticos.
+  - tramo:
+      numero: '9.4'
+      titulo: Ya no es mutante
+      cuando: Septiembre 2020 – noviembre 2021
+      nota: 'Los #29–30 llevan la cabecera de <em>King in Black</em> y los #32–34 son «La novia de Doom». La Gala del Fuego Infernal de 2021 (ficha opcional) pasa entre el #31 y el #32.'
+      entradas:
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-24
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#24</span>
+          creditos: Dan Slott · Paco Medina · 2020
+          continuidad:
+          - viene: ◂ Viene de <em>Empyre</em>
+          descripcion:
+          - 'Johnny cuenta la historia que nadie quería recordar: la vez que el Hombre de Hielo lo sustituyó en el grupo. Franklin ya visita Krakoa con regularidad.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-25-28
+          prioridad: p1
+          titulo: Fantastic Four vol. 6 <span class="nums">#25–28</span>
+          creditos: Dan Slott · R.B. Silva · 2020–2021
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - 'Uniformes nuevos y un enemigo imparable, el Cormorán. <strong>Franklin gasta lo poco que le queda de poder</strong> intentando frenarlo y ya no puede cruzar las puertas de Krakoa. Cuando intenta llegar por la Puerta Eterna, Xavier le comunica que su condición de mutante era un efecto de sus propios poderes: sin ellos, ya no es mutante y pierde la ciudadanía.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-29-31
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#29–31</span>
+          creditos: Dan Slott · Ze Carlos y R.B. Silva · 2021
+          descripcion:
+          - En plena invasión de Knull (<em>King in Black</em>), un simbionte se adhiere a un miembro de la familia y medio grupo se vuelve contra el otro medio. Después, Reed y Ben exploran un reino nuevo a través de la Puerta Eterna.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-marauders-21-hellions-12
+          aparicion: true
+          donde: En otra serie · X-Men
+          titulo: Marauders <span class="nums">#21</span> · Hellions <span class="nums">#12</span>
+          creditos: Gerry Duggan / Zeb Wells · 2021
+          descripcion:
+          - La Gala del Fuego Infernal de 2021 en Krakoa. Franklin acude con su familia, dolido por haber perdido su identidad mutante, y se le ve con su amiga Kate Pryde. Es la gala del bloque 2 del Mutante II.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-32-37
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#32–37</span>
+          creditos: Dan Slott · R.B. Silva, John Romita Jr. y Nico Leon · 2021
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 9.5
+          descripcion:
+          - '«La novia de Doom»: Johnny tiene que elegir entre su alma gemela y su exmujer, y Doom prepara su boda con Victorious. Después, el número del 60 aniversario, con toda la dinastía de Kang atacando a la vez cada época del grupo, y el primer Halloween de Ben y Alicia con sus hijos.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b9-fantastic-four-antithesis-1-4-fantastic-four-road-trip-1
+          titulo: 'Fantastic Four: Antithesis <span class="nums">#1–4</span> · Fantastic Four: Road Trip <span class="nums">#1</span>'
+          creditos: Mark Waid · Neal Adams / Christopher Cantwell · Filipe Andrade · 2020
+          descripcion:
+          - La primera historia larga de los 4 Fantásticos dibujada por Neal Adams, con un meteorito imparable que sale del hiperespacio. Y unas vacaciones familiares en el Gran Cañón que se convierten en una historia de terror corporal.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b9-thing-vol-3-1-6-fantastic-four-infinity-comic-1-4
+          titulo: Thing vol. 3 <span class="nums">#1–6</span> · Fantastic Four Infinity Comic <span class="nums">#1–4</span>
+          creditos: Walter Mosley · Tom Reilly / Zac Gorman · Stefano Landini · 2021–2022
+          descripcion:
+          - 'Una miniserie de Ben escrita por el novelista Walter Mosley, y una historia corta en formato vertical para Marvel Unlimited, con Franklin en los #2–4.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '9.5'
+      titulo: Reckoning War
+      cuando: Diciembre 2021 – octubre 2022
+      entradas:
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-38-39
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#38–39</span>
+          creditos: Dan Slott · Francesco Manna · 2021–2022
+          continuidad:
+          - viene: ◂ Viene del tramo 9.4
+          descripcion:
+          - Los Cuatro Terribles llevan a los 4 Fantásticos a los tribunales y Hulka se encarga de la defensa. Después, una crisis familiar para Reed y Sue con la Autoridad de Variación Temporal, el Vigilante y Nick Fury de por medio.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: 4f-b9-reckoning-war
+          ancla: ev-reckoning
+          etiqueta: Saga de los 4 Fantásticos · Febrero – julio 2022
+          titulo: Reckoning War
+          creditos: Dan Slott · Carlos Pacheco, Rachael Stott, Javier Rodríguez y otros
+          descripcion:
+          - Los Reckoning, una antigua fuerza enemiga de los Vigilantes, llevan eones armando a las especies más belicosas del universo, y ahora atacan. Con todos los Vigilantes rompiendo su juramento, Reed tiene dos horas para organizar la defensa. Ben y Reed llegan a pelearse a muerte, y Doom se enfrenta solo al Cormorán. El cierre de la etapa de Slott.
+          apartados:
+          - apartado: Orden de lectura
+            texto: 'Fantastic Four: Reckoning War Alpha #1 → <strong>Fantastic Four #40</strong> → <strong>#41</strong> → Reckoning War: Trial of the Watcher #1 → <strong>Fantastic Four #42</strong> → <strong>#43</strong> → <strong>#44</strong> → <strong>#45</strong>'
+          - apartado: Nota
+            texto: Orden de publicación, el mismo que siguen los recopilatorios. El
+      - serie:
+          id: 4f-b9-fantastic-four-vol-6-46
+          prioridad: p2
+          titulo: Fantastic Four vol. 6 <span class="nums">#46</span>
+          creditos: Dan Slott · CAFU · 2022
+          descripcion:
+          - 'Gracias a lo que saben los Vigilantes, encuentran a la hija perdida de Nathaniel Richards: Reed tiene una hermana. La despedida de Slott.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - evento:
+          id: 4f-b9-a-x-e-judgment-day
+          ancla: ev-axe
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Julio – noviembre 2022
+          titulo: 'A.X.E.: Judgment Day'
+          creditos: Kieron Gillen · Valerio Schiti (serie principal) · tie-in de David Pepose y Juan Cabal
+          descripcion:
+          - Un Celestial juzga a la humanidad. En el tie-in de los 4 Fantásticos, mientras Reed busca respuestas encerrado en su laboratorio, la exterminadora Oubliette Midas toma el Edificio Baxter y solo Sue queda libre para recuperarlo planta a planta.
+          apartados:
+          - apartado: Dónde va
+            texto: '<span class="cap">Fantastic Four #47–48</span> se publicaron durante el evento, en septiembre y octubre de 2022, y no se cruzan con la serie principal.'
+          - apartado: Conexión
+            texto: El evento entero, con su orden entrelazado, está en el bloque 3 del Mutante II y en el bloque 5 de Eterno. Para los 4 Fantásticos basta con este tie-in.
+      - serie:
+          id: 4f-b9-fantastic-four-full-circle
+          titulo: 'Fantastic Four: Full Circle'
+          creditos: Alex Ross · 2022
+          descripcion:
+          - 'Novela gráfica de Alex Ross, guion y dibujo: una invasión de parásitos de energía negativa lleva al grupo a la Zona Negativa, en homenaje a los 4 Fantásticos de Lee y Kirby.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b10
+  fechas: 2022 — 2025
+  titulo: La granja de Arizona
+  intro: 'Ryan North empieza con la familia dispersa y odiada: algo pasó en Nueva York y nadie sabe qué. La respuesta es que Reed mandó un año al futuro la manzana entera del Edificio Baxter, con Franklin, Valeria y los hijos de Ben y Alicia dentro, para salvar la Tierra. Mientras vuelven, los 4 Fantásticos se instalan en una granja de Arizona y viven aventuras de ciencia ficción de un número o dos. Franklin, que se creía sin poderes, guarda un secreto que ni él mismo recuerda.'
+  navegacion:
+    anio: 2022–2025
+    texto: La granja de Arizona
+  contenido:
+  - tramo:
+      numero: '10.1'
+      titulo: ¿Qué fue de los 4 Fantásticos?
+      cuando: Noviembre 2022 – abril 2023
+      entradas:
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-1-6
+          prioridad: p1
+          titulo: Fantastic Four vol. 7 <span class="nums">#1–6</span>
+          creditos: Ryan North · Iban Coello e Ivan Fiorelli · 2022–2023
+          continuidad:
+          - viene: ◂ Viene del bloque 9
+          - sigue: ▸ Sigue en el tramo 10.2
+          descripcion:
+          - 'Ben y Alicia cruzan Estados Unidos huyendo de algo, Reed y Sue también, y Johnny vive solo en una Nueva York que lo odia. En el #4 se cuenta qué pasó: para frenar una invasión desde la Zona Negativa, <strong>Reed mandó un año al futuro toda la manzana del Edificio Baxter, con Franklin, Valeria, Jo y Nicki dentro</strong>, y desde fuera pareció que la había hecho desaparecer. Después, Nicholas Scratch y los Siete de Salem en plena carretera.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '10.2'
+      titulo: Un número, una idea
+      cuando: Mayo – diciembre 2023
+      nota: 'El #7 es también el #700 de la numeración histórica. Las historias de este tramo son casi todas de un número o dos, y se leen sueltas.'
+      entradas:
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-7-13
+          prioridad: p2
+          titulo: Fantastic Four vol. 7 <span class="nums">#7–13</span>
+          creditos: Ryan North · Iban Coello, Ivan Fiorelli y Leandro Fernández · 2023
+          continuidad:
+          - viene: ◂ Viene del tramo 10.1
+          descripcion:
+          - La familia se instala en la granja de la tía Petunia, en Arizona. Un alien les borra el lenguaje y la memoria, Ben cae por un agujero hacia el centro de la Tierra con la casa entera, una nave generacional se pierde en el vacío y el grupo intercambia su lugar con los 4 Fantásticos de un universo de dinosaurios mientras Doom hace equipo consigo mismo.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b10-fantastic-four-annual-1-2023
+          titulo: Fantastic Four Annual <span class="nums">#1</span> (2023)
+          creditos: Zac Gorman · Alan Robinson · 2023
+          descripcion:
+          - Tercera parte de «Contest of Chaos», el torneo de Agatha Harkness entre los anuales de ese verano. Johnny contra el Motorista Fantasma.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '10.3'
+      titulo: Los niños vuelven
+      cuando: Diciembre 2023 – febrero 2024
+      entradas:
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-14-16
+          prioridad: p1
+          titulo: Fantastic Four vol. 7 <span class="nums">#14–16</span>
+          creditos: Ryan North · Ivan Fiorelli y Francesco Mortarino · 2023–2024
+          continuidad:
+          - viene: ◂ Viene del tramo 10.2
+          descripcion:
+          - 'Pasado el año, la manzana del Edificio Baxter vuelve con los niños, que solo han vivido un instante, y algo se está construyendo en el agujero que dejó. Una mente colmena, el Cerebro Chino, decide que la familia es una amenaza. En el #16, ya en el colegio de Arizona, Franklin y Valeria se ponen a inventar lo imposible con Jo y Nicki para sacar nota, y se les va de las manos.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-17
+          prioridad: p2
+          titulo: Fantastic Four vol. 7 <span class="nums">#17</span>
+          creditos: Ryan North · Carlos Gómez · 2024
+          descripcion:
+          - 'Sue, arqueóloga, desentierra unos huesos de hace decenas de miles de años con restos de su propio uniforme: va a morir en la prehistoria.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '10.4'
+      titulo: El secreto de Franklin
+      cuando: Marzo 2024 – enero 2025
+      nota: 'Los #21–22 son el tie-in de <em>Blood Hunt</em>, el evento de vampiros del bloque 5 del Mutante II, y se entienden solos. Al final del evento, Doom se convierte en Hechicero Supremo, y eso lleva a <em>One World Under Doom</em>.'
+      entradas:
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-18
+          prioridad: p1
+          titulo: Fantastic Four vol. 7 <span class="nums">#18</span>
+          creditos: Ryan North · Carlos Gómez · 2024
+          continuidad:
+          - viene: ◂ Viene del tramo 10.3
+          descripcion:
+          - '<strong>El secreto de Franklin Richards.</strong> Sus poderes no se apagaron: fue él quien se puso nuevos bloqueos mentales para usarlos y recordarlos solo un día al año. Ese día detiene en secreto una lluvia de asteroides invisibles mientras todos duermen, sin saber que Nicholas Scratch lo vigila desde las sombras de su cuarto.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-19-22
+          prioridad: p2
+          titulo: Fantastic Four vol. 7 <span class="nums">#19–22</span>
+          creditos: Ryan North · Carlos Gómez e Ivan Fiorelli · 2024
+          descripcion:
+          - 'Un número de cine negro con un detective enamorado de Sue, Ben y Johnny con el mismo trabajo a media jornada, y el tie-in de <em>Blood Hunt</em>: Reed y Alicia, atrapados en una Nueva York tomada por los vampiros, intentan dar con una cura mientras el resto protege a los niños en Arizona.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-23-27
+          prioridad: p2
+          titulo: Fantastic Four vol. 7 <span class="nums">#23–27</span>
+          creditos: Ryan North · Carlos Gómez, Ivan Fiorelli y Steven Cummings · 2024
+          continuidad:
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Johnny y Sue llevan a Jo y a Nicki a Nueva York; partículas de otro rincón del universo invaden la Tierra; un viaje a Latveria acaba en otro planeta; Reed y Johnny abren por accidente algo bajo la granja, y Nicki, la hija skrull de Ben y Alicia, se hace pasar por los padres de todos para sacar a los primos de líos en el colegio, Franklin incluido.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b10-fantastic-four-vol-7-28
+          prioridad: p2
+          titulo: Fantastic Four vol. 7 <span class="nums">#28</span>
+          creditos: Ryan North · Steven Cummings · 2025
+          continuidad:
+          - sigue: ▸ Sigue en el bloque 11 (<em>One World Under Doom</em>)
+          descripcion:
+          - Doom es Hechicero Supremo desde hace meses y ha desaparecido. Reed, incapaz de entender la magia, pide ayuda al Caballero Negro, que manda las mentes de Reed y Sue al pasado. Es el prólogo de <em>One World Under Doom</em>.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b10-power-pack-into-the-storm-1-5
+          prioridad: p2
+          titulo: 'Power Pack: Into the Storm <span class="nums">#1–5</span>'
+          creditos: Louise Simonson · June Brigman · 2024
+          descripcion:
+          - 'Las creadoras de Power Pack vuelven a sus primeros tiempos: el pequeño Franklin tiene una premonición de una amenaza galáctica, los Power se enfrentan a ella, y el enemigo intenta absorber los poderes de Franklin. Ambientada en el pasado, pero es una historia de Franklin de principio a fin.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b10-giant-size-fantastic-four-1-venom-war-58-fantastic-four-1
+          titulo: Giant-Size Fantastic Four <span class="nums">#1</span> · Venom War&#58; Fantastic Four <span class="nums">#1</span>
+          creditos: Fabian Nicieza · Creees Lee / Adam Warren · Joey Vazquez · 2024
+          descripcion:
+          - Una amenaza atlante antigua con Namor en prisión, y un tie-in de <em>Venom War</em> en el que Doom y Kang meten al grupo en la guerra de los simbiontes.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b11
+  fechas: 2025 — hoy
+  titulo: Un mundo bajo Doom
+  intro: 'Doom, ahora Hechicero Supremo, convence a todos los gobiernos de la Tierra para que se rindan a él. Los 4 Fantásticos pierden sus poderes uno tras otro intentando pararlo, y la guerra acaba con la muerte de Valeria, alcanzada por la magia de su padrino. Doom paga con su vida por devolvérsela, y en su testamento le deja Latveria. Después, la serie vuelve a empezar en el #1 con las mismas manos, Ryan North, y llega hasta <em>DNX</em>, que se está publicando ahora mismo.'
+  navegacion:
+    anio: 2025–hoy
+    texto: Un mundo bajo Doom
+  contenido:
+  - tramo:
+      numero: '11.1'
+      titulo: One World Under Doom
+      cuando: Febrero – diciembre 2025
+      nota: 'Orden de publicación, que es el que conviene seguir: One World Under Doom #1 → Fantastic Four vol. 7 #29 → OWUD #2 → FF #30 → OWUD #3 → FF #31 → OWUD #4 → FF #32 → OWUD #5 → FF #33 → Fantastic Four vol. 8 #1 → OWUD #6 → FF vol. 8 #2 → OWUD #7 → FF vol. 8 #3 → OWUD #8 → #9 → Will of Doom #1. Marvel Fandom no da una cronología interna más precisa.'
+      entradas:
+      - evento:
+          id: 4f-b11-one-world-under-doom
+          ancla: ev-owud
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Febrero – noviembre 2025
+          titulo: One World Under Doom
+          creditos: Ryan North · R.B. Silva
+          descripcion:
+          - 'Doom se presenta en la ONU: todos los gobiernos le han jurado lealtad y la Tierra es ahora «Latveria Unida». Gobierna con mano blanda hasta que se descubre de dónde saca su poder: la vida de miles de latverianos. En la batalla final, con todos los héroes contra él, Valeria intenta convencerlo de que pare y <strong>muere alcanzada por los fragmentos de su armadura</strong>.'
+          - Doom recorre el cosmos hasta el Tribunal Viviente para devolverle la vida, y lo consigue a cambio de la suya. Antes de convertirse en ceniza, visita a Reed para preguntarle cómo está Valeria y le deja su testamento.
+          apartados:
+          - apartado: Orden de lectura
+            texto: '<strong>One World Under Doom #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong> → <strong>#9</strong>'
+          - apartado: Con los 4 Fantásticos
+            texto: Las dos fichas siguientes van intercaladas con el evento, como indica la nota del tramo. Para el resto de la línea, el Mutante II (bloque 5) da el orden con sus capítulos mutantes.
+          - apartado: Antes de empezar
+            texto: '<em>Blood Hunt</em>, que deja a Doom como Hechicero Supremo, y el #28 de la ficha anterior.'
+      - serie:
+          id: 4f-b11-fantastic-four-vol-7-29-33
+          prioridad: p1
+          titulo: Fantastic Four vol. 7 <span class="nums">#29–33</span>
+          creditos: Ryan North · Cory Smith · 2025
+          continuidad:
+          - viene: ◂ Viene del bloque 10
+          - sigue: ▸ Continúa en la ficha siguiente
+          descripcion:
+          - Doom le quita los poderes a Ben, que sale a la calle como un hombre normal y acaba en el hospital de un disparo; después el resto del grupo empieza a perder los suyos. Valeria aparece sola en un mundo donde los 4 Fantásticos nunca existieron, y para arreglar lo de Ben la familia viaja hasta el Big Bang. Es el final del volumen 7.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b11-fantastic-four-vol-8-1-3
+          prioridad: p1
+          titulo: Fantastic Four vol. 8 <span class="nums">#1–3</span>
+          creditos: Ryan North · Humberto Ramos · 2025
+          continuidad:
+          - viene: ◂ Viene de la ficha anterior
+          descripcion:
+          - Volumen nuevo. Un enfrentamiento con Doom manda a cada uno a una época distinta de la historia de la Tierra, y Sue acaba en el último día del planeta. De vuelta, descubren el secreto de la invencibilidad de Doom y van a por él a su guarida de la Antártida.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: 4f-b11-will-of-doom-1
+          prioridad: p1
+          aparicion: true
+          donde: En otra serie · Latveria
+          titulo: Will of Doom <span class="nums">#1</span>
+          creditos: Chip Zdarsky · CAFU · 2025
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 11.2
+          descripcion:
+          - <strong>Valeria hereda Latveria.</strong> El testamento de Doom le deja su país y todo lo que tenía a su ahijada, que no lo quiere. Cuando los Doombots se alzan por todo el mundo siguiendo un último plan de Doom, Valeria, como su dueña legal, es la única que puede apagarlos, y Sue, que acaba de verla morir, no quiere dejarla ir.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '11.2'
+      titulo: La Mujer Invencible
+      cuando: Octubre 2025 – mayo 2026
+      entradas:
+      - serie:
+          id: 4f-b11-fantastic-four-vol-8-4-5
+          prioridad: p2
+          titulo: Fantastic Four vol. 8 <span class="nums">#4–5</span>
+          creditos: Ryan North · Humberto Ramos · 2025
+          continuidad:
+          - viene: ◂ Viene del tramo 11.1
+          descripcion:
+          - Solo Alicia nota que el perro nuevo de la familia no es un perro, sino algo que hace creer a todos que lo es. Y la Gata Negra, acusada de asesinato, le pide a Sue que demuestre su inocencia.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b11-fantastic-four-vol-8-6-10
+          prioridad: p2
+          titulo: Fantastic Four vol. 8 <span class="nums">#6–10</span>
+          creditos: Ryan North · Humberto Ramos · 2025–2026
+          continuidad:
+          - sigue: ▸ Sigue en el tramo 11.3
+          descripcion:
+          - «La Mujer Invencible». Un mensaje escondido en la estructura de la realidad convierte a Sue en la mujer más buscada del universo, y el grupo sale al espacio en una nave nueva dejando la Tierra sin defensa. Allí se enfrentan a la Mujer Invencible, una amenaza que ha puesto en peligro al propio Galactus y que después llega a la Tierra.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b11-avengers-armageddon-1-5
+          aparicion: true
+          donde: En otra serie · Latveria
+          titulo: 'Avengers: Armageddon <span class="nums">#1–5</span>'
+          creditos: Chip Zdarsky · Delio Díaz · 2026
+          descripcion:
+          - Sin Doom, el general Ross toma Latveria —la herencia de Valeria— y la rebautiza «Nueva América» para imponer la democracia por la fuerza con un arma de Doom. Reed se ofrece a ayudar a la ONU. Secuela de <em>Will of Doom</em>.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: 4f-b11-thing-vol-4-1-5-doomquest-1-5
+          titulo: Thing vol. 4 <span class="nums">#1–5</span> · Doomquest <span class="nums">#1–5</span>
+          creditos: Tony Fleecs · Justin Mason / Ryan North · Francesco Mobili · 2025–2026
+          descripcion:
+          - 'Ben busca a un niño desaparecido de la calle Yancy y acaba enfrentado a Kingpin. Y <em>Doomquest</em>, una miniserie de Ryan North en curso (siete números, hasta enero de 2027), ambientada cuando Doom aún gobernaba Latveria: Reed atrapa su mente en distintos momentos de la historia, empezando por el Titanic.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '11.3'
+      titulo: Lo más reciente
+      cuando: Mayo – octubre 2026
+      entradas:
+      - serie:
+          id: 4f-b11-fantastic-four-vol-8-11-16
+          prioridad: p2
+          titulo: Fantastic Four vol. 8 <span class="nums">#11–16</span>
+          creditos: Ryan North · Patrick Boutin, Andrea Sorrentino, Ramón Rosanas y Humberto Ramos · 2026
+          continuidad:
+          - viene: ◂ Viene del tramo 11.2
+          - sigue: ▸ Sigue en <em>DNX</em>
+          descripcion:
+          - Vuelve la Fundación Futuro, la tecnología de Doom llega a manos de delincuentes de poca monta y unos alienígenas atacan la Tierra en la antigua Roma. Johnny convence a Sue de que le haga invisible la cara para hacerse pasar por el Motorista Fantasma, Jo y Nicki salvan el mundo solos porque son los únicos inmunes, y el número del 65 aniversario.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: 4f-b11-infernal-hulk-vs-fantastic-four-1
+          titulo: Infernal Hulk vs. Fantastic Four <span class="nums">#1</span>
+          creditos: Phillip Kennedy Johnson · Cian Tormey · 2026
+          descripcion:
+          - El Hulk infernal asalta el Edificio Baxter para destruir una máquina sobrenatural de Reed, la única capaz de acabar con su ejército de un golpe.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: 4f-b11-dnx
+          ancla: ev-dnx
+          etiqueta: Evento en curso · Agosto – noviembre 2026
+          titulo: DNX
+          creditos: Jed MacKay · Federico Vicentini
+          descripcion:
+          - 'X-Men y 4 Fantásticos contra 3K y un virus que amenaza con hacer realidad un futuro distópico. Los X-Men acuden a la familia Richards para salvar a uno de los suyos. En los dos capítulos de los 4 Fantásticos, el grupo despierta sin memoria en un lugar extraño, malherido, y con una sola palabra escrita con sangre en el brazo de Reed: «Sobrevive».'
+          apartados:
+          - apartado: Orden completo
+            texto: 'X-Men #35 → #36 (prólogos) → <strong>DNX #1</strong> → X-Men #37 → <strong>DNX #2</strong> → X-Men #38 → <span class="cap">Fantastic Four #17</span> → <strong>DNX #3</strong> → X-Men #39 → X-Men #40 → <span class="cap">Fantastic Four #18</span> → <strong>DNX #4</strong> → X-Men #41 → <strong>DNX #5</strong>'
+          - apartado: Dónde está ahora
+            texto: 'A 26 de octubre de 2026 van publicados hasta <em>DNX</em> #3 y <em>Fantastic Four</em> #17. El #18 sale el 28 de octubre y el evento cierra con <em>DNX</em> #5 el 18 de noviembre.'
+          - apartado: Conexión
+            texto: Es el mismo evento del bloque 7 del Mutante II, con el mismo orden.
+      - evento:
+          etiqueta: Frontera de la guía · 26 de octubre de 2026
+          titulo: Dónde están ahora
+          descripcion:
+          - '<em>Fantastic Four</em> vol. 8 sigue publicándose mensualmente con Ryan North; el #18 cierra el tie-in de <em>DNX</em> y hay números anunciados hasta principios de 2027.'
+          apartados:
+          - apartado: Qué vigilar
+            texto: 'Qué hará Valeria con Latveria tras <em>Avengers: Armageddon</em>, y qué pasa con el secreto de Franklin, que solo recuerda sus poderes un día al año (vol. 7 #18).'
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Una familia y un grupo
+    html: <p>Esta guía sigue a Franklin, pero no deja fuera al grupo. La serie principal de los 4 Fantásticos y sus series hermanas están enteras, aunque Franklin no salga. De las colecciones de otros solo hay ficha si sale él o si el grupo tiene peso en la historia. Lo demás va en las listas de esta sección.</p>
+  - titulo: Ojo con la numeración
+    html: '<p>La serie principal ha cambiado de volumen seis veces. El volumen 3 (1998) salta del #70 al #500 y llega al #588; entre 2011 y 2012 se publica como <em>FF</em> #1–11 y vuelve como <em>Fantastic Four</em> #600–611. Después vienen el volumen 4 (#1–16), el 5 (#1–14, que salta al #642–645), el 6 (#1–48), el 7 (#1–33, cuyo #7 es también el #700) y el 8 (#1 en adelante). Cada ficha indica el volumen a partir del bloque 7.</p>'
+  - titulo: Apariciones menores, 2000–2002
+    html: '<p>Cameos y apariciones breves de Franklin o del grupo, sin ficha: <em>X-Man</em> #59 y los one-shots <em>Heroes Reborn: Ashema</em> y <em>Remnants</em> (anteriores al #35); <em>Thunderbolts</em> #43–44 y #57; <em>Inhumans</em> vol. 3 #2; <em>Maximum Security</em> #2–3; <em>Iron Man</em> vol. 3 #35; <em>Marvel Knights</em> #6; <em>Defenders</em> vol. 2 #1, #9–10; <em>Black Panther</em> vol. 3 #30 y #43; <em>Captain America</em> vol. 3 #50; <em>Avengers</em> vol. 3 #51 (<em>The Kang Dynasty</em>); <em>Daredevil</em> vol. 2 #34; <em>Peter Parker: Spider-Man</em> #36.</p>'
+  - titulo: Apariciones menores, 2002–2005
+    html: '<p><em>Marvel Double Shot</em> #3 (2003); <em>Startling Stories: The Thing</em> #1 (2003); <em>Marvel Universe: The End</em> #4–6; <em>JLA/Avengers</em> #2; <em>Amazing Spider-Man</em> vol. 2 #47 y #57; <em>Spectacular Spider-Man</em> vol. 2 #4 y #21; <em>Venom</em> #11–12 y #17–18; <em>Exiles</em> #46–48; <em>She-Hulk</em> #6 y #12; <em>X-Statix</em> #26; <em>Avengers</em> #501–503 (<em>Avengers Disassembled</em>); <em>Marvel Knights: Spider-Man</em> #6 y #11; <em>Wolverine</em> vol. 3 #21–22 (<em>Enemy of the State</em>: Wolverine, controlado por Hydra, asalta el Edificio Baxter); <em>Marvel Team-Up</em> vol. 3 #3–5; <em>Astonishing X-Men</em> vol. 3 #7; <em>X-Force</em> vol. 2 #5–6; <em>Secret War</em> #4; <em>Spider-Man Unlimited</em> vol. 3 #9, y <em>Marvel Holiday Special 2004</em> #1.</p>'
+  - titulo: Apariciones menores, 2005–2008
+    html: '<p>Con Franklin: <em>The Pulse</em> #11 (Sue le cuenta a Jessica Jones que sus hijos ya no tienen poderes); <em>Marvel Team-Up</em> vol. 3 #14; <em>Exiles</em> #81–82, en la Contra-Tierra de <em>Heroes Reborn</em>; <em>Black Panther</em> vol. 4 #25; <em>Invincible Iron Man</em> #14, durante <em>Civil War</em>; <em>New Avengers: Illuminati</em> vol. 2 #4; <em>Spider-Man Loves Mary Jane</em> #15; <em>Spider-Man Family</em> vol. 2 #7. Con el grupo: <em>New Avengers</em> #8–10; <em>Sentry</em> vol. 2 #2–3; <em>Son of M</em> #5–6; <em>Black Panther</em> vol. 4 #16–18; <em>Amazing Spider-Man</em> #533–534; <em>Invincible Iron Man</em> #10–12; <em>Silent War</em> #1; <em>Fallen Son</em> #5; <em>World War Hulk: Front Line</em> #2; <em>X-Men</em> #200; <em>Uncanny X-Men</em> #489; <em>Cable &amp; Deadpool</em> #45–46 y #50; <em>Avengers: The Initiative</em> #8, y <em>World War Hulk Aftersmash: Damage Control</em> #1–2.</p>'
+  - titulo: Apariciones menores, 2008–2012
+    html: '<p>Con Franklin: <em>True Believers</em> #1; <em>Planet Skaar Prologue</em> #1; <em>Dark Avengers/Uncanny X-Men: Utopia</em> #1 (Franklin pregunta a sus padres por qué se odia a los mutantes y si eso significa que lo odian a él); <em>Black Panther</em> vol. 5 #9; <em>Incredible Hulk</em> #606; <em>Girl Comics</em> #1; <em>Uncanny X-Men: The Heroic Age</em> #1, en el que Franklin conoce a Hope; <em>World War Hulks: Captain America vs. Wolverine</em> #2; <em>Young Allies</em> #4; <em>Daken: Dark Wolverine</em> #3–4; <em>I Am an Avenger</em> #4; <em>Silver Surfer</em> vol. 6 #4–5, con la Fundación Futuro devolviéndole el Poder Cósmico a Norrin; <em>Amazing Spider-Man</em> #666; <em>Avenging Spider-Man Annual</em> #1; los especiales digitales <em>Marvel Digital Holiday Special</em> #2 (2009) y #1 (2010) y <em>Women of Marvel</em> #4. Con el grupo: <em>Dark Wolverine</em> #75–77 (Daken contra los 4 Fantásticos); <em>Mighty Avengers</em> #14 y #21; <em>New Avengers</em> #43 y #48; <em>Siege</em> #3–4; <em>Chaos War</em> #1–2, y <em>Fear Itself: Fearsome Four</em> #3–4.</p>'
+  - titulo: Apariciones menores, 2012–2018
+    html: '<p><em>Free Comic Book Day 2015: Secret Wars</em> #1 (Franklin y la Fundación construyen las naves; está en el orden de <em>Secret Wars</em>); <em>Groot</em> #4; <em>Lockjaw</em> #4; <em>Avengers &amp; X-Men: AXIS</em> #5; <em>Amazing Spider-Man</em> #700; <em>Superior Spider-Man Team-Up</em> #1 y #7; <em>Cataclysm</em> #0.1; <em>Unbeatable Squirrel Girl</em> #4–5; <em>Silk</em> #3–4; <em>Moon Girl and Devil Dinosaur</em> #29–30.</p>'
+  - titulo: Apariciones menores, 2018–2026
+    html: '<p>Con Franklin: <em>Cosmic Ghost Rider Destroys Marvel History</em> #1; <em>Gwenpool Strikes Back</em> #2; <em>Friendly Neighborhood Spider-Man</em> vol. 2 #13; <em>Annihilation – Scourge: Nova</em> #1; <em>Incoming</em> #1; <em>Spider-Ham</em> #2; <em>Immortal Hulk: Great Power</em> #1; <em>Immortal Hulk</em> #48; <em>Devil’s Reign</em> #1; <em>X-Men: Hellfire Gala</em> 2022 #1 (la gala del bloque 3 del Mutante II); <em>Ultimate Invasion</em> #1; <em>She-Hulk</em> vol. 5 #12; <em>Marvel Meow Infinity Comic</em> #5 y #20; <em>Marvel Holiday Tales to Astonish</em> #1; <em>Spider-Man: Holiday Spectacular</em> #1; <em>H.E.R.B.I.E. Infinity Comic</em> #1 y #4, y <em>Fantastic Four Fanfare</em> #1–4, una antología con una historia de Hickman en el #2. Con el grupo: <em>War of the Realms</em> #3, #5–6; <em>King in Black</em> #1–2, #4–5; <em>New Fantastic Four</em> #1–5 (2022), con Spider-Man, Lobezno, Hulk y el Motorista Fantasma; <em>Free Comic Book Day 2025: Fantastic Four/X-Men</em> #1; <em>Death of the Silver Surfer</em> #1–5, y <em>New Avengers</em> vol. 5 #8.</p>'
+  - titulo: Fuera de la línea temporal
+    html: '<p>Publicadas en estos años, pero ambientadas en otra época, en otra realidad o imposibles de encajar: <em>Fantastic Four: World’s Greatest Comics Magazine</em> #1–12 (2001), homenaje a Kirby ambientado en los sesenta; <em>Marvels Comics: Fantastic Four</em> #1 (2000), el cómic que leen los niños dentro del universo Marvel; <em>X-Men: The Hidden Years</em> #9; <em>Fantastic 4th Voyage of Sinbad</em> #1 (2001), un epílogo de Claremont que choca con la vuelta de los niños en el #46; <em>Fantastic Four: Unstable Molecules</em> (2003); <em>Fantastic Four: House of M</em> #1–3 (2005), la realidad alterada de <em>House of M</em>; <em>Fantastic Four: First Family</em> #1–6 (2006), los primeros días del grupo; <em>Fantastic Four: The End</em> #1–6 (2007), un futuro posible de Alan Davis; <em>Spider-Man and the Fantastic Four</em> #1–4 (2007), una aventura de la época clásica con un Franklin pequeño en los #1–2; <em>The Age of the Sentry</em> #1–6 (2008–2009), historias del Centinela que Reed le cuenta a Franklin para dormir; <em>Fantastic Four: Season One</em> (2012); <em>Fantastic Four: Grand Design</em> #1–2 (2019); <em>Fantastic Four: Life Story</em> #1–6 (2021), la historia del grupo envejeciendo en tiempo real, y <em>Planet of the Apes vs. Fantastic Four</em> #1–4 (2026).</p>'
+  - titulo: Conexiones con el resto de la colección
+    html: <p><em>Civil War</em>, <em>World War Hulk</em>, <em>Secret Invasion</em>, <em>Fear Itself</em> y <em>Secret Wars</em> están también en el Expediente Mutante I; <em>X-Men/Fantastic Four</em>, <em>Empyre</em>, la Gala de 2021, <em>A.X.E.</em>, <em>Blood Hunt</em>, <em>One World Under Doom</em> y <em>DNX</em>, en el Mutante II; <em>Secret Invasion</em>, <em>Secret Wars</em> y <em>Empyre</em>, en Guardianes, donde además Ben es miembro del equipo entre 2015 y 2017; <em>Civil War</em>, <em>Secret Invasion</em> y <em>Empyre</em>, en Jóvenes Vengadores, y <em>A.X.E.</em>, en Eterno. Si llevas varios expedientes a la vez, lee cada evento una sola vez.</p>
+  - titulo: Hasta dónde llega esta guía
+    html: '<p>Cerrada a <strong>26 de octubre de 2026</strong>, con <em>Fantastic Four</em> vol. 8 #17 y <em>DNX</em> #3 publicados. Las apariciones están contrastadas una a una con las listas de Marvel Fandom (categorías de Franklin Richards y de los 4 Fantásticos de la Tierra-616) y con las guías de Comic Book Herald. Los órdenes de los eventos siguen las notas de cronología de Marvel Fandom; donde no las hay (<em>Empyre</em>, <em>Fear Itself: FF</em>, <em>Reckoning War</em> y <em>One World Under Doom</em>), el orden de publicación, y cada recuadro lo indica.</p>'

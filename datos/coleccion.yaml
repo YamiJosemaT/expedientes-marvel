@@ -2,7 +2,7 @@
 # Metadatos de cada expediente, la pagina principal y la tabla de cruces entre expedientes.
 # Para anadir un expediente nuevo: una entrada en "expedientes" + su archivo de datos en esta carpeta.
 
-anio_inicio: 2001
+anio_inicio: 2000
 anio_final: 2026          # "hoy" en las fechas de los bloques se interpreta como este anio
 
 # Servicio en linea de las marcas de lectura (servicio/worker.js en Cloudflare).
@@ -71,23 +71,35 @@ expedientes:
     tema_clave: expediente-jovenes-vengadores-tema
     acento: {claro: '#3D7A1F', claro_suave: '#E0EED6', oscuro: '#8FD46B', oscuro_suave: '#1E3317'}
 
+  - clave: 4f
+    datos: expediente-4-fantasticos.yaml
+    archivo: Expediente 4 Fantasticos/Expediente-4-Fantasticos-2000-2026.html
+    nombre: Expediente 4 Fantásticos
+    nombre_corto: 4 Fantásticos
+    subtitulo: Franklin Richards
+    periodo: 2000 — hoy
+    resumen: Del regreso al Baxter Building a la etapa actual, siguiendo a Franklin Richards.
+    numeros_aprox: 750
+    tema_clave: expediente-4-fantasticos-tema
+    acento: {claro: '#1D5FB0', claro_suave: '#DCE7F5', oscuro: '#72AAF2', oscuro_suave: '#15263D'}
+
 portada:
   archivo: Expedientes Marvel.html
   titulo_pagina: Expedientes Marvel
-  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno, Expediente Guardianes y Expediente Jóvenes Vengadores.'
+  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno, Expediente Guardianes, Expediente Jóvenes Vengadores y Expediente 4 Fantásticos.'
   tema_clave: expedientes-indice-tema
   antetitulo: Colección de guías de lectura · Marvel Comics
-  titulo: Expedientes<span class="thin">Marvel 2001 — hoy</span>
-  entradilla: 'Cinco guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
+  titulo: Expedientes<span class="thin">Marvel 2000 — hoy</span>
+  entradilla: 'Seis guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
   notas:
     - titulo: Uno detrás de otro
       html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza justo donde acaba el I, con <em>House of X</em> / <em>Powers of X</em>.</p>'
     - titulo: En paralelo
-      html: '<p>Eternos, Guardianes y Jóvenes Vengadores son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
-    - titulo: Mismo sistema en los cinco
+      html: '<p>Eternos, Guardianes, Jóvenes Vengadores y 4 Fantásticos son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
+    - titulo: Mismo sistema en los seis
       html: '<p>Las marcas ▸ y ◂ indican dónde se corta y se retoma una serie; los capítulos en color dentro de un evento son los de la línea de ese expediente, y los recuadros con borde discontinuo, eventos de toda la línea Marvel.</p>'
     - titulo: Hasta dónde llegan
-      html: '<p>El volumen I está cerrado y completo. Los otros cuatro llegan al presente y se cerraron en octubre de 2026: lo más reciente de cada uno puede seguir avanzando.</p>'
+      html: '<p>El volumen I está cerrado y completo. Los otros cinco llegan al presente y se cerraron en octubre de 2026 (el de los 4 Fantásticos, el día 26): lo más reciente de cada uno puede seguir avanzando.</p>'
 
 # Eventos que aparecen en mas de un expediente. "ancla" es el id de bloque (b4) o de recuadro (ev-si).
 cruces:
@@ -96,13 +108,21 @@ cruces:
     enlaces:
       - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
       - {expediente: jv, ancla: ev-civilwar, texto: Jóvenes Vengadores · bloque 2}
-    nota: Cada expediente tiene su propio tie-in del evento.
+      - {expediente: 4f, ancla: ev-civilwar, texto: 4 Fantásticos · bloque 3}
+    nota: Cada expediente tiene su propio tie-in del evento; el de los 4 Fantásticos son seis números de su serie.
+  - evento: World War Hulk
+    anio: 2007
+    enlaces:
+      - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
+      - {expediente: 4f, ancla: ev-wwh, texto: 4 Fantásticos · bloque 3}
+    nota: En Mutante I, con su tie-in mutante; en 4 Fantásticos, el evento solo, porque Reed es uno de los que exiliaron a Hulk.
   - evento: Secret Invasion
     anio: 2008
     enlaces:
       - {expediente: m1, ancla: b4, texto: Mutante I · bloque 4}
       - {expediente: gg, ancla: ev-si, texto: Guardianes · bloque 2}
       - {expediente: jv, ancla: ev-si, texto: Jóvenes Vengadores · bloque 2}
+      - {expediente: 4f, ancla: ev-si, texto: 4 Fantásticos · bloque 4}
     nota: Cada expediente tiene su propio tie-in del evento.
   - evento: War of Kings
     anio: 2009
@@ -116,6 +136,12 @@ cruces:
       - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
       - {expediente: gg, ancla: ev-ultron, texto: Guardianes · bloque 4}
     nota: 'El #10 trae a Angela a los Guardianes.'
+  - evento: Fear Itself
+    anio: 2011
+    enlaces:
+      - {expediente: m1, ancla: b4, texto: Mutante I · bloque 4}
+      - {expediente: 4f, ancla: ev-fearitself, texto: 4 Fantásticos · bloque 6}
+    nota: En Mutante I se lleva cuatro números de <em>Uncanny X-Men</em>; en 4 Fantásticos, Ben es uno de los Dignos.
   - evento: The Trial of Jean Grey
     anio: 2014
     enlaces:
@@ -133,20 +159,28 @@ cruces:
     enlaces:
       - {expediente: m1, ancla: b6, texto: Mutante I · bloque 6}
       - {expediente: gg, ancla: ev-secretwars, texto: Guardianes · bloque 4}
-    nota: 'Realidad alterna en los dos: solo cuentan las miniseries de cada línea.'
+      - {expediente: 4f, ancla: ev-secretwars, texto: 4 Fantásticos · bloque 7}
+    nota: 'Realidad alterna en Mutante I y Guardianes, donde solo cuentan sus miniseries; en 4 Fantásticos es la historia central.'
   - evento: Civil War II
     anio: 2016
     enlaces:
       - {expediente: m1, ancla: b7, texto: Mutante I · bloque 7}
       - {expediente: gg, ancla: ev-cw2, texto: Guardianes · bloque 5}
     nota: Cada expediente tiene su propio tie-in del evento.
+  - evento: X-Men/Fantastic Four
+    anio: 2020
+    enlaces:
+      - {expediente: m2, ancla: b1, texto: Mutante II · bloque 1}
+      - {expediente: 4f, ancla: xmff, texto: 4 Fantásticos · bloque 9}
+    nota: La custodia de Franklin, entre Krakoa y su familia. Opcional en Mutante II; esencial en 4 Fantásticos.
   - evento: Empyre
     anio: 2020
     enlaces:
       - {expediente: m2, ancla: b1, texto: Mutante II · bloque 1}
       - {expediente: gg, ancla: ev-empyre, texto: Guardianes · bloque 7}
       - {expediente: jv, ancla: ev-empyre, texto: Jóvenes Vengadores · bloque 6}
-    nota: En Mutante II se lleva dos números de <em>X-Men</em>; en Guardianes es contexto; en Jóvenes Vengadores, el evento de Hulkling.
+      - {expediente: 4f, ancla: ev-empyre, texto: 4 Fantásticos · bloque 9}
+    nota: En Mutante II se lleva dos números de <em>X-Men</em>; en Guardianes es contexto; en Jóvenes Vengadores, el evento de Hulkling; en 4 Fantásticos, sus capítulos y los de Franklin y Valeria en la Tierra.
   - evento: The Last Annihilation
     anio: 2021
     enlaces:
@@ -159,7 +193,8 @@ cruces:
     enlaces:
       - {expediente: m2, ancla: b3, texto: Mutante II · bloque 3}
       - {expediente: et, ancla: b5, texto: Eterno · bloque 5}
-    nota: El mismo orden entrelazado, visto desde mutantes y Eternos.
+      - {expediente: 4f, ancla: ev-axe, texto: 4 Fantásticos · bloque 9}
+    nota: El mismo orden entrelazado, visto desde mutantes y Eternos; en 4 Fantásticos, solo su tie-in de dos números.
   - evento: Imperial
     anio: 2025
     enlaces:
@@ -167,3 +202,15 @@ cruces:
       - {expediente: gg, ancla: ev-imperial, texto: Guardianes · bloque 9}
       - {expediente: jv, ancla: ev-imperial, texto: Jóvenes Vengadores · bloque 9}
     nota: En Mutante II es de refilón; en Guardianes, el evento central; en Jóvenes Vengadores, el preludio de <em>Witches’ Road</em>.
+  - evento: One World Under Doom
+    anio: 2025
+    enlaces:
+      - {expediente: m2, ancla: b5, texto: Mutante II · bloque 5}
+      - {expediente: 4f, ancla: ev-owud, texto: 4 Fantásticos · bloque 11}
+    nota: En Mutante II, con sus tie-ins mutantes; en 4 Fantásticos, con los números de la serie intercalados y la muerte y vuelta de Valeria.
+  - evento: DNX
+    anio: 2026
+    enlaces:
+      - {expediente: m2, ancla: b7, texto: Mutante II · bloque 7}
+      - {expediente: 4f, ancla: ev-dnx, texto: 4 Fantásticos · bloque 11}
+    nota: El mismo orden en los dos, con los capítulos de <em>X-Men</em> y de <em>Fantastic Four</em>. En curso.
