@@ -28,6 +28,25 @@
   .nav-prog{display:block;font-family:var(--f-mono);font-size:10px;color:var(--ink-3);font-variant-numeric:tabular-nums}
   .nav-prog.done{color:var(--acc,var(--red))}
 
+  /* ---------- Seguimiento: lo que esta en "Leyendo" ---------- */
+  article[data-id]{scroll-margin-top:60px}
+  article[data-id]:target{animation:sg-destino 3s ease-out}
+  @keyframes sg-destino{from{background-color:var(--red-soft)}}
+  .sg-bloque{border-top:1px solid var(--line-soft);padding:12px 0}
+  .sg-bloque:last-child{padding-bottom:0}
+  .sg-cab{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+  .sg-tit{font-family:var(--f-display);font-weight:600;text-transform:uppercase;font-size:19px;line-height:1.15;text-decoration:none}
+  .sg-tit:hover{color:var(--acc,var(--red))}
+  .sg-num{display:block;font-family:var(--f-mono);font-weight:400;font-size:10.5px;letter-spacing:.12em;line-height:1.5;color:var(--acc,var(--red))}
+  .sg-prog{display:flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:11px;color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .sg-prog .pbar{flex:0 0 72px;width:72px}
+  .sg-ent{list-style:none;margin:8px 0 0;padding:0}
+  .sg-ent li{display:grid;grid-template-columns:9px 1fr;column-gap:9px;padding:4px 0;font-size:14.5px;line-height:1.35}
+  .sg-ent li::before{content:'';width:9px;height:9px;margin-top:6px;border-radius:50%;border:1.5px solid var(--ink-2);background:linear-gradient(90deg,var(--ink-2) 50%,transparent 50%)}
+  .sg-ent a{font-weight:600;text-decoration-color:var(--ink-3);text-underline-offset:3px}
+  .sg-ent a:hover{color:var(--acc,var(--red))}
+  .sg-tramo{grid-column:2;font-family:var(--f-mono);font-size:11px;color:var(--ink-3)}
+
   .lect-fab{position:fixed;bottom:16px;right:16px;z-index:60;display:flex;align-items:center;gap:8px;font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:9px 15px;cursor:pointer;box-shadow:var(--shadow)}
   .lect-fab:hover{color:var(--ink);border-color:var(--ink-3)}
   .lect-fab .fab-pct{color:var(--acc,var(--red));font-variant-numeric:tabular-nums}
@@ -66,5 +85,5 @@
   .sy-unirse label{display:block;font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:4px}
   .sy-unirse input{width:100%;box-sizing:border-box;font-family:var(--f-mono);font-size:14px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:2px;padding:7px 8px;margin-bottom:8px}
   .sy-unirse input:focus{outline:2px solid var(--acc,var(--red));outline-offset:-1px}
-  @media print{.lect,.lect-fab,.lect-panel{display:none!important}}
+  @media print{.lect,.lect-fab,.lect-panel,.seguimiento{display:none!important}}
   @media (prefers-reduced-motion: reduce){.pbar > span,.lect-btn{transition:none}.lect-fab .sync-dot.s-sincronizando{animation:none}}

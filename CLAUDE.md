@@ -148,7 +148,8 @@ HTML generado (por si hay que tocar CSS/JS): `section.bloque#bN` > `div.bloque-h
 (`span.bloque-num`, `h2.bloque-title`, `p.bloque-intro`) + `div.tramo` (`tramo-head` con
 `span.tramo-num`, `h3`, `span.tramo-when`; `p.tramo-nota?`; `div.lista`) + `article.evento[.linea]`.
 `article.serie[ guest][ p1|p2|p4]` = `div.stripe` + div(`p.where?`, `h3`, `p.cred`, `p.desc*`,
-`p.cont` con `.fwd`/`.back`) + `span.tag`. Las marcables llevan `data-id`.
+`p.cont` con `.fwd`/`.back`) + `span.tag`. Las marcables llevan `data-id`, y su `id` HTML es el
+`ancla` si la tienen o, si no, el propio `data-id`.
 
 Diseño: cada página es autónoma (fuentes embebidas, sin dependencias externas), con tokens de
 color en `:root`, bloque oscuro por `prefers-color-scheme` y botón de tema (`[data-theme]`,
@@ -171,6 +172,15 @@ guardado en localStorage con un `tema_clave` por página). Color de acento por e
   retirada se sincronice; el CSV y los recuentos la ignoran;
 - `window.ExpedientesLecturas` = {exportCSV, importCSV, crearEntorno, usarEntorno, desconectar,
   sincronizar, estado} (lo usan las pruebas).
+
+**Seguimiento** (añadido a petición el 2026-10-31): lista lo que está en Leyendo, agrupado por
+bloque, con lo leído de ese bloque y enlace directo a cada ficha. Portada: sección `#seguimiento`
+«Sigues leyendo», oculta si no hay nada en curso, igual que su enlace en `nav.jump`. Expediente:
+recuadro `#seguimiento` justo después de la caja `ruta` de la plantilla, siempre visible, también en
+Guardianes y 4 Fantásticos, que tienen más cajas. `construir.py` inyecta `CATALOGO` en `lecturas.js`
+(`catalogo()`: bloques y entradas en orden de lectura): el de todos los expedientes, con `href`, en
+la portada; solo el propio, sin `href`, en cada expediente. Sale de los YAML y no de los campos
+guardados en la marca, así que títulos y ubicación siempre están al día, incluidas las reubicadas.
 
 **Sincronización** (offline-first, decidida con el usuario): cada persona tiene un **entorno**,
 un código aleatorio de 20 caracteres `xxxxx-xxxxx-xxxxx-xxxxx` (alfabeto sin l/o/0/1) que sirve
@@ -216,9 +226,10 @@ Servicio (`servicio/`):
   - tombstones;
   - offline con recarga y reconexión;
   - conflicto entre dispositivos;
-  - caída del servicio, desconexión y portada.
+  - caída del servicio, desconexión y portada;
+  - seguimiento (portada, entrada reubicada, salto a la ficha, recuadro del expediente).
 
-  **Resultado: 24/24 OK.**
+  **Resultado: 30/30 OK.**
 
 ## 7. Contenido y decisiones editoriales
 

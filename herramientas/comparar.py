@@ -17,7 +17,8 @@ ARCHIVOS = ['Expedientes Marvel.html',
             'Expediente Mutante/Expediente-Mutante-II-Krakoa-2019-2026.html',
             'Expediente Eternos/Expediente-Eternos-2006-2026.html',
             'Expediente Guardianes/Expediente-Guardianes-2007-2026.html',
-            'Expediente Jovenes Vengadores/Expediente-Jovenes-Vengadores-2005-2026.html']
+            'Expediente Jovenes Vengadores/Expediente-Jovenes-Vengadores-2005-2026.html',
+            'Expediente 4 Fantasticos/Expediente-4-Fantasticos-2000-2026.html']
 # reglas CSS que pueden estar en una version y no en otra sin cambiar nada visible
 PERMITIDAS = re.compile(r'^(\.cruces|article\.evento, article\.serie\{scroll-margin|\.guest|\.where|\.swatch|article\.evento\.linea)')
 

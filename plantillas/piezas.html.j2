@@ -1,7 +1,7 @@
 {# Piezas reutilizables de un expediente: ficha de serie, recuadro de evento y tramo. #}
 
 {% macro serie(e) -%}
-<article class="serie{{ ' guest' if e.aparicion }}{{ ' ' ~ e.prioridad if e.prioridad }}"{% if e.ancla %} id="{{ e.ancla }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
+<article class="serie{{ ' guest' if e.aparicion }}{{ ' ' ~ e.prioridad if e.prioridad }}"{% if e.ancla or e.id %} id="{{ e.ancla or e.id }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
   <div class="stripe"></div>
   <div>
     {% if e.donde %}<p class="where">{{ e.donde }}</p>
@@ -16,7 +16,7 @@
 {%- endmacro %}
 
 {% macro evento(e) -%}
-<article class="evento{{ ' linea' if e.linea_marvel }}"{% if e.ancla %} id="{{ e.ancla }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
+<article class="evento{{ ' linea' if e.linea_marvel }}"{% if e.ancla or e.id %} id="{{ e.ancla or e.id }}"{% endif %}{% if e.id %} data-id="{{ e.id }}"{% endif %}>
   <p class="ev-label">{{ e.etiqueta }}</p>
   <h3>{{ e.titulo }}</h3>
   {% if e.creditos %}<p class="cred">{{ e.creditos }}</p>

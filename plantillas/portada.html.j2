@@ -32,9 +32,18 @@
   </div>
   <div class="prog-global" data-prog="" data-total="{{ total_entradas }}"></div>
   <nav class="jump" aria-label="Secciones">
-    <a href="#expedientes">Los expedientes</a><a href="#cronologia">Cronología conjunta</a><a href="#cruces">Dónde se cruzan</a><a href="#uso">Cómo usarlos juntos</a>
+    <a href="#seguimiento" hidden>Sigues leyendo</a><a href="#expedientes">Los expedientes</a><a href="#cronologia">Cronología conjunta</a><a href="#cruces">Dónde se cruzan</a><a href="#uso">Cómo usarlos juntos</a>
   </nav>
 </header>
+
+<section class="seguimiento" id="seguimiento" hidden>
+  <div class="sec-head">
+    <span class="sec-num">En curso</span>
+    <h2>Sigues leyendo</h2>
+    <p class="sec-intro">Las fichas que tienes marcadas como Leyendo, por expediente y bloque, con cómo vas en cada uno. Cada título te lleva directamente a su ficha.</p>
+  </div>
+  <div class="cards sg-lista"></div>
+</section>
 
 <section id="expedientes">
   <div class="sec-head">

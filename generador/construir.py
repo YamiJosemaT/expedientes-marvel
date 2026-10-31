@@ -10,6 +10,7 @@ Pasos: carga datos -> asigna id a las entradas nuevas (y lo guarda en su YAML) -
 unicos -> renderiza -> audita la continuidad -> escribe los archivos si todo esta bien.
 """
 import argparse
+import html
 import json
 import os
 import re
@@ -84,6 +85,27 @@ def asignar_ids(exp, datos):
     return nuevos
 
 
+def plano(s):
+    """Texto de un titulo, sin marcado."""
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
+
+
+def catalogo(exp, datos):
+    """Bloques de un expediente con sus entradas marcables, en orden de lectura (para el seguimiento)."""
+    bloques = []
+    for b in datos['bloques']:
+        lista = []
+        for c in b['contenido']:
+            tramo = c.get('tramo')
+            for x in (tramo['entradas'] if tramo else [c]):
+                e = cuerpo(x)
+                if e.get('id'):
+                    lista.append({'id': e['id'], 'ancla': e.get('ancla') or e['id'], 't': plano(e['titulo']),
+                                  'tr': 'Tramo %s · %s' % (tramo['numero'], plano(tramo['titulo'])) if tramo else ''})
+        bloques.append({'id': b['id'], 'num': '%02d' % int(b['id'][1:]), 'titulo': plano(b['titulo']), 'entradas': lista})
+    return {'clave': exp['clave'], 'nombre': exp['nombre'], 'bloques': bloques}
+
+
 def anios(fechas, anio_final):
     ys = [int(y) for y in re.findall(r'(?:19|20)\d\d', fechas)]
     if 'hoy' in fechas:
@@ -135,8 +157,11 @@ def main():
                     reubicadas[uid] = lugar
     lecturas_js = lecturas_js.replace('{/*__REUBICADAS__*/}', json.dumps(reubicadas, sort_keys=True))
 
+    def con_catalogo(js, cat):
+        return js.replace('[/*__CATALOGO__*/]', json.dumps(cat, ensure_ascii=False, separators=(',', ':')))
+
     salidas, problemas, todos_ids = {}, 0, {}
-    exps = []
+    exps, catalogos = [], []
     for exp, datos in cargados:
         for b in datos['bloques']:
             for x in entradas(b):
@@ -150,9 +175,10 @@ def main():
         estilos = env.get_template('recursos/comun.css.j2').render(acento=exp['acento']).rstrip('\n')
         tema = env.get_template('recursos/tema.js.j2').render(tema_clave=exp['tema_clave'])
         inicio = '../' * exp['archivo'].count('/') + quote(col['portada']['archivo'])
+        cat = catalogo(exp, datos)
         html_exp = env.get_template('expediente.html.j2').render(
             x=datos, recursos=rec, estilos=estilos, tema_js=tema, inicio=inicio,
-            lecturas_js=lecturas_js.replace("'__EXP__'", "'%s'" % exp['clave']))
+            lecturas_js=con_catalogo(lecturas_js.replace("'__EXP__'", "'%s'" % exp['clave']), [cat]))
         salidas[exp['archivo']] = html_exp
 
         filas, huecos = auditoria.auditar(html_exp, reglas.get(exp['clave'], []))
@@ -165,6 +191,7 @@ def main():
 
         # datos para la portada
         href = quote(exp['archivo'])
+        catalogos.append(dict(cat, href=href))
         bloques = []
         for i, b in enumerate(datos['bloques']):
             y0, y1 = anios(b['fechas'], a1)
@@ -194,7 +221,7 @@ def main():
     salidas[p['archivo']] = env.get_template('portada.html.j2').render(
         portada=p, exps=exps, cruces=cruces, anios=anios_eje, recursos=rec, estilos=estilos_portada,
         tema_js=env.get_template('recursos/tema.js.j2').render(tema_clave=p['tema_clave']),
-        lecturas_js=lecturas_js.replace("'__EXP__'", "''"),
+        lecturas_js=con_catalogo(lecturas_js.replace("'__EXP__'", "''"), catalogos),
         total_bloques=sum(len(e['bloques']) for e in exps), total_entradas=sum(e['total'] for e in exps),
         total_numeros='~' + format(sum(e['numeros_aprox'] for e in col['expedientes']), ',').replace(',', '.'))
 

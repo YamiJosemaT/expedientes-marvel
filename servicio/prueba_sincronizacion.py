@@ -228,6 +228,24 @@ def main():
         boton = a.js("document.querySelector('.lect-fab .fab-pct').textContent")
         comprobar('la portada carga, sincroniza y cuenta las leidas del entorno (%d; muestra "%s")' % (leidas, boton),
                   sincronizada and boton == '%d leídas' % leidas)
+
+        print('\n9. Seguimiento de lo que esta en Leyendo')
+        enlace = 'document.querySelector(\'#seguimiento .sg-ent a[href$="#%s"]\')'
+        comprobar('la portada lista la ficha en curso', a.js('!document.getElementById("seguimiento").hidden && !!' + enlace % i3))
+        a.js('ExpedientesLecturas.importCSV("id;estado\\nm1-b8-house-of-x-powers-of-x;Leyendo\\n")')
+        comprobar('una entrada movida sale donde esta ahora y usa su ancla',
+                  a.js('!!document.querySelector(\'#seguimiento .c-m2 .sg-ent a[href$="#hoxpox"]\')'))
+        a.js('window.__pagina_anterior = true')
+        a.js(enlace % i3 + '.click()')
+        a.esperar('!window.__pagina_anterior && document.readyState === "complete" && !!window.ExpedientesLecturas', 20)
+        comprobar('el enlace lleva a la ficha dentro de su expediente',
+                  a.js('document.querySelector("article:target") && document.querySelector("article:target").getAttribute("data-id")') == i3)
+        comprobar('el expediente la muestra en su recuadro, bajo la ruta corta',
+                  a.js('!!%s && document.querySelector(".ruta + .seguimiento") !== null && document.querySelector("#seguimiento .sg-vacio").hidden' % (enlace % i3)))
+        comprobar('solo lista lo de ese expediente', not a.js('!!document.querySelector(\'#seguimiento a[href$="#hoxpox"]\')'))
+        a.pulsar(i3, 'leido')
+        comprobar('al marcarla leida sale de la lista',
+                  a.js('!document.querySelector("#seguimiento .sg-ent") && !document.querySelector("#seguimiento .sg-vacio").hidden'))
         comprobar('sin errores de JavaScript', not a.errores and not b.errores)
         for e in a.errores + b.errores:
             print('      ', e)

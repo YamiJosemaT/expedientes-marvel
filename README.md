@@ -114,6 +114,10 @@ añade `marcable: false`.
 
 ## Marcas de lectura y sincronización
 
+Lo que esté en **Leyendo** aparece en dos sitios, con enlace directo a cada ficha y lo que llevas
+leído de su bloque: en la portada, en la sección **Sigues leyendo** (solo si hay algo en curso), y en
+cada expediente, en el recuadro **Seguimiento**, bajo la ruta corta.
+
 Las marcas se guardan siempre en el navegador, así que marcar funciona sin conexión. Si en
 `coleccion.yaml` hay una `sincronizacion: url:`, el panel **Lecturas** ofrece crear un
 **entorno**: un código de 20 caracteres (`xxxxx-xxxxx-xxxxx-xxxxx`) que identifica las marcas de

@@ -16,6 +16,8 @@
   var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eternos', gg: 'Expediente Guardianes', jv: 'Expediente Jóvenes Vengadores' };
   // Entradas que se movieron de sitio conservando su id: { id: 'expediente-bloque' donde estan ahora }
   var REUBICADAS = {/*__REUBICADAS__*/};
+  // Bloques y entradas de lo que muestra esta pagina, en orden de lectura (para el seguimiento)
+  var CATALOGO = [/*__CATALOGO__*/];
   var ALFABETO = 'abcdefghijkmnpqrstuvwxyz23456789';   // sin l, o, 0, 1: no se confunden al escribirlo a mano
   var CADA_MS = 90000, ESPERA_MS = 1200, TIEMPO_MS = 15000;
 
@@ -460,6 +462,48 @@
     rd.readAsText(f, 'utf-8');
   });
 
+  /* ── seguimiento: lo que esta en "Leyendo" y como vas en su bloque ─── */
+  function bloquesEnCurso(x) {
+    return x.bloques.map(function (b) {
+      var leidas = 0, leyendo = [];
+      b.entradas.forEach(function (e) {
+        var m = marks[e.id];
+        if (!activa(m)) return;
+        if (m.e === 'leido') leidas++; else leyendo.push(e);
+      });
+      return { b: b, leidas: leidas, leyendo: leyendo };
+    }).filter(function (g) { return g.leyendo.length; });
+  }
+  function htmlBloque(x, g) {
+    var base = (x.href || '') + '#', n = g.b.entradas.length;
+    return '<div class="sg-bloque"><div class="sg-cab">' +
+      '<a class="sg-tit" href="' + base + g.b.id + '"><span class="sg-num">Bloque ' + g.b.num + '</span>' + esc(g.b.titulo) + '</a>' +
+      '<span class="sg-prog">' + bar(g.leidas, n) + g.leidas + ' de ' + n + ' leídas</span></div>' +
+      '<ul class="sg-ent">' + g.leyendo.map(function (e) {
+        return '<li><a href="' + base + e.ancla + '">' + esc(e.t) + '</a>' + (e.tr ? '<span class="sg-tramo">' + esc(e.tr) + '</span>' : '') + '</li>';
+      }).join('') + '</ul></div>';
+  }
+  var pintadoSg = '';
+  function pintarSeguimiento() {
+    var sg = document.getElementById('seguimiento');
+    if (!sg) return;
+    var h = CATALOGO.map(function (x) {
+      var gr = bloquesEnCurso(x);
+      if (!gr.length) return '';
+      var cuerpo = gr.map(function (g) { return htmlBloque(x, g); }).join('');
+      if (EXP) return cuerpo;
+      var total = x.bloques.reduce(function (s, b) { return s + b.entradas.length; }, 0);
+      return '<article class="card c-' + x.clave + '"><h3><a href="' + x.href + '">' + esc(x.nombre) + '</a></h3>' +
+             '<div class="card-prog" data-prog="' + x.clave + '" data-total="' + total + '"></div>' + cuerpo + '</article>';
+    }).join('');
+    var vacio = sg.querySelector('.sg-vacio'), salto = document.querySelector('a[href="#seguimiento"]');
+    if (vacio) vacio.hidden = !!h; else sg.hidden = !h;
+    if (salto) salto.hidden = !h;
+    if (h === pintadoSg) return;          // no rehacer la lista (ni perder el foco) si no cambia
+    pintadoSg = h;
+    sg.querySelector('.sg-lista').innerHTML = h;
+  }
+
   /* ── pintar estado y progreso ──────────────────────────────────────── */
   function render() {
     var leidos = 0, leyendo = 0;
@@ -501,6 +545,8 @@
       if (g) g.innerHTML = '<span class="pg-lbl">Tu progreso</span>' + bar(leidos, items.length) + '<span class="pg-txt">' + texto(leidos, items.length, leyendo) + '</span>';
     }
 
+    pintarSeguimiento();
+
     /* elementos con progreso calculado por prefijo (pagina principal) */
     [].forEach.call(document.querySelectorAll('[data-prog][data-total]'), function (el) {
       var pre = el.getAttribute('data-prog'), n = +el.getAttribute('data-total'), r = 0, l = 0;
@@ -531,6 +577,9 @@
   /* ── arranque y momentos en que se sincroniza ──────────────────────── */
   window.addEventListener('storage', function (e) {      // otra pestaña de la coleccion cambio algo
     if (e.key && e.key.indexOf('expedientes-') === 0) { marks = load(); render(); }
+  });
+  window.addEventListener('pageshow', function (e) {     // al volver atras, la pagina sale de la cache tal como estaba
+    if (e.persisted) { marks = load(); render(); }
   });
   window.addEventListener('online', function () { sincronizar(); });
   window.addEventListener('offline', function () { if (entorno() && URL_SERVICIO) { estadoSync = 'sin-conexion'; pintarSync(); } });
