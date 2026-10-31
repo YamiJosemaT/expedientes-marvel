@@ -185,13 +185,27 @@ m1:
   reglas:
   - alias: X-23
     vol: '3'
-    bloques: [4]
+    bloques: [4, 5]
     rango: [1, 21]
   - alias: X-23
-    bloques: [4]
+    bloques: [4, 5]
     rango: [1, 21]
   esperado:
   - [1, 21]
+- serie: Dark Wolverine
+  reglas:
+  - alias: Dark Wolverine
+    bloques: [4]
+    rango: [75, 90]
+  esperado:
+  - [75, 90]
+- serie: 'Daken: Dark Wolverine'
+  reglas:
+  - alias: 'Daken: Dark Wolverine'
+    bloques: [4, 5]
+    rango: [1, 23]
+  esperado:
+  - [1, 23]
 - serie: Generation Hope
   reglas:
   - alias: Generation Hope

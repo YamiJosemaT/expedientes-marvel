@@ -59,7 +59,7 @@ cambio va en `datos/*.yaml` (contenido) o `plantillas/` (aspecto y scripts).
 - **no escribe nada si hay problemas** (`--forzar` lo salta, no lo uses sin motivo).
 
 Avisos de auditoría conocidos y correctos (no son errores):
-- Uncanny X-Force vol.1 "con #19.1"; GotG vol.3 "con #0.1".
+- Uncanny X-Force vol.1 "con #19.1"; GotG vol.3 "con #0.1"; Daken: Dark Wolverine "con #9.1".
 - Magneto (2014) #9–10 repetidos (preludio de AXIS).
 - Immortal X-Men #9–10 repetidos (prólogo de Sins of Sinister).
 - Imperial Guardians #1 repetido: el one-shot *Imperial War: Imperial Guardians #1* se cita en el
@@ -93,8 +93,8 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 446 entradas
-marcables (m1 116, m2 80, et 15, gg 36, jv 36, 4f 163).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 453 entradas
+marcables (m1 123, m2 80, et 15, gg 36, jv 36, 4f 163).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -226,7 +226,14 @@ Servicio (`servicio/`):
   - Age of Apocalypse integrada a petición: el one-shot + miniserie de 2005 y la serie de 2012;
   - X-Termination con orden ajustado;
   - eventos de línea como Chaos War y Fear Itself;
-  - Wolverine and the X-Men partido en varias fichas por los crossovers.
+  - Wolverine and the X-Men partido en varias fichas por los crossovers;
+  - X-23 vol. 3 con fichas propias y Daken al lado (añadido a petición el 2026-10-31): *Dark
+    Wolverine* #75–90 en el tramo 4.2; X-23 #1–7 + Daken #1–7 + recuadro *Collision* (X-23 #8 →
+    Daken #8 → X-23 #9 → Daken #9) en el 4.5; X-23 #10–16 + Daken #9.1–15 en el 4.6; X-23 #17–21 +
+    Daken #16–23 en el 5.1, porque X-23 #17 en adelante es posterior a *Schism*. La ficha X-23
+    #1–7 conserva el `id` antiguo `m1-b4-x-23-vol-3-1-16`, y la de X-Men: Legacy #248–260 el suyo,
+    que aún contiene `x-23-17-21`. *Namor: The First Mutant* #1–4 y *To Serve and Protect* #1–4
+    solo se mencionan en la ficha de Generation Hope.
 
   Al principio el usuario pidió no tocar este volumen, pero después pidió verificarlo y
   corregirlo. Cámbialo solo cuando lo pida.
@@ -235,7 +242,7 @@ Servicio (`servicio/`):
   A.X.E., Sins of Sinister y The Last Annihilation (añadido a petición).
 - **HoX/PoX abre el Mutante II** (primera ficha del bloque 1, ancla `hoxpox`, «Léelos antes que
   nada»), a petición del usuario. El Mutante I termina con un recuadro de frontera que enlaza
-  con ella. Cifras: m1 26 eventos, m2 20.
+  con ella. Cifras: m1 27 eventos, m2 20.
 - Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
   plantilla: ruta relativa a la portada).
 - **Eterno (et, 2006–2026)**: Gaiman/Romita Jr. → Knauf → Final Host → Gillen → A.X.E. →
@@ -281,7 +288,8 @@ Servicio (`servicio/`):
   - Imperial es de Hickman;
   - The Black Vortex tiene 13 partes;
   - orden de Dark Web corregido;
-  - hueco de X-Men vol.6 #23–25 en torno a la Hellfire Gala 2023 resuelto.
+  - hueco de X-Men vol.6 #23–25 en torno a la Hellfire Gala 2023 resuelto;
+  - X-23 vol. 3 sí cruza: #1–3 parten de *Wolverine* vol. 4 #1 y #8–9 son *Collision*.
 - X-Factor vol.3 #25–27 **no** es un hueco: están dentro del recuadro de Messiah Complex. El usuario
   no los encontró; se ofreció enlazar automáticamente los nombres de evento de las notas de
   continuidad con su recuadro.

@@ -14,7 +14,7 @@ cabecera:
     texto: Años de continuidad
   - valor: '25'
     texto: Tramos de lectura
-  - valor: '26'
+  - valor: '27'
     texto: Eventos y crossovers
   - valor: ~1.500
     texto: Números en total
@@ -595,7 +595,7 @@ bloques:
 - id: b4
   fechas: 2008 — 2011
   titulo: San Francisco, Utopía y la Segunda Venida
-  intro: 'Cíclope traslada a la especie entera a California y luego a una isla artificial frente a la costa. Los X-Men dejan de ser una escuela y se convierten en un estado mutante armado: el ensayo general de lo que Krakoa será una década después. Es el bloque con más crossovers de toda la guía —cinco— y el que peor funciona si vas cabecera por cabecera.'
+  intro: 'Cíclope traslada a la especie entera a California y luego a una isla artificial frente a la costa. Los X-Men dejan de ser una escuela y se convierten en un estado mutante armado: el ensayo general de lo que Krakoa será una década después. Es el bloque con más crossovers de toda la guía —seis— y el que peor funciona si vas cabecera por cabecera.'
   navegacion:
     anio: 2008–2011
     texto: Utopía
@@ -698,6 +698,18 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b4-dark-wolverine-75-90
+          titulo: Dark Wolverine <span class="nums">#75–90</span>
+          creditos: Daniel Way &amp; Marjorie Liu · Giuseppe Camuncoli, Stephen Segovia · 2009–2010
+          continuidad:
+          - sigue: '▸ Continúa en el tramo 4.5 como <em>Daken: Dark Wolverine</em>, desde el #1'
+          descripcion:
+          - 'Daken, el hijo de Lobezno y el Lobezno de los Vengadores Oscuros de Osborn, hereda la numeración de <em>Wolverine</em> vol. 3. Se publicó de junio de 2009 a agosto de 2010: repártela a tu ritmo por los tramos 4.2, 4.3 y 4.4.'
+          - '<strong>Tres arcos cruzan con otras series:</strong> «Godlike» (#82–84) es tie-in de <em>Siege</em>, evento que esta guía no recoge; «Reckoning» va alternado, #85 → <em>Wolverine: Origins</em> #47 → #86 → <em>Origins</em> #48 (si lees <em>Origins</em>, ficha de satélites del tramo 2.4, deja sus últimos números para aquí); y «Punishment» también, #88 → <em>Franken-Castle</em> #19 → #89 → <em>Franken-Castle</em> #20.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-utopia
       etiqueta: Crossover · 2009
@@ -829,16 +841,6 @@ bloques:
             clase: t2
             texto: Recomendado
       - serie:
-          id: m1-b4-x-23-vol-3-1-16
-          prioridad: p2
-          titulo: X-23 vol. 3 <span class="nums">#1–16</span>
-          creditos: Marjorie Liu · Will Conrad · 2010–2011
-          descripcion:
-          - Laura fuera de X-Force. Serie de personaje muy bien construida y sin cruces con nada.
-          etiqueta:
-            clase: t2
-            texto: Recomendado
-      - serie:
           id: m1-b4-generation-hope-1-9-x-men-vol-3-1-15-wolverine-vol-4-1-16-astonishing
           titulo: Generation Hope <span class="nums">#1–9</span> · X-Men vol. 3 <span class="nums">#1–15</span> · Wolverine vol. 4 <span class="nums">#1–16</span> · Astonishing X-Men <span class="nums">#36–47</span>
           creditos: Kieron Gillen / Victor Gischler / Jason Aaron / varios · 2010–2011
@@ -847,9 +849,49 @@ bloques:
           - sigue: ▸ X-Men vol. 3 y Wolverine continúan en el tramo 4.6
           descripcion:
           - <em>Generation Hope</em> sigue a las Cinco Luces; <em>X-Men</em> vol. 3 abre con vampiros («Curse of the Mutants»); <em>Wolverine</em> con «Wolverine Goes to Hell».
+          - 'Fuera de esta guía: <em>Namor: The First Mutant</em> #1–4 («Royal Blood») es un tie-in opcional de «Curse of the Mutants», publicado en paralelo a <em>X-Men</em> vol. 3 #2–5, y la antología <em>X-Men: To Serve and Protect</em> #1–4 es prescindible.'
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b4-x-23-vol-3-1-16
+          prioridad: p2
+          titulo: X-23 vol. 3 <span class="nums">#1–7</span>
+          creditos: Marjorie Liu · Will Conrad, Sana Takeda · 2010–2011
+          continuidad:
+          - viene: '◂ Arranca de <em>Wolverine</em> vol. 4 #1 (ficha anterior)'
+          - sigue: '▸ Los números #8–9 son capítulos de <em>Collision</em>'
+          descripcion:
+          - 'Laura fuera de X-Force. Serie de personaje muy bien construida: «The Killing Dream» (#1–3) la enfrenta al Lobezno poseído de «Wolverine Goes to Hell», y «Songs of the Orphan Child» (#4–7) la lleva junto a Gambit camino de Madripoor.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-daken-dark-wolverine-1-7
+          titulo: 'Daken: Dark Wolverine <span class="nums">#1–7</span>'
+          creditos: Daniel Way &amp; Marjorie Liu · Giuseppe Camuncoli · 2010–2011
+          continuidad:
+          - viene: '◂ Viene de <em>Dark Wolverine</em> #90 (tramo 4.2)'
+          - sigue: '▸ Los números #8–9 son capítulos de <em>Collision</em>'
+          descripcion:
+          - 'Con el alma de Lobezno en el infierno, Daken levanta su propio imperio («Empire») y se convierte en el rey del hampa de Madripoor. Antesala opcional de esta serie y de <em>X-23</em>: el one-shot <em>Wolverine: Road to Hell</em> #1.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m1-b4-collision
+          etiqueta: Crossover · 4 partes · 2011
+          titulo: Collision
+          creditos: Marjorie Liu (<em>X-23</em>) · Daniel Way &amp; Marjorie Liu (<em>Daken</em>) · Ryan Stegman, Marco Checchetto
+          descripcion:
+          - X-23 llega a Madripoor buscando respuestas sobre su pasado y se encuentra con Daken. Juntos persiguen a Malcolm Colcord, responsable de las sucesivas encarnaciones del programa Arma X, aunque ninguno se fía del otro. <strong>Se lleva dos números de cada serie:</strong> aunque solo sigas <em>X-23</em>, necesitas también los dos de <em>Daken</em> para tener la historia completa.
+          apartados:
+          - apartado: Antes de empezar
+            texto: <em>X-23</em>
+          - apartado: Orden completo
+            texto: '<span class="cap">X-23 #8</span> → <span class="cap">Daken: Dark Wolverine #8</span> → <span class="cap">X-23 #9</span> → <span class="cap">Daken: Dark Wolverine #9</span>'
+          - apartado: Después
+            texto: '<em>X-23</em> sigue en el #10 y <em>Daken</em> en el #9.1, las dos en el tramo 4.6.'
   - evento:
       id: m1-b4-age-of-x
       etiqueta: Crossover · 2011
@@ -900,8 +942,8 @@ bloques:
       - serie:
           id: m1-b4-x-men-legacy-248-260-new-mutants-vol-3-25-33-x-23-17-21-x-men-vol-3-16
           prioridad: p2
-          titulo: 'X-Men: Legacy <span class="nums">#248–260</span> · New Mutants vol. 3 <span class="nums">#25–33</span> · X-23 <span class="nums">#17–21</span> · X-Men vol. 3 <span class="nums">#16–20</span> · Wolverine vol. 4 <span class="nums">#17–20</span>'
-          creditos: Mike Carey / Abnett &amp; Lanning / Marjorie Liu / Victor Gischler / Jason Aaron · 2011
+          titulo: 'X-Men: Legacy <span class="nums">#248–260</span> · New Mutants vol. 3 <span class="nums">#25–33</span> · X-Men vol. 3 <span class="nums">#16–20</span> · Wolverine vol. 4 <span class="nums">#17–20</span>'
+          creditos: Mike Carey / Abnett &amp; Lanning / Victor Gischler / Jason Aaron · 2011
           continuidad:
           - viene: ◂ Legacy y New Mutants vienen de <em>Age of X</em>
           - sigue: '▸ Wolverine sigue en 2012 con numeración clásica: #300–317'
@@ -910,6 +952,31 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b4-x-23-vol-3-10-16
+          prioridad: p2
+          titulo: X-23 vol. 3 <span class="nums">#10–16</span>
+          creditos: Marjorie Liu · Sana Takeda, Phil Noto · 2011
+          continuidad:
+          - viene: ◂ Viene de <em>Collision</em>
+          - sigue: '▸ Continúa en el tramo 5.1 desde el #17, ya después de <em>Schism</em>'
+          descripcion:
+          - Laura intenta cerrar su pasado junto a Jubilee («Touching Darkness»,
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b4-daken-dark-wolverine-9-1-10-15
+          titulo: 'Daken: Dark Wolverine <span class="nums">#9.1 → #10–15</span>'
+          creditos: Rob Williams · Ron Garney, Matteo Buffagni, Michele Bertilorenzi · 2011
+          continuidad:
+          - viene: ◂ Viene de <em>Collision</em>
+          - sigue: '▸ Continúa en el tramo 5.1 desde el #16'
+          descripcion:
+          - 'Con Madripoor en sus manos, Daken salta a Los Ángeles para hacerse con el crimen de Hollywood: «Big Break» (#10–12) y «Moonwalk» (#13–15), con Moon Knight. El #9.1 es el puente entre las dos etapas.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-x-men-schism
       etiqueta: Evento · 2011 · Cierre del bloque
@@ -997,6 +1064,30 @@ bloques:
           - sigue: '▸ Legacy #266–270 son capítulos de <em>AvX</em>'
           descripcion:
           - 'Las cabeceras satélite del reparto de bandos. <em>Generation Hope</em> cierra en el #17, justo cuando arranca AvX.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b5-x-23-vol-3-17-21
+          prioridad: p2
+          titulo: X-23 vol. 3 <span class="nums">#17–21</span>
+          creditos: Marjorie Liu · Sana Takeda, Phil Noto · 2011–2012
+          continuidad:
+          - viene: ◂ Viene del tramo 4.6
+          descripcion:
+          - 'Final de la serie, ya tras la ruptura: Laura pasa por la Escuela Jean Grey, hace de niñera de los hijos de los Richards («Misadventures in Babysitting») y se resiste a elegir bando («Girls Night Out»).'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b5-daken-dark-wolverine-16-23
+          titulo: 'Daken: Dark Wolverine <span class="nums">#16–23</span>'
+          creditos: Rob Williams · Matteo Buffagni · 2011–2012
+          continuidad:
+          - viene: ◂ Viene del tramo 4.6
+          - sigue: '▸ Daken reaparece en <em>Uncanny X-Force</em> desde el #26: lee esta ficha antes de llegar a ese número'
+          descripcion:
+          - 'Final de la serie: «Pride Comes Before It» (#16–19), con los Runaways, y el último enfrentamiento con Lobezno en «Lost Weekend» (#21–23).'
           etiqueta:
             clase: opcional
             texto: Opcional
