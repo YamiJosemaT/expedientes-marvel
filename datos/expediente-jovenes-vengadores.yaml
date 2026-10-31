@@ -20,7 +20,7 @@ cabecera:
     texto: Números en total
 leyenda: |-
   <p>Mismo sistema que los otros expedientes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Los capítulos <span class="cap">en color</span> dentro de un evento son los que más importan a Wiccan y Hulkling.</p>
-  <p>Como en el Expediente Eterno, la franja de cada ficha distingue las series del grupo o de la pareja de las apariciones en colecciones ajenas.</p>
+  <p>Como en el Expediente Eternos, la franja de cada ficha distingue las series del grupo o de la pareja de las apariciones en colecciones ajenas.</p>
   <div class="legend-row">
   <span class="key"><span class="swatch"></span> Serie de los Jóvenes Vengadores, de Wiccan o de Hulkling</span>
   <span class="key"><span class="swatch dashed"></span> Aparición en una serie ajena</span>

@@ -19,7 +19,7 @@ COMICS = sys.argv[1] if len(sys.argv) > 1 else r'C:\Users\josem\Desktop\Josema\C
 EXPEDIENTES = {
     'm1': ('Expediente Mutante/Expediente-Mutante-2001-2019.html', 'expediente-mutante-1.yaml'),
     'm2': ('Expediente Mutante/Expediente-Mutante-II-Krakoa-2019-2026.html', 'expediente-mutante-2.yaml'),
-    'et': ('Expediente Eterno/Expediente-Eterno-2006-2026.html', 'expediente-eterno.yaml'),
+    'et': ('Expediente Eternos/Expediente-Eternos-2006-2026.html', 'expediente-eternos.yaml'),
     'gg': ('Expediente Guardianes/Expediente-Guardianes-2007-2026.html', 'expediente-guardianes.yaml'),
 }
 

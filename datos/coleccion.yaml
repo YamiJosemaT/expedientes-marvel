@@ -36,10 +36,10 @@ expedientes:
     acento: {claro: '#C13F0E', claro_suave: '#F7E3D7', oscuro: '#FF8E52', oscuro_suave: '#3B2114'}
 
   - clave: et
-    datos: expediente-eterno.yaml
-    archivo: Expediente Eterno/Expediente-Eterno-2006-2026.html
-    nombre: Expediente Eterno
-    nombre_corto: Eterno
+    datos: expediente-eternos.yaml
+    archivo: Expediente Eternos/Expediente-Eternos-2006-2026.html
+    nombre: Expediente Eternos
+    nombre_corto: Eternos
     subtitulo: Los Eternos
     periodo: 2006 — hoy
     resumen: De la reinvención de Gaiman al cincuenta aniversario.
@@ -86,7 +86,7 @@ expedientes:
 portada:
   archivo: Expedientes Marvel.html
   titulo_pagina: Expedientes Marvel
-  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eterno, Expediente Guardianes, Expediente Jóvenes Vengadores y Expediente 4 Fantásticos.'
+  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eternos, Expediente Guardianes, Expediente Jóvenes Vengadores y Expediente 4 Fantásticos.'
   tema_clave: expedientes-indice-tema
   antetitulo: Colección de guías de lectura · Marvel Comics
   titulo: Expedientes<span class="thin">Marvel 2000 — hoy</span>
@@ -192,7 +192,7 @@ cruces:
     anio: 2022
     enlaces:
       - {expediente: m2, ancla: b3, texto: Mutante II · bloque 3}
-      - {expediente: et, ancla: b5, texto: Eterno · bloque 5}
+      - {expediente: et, ancla: b5, texto: Eternos · bloque 5}
       - {expediente: 4f, ancla: ev-axe, texto: 4 Fantásticos · bloque 9}
     nota: El mismo orden entrelazado, visto desde mutantes y Eternos; en 4 Fantásticos, solo su tie-in de dos números.
   - evento: Imperial

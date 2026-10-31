@@ -1,13 +1,13 @@
-# Expediente Eterno
+# Expediente Eternos
 # Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
 # Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
 
 clave: et
-titulo_pagina: Expediente Eterno
+titulo_pagina: Expediente Eternos
 descripcion_pagina: Guía de lectura de los Eternos de Marvel desde Gaiman y Romita Jr. (2006) hasta 2026, con sus apariciones en otras series.
 cabecera:
   antetitulo: Guía de lectura · Marvel Comics · Los hijos de los Celestiales
-  titulo: Expediente<br/>Eterno<span class="thin">2006 — 2026</span>
+  titulo: Expediente<br/>Eternos<span class="thin">2006 — 2026</span>
   entradilla: De la reinvención de Neil Gaiman al especial del cincuenta aniversario. Veinte años en los que los Eternos han tenido solo tres series propias y han pasado más tiempo dentro de las colecciones de otros —o directamente muertos— que en la suya. Por eso esta guía cuenta también cada aparición que mueve su historia.
   cifras:
   - valor: '20'

@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 ARCHIVOS = ['Expedientes Marvel.html',
             'Expediente Mutante/Expediente-Mutante-2001-2019.html',
             'Expediente Mutante/Expediente-Mutante-II-Krakoa-2019-2026.html',
-            'Expediente Eterno/Expediente-Eterno-2006-2026.html',
+            'Expediente Eternos/Expediente-Eternos-2006-2026.html',
             'Expediente Guardianes/Expediente-Guardianes-2007-2026.html',
             'Expediente Jovenes Vengadores/Expediente-Jovenes-Vengadores-2005-2026.html']
 # reglas CSS que pueden estar en una version y no en otra sin cambiar nada visible

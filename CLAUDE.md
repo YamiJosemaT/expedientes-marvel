@@ -28,11 +28,11 @@ C:\Users\josem\Desktop\Josema\
     Expedientes Marvel.html                                   portada / índice
     Expediente Mutante\Expediente-Mutante-2001-2019.html      (m1)
     Expediente Mutante\Expediente-Mutante-II-Krakoa-2019-2026.html (m2)
-    Expediente Eterno\Expediente-Eterno-2006-2026.html        (et)
+    Expediente Eternos\Expediente-Eternos-2006-2026.html      (et)
     Expediente Guardianes\Expediente-Guardianes-2007-2026.html (gg)
     Expediente Jovenes Vengadores\Expediente-Jovenes-Vengadores-2005-2026.html (jv)
     Expediente 4 Fantasticos\Expediente-4-Fantasticos-2000-2026.html (4f)
-    */Older Versions\              copias anteriores a mano (Mutante I v0–v7, II v1–v5, Eterno v2, Guardianes v2)
+    */Older Versions\              copias anteriores a mano (Mutante I v0–v7, II v1–v5, Eternos v2, Guardianes v2)
 ```
 
 **Nunca edites los HTML de `Comics` a mano**: se sobrescriben en la siguiente generación. Todo
@@ -132,7 +132,7 @@ servicio/               sincronización en línea (§6)
 ```
 
 Campos de una **serie**: `id`, `ancla?`, `prioridad?` (p1 esencial · p2 recomendado · sin campo
-opcional · p4 alterna), `aparicion?` (ficha "guest": aparición en serie ajena, usado en Eterno y Jóvenes Vengadores),
+opcional · p4 alterna), `aparicion?` (ficha "guest": aparición en serie ajena, usado en Eternos y Jóvenes Vengadores),
 `donde?`, `titulo`, `creditos`, `descripcion[]`, `continuidad[{sigue | viene}]`,
 `etiqueta{clase t1|t2|t4|opcional, texto}`.
 
@@ -245,7 +245,8 @@ Servicio (`servicio/`):
   con ella. Cifras: m1 27 eventos, m2 20.
 - Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
   plantilla: ruta relativa a la portada).
-- **Eterno (et, 2006–2026)**: Gaiman/Romita Jr. → Knauf → Final Host → Gillen → A.X.E. →
+- **Eternos (et, 2006–2026; renombrado de «Eterno» el 2026-10-31, conservando la clave `et`, los
+  `id` y `tema_clave`)**: Gaiman/Romita Jr. → Knauf → Final Host → Gillen → A.X.E. →
   actualidad, con fichas de apariciones en series ajenas.
 - **Guardianes (gg, 2007–2026)**: Annihilation: Conquest → Abnett & Lanning → Bendis → Gemas del
   Infinito → Cates/Ewing → Grootfall → Imperial (guionista **Jonathan Hickman**). Recoge los
