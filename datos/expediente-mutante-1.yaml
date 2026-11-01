@@ -887,11 +887,23 @@ bloques:
           - X-23 llega a Madripoor buscando respuestas sobre su pasado y se encuentra con Daken. Juntos persiguen a Malcolm Colcord, responsable de las sucesivas encarnaciones del programa Arma X, aunque ninguno se fía del otro. <strong>Se lleva dos números de cada serie:</strong> aunque solo sigas <em>X-23</em>, necesitas también los dos de <em>Daken</em> para tener la historia completa.
           apartados:
           - apartado: Antes de empezar
-            texto: <em>X-23</em>
+            texto: '<em>X-23</em> y <em>Daken</em> leídas hasta el #7 (fichas anteriores).'
           - apartado: Orden completo
             texto: '<span class="cap">X-23 #8</span> → <span class="cap">Daken: Dark Wolverine #8</span> → <span class="cap">X-23 #9</span> → <span class="cap">Daken: Dark Wolverine #9</span>'
           - apartado: Después
             texto: '<em>X-23</em> sigue en el #10 y <em>Daken</em> en el #9.1, las dos en el tramo 4.6.'
+      - serie:
+          id: m1-b4-wolverine-and-jubilee-1-4
+          titulo: Wolverine and Jubilee <span class="nums">#1–4</span>
+          creditos: Kathryn Immonen · Phil Noto · 2011
+          continuidad:
+          - viene: '◂ Viene de <em>X-Men</em> vol. 3 #6, el final de «Curse of the Mutants» (ficha de <em>Generation Hope</em>, en este tramo)'
+          - sigue: '▸ Jubilee reaparece en <em>X-23</em> #10–12 (tramo 4.6)'
+          descripcion:
+          - 'Secuela directa de «Curse of the Mutants». Jubilee, recién convertida en vampira, no encaja entre los X-Men, y Lobezno se la lleva lejos cuando alguien intenta inculparla de un asesinato en masa («Cursed»). Su historia sigue en <em>X-Men</em> vol. 3 #11 («Blood Hunt»).'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-age-of-x
       etiqueta: Crossover · 2011
@@ -959,9 +971,10 @@ bloques:
           creditos: Marjorie Liu · Sana Takeda, Phil Noto · 2011
           continuidad:
           - viene: ◂ Viene de <em>Collision</em>
+          - viene: ◂ Jubilee llega ya vampira desde <em>Wolverine and Jubilee</em> (final del tramo 4.5)
           - sigue: '▸ Continúa en el tramo 5.1 desde el #17, ya después de <em>Schism</em>'
           descripcion:
-          - Laura intenta cerrar su pasado junto a Jubilee («Touching Darkness»,
+          - 'Laura intenta cerrar su pasado junto a Jubilee («Touching Darkness», #10–12) y acaba colaborando con la Fundación Futuro («Chaos Theory», #13–16).'
           etiqueta:
             clase: t2
             texto: Recomendado

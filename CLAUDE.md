@@ -93,8 +93,8 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 453 entradas
-marcables (m1 123, m2 80, et 15, gg 36, jv 36, 4f 163).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 454 entradas
+marcables (m1 124, m2 80, et 15, gg 36, jv 36, 4f 163).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -244,7 +244,9 @@ Servicio (`servicio/`):
     Daken #16–23 en el 5.1, porque X-23 #17 en adelante es posterior a *Schism*. La ficha X-23
     #1–7 conserva el `id` antiguo `m1-b4-x-23-vol-3-1-16`, y la de X-Men: Legacy #248–260 el suyo,
     que aún contiene `x-23-17-21`. *Namor: The First Mutant* #1–4 y *To Serve and Protect* #1–4
-    solo se mencionan en la ficha de Generation Hope.
+    solo se mencionan en la ficha de Generation Hope;
+  - *Wolverine and Jubilee* #1–4 (añadido a petición el 2026-11-01) como ficha opcional al final
+    del tramo 4.5: secuela de *Curse of the Mutants*, antes de *X-23* #10–12.
 
   Al principio el usuario pidió no tocar este volumen, pero después pidió verificarlo y
   corregirlo. Cámbialo solo cuando lo pida.
@@ -310,7 +312,11 @@ Servicio (`servicio/`):
 
 - En la herramienta Bash (Git Bash), los heredocs convierten `\\n`, `\\u`… en caracteres reales y
   rompen el código. Para escribir código con barras invertidas usa las herramientas Write/Edit.
-- En YAML, los valores que contienen `: ` van entre comillas.
+- En YAML, los valores que contienen `: ` o ` #` van entre comillas. Sin ellas, ` #` empieza un
+  comentario: el texto se corta en silencio, la generación no avisa y la auditoría tampoco lo ve.
+  Al volver a guardar el YAML el comentario desaparece y el original se pierde.
+- La auditoría lee también los apartados de los eventos: citar `X-23 #1–7` en «Antes de empezar»
+  cuenta como colocar esos números y da un falso «repetidos». Redáctalo sin el patrón serie + número.
 - Plantillas Jinja con el `Undefined` normal (con StrictUndefined fallan los campos opcionales).
   Placeholders en recursos: `{{ NOMBRE }}` (con `%` se rompía el CSS).
 - Pruebas con Chrome headless:
@@ -335,3 +341,10 @@ Servicio (`servicio/`):
 3. Ofertas sin respuesta del usuario:
    - autoenlazar nombres de evento en las notas de continuidad;
    - reformular la mención del one-shot Imperial Guardians #1.
+4. **Textos cortados por un ` #` sin comillas** (detectado el 2026-11-01, publicados así). Ya
+   entraron cortados en git, así que hay que reescribirlos y verificarlos. Localizados 13 buscando
+   finales colgados; puede haber más:
+   - 4 Fantásticos: nota de los tramos 1.3, 2.1 y 2.4; «Por qué este orden» de Forever (antes del
+     tramo 6.2); apartado «Orden de publicación… El» del bloque 9; 6 notas de continuidad («Sigue en
+     el», «Viene del») en los bloques 1, 2, 3 y 5.
+   - Jóvenes Vengadores: notas de continuidad «Lo del» (bloque 2) y «Los números» (bloque 7).
