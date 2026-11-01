@@ -6,8 +6,9 @@ Uso:
     .venv\\Scripts\\python generador\\construir.py --destino DIR    -> genera en DIR (p. ej. la carpeta Comics)
     --forzar  escribe aunque la auditoria encuentre huecos
 
-Pasos: carga datos -> asigna id a las entradas nuevas (y lo guarda en su YAML) -> comprueba ids
-unicos -> renderiza -> audita la continuidad -> escribe los archivos si todo esta bien.
+Pasos: comprueba que ningun texto este cortado -> carga datos -> asigna id a las entradas nuevas
+(y lo guarda en su YAML) -> comprueba ids unicos -> renderiza -> audita la continuidad -> escribe
+los archivos si todo esta bien.
 """
 import argparse
 import html
@@ -85,6 +86,32 @@ def asignar_ids(exp, datos):
     return nuevos
 
 
+def mapas_accidentales(n, ruta=''):
+    """Textos que YAML ha leido como mapa por un ': ' sin comillas (se publicarian como {'...': '...'})."""
+    if isinstance(n, dict):
+        for k, v in n.items():
+            if not re.fullmatch(r'[a-z0-9_]+', str(k)):
+                yield '%s: %s' % (ruta, str(k)[:60])
+            yield from mapas_accidentales(v, '%s.%s' % (ruta, k))
+    elif isinstance(n, list):
+        for i, v in enumerate(n):
+            if ruta.endswith('.descripcion') and not isinstance(v, str):
+                yield '%s[%d]: %s' % (ruta, i, repr(v)[:60])
+            yield from mapas_accidentales(v, '%s[%d]' % (ruta, i))
+
+
+def textos_danados():
+    """Avisos de textos cortados o mal leidos en cualquier YAML de datos."""
+    avisos = []
+    for nombre in sorted(os.listdir(DATOS)):
+        if nombre.endswith('.yaml'):
+            ruta = os.path.join(DATOS, nombre)
+            avisos += ['%s:%d: comentario tras un valor (¿falta entrecomillar un " #"?): %s' % (nombre, n, linea[:100])
+                       for n, linea in yamlio.comentarios_en_linea(ruta)]
+            avisos += ['%s %s' % (nombre, a) for a in mapas_accidentales(yamlio.cargar(ruta)[1])]
+    return avisos
+
+
 def plano(s):
     """Texto de un titulo, sin marcado."""
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
@@ -119,6 +146,13 @@ def main():
     ap.add_argument('--forzar', action='store_true', help='escribir aunque la auditoria encuentre huecos')
     ap.add_argument('--url-sincronizacion', help='servicio de lecturas a usar en vez del de coleccion.yaml (pruebas)')
     args = ap.parse_args()
+
+    # antes de asignar ids: guardar el YAML borraria para siempre lo que un " #" haya cortado
+    danados = textos_danados()
+    if danados:
+        print('\n'.join('ERROR: ' + a for a in danados))
+        print('\nNO SE HA ESCRITO NADA: hay %d texto(s) dañado(s). Entrecomíllalos; --forzar no salta esto.' % len(danados))
+        return 1
 
     env = Environment(loader=FileSystemLoader(PLANTILLAS), autoescape=False,
                       trim_blocks=True, lstrip_blocks=True, keep_trailing_newline=True)

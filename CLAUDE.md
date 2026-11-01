@@ -53,6 +53,7 @@ cambio va en `datos/*.yaml` (contenido) o `plantillas/` (aspecto y scripts).
    (`<nombre> vN.html`, siguiente número libre).
 
 `construir.py`:
+- antes de nada, comprueba que ningún YAML tenga textos dañados (ver §8); esto no lo salta `--forzar`;
 - carga los datos y asigna `id` a las entradas nuevas (y lo escribe en su YAML con `yamlio`);
 - comprueba que los ids son únicos y que las anclas de los cruces existen;
 - renderiza y audita la continuidad de 77 series (`datos/auditoria.yaml`);
@@ -313,8 +314,12 @@ Servicio (`servicio/`):
 - En la herramienta Bash (Git Bash), los heredocs convierten `\\n`, `\\u`… en caracteres reales y
   rompen el código. Para escribir código con barras invertidas usa las herramientas Write/Edit.
 - En YAML, los valores que contienen `: ` o ` #` van entre comillas. Sin ellas, ` #` empieza un
-  comentario: el texto se corta en silencio, la generación no avisa y la auditoría tampoco lo ve.
-  Al volver a guardar el YAML el comentario desaparece y el original se pierde.
+  comentario y corta el texto en silencio, y `: ` convierte el texto en un mapa, que se publica como
+  `{'...': '...'}`. Desde el 2026-11-01 `construir.py` se detiene en ambos casos
+  (`yamlio.comentarios_en_linea`, `mapas_accidentales`), así que en `datos/` no puede haber
+  comentarios detrás de un valor: van en su propia línea. Si un texto se perdió en git, el original
+  puede seguir en las transcripciones de `~/.claude/projects` (entradas de las herramientas); de
+  ahí se recuperaron los 20 cortes de 4 Fantásticos y Jóvenes Vengadores.
 - La auditoría lee también los apartados de los eventos: citar `X-23 #1–7` en «Antes de empezar»
   cuenta como colocar esos números y da un falso «repetidos». Redáctalo sin el patrón serie + número.
 - Plantillas Jinja con el `Undefined` normal (con StrictUndefined fallan los campos opcionales).
@@ -341,10 +346,3 @@ Servicio (`servicio/`):
 3. Ofertas sin respuesta del usuario:
    - autoenlazar nombres de evento en las notas de continuidad;
    - reformular la mención del one-shot Imperial Guardians #1.
-4. **Textos cortados por un ` #` sin comillas** (detectado el 2026-11-01, publicados así). Ya
-   entraron cortados en git, así que hay que reescribirlos y verificarlos. Localizados 13 buscando
-   finales colgados; puede haber más:
-   - 4 Fantásticos: nota de los tramos 1.3, 2.1 y 2.4; «Por qué este orden» de Forever (antes del
-     tramo 6.2); apartado «Orden de publicación… El» del bloque 9; 6 notas de continuidad («Sigue en
-     el», «Viene del») en los bloques 1, 2, 3 y 5.
-   - Jóvenes Vengadores: notas de continuidad «Lo del» (bloque 2) y «Los números» (bloque 7).

@@ -3,7 +3,8 @@
 # Para anadir un expediente nuevo: una entrada en "expedientes" + su archivo de datos en esta carpeta.
 
 anio_inicio: 2000
-anio_final: 2026          # "hoy" en las fechas de los bloques se interpreta como este anio
+# "hoy" en las fechas de los bloques se interpreta como este anio
+anio_final: 2026
 
 # Servicio en linea de las marcas de lectura (servicio/worker.js en Cloudflare).
 # Vacio: las marcas solo se guardan en cada navegador, como hasta ahora.

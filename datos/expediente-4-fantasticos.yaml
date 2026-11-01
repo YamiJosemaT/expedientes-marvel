@@ -36,15 +36,15 @@ cajas:
     titulo: La ruta corta
     texto: 'Nueve paradas y unos 120 números, solo con lo que gira alrededor de Franklin: su hermana, el Infierno, el yo adulto que le devuelve los poderes, la muerte y la vuelta de <em>Secret Wars</em>, la pérdida de su identidad mutante, su secreto y lo que le pasa a Valeria al final.'
     pasos:
-    - '<span>Fantastic Four Annual 2001 + Fantastic Four <em>#46–54</em></span>'
+    - <span>Fantastic Four Annual 2001 + Fantastic Four <em>#46–54</em></span>
     - '<span>Fantastic Four <em>#67–70, #500–502</em></span>'
-    - '<span>Marvel Knights 4 <em>#15–18</em></span>'
+    - <span>Marvel Knights 4 <em>#15–18</em></span>
     - '<span>Dark Reign: Fantastic Four <em>#1–5</em> + Fantastic Four <em>#570–588</em></span>'
-    - '<span>FF <em>#1–23</em> + Fantastic Four <em>#600–611</em></span>'
-    - '<span>Secret Wars <em>#1–9</em></span>'
-    - '<span>Fantastic Four vol. 6 <em>#1–4</em> + X-Men/Fantastic Four <em>#1–4</em> + vol. 6 <em>#25–26</em></span>'
+    - <span>FF <em>#1–23</em> + Fantastic Four <em>#600–611</em></span>
+    - <span>Secret Wars <em>#1–9</em></span>
+    - <span>Fantastic Four vol. 6 <em>#1–4</em> + X-Men/Fantastic Four <em>#1–4</em> + vol. 6 <em>#25–26</em></span>
     - '<span>Fantastic Four vol. 7 <em>#1–4, #14–18</em></span>'
-    - '<span>One World Under Doom <em>#1–9</em> + Will of Doom <em>#1</em></span>'
+    - <span>One World Under Doom <em>#1–9</em> + Will of Doom <em>#1</em></span>
 - html: |-
     <h2>Antes de empezar</h2>
     <p>No hace falta haber leído nada: el primer bloque arranca con equipo creativo nuevo y pone al día lo justo. Esto es lo que conviene saber de Franklin hasta el año 2000.</p>
@@ -151,7 +151,7 @@ bloques:
       numero: '1.3'
       titulo: Abraxas
       cuando: Julio – diciembre 2001
-      nota: El anual se publicó entre el
+      nota: 'El anual se publicó entre el #45 y el #46, y es el primer capítulo de la saga.'
       entradas:
       - serie:
           id: 4f-b1-fantastic-four-annual-2001
@@ -174,7 +174,7 @@ bloques:
           creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Pacheco y Jeff Johnson · 2001
           continuidad:
           - viene: ◂ Viene de la ficha anterior
-          - sigue: ▸ Sigue en el
+          - sigue: '▸ Sigue en el #50'
           descripcion:
           - 'Franklin y Valeria vuelven a casa, y Franklin dice que conoce a Abraxas de sus sueños: un ser que va de universo en universo destruyendo a cada Galactus. Reed, Sue y Ben recorren realidades alternativas buscando las coordenadas del Anulador Supremo, mientras Roma y Saturnyne les enseñan a los niños cómo avanza la búsqueda.'
           - <strong>El momento clave de Franklin en este bloque.</strong> Les revela a su madre y a su hermana que Valeria es la niña que nació muerta, y que fue él quien la salvó sin saberlo y la llevó a un futuro posible. Juntos resucitan a Galactus. Tras derrotar a Abraxas, Valeria ha desaparecido y Sue vuelve a estar embarazada.
@@ -196,7 +196,7 @@ bloques:
           titulo: Fantastic Four <span class="nums">#50</span>
           creditos: Carlos Pacheco, Rafael Marín y Jeph Loeb · Tom Grummett y otros · 2001
           continuidad:
-          - viene: ◂ Viene del
+          - viene: '◂ Viene del #49'
           - sigue: ▸ Sigue en el tramo 1.4
           descripcion:
           - El aniversario del grupo, contado sin una sola palabra (forma parte del mes «’Nuff Said» de Marvel). Cada uno de los cuatro recuerda sus primeros días con poderes, y Sue se hace la primera ecografía del nuevo embarazo. Incluye dos historias cortas, una de ellas de humor.
@@ -302,7 +302,7 @@ bloques:
       numero: '2.1'
       titulo: Una familia de exploradores
       cuando: Agosto 2002 – febrero 2003
-      nota: El
+      nota: 'El #60 es el mejor punto de entrada de toda la década, si alguna vez quieres recomendarle la serie a alguien.'
       entradas:
       - serie:
           id: 4f-b2-fantastic-four-60-61
@@ -322,8 +322,7 @@ bloques:
           titulo: Fantastic Four <span class="nums">#62–64</span>
           creditos: Mark Waid · Mike Wieringo · 2002
           descripcion:
-          - ? Un ataque místico contra Franklin y Valeria burla la seguridad del edificio, y es el primer aviso de lo que prepara Doom. Mientras, una expresión matemática viva, Modulus, nace de las ecuaciones de Reed, se enamora de él y quiere eliminar a todo lo que le hace sombra, empezando por su familia. Detrás está Franklin
-            : sin poderes desde que resucitó a su hermana y sintiéndose desplazado por ella, lo provoca sin querer intentando llamar la atención de su padre.
+          - 'Un ataque místico contra Franklin y Valeria burla la seguridad del edificio, y es el primer aviso de lo que prepara Doom. Mientras, una expresión matemática viva, Modulus, nace de las ecuaciones de Reed, se enamora de él y quiere eliminar a todo lo que le hace sombra, empezando por su familia. Detrás está Franklin: sin poderes desde que resucitó a su hermana y sintiéndose desplazado por ella, lo provoca sin querer intentando llamar la atención de su padre.'
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -425,7 +424,7 @@ bloques:
       numero: '2.4'
       titulo: Sin un dólar
       cuando: Abril – noviembre 2004
-      nota: Según Marvel Fandom, los
+      nota: 'Según Marvel Fandom, los #1–12 de <em>Marvel Knights 4</em> ocurren entre el #516 y el #517 de la serie principal, y en ese orden van aquí.'
       entradas:
       - serie:
           id: 4f-b2-fantastic-four-512-513
@@ -457,7 +456,7 @@ bloques:
           titulo: Marvel Knights 4 <span class="nums">#1–4</span>
           creditos: Roberto Aguirre-Sacasa · Steve McNiven · 2004
           continuidad:
-          - viene: ◂ Viene del
+          - viene: '◂ Viene del #516'
           - sigue: ▸ Continúa en la ficha siguiente
           descripcion:
           - Empieza en el octavo cumpleaños de Franklin, y ese mismo día se enteran de que están arruinados. La ciudad les reclama los daños de todos estos años y tienen que dejar el Edificio Baxter. Se mudan a un hotel modesto de Washington Heights y buscan trabajos normales. Es una serie de los 4 Fantásticos del sello Marvel Knights, con tono de drama familiar.
@@ -482,7 +481,7 @@ bloques:
           titulo: Marvel Knights 4 <span class="nums">#10–12</span>
           creditos: Roberto Aguirre-Sacasa · Jim Muniz · 2004
           continuidad:
-          - sigue: ▸ Sigue en el
+          - sigue: '▸ Sigue en el #517 (tramo 2.5)'
           descripcion:
           - El Psico-Hombre vuelve para vengarse de Sue y siembra el pánico en toda la ciudad. Sue teme que la ausencia de Reed esté afectando a Franklin. Al derrotarlo, el grupo recupera el Edificio Baxter y su fortuna.
           etiqueta:
@@ -509,7 +508,7 @@ bloques:
           titulo: Fantastic Four <span class="nums">#517–519</span>
           creditos: Mark Waid · Mike Wieringo · 2004
           continuidad:
-          - viene: ◂ Viene de <em>Marvel Knights 4</em>
+          - viene: '◂ Viene de <em>Marvel Knights 4</em> #12 (tramo 2.4)'
           - sigue: ▸ Continúa en la ficha siguiente
           descripcion:
           - Empieza con Sue y Ben llevando a Franklin y a Valeria a pedir caramelos en Halloween. Unos supervivientes de un mundo devorado por Galactus levantan Manhattan en el aire, porque los poderes de Sue pueden revelar los planetas que se esconden de él. Para salvarla, Reed le intercambia los poderes con Johnny, y Galactus se lleva a Johnny como heraldo.
@@ -719,7 +718,7 @@ bloques:
           titulo: Fantastic Four <span class="nums">#536–537</span>
           creditos: J. Michael Straczynski · Mike McKone · 2006
           continuidad:
-          - viene: ◂ Viene del
+          - viene: '◂ Viene del #535'
           - sigue: ▸ Sigue en <em>Civil War</em>
           descripcion:
           - 'El martillo de Thor cae en Oklahoma, y Doom, escapado del Infierno, intenta hacerse con él. Mientras, Reed vuelve de una reunión de los Illuminati y en la tele se habla de una ley de registro de superhumanos: el preludio de <em>Civil War</em>.'
@@ -760,7 +759,7 @@ bloques:
           creditos: Dwayne McDuffie · Paul Pelletier · 2007
           continuidad:
           - viene: ◂ Viene de <em>Civil War</em>
-          - sigue: ▸ Sigue en <em>Black Panther</em>
+          - sigue: '▸ Sigue en <em>Black Panther</em> #26'
           descripcion:
           - 'Con Reed y Sue de segunda luna de miel en Titán, Pantera Negra y Tormenta ocupan sus puestos junto a Ben y Johnny. El primer caso los lleva al espacio: Gravity, el joven héroe muerto en <em>Civil War</em>, ha recibido el poder del guardián del universo, y Galactus lo persigue.'
           etiqueta:
@@ -1031,8 +1030,7 @@ bloques:
           continuidad:
           - viene: ◂ Viene del bloque 4
           descripcion:
-          - ? Reed construye un puente a otras realidades para averiguar en qué se equivocó en <em>Civil War</em>, y un apagón lanza a Sue, Ben y Johnny por el tiempo. <strong>Franklin y Valeria se quedan solos en el Edificio Baxter</strong> cuando Norman Osborn, ahora jefe de la seguridad del país, viene a por sus padres. Los dos le plantan cara a su manera, y al final Franklin le dispara con una pistola de juguete… que funciona
-            : la primera señal de que sus poderes vuelven.
+          - 'Reed construye un puente a otras realidades para averiguar en qué se equivocó en <em>Civil War</em>, y un apagón lanza a Sue, Ben y Johnny por el tiempo. <strong>Franklin y Valeria se quedan solos en el Edificio Baxter</strong> cuando Norman Osborn, ahora jefe de la seguridad del país, viene a por sus padres. Los dos le plantan cara a su manera, y al final Franklin le dispara con una pistola de juguete… que funciona: la primera señal de que sus poderes vuelven.'
           etiqueta:
             clase: t1
             texto: Esencial
@@ -1086,7 +1084,7 @@ bloques:
           titulo: Fantastic Four <span class="nums">#575–578</span>
           creditos: Jonathan Hickman · Dale Eaglesham · 2010
           continuidad:
-          - viene: ◂ Viene del
+          - viene: '◂ Viene del #574'
           descripcion:
           - 'Cuatro civilizaciones despiertan a la vez: la ciudad abandonada del Alto Evolucionador, bajo tierra, los viejos reyes de una Atlántida anterior a Namor, una armada de Inhumanos venidos del espacio y una secta de la Zona Negativa. Hickman las presenta de una en una; volverán todas en «Three».'
           etiqueta:
@@ -1284,7 +1282,7 @@ bloques:
       - apartado: Orden de lectura
         texto: '<strong>Fantastic Four #600</strong> → <strong>#601</strong> → <span class="cap">FF #12</span> → <span class="cap">FF #13</span> → <strong>Fantastic Four #602</strong> → <span class="cap">FF #14</span> → <strong>Fantastic Four #603</strong> → <span class="cap">FF #15</span> → <strong>Fantastic Four #604</strong> → <span class="cap">FF #16</span>'
       - apartado: Por qué este orden
-        texto: Marvel Fandom indica qué números de <em>FF</em> ocurren a la vez que cada <em>Fantastic Four</em>. Leídos por tomos (#600–604 y luego <em>FF</em>
+        texto: 'Marvel Fandom indica qué números de <em>FF</em> ocurren a la vez que cada <em>Fantastic Four</em>. Leídos por tomos (#600–604 y luego <em>FF</em> #12–16) también se entienden, pero se pierde la alternancia.'
   - tramo:
       numero: '6.2'
       titulo: Después de Forever
@@ -1926,7 +1924,7 @@ bloques:
           - apartado: Orden de lectura
             texto: 'Fantastic Four: Reckoning War Alpha #1 → <strong>Fantastic Four #40</strong> → <strong>#41</strong> → Reckoning War: Trial of the Watcher #1 → <strong>Fantastic Four #42</strong> → <strong>#43</strong> → <strong>#44</strong> → <strong>#45</strong>'
           - apartado: Nota
-            texto: Orden de publicación, el mismo que siguen los recopilatorios. El
+            texto: 'Orden de publicación, el mismo que siguen los recopilatorios. El #45 es el epílogo.'
       - serie:
           id: 4f-b9-fantastic-four-vol-6-46
           prioridad: p2
