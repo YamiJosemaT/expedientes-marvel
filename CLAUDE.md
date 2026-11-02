@@ -244,10 +244,15 @@ Servicio (`servicio/`):
     Daken #8 → X-23 #9 → Daken #9) en el 4.5; X-23 #10–16 + Daken #9.1–15 en el 4.6; X-23 #17–21 +
     Daken #16–23 en el 5.1, porque X-23 #17 en adelante es posterior a *Schism*. La ficha X-23
     #1–7 conserva el `id` antiguo `m1-b4-x-23-vol-3-1-16`, y la de X-Men: Legacy #248–260 el suyo,
-    que aún contiene `x-23-17-21`. *Namor: The First Mutant* #1–4 y *To Serve and Protect* #1–4
-    solo se mencionan en la ficha de Generation Hope;
-  - *Wolverine and Jubilee* #1–4 (añadido a petición el 2026-11-01) como ficha opcional al final
-    del tramo 4.5: secuela de *Curse of the Mutants*, antes de *X-23* #10–12.
+    que aún contiene `x-23-17-21`;
+  - *Wolverine and Jubilee* #1–4 (añadido a petición el 2026-11-01): secuela de *Curse of the
+    Mutants*, antes de *X-Men* vol. 3 #11 y de *X-23* #10–12. El 2026-11-02, a petición, *X-Men*
+    vol. 3 #1–15 salió de la ficha de Generation Hope (que conserva su `id`, aunque ya no lo
+    contiene) y se unió a esta en una ficha opcional al final del tramo 4.5. Esa ficha conserva el
+    `id` `m1-b4-wolverine-and-jubilee-1-4` y lleva el orden interno (verificado en Marvel Fandom):
+    X-Men #1–10 → W&J #1–4 → X-Men #11 → *X-Men: Giant-Size* #1 (2011, parte 1 de «First to
+    Last») → X-Men #12–15. *Namor: The First Mutant* #1–4 y la antología *X-Men: To Serve and
+    Protect* #1–4 solo se mencionan ahí.
 
   Al principio el usuario pidió no tocar este volumen, pero después pidió verificarlo y
   corregirlo. Cámbialo solo cuando lo pida.

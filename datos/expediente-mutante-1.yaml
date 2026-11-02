@@ -842,14 +842,14 @@ bloques:
             texto: Recomendado
       - serie:
           id: m1-b4-generation-hope-1-9-x-men-vol-3-1-15-wolverine-vol-4-1-16-astonishing
-          titulo: Generation Hope <span class="nums">#1–9</span> · X-Men vol. 3 <span class="nums">#1–15</span> · Wolverine vol. 4 <span class="nums">#1–16</span> · Astonishing X-Men <span class="nums">#36–47</span>
-          creditos: Kieron Gillen / Victor Gischler / Jason Aaron / varios · 2010–2011
+          titulo: Generation Hope <span class="nums">#1–9</span> · Wolverine vol. 4 <span class="nums">#1–16</span> · Astonishing X-Men <span class="nums">#36–47</span>
+          creditos: Kieron Gillen / Jason Aaron / varios · 2010–2011
           continuidad:
           - sigue: '▸ Generation Hope #10–11 son tie-in de <em>Schism</em>'
-          - sigue: ▸ X-Men vol. 3 y Wolverine continúan en el tramo 4.6
+          - sigue: ▸ Wolverine continúa en el tramo 4.6
           descripcion:
-          - <em>Generation Hope</em> sigue a las Cinco Luces; <em>X-Men</em> vol. 3 abre con vampiros («Curse of the Mutants»); <em>Wolverine</em> con «Wolverine Goes to Hell».
-          - 'Fuera de esta guía: <em>Namor: The First Mutant</em> #1–4 («Royal Blood») es un tie-in opcional de «Curse of the Mutants», publicado en paralelo a <em>X-Men</em> vol. 3 #2–5, y la antología <em>X-Men: To Serve and Protect</em> #1–4 es prescindible.'
+          - <em>Generation Hope</em> sigue a las Cinco Luces; <em>Wolverine</em> abre con «Wolverine Goes to Hell» (#1–5), el arco del que arranca <em>X-23</em>.
+          - 'Si lo lees por <em>X-23</em> y <em>Collision</em>, basta con <em>Wolverine</em> #1–5 (y, si quieres, el one-shot <em>Wolverine: Road to Hell</em> #1). El resto, #5.1–16, puede ir en cualquier momento antes del tramo 4.6.'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -894,13 +894,15 @@ bloques:
             texto: '<em>X-23</em> sigue en el #10 y <em>Daken</em> en el #9.1, las dos en el tramo 4.6.'
       - serie:
           id: m1-b4-wolverine-and-jubilee-1-4
-          titulo: Wolverine and Jubilee <span class="nums">#1–4</span>
-          creditos: Kathryn Immonen · Phil Noto · 2011
+          titulo: X-Men vol. 3 <span class="nums">#1–15</span> · Wolverine and Jubilee <span class="nums">#1–4</span>
+          creditos: Victor Gischler / Christopher Yost («First to Last») · Kathryn Immonen &amp; Phil Noto (<em>Wolverine and Jubilee</em>) · 2010–2011
           continuidad:
-          - viene: '◂ Viene de <em>X-Men</em> vol. 3 #6, el final de «Curse of the Mutants» (ficha de <em>Generation Hope</em>, en este tramo)'
+          - sigue: ▸ X-Men vol. 3 continúa en el tramo 4.6
           - sigue: '▸ Jubilee reaparece en <em>X-23</em> #10–12 (tramo 4.6)'
           descripcion:
-          - 'Secuela directa de «Curse of the Mutants». Jubilee, recién convertida en vampira, no encaja entre los X-Men, y Lobezno se la lleva lejos cuando alguien intenta inculparla de un asesinato en masa («Cursed»). Su historia sigue en <em>X-Men</em> vol. 3 #11 («Blood Hunt»).'
+          - '<strong>Orden:</strong> <em>X-Men</em> #1–6 («Curse of the Mutants») → #7–10 («To Serve and Protect», con Spider-Man) → <em>Wolverine and Jubilee</em> #1–4 («Cursed») → <em>X-Men</em> #11 («Blood Hunt») → <em>X-Men: Giant-Size</em> #1 → <em>X-Men</em> #12–15 («First to Last»).'
+          - 'Los vampiros atacan San Francisco y Jubilee acaba convertida en una de ellos. <em>Wolverine and Jubilee</em> es la secuela directa: Jubilee no encaja entre los X-Men, y Lobezno se la lleva lejos cuando alguien intenta inculparla de un asesinato en masa. <em>X-Men</em> #11 retoma su lucha contra la sed de sangre, y «First to Last» enfrenta a los X-Men con los Evolutionaries en el presente y en los tiempos de los cinco primeros alumnos de Xavier. <em>X-Men: Giant-Size</em> #1 es la primera parte de esta última historia.'
+          - 'Fuera de esta guía: <em>Namor: The First Mutant</em> #1–4 («Royal Blood») es un tie-in opcional de «Curse of the Mutants», publicado en paralelo a <em>X-Men</em> #2–5, y la antología <em>X-Men: To Serve and Protect</em> #1–4 (no es el arco #7–10) es prescindible.'
           etiqueta:
             clase: opcional
             texto: Opcional
