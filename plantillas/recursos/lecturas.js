@@ -13,7 +13,7 @@
   var EXP = '__EXP__';
   var URL_SERVICIO = '__SYNC_URL__'.replace(/\/+$/, '');
   var K_LOCAL = 'expedientes-leidos', K_CONF = 'expedientes-sincronizacion', K_HIDE = 'expedientes-ocultar-leidos';
-  var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eternos', gg: 'Expediente Guardianes', jv: 'Expediente Jóvenes Vengadores' };
+  var NOMBRES = { m1: 'Expediente Mutante I', m2: 'Expediente Mutante II', et: 'Expediente Eternos', gg: 'Expediente Guardianes', jv: 'Expediente Jóvenes Vengadores', '4f': 'Expediente 4 Fantásticos', rw: 'Expediente Runaways' };
   // Entradas que se movieron de sitio conservando su id: { id: 'expediente-bloque' donde estan ahora }
   var REUBICADAS = {/*__REUBICADAS__*/};
   // Bloques y entradas de lo que muestra esta pagina, en orden de lectura (para el seguimiento)

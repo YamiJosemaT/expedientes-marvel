@@ -738,3 +738,53 @@ jv:
     bloques: [2]
   esperado:
   - [1, 12]
+rw:
+- serie: Runaways vol.1
+  reglas:
+  - alias: Runaways
+    bloques: [1]
+  esperado:
+  - [1, 18]
+- serie: Runaways vol.2
+  reglas:
+  - {alias: Runaways, vol: '2'}
+  esperado:
+  - [1, 30]
+- serie: Runaways vol.3
+  reglas:
+  - {alias: Runaways, vol: '3'}
+  esperado:
+  - [1, 14]
+- serie: Runaways vol.5
+  reglas:
+  - {alias: Runaways, vol: '5'}
+  esperado:
+  - [1, 38]
+- serie: Runaways vol.6
+  reglas:
+  - {alias: Runaways, vol: '6'}
+  esperado:
+  - [1, 5]
+- serie: Avengers Arena
+  reglas:
+  - alias: Avengers Arena
+    bloques: [5]
+  esperado:
+  - [1, 18]
+- serie: Avengers Undercover
+  reglas:
+  - alias: Avengers Undercover
+    bloques: [5]
+  esperado:
+  - [1, 10]
+- serie: Avengers A.I.
+  reglas:
+  - alias: Avengers A.I.
+    bloques: [5]
+  esperado:
+  - [1, 12]
+- serie: A-Force vol.2
+  reglas:
+  - {alias: A-Force, vol: '2'}
+  esperado:
+  - [1, 10]

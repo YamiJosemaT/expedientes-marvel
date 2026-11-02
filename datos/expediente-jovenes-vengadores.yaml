@@ -614,10 +614,11 @@ bloques:
           id: jv-b9-strange-tales-2025-1
           aparicion: true
           donde: En otra serie · Strange Tales
-          titulo: Strange Tales (2025) <span class="nums">#1</span>
-          creditos: Jeremy Whitley · Bayleigh Underwood · octubre de 2025
+          titulo: Strange Tales (2025) <span class="nums">#1–4</span>
+          creditos: Jeremy Whitley · Bayleigh Underwood · octubre de 2025 – enero de 2026
           descripcion:
-          - Una partida de rol en Halloween entre Nico Minoru, Karolina Dean, Teddy y Billy sale mal cuando los dados empiezan a hacer aparecer monstruos de verdad. Los dos desaparecen pronto de la historia.
+          - 'Una partida de rol en Halloween entre Nico Minoru, Karolina Dean, Teddy y Billy sale mal cuando los dados empiezan a hacer aparecer monstruos de verdad, y los tres amigos de Nico desaparecen. Ella los busca con la Bruja Escarlata, Doctor Strange y Ghost-Spider; Billy y Teddy solo vuelven a salir en el #4, cuando los rescatan de Hela.'
+          - La serie es de Nico, y está también en el Expediente Runaways (bloque 9).
           etiqueta:
             clase: opcional
             texto: Opcional

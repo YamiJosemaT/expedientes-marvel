@@ -1,0 +1,941 @@
+# Expediente Runaways
+# Datos del expediente. Los textos admiten HTML en linea (<em>, <strong>, <span class="nums">...).
+# Las claves "id" de cada entrada NO se deben cambiar: son las que guardan las marcas de lectura.
+
+clave: rw
+titulo_pagina: Expediente Runaways
+descripcion_pagina: Guía de lectura de los Runaways desde 2003 hasta 2026, con todas sus series, los equipos en los que han estado sus miembros y sus apariciones y cruces en otras colecciones.
+cabecera:
+  antetitulo: Guía de lectura · Marvel Comics · Los Runaways, uno a uno
+  titulo: Expediente<br/>Runaways<span class="thin">2003 — 2026</span>
+  entradilla: 'Seis chavales de Los Ángeles descubren una noche que sus padres son supervillanos y se escapan de casa. Brian K. Vaughan y Adrian Alphona los crearon en 2003, y desde entonces el grupo se ha separado y reunido varias veces: Nico y Chase acabaron en Murderworld, Victor en los Vengadores, Gert y Alex en la tumba, y casi todos han vuelto. Esta guía junta sus series, los equipos en los que ha estado cada miembro y cada aparición o cruce en series ajenas, para seguir la historia de cada uno de principio a fin.'
+  cifras:
+  - valor: '24'
+    texto: Años de continuidad
+  - valor: '9'
+    texto: Bloques de lectura
+  - valor: '3'
+    texto: Eventos de toda la línea
+  - valor: ~230
+    texto: Números en total
+leyenda: |-
+  <p>Mismo sistema que los otros expedientes: <strong>bloques</strong> por etapas, <strong>tramos</strong> que se leen en orden y <strong>eventos</strong> con su orden capítulo a capítulo. Los capítulos <span class="cap">en color</span> dentro de un evento son los de los Runaways.</p>
+  <p>Las series del grupo y las de los equipos en los que ha estado alguno de sus miembros (<em>Avengers Arena</em>, <em>Avengers A.I.</em>, <em>A-Force</em>, <em>Midnight Suns</em>…) están enteras, salga o no el Runaway en cada número. De las series ajenas solo está lo que mueve algo de alguno de ellos; los cameos van en el apéndice.</p>
+  <div class="legend-row">
+  <span class="key"><span class="swatch"></span> Serie de los Runaways o de un equipo con alguno de sus miembros</span>
+  <span class="key"><span class="swatch dashed"></span> Aparición en una serie ajena</span>
+  </div>
+  <div class="legend-row">
+  <span class="tag t1">Esencial</span>
+  <span class="tag t2">Recomendado</span>
+  <span class="tag">Opcional</span>
+  <span class="tag t4">Al margen de la continuidad</span>
+  </div>
+cajas:
+- ruta:
+    titulo: La ruta corta
+    texto: 'Siete paradas y unos 115 números: la etapa de Vaughan entera, el viaje a 1907 de Whedon, lo que les pasa a Nico, Chase y Victor lejos del grupo, la reunión de Rainbow Rowell y su vuelta en 2025.'
+    pasos:
+    - <span>Runaways <em>#1–18</em></span>
+    - <span>Runaways vol. 2 <em>#1–24</em></span>
+    - <span>Runaways vol. 2 <em>#25–30</em></span>
+    - <span>Avengers Arena <em>#1–18</em></span>
+    - <span>Vision <em>#8–11</em></span>
+    - <span>Runaways vol. 5 <em>#1–38</em></span>
+    - <span>Runaways vol. 6 <em>#1–5</em></span>
+- html: |-
+    <h2>Quién es quién</h2>
+    <p>Para seguir a un miembro concreto, estas son sus paradas fuera de las series del grupo. Los nombres en clave apenas los usan, pero salen en las fichas de otros.</p>
+    <ol>
+    <li><span><strong>Alex Wilder</strong>, el líder, hijo de los cabecillas del Orgullo. Muere en el bloque 1 y vuelve del Infierno en <em>Avengers Undercover</em> (bloque 5) y <em>Power Man and Iron Fist</em> (bloque 6); en el volumen 5 reaparece dos veces y acaba con el casco de Doc Justice (bloques 7 y 9).</span></li>
+    <li><span><strong>Nico Minoru</strong> (Sister Grimm), la bruja del Bastón del Uno. Fuera del grupo: <em>Avengers Arena</em> y <em>Avengers Undercover</em> (bloque 5), <em>A-Force</em> (bloque 6), <em>Midnight Suns</em> y la A-Force de las Infinity Comics (bloque 8) y <em>Strange Tales</em> (bloque 9).</span></li>
+    <li><span><strong>Karolina Dean</strong> (Lucy in the Sky), alienígena de Majesdane. Fuera del grupo: <em>S.W.O.R.D.</em> (bloque 4), su noviazgo con Julie Power en <em>Avengers Academy</em> y <em>Young Avengers</em> (bloques 4 y 5) y su viaje al espacio con Xavin en las Infinity Comics (bloque 8).</span></li>
+    <li><span><strong>Gert Yorkes</strong> (Arsenic) y <strong>Old Lace</strong>, su deinonychus del futuro. Gert muere en el bloque 2 y Chase la rescata del pasado en el bloque 7. Old Lace muere en el bloque 4 y resulta estar viva en <em>Avengers Academy</em>.</span></li>
+    <li><span><strong>Chase Stein</strong> (Talkback), el de los Fistigons. Fuera del grupo: <em>Avengers Arena</em>, donde es Darkhawk, y <em>Avengers Undercover</em> (bloque 5). Una Gert del futuro se lo lleva al acabar el volumen 5 y vuelve en el 6.</span></li>
+    <li><span><strong>Molly Hayes</strong> (Bruiser, Princess Powerful), la mutante de la fuerza. Cruza con los X-Men en el bloque 4 y otra vez cuando le ofrecen Krakoa, en el 7.</span></li>
+    <li><span><strong>Victor Mancha</strong>, el hijo de Ultrón, entra en el bloque 2. Fuera del grupo: <em>Avengers A.I.</em> (bloque 5), su muerte en <em>Vision</em> (bloque 6) y <em>She-Hulk</em> (bloque 8).</span></li>
+    <li><span><strong>Xavin</strong>, skrull y prometido de Karolina, entra en el bloque 2 y se va en el 4. Vuelve como general majesdaniano en las Infinity Comics del bloque 8.</span></li>
+    <li><span><strong>Klara Prast</strong>, una niña de 1907 que habla con las plantas, entra en el bloque 3 y deja el grupo en el 7. <strong>Gib</strong>, un dios Gibborim niño, y <strong>Doombot</strong>, el compañero de Victor en <em>Avengers A.I.</em>, se suman con Rainbow Rowell.</span></li>
+    </ol>
+bloques:
+- id: b1
+  fechas: 2003 — 2004
+  titulo: Orgullo y alegría
+  intro: 'Brian K. Vaughan y Adrian Alphona arrancan con una idea que cabe en una línea: todos los adolescentes creen que sus padres son malvados, y estos lo son de verdad. El Orgullo, seis parejas que dominan Los Ángeles, sirve a unos dioses gigantes, los Gibborim. Sus hijos los descubren, les roban lo que pueden y huyen. Dieciocho números con principio y final, y la mejor puerta de entrada a todo lo demás.'
+  navegacion:
+    anio: 2003–2004
+    texto: Orgullo y alegría
+  contenido:
+  - tramo:
+      numero: '1.1'
+      titulo: Pride and Joy
+      cuando: Abril – septiembre 2003
+      nota: El punto de partida. No hace falta haber leído nada.
+      entradas:
+      - serie:
+          id: rw-b1-runaways-1-6
+          prioridad: p1
+          titulo: Runaways <span class="nums">#1–6</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2003
+          continuidad:
+          - sigue: ▸ Continúa en el tramo 1.2
+          descripcion:
+          - 'En la reunión anual de sus padres, Alex, Nico, Gert, Chase, Karolina y Molly los espían y los ven sacrificar a una chica. Al buscar pruebas descubren lo que son: Nico, una bruja con el Bastón del Uno; Karolina, una alienígena que brilla y vuela; Molly, una mutante con una fuerza enorme; Gert, la dueña de un dinosaurio del futuro, Old Lace; y Chase se queda con los guanteletes de sus padres, los Fistigons. Acusados del asesinato, se escapan.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '1.2'
+      titulo: En la calle
+      cuando: Octubre 2003 – febrero 2004
+      entradas:
+      - serie:
+          id: rw-b1-runaways-7-12
+          prioridad: p1
+          titulo: Runaways <span class="nums">#7–12</span>
+          creditos: Brian K. Vaughan · Adrian Alphona (#11–12 Takeshi Miyazawa) · 2003–2004
+          continuidad:
+          - viene: ◂ Viene del tramo 1.1
+          - sigue: ▸ Continúa en el tramo 1.3
+          descripcion:
+          - El grupo se instala en un refugio bajo Bronson Canyon, el Hostel, y empieza a actuar como superhéroes. En «Teenage Wasteland» (#7–10) acogen a Topher, un chico que resulta ser un vampiro; en «Lost and Found» (#11–12) el Orgullo les echa encima a Cloak y Dagger, que acaban de su parte. Cada uno escoge nombre en clave, salvo Alex.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '1.3'
+      titulo: The Good Die Young
+      cuando: Marzo – septiembre 2004
+      nota: 'El one-shot de Nico se publicó en 2007, pero ocurre entre el #17 y el #18: es su sitio.'
+      entradas:
+      - serie:
+          id: rw-b1-runaways-13-17
+          prioridad: p1
+          titulo: Runaways <span class="nums">#13–17</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2004
+          continuidad:
+          - viene: ◂ Viene del tramo 1.2
+          descripcion:
+          - El Libro Abstracto explica el pacto del Orgullo con los Gibborim, y los chicos van a impedir el último ritual en el fondo del mar. Allí se descubre que el topo del grupo era <strong>Alex</strong>, que quería salvar a sus padres. Los Gibborim lo matan a él y a todo el Orgullo.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: rw-b1-mystic-arcana-sister-grimm-1
+          titulo: 'Mystic Arcana: Sister Grimm <span class="nums">#1</span>'
+          creditos: C.B. Cebulski · Phil Noto · 2007
+          descripcion:
+          - Parte del ciclo <em>Mystic Arcana</em>. Nico, recién muerto Alex, se enfrenta a Marie Laveau, que quiere cobrarse en ella lo que le robaron sus padres. Un número aislado sobre la herencia mágica de la familia Minoru.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: rw-b1-runaways-18
+          prioridad: p1
+          titulo: Runaways <span class="nums">#18</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2004
+          continuidad:
+          - sigue: ▸ Continúa en el bloque 2
+          descripcion:
+          - Epílogo. Los Vengadores se hacen cargo de Los Ángeles y el Capitán América reparte a los chicos en casas de acogida. Unas semanas después se reúnen en el observatorio Griffith, recuperan a Old Lace y el Leapfrog, la nave de sus padres, y vuelven a escaparse.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+- id: b2
+  fechas: 2005 — 2006
+  titulo: Fugitivos de oficio
+  intro: Sin el Orgullo, Los Ángeles se llena de villanos que quieren su sitio, y los Runaways deciden ocuparse ellos. Vaughan añade dos miembros que serán fijos durante años —Victor Mancha, el hijo de Ultrón, y Xavin, la prometida skrull de Karolina—, los lleva a Nueva York con los Nuevos Vengadores y termina con un nuevo Orgullo y la primera gran pérdida del grupo.
+  navegacion:
+    anio: 2005–2006
+    texto: Fugitivos de oficio
+  contenido:
+  - tramo:
+      numero: '2.1'
+      titulo: True Believers
+      cuando: Febrero – julio 2005
+      entradas:
+      - serie:
+          id: rw-b2-runaways-vol-2-1-6
+          prioridad: p1
+          titulo: Runaways vol. 2 <span class="nums">#1–6</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2005
+          continuidad:
+          - viene: ◂ Viene del bloque 1
+          - sigue: ▸ Continúa en el tramo 2.2
+          descripcion:
+          - 'Una Gert adulta llega moribunda del futuro con un aviso: un chico llamado <strong>Victor Mancha</strong> se convertirá en Victorious, el villano que acabará con los héroes. Los Runaways lo encuentran, descubren que su padre es Ultrón y, en vez de matarlo, se lo quedan. Con Excelsior, un grupo de antiguos héroes adolescentes que quiere «reformarlos».'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '2.2'
+      titulo: Star-Crossed y East Coast/West Coast
+      cuando: Agosto 2005 – febrero 2006
+      nota: 'La historia del <em>Free Comic Book Day</em> no tiene número fijo: sale el grupo sin Karolina, así que encaja entre el #8 y el #16.'
+      entradas:
+      - serie:
+          id: rw-b2-runaways-vol-2-7-8
+          prioridad: p1
+          titulo: Runaways vol. 2 <span class="nums">#7–8</span>
+          creditos: Brian K. Vaughan · Takeshi Miyazawa · 2005
+          descripcion:
+          - Llega <strong>Xavin</strong>, un príncipe skrull al que los padres de Karolina la prometieron para evitar una guerra. Karolina le dice que le gustan las chicas; Xavin, que cambia de forma, toma forma femenina, y los dos se van al espacio a intentar parar la guerra.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: rw-b2-runaways-vol-2-9-13
+          prioridad: p2
+          titulo: Runaways vol. 2 <span class="nums">#9–13</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2005–2006
+          descripcion:
+          - 'Cloak, acusado de haber atacado a Dagger, se lleva al grupo a Nueva York para limpiar su nombre, y allí tienen que esquivar a los Nuevos Vengadores. Nico besa a Chase, que sale con Gert. En el #13, Molly se despierta en una escuela de ladrones para chicos con poderes y organiza una revuelta.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: rw-b2-free-comic-book-day-2006-x-men-runaways-1
+          aparicion: true
+          donde: En otra serie · Free Comic Book Day
+          titulo: Free Comic Book Day 2006 (X-Men/Runaways) <span class="nums">#1</span>
+          creditos: Brian K. Vaughan · Skottie Young · 2006
+          descripcion:
+          - Historia corta gratuita en la que los X-Men se presentan para darles una lección a los Runaways, y acaban recibiéndola ellos. Sin consecuencias, pero es de Vaughan.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '2.3'
+      titulo: Parental Guidance
+      cuando: Marzo – julio 2006
+      entradas:
+      - serie:
+          id: rw-b2-runaways-vol-2-14-18
+          prioridad: p1
+          titulo: Runaways vol. 2 <span class="nums">#14–18</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2006
+          continuidad:
+          - sigue: ▸ Continúa en el bloque 3
+          descripcion:
+          - Un Geoffrey Wilder joven, sacado del pasado, monta un nuevo Orgullo con los amigos de internet de Alex y usa a Victor como cámara espía. Karolina y Xavin vuelven de una boda que acabó en guerra entre skrulls y majesdanianos. En el rescate de Molly, Geoffrey mata a <strong>Gert</strong>, que antes de morir le pasa a Chase el vínculo con Old Lace.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+- id: b3
+  fechas: 2006 — 2008
+  titulo: Contra todos
+  intro: El duelo por Gert, la Ley de Registro y la invasión skrull. Vaughan cierra su etapa con el grupo perseguido por Iron Man, y Joss Whedon se lo lleva a Nueva York y a 1907, de donde vuelven con Klara. Los dos tie-ins con los Jóvenes Vengadores son los mismos del Expediente Jóvenes Vengadores.
+  navegacion:
+    anio: 2006–2008
+    texto: Contra todos
+  contenido:
+  - tramo:
+      numero: '3.1'
+      titulo: Dead Means Dead
+      cuando: Agosto – octubre 2006
+      entradas:
+      - serie:
+          id: rw-b3-runaways-vol-2-19-21
+          prioridad: p1
+          titulo: Runaways vol. 2 <span class="nums">#19–21</span>
+          creditos: Brian K. Vaughan · Mike Norton · 2006
+          continuidad:
+          - viene: ◂ Viene del bloque 2
+          - sigue: ▸ Sigue en el tramo 3.2, después de Civil War
+          descripcion:
+          - Nico y Victor empiezan a salir. Un monstruo creado con un talismán del Orgullo arrasa Los Ángeles, y mientras los demás lo frenan, Chase busca a escondidas a los Gibborim para cambiar su vida por la de Gert.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - evento:
+      id: rw-b3-civil-war
+      ancla: ev-civilwar
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Junio 2006 – enero 2007
+      titulo: Civil War
+      creditos: Mark Millar · Steve McNiven (serie principal) · tie-in de Zeb Wells y Stefano Caselli
+      descripcion:
+      - La Ley de Registro obliga a los héroes a identificarse ante el gobierno. Los Runaways, menores y fugitivos, solo quieren que los dejen en paz. En el tie-in, los Jóvenes Vengadores los buscan para unirlos a la resistencia del Capitán América, y Noh-Varr captura a Karolina, Wiccan y Hulkling para un carcelero que los tortura. Al final se declaran neutrales.
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Civil War #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Civil War: Young Avengers &amp; Runaways #1–2</span> → <strong>Civil War #4</strong> → <span class="cap">Young Avengers &amp; Runaways #3</span> → <strong>Civil War #5</strong> → <span class="cap">Young Avengers &amp; Runaways #4</span> → <strong>Civil War #6</strong> → <strong>#7</strong>'
+      - apartado: Versión mínima
+        texto: '<em>Civil War: Young Avengers &amp; Runaways</em> #1–4 seguidos. Se entiende sin el evento.'
+      - apartado: En la serie
+        texto: 'Según la cronología de Marvel Fandom, el tie-in va entre los números 21 y 22 de <em>Runaways</em> vol. 2: entre el tramo 3.1 y el 3.2.'
+      - apartado: Conexión
+        texto: Es el mismo tie-in del bloque 2 del Expediente Jóvenes Vengadores; el evento está también en el Mutante I y en 4 Fantásticos.
+  - tramo:
+      numero: '3.2'
+      titulo: Live Fast
+      cuando: Noviembre 2006 – marzo 2007
+      entradas:
+      - serie:
+          id: rw-b3-runaways-vol-2-22-24
+          prioridad: p1
+          titulo: Runaways vol. 2 <span class="nums">#22–24</span>
+          creditos: Brian K. Vaughan · Adrian Alphona · 2006–2007
+          continuidad:
+          - viene: ◂ Viene del tramo 3.1
+          - sigue: ▸ Continúa en el tramo 3.3
+          descripcion:
+          - Chase se ofrece a los Gibborim, que lo rechazan y van a por Nico; Victor y Molly la sacan de allí, y los dioses se desvanecen. La voz que guiaba a Molly no era la de Gert, sino la de Alex, desde el Infierno. Al volver al Hostel les esperan Iron Man y los Cape-Killers, y el grupo huye. Último número de Vaughan.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: rw-b3-runaways-saga-1
+          titulo: Runaways Saga <span class="nums">#1</span>
+          creditos: C.B. Cebulski · Humberto Ramos (historia marco) · 2007
+          descripcion:
+          - Resumen de todo lo anterior contado por Molly a través de su diario, con una historia nueva como marco. Útil si vas a saltar a Whedon sin haber leído a Vaughan; si no, prescindible.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '3.3'
+      titulo: Dead End Kids
+      cuando: Abril 2007 – junio 2008
+      nota: 'Los retrasos de la serie hicieron que el #30 saliera en junio de 2008, el mismo mes que el tie-in de <em>Secret Invasion</em>. Se lee antes.'
+      entradas:
+      - serie:
+          id: rw-b3-runaways-vol-2-25-30
+          prioridad: p2
+          titulo: Runaways vol. 2 <span class="nums">#25–30</span>
+          creditos: Joss Whedon · Michael Ryan · 2007–2008
+          continuidad:
+          - viene: ◂ Viene del tramo 3.2
+          - sigue: ▸ Continúa en Secret Invasion
+          descripcion:
+          - Escondidos en Nueva York, aceptan robar un objeto mágico para Kingpin, se cruzan con el Punisher y el objeto los manda a <strong>1907</strong>. Allí encuentran a <strong>Klara Prast</strong>, una niña casada a la fuerza que habla con las plantas, y se la traen al presente. Chase roba la máquina del tiempo de los Yorkes para salvar a Gert, pero al verla de niña la deja en el pasado.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - evento:
+      id: rw-b3-secret-invasion
+      ancla: ev-si
+      linea_marvel: true
+      etiqueta: Evento de toda la línea Marvel · Abril – diciembre 2008
+      titulo: Secret Invasion
+      creditos: Brian Michael Bendis · Leinil Francis Yu (serie principal) · tie-in de Christopher Yost y Takeshi Miyazawa
+      descripcion:
+      - Los Runaways vuelven de 1907 justo cuando los skrulls invaden Nueva York. Xavin, que es skrull, los deja inconscientes para protegerlos y se mezcla con los invasores para encontrar a Hulkling, el heredero del trono. Los dos grupos se juntan de nuevo, Speed pone a salvo a Molly y Klara, y Xavin acaba volviendo con los suyos de la Tierra.
+      apartados:
+      - apartado: Orden de lectura
+        texto: '<strong>Secret Invasion #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <span class="cap">Secret Invasion: Runaways/Young Avengers #1</span> → <strong>Secret Invasion #4</strong> → <strong>#5</strong> → <span class="cap">Runaways/Young Avengers #2</span> → <strong>Secret Invasion #6</strong> → <span class="cap">Runaways/Young Avengers #3</span> → <strong>Secret Invasion #7</strong> → <strong>#8</strong>'
+      - apartado: Versión mínima
+        texto: '<em>Secret Invasion: Runaways/Young Avengers</em> #1–3 seguidos, justo después del viaje a 1907.'
+      - apartado: Conexión
+        texto: Es el mismo tie-in del bloque 2 del Expediente Jóvenes Vengadores. El evento está también en el Mutante I, en Guardianes y en 4 Fantásticos, cada uno con el suyo.
+- id: b4
+  fechas: 2008 — 2012
+  titulo: De Malibú a la Academia
+  intro: 'El grupo vuelve a California y se instala en una casa de sus padres en Malibú. Terry Moore y Kathryn Immonen escriben un volumen 3 irregular que se cancela con un final en el aire, y durante dos años los Runaways solo aparecen como invitados: en <em>S.W.O.R.D.</em>, en la serie de Daken y en <em>Avengers Academy</em>, donde se resuelve lo que quedó pendiente.'
+  navegacion:
+    anio: 2008–2012
+    texto: De Malibú a la Academia
+  contenido:
+  - tramo:
+      numero: '4.1'
+      titulo: Dead Wrong
+      cuando: Agosto 2008 – enero 2009
+      nota: 'El #1 salió antes que el último número del tie-in de <em>Secret Invasion</em>, pero ocurre después.'
+      entradas:
+      - serie:
+          id: rw-b4-runaways-vol-3-1-6
+          prioridad: p2
+          titulo: Runaways vol. 3 <span class="nums">#1–6</span>
+          creditos: Terry Moore · Humberto Ramos · 2008–2009
+          continuidad:
+          - sigue: ▸ Continúa en el tramo 4.2
+          descripcion:
+          - 'Los supervivientes de Majesdane, la Brigada de la Luz, culpan a Karolina de la destrucción de su planeta y vienen a juzgarla. Un hechizo de Nico sale mal y dispersa al grupo. Para salvar a Karolina, <strong>Xavin</strong> toma su forma y se entrega en su lugar: sale del grupo hasta el final del volumen 5.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '4.2'
+      titulo: Rock Zombies y Manifest Destiny
+      cuando: Febrero – mayo 2009
+      entradas:
+      - serie:
+          id: rw-b4-runaways-vol-3-7-9
+          titulo: Runaways vol. 3 <span class="nums">#7–9</span>
+          creditos: Terry Moore · Takeshi Miyazawa · 2009
+          continuidad:
+          - viene: ◂ Viene del tramo 4.1
+          descripcion:
+          - El jefe de Chase en una emisora de radio, Val Rhymin, es un hechicero que levanta un ejército de zombis hechos de cirugía estética. Una historia suelta y de tono ligero; último arco de Moore.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: rw-b4-runaways-vol-3-10
+          titulo: Runaways vol. 3 <span class="nums">#10</span>
+          creditos: Christopher Yost y James Asmus · Sara Pichelli y Emma Ríos · 2009
+          descripcion:
+          - Dos historias cortas. En la principal, «Mollifest Destiny», Molly responde a la llamada de los X-Men a todos los mutantes, se presenta en San Francisco y acaba codo con codo con Lobezno. Va con <em>Manifest Destiny</em>, la mudanza de los X-Men a San Francisco.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '4.3'
+      titulo: Homeschooling
+      cuando: Junio – septiembre 2009
+      entradas:
+      - serie:
+          id: rw-b4-runaways-vol-3-11-14
+          prioridad: p2
+          titulo: Runaways vol. 3 <span class="nums">#11–14</span>
+          creditos: Kathryn Immonen · Sara Pichelli · 2009
+          continuidad:
+          - sigue: ▸ Lo pendiente se resuelve en el tramo 4.5
+          descripcion:
+          - Un dron se estrella contra la casa de Malibú y <strong>muere Old Lace</strong> protegiendo a Klara, que en estado de shock cubre la casa de enredaderas. Aparece Hunter Stein, el tío de Chase, la casa se pierde y el volumen acaba con Chase atropellado mientras persigue a una chica igual que Gert. La serie se canceló aquí, y la chica nunca se explicó.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '4.4'
+      titulo: Sin serie propia
+      cuando: Noviembre 2009 – julio 2010
+      nota: Marvel Fandom coloca el número de <em>S.W.O.R.D.</em> y la historia de <em>Breaking Into Comics</em> en este orden, justo después del tramo anterior.
+      entradas:
+      - serie:
+          id: rw-b4-s-w-o-r-d-2-5
+          aparicion: true
+          donde: En otra serie · S.W.O.R.D.
+          titulo: S.W.O.R.D. <span class="nums">#2–5</span>
+          creditos: Kieron Gillen · Steven Sanders · 2009–2010
+          descripcion:
+          - 'Henry Gyrich toma S.W.O.R.D. y empieza a deportar a todos los alienígenas de la Tierra, Karolina incluida. Ella sale en el #2, #3 y #5, presa en la estación orbital y aterrada de que la devuelvan con los suyos, que la quieren juzgar.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: rw-b4-breaking-into-comics-the-marvel-way-1
+          aparicion: true
+          donde: En otra serie · Antología
+          titulo: Breaking Into Comics the Marvel Way! <span class="nums">#1</span>
+          creditos: Kathryn Immonen · Serena Ficca (historia «It’s Not Lupus!») · 2010
+          descripcion:
+          - Antología de dibujantes nuevos. En la historia de los Runaways, Molly cae enferma, Nico cree que Klara ha traído una enfermedad de 1907 y la pone en cuarentena, y resulta que la culpa es de un hechizo de la propia Nico.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: rw-b4-uncanny-x-men-the-heroic-age-1
+          aparicion: true
+          donde: En otra serie · X-Men
+          titulo: 'Uncanny X-Men: The Heroic Age <span class="nums">#1</span>'
+          creditos: Matt Fraction · Jamie McKelvie (historia de Bestia) · 2010
+          descripcion:
+          - Bestia, que acaba de dejar a los X-Men, pasa una tarde en Los Ángeles con Molly hablando de la extinción, de la fe y de vivir a tope. Una conversación de diez páginas muy recordada.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '4.5'
+      titulo: Pride Comes Before It y Homecoming
+      cuando: Octubre 2011 – abril 2012
+      nota: 'La cronología de Marvel Fandom encadena estos dos crossovers: Daken #19 → Avengers Academy #27.'
+      entradas:
+      - serie:
+          id: rw-b4-daken-dark-wolverine-16-19
+          prioridad: p2
+          aparicion: true
+          donde: En otra serie · Daken
+          titulo: 'Daken: Dark Wolverine <span class="nums">#16–19</span>'
+          creditos: Rob Williams · Matteo Buffagni · 2011–2012
+          descripcion:
+          - 'Arco «Pride Comes Before It». El imperio de Daken en Hollywood, levantado con una droga llamada HEAT, se viene abajo cuando reaparece en Los Ángeles un Orgullo nuevo con Marcus Roston al frente. Sin su factor curativo, Daken acaba aliado a la fuerza con los Runaways, que salen a partir del #17 con Chase ya recuperado del atropello.'
+          - 'Es la misma ficha de Daken del bloque 5 del Expediente Mutante I, que sigue hasta el #23.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: rw-b4-avengers-academy-27-28
+          prioridad: p2
+          aparicion: true
+          donde: En otra serie · Avengers Academy
+          titulo: Avengers Academy <span class="nums">#27–28</span>
+          creditos: Christos N. Gage · Karl Moline · 2012
+          continuidad:
+          - sigue: ▸ El grupo no vuelve a reunirse hasta Avengers Arena (bloque 5)
+          descripcion:
+          - Chase nota que Old Lace sigue viva y el rastro lleva a la Academia de los Vengadores en Los Ángeles. <strong>Old Lace vuelve</strong>, Victor conoce a su «abuelo» Hank Pym y la Academia acepta que Klara y Molly sigan con los Runaways si pasan revista cada mes. Karolina queda en tener una cita con Julie Power.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b5
+  fechas: 2012 — 2014
+  titulo: Murderworld
+  intro: 'Arcade secuestra a dieciséis jóvenes héroes, Nico y Chase entre ellos, y los encierra en una isla donde solo uno saldrá vivo. Es la etapa más dura del grupo, y no la vive el grupo: Karolina, Molly y Klara se quedan fuera, Victor entra en los Vengadores de Hank Pym y los Runaways se disuelven sin hacer ruido. Lo que pasa aquí lo arrastran Nico y Chase hasta el volumen 5.'
+  navegacion:
+    anio: 2012–2014
+    texto: Murderworld
+  contenido:
+  - tramo:
+      numero: '5.1'
+      titulo: Avengers Arena
+      cuando: Diciembre 2012 – noviembre 2013
+      nota: 'El #7 cuenta el pasado de Arcade y el #13 pasa fuera de la isla: Molly es la única que nota que Nico y Chase han desaparecido, porque Arcade los ha sustituido por robots.'
+      entradas:
+      - serie:
+          id: rw-b5-avengers-arena-1-18
+          prioridad: p2
+          titulo: Avengers Arena <span class="nums">#1–18</span>
+          creditos: Dennis Hallum · Kev Walker y otros · 2012–2013
+          continuidad:
+          - sigue: ▸ Continúa en el tramo 5.4
+          descripcion:
+          - 'Nico y Chase, con alumnos de la Academia de los Vengadores, de la Academia Braddock británica, X-23, Darkhawk y otros, tienen treinta días para matarse entre ellos. Chase se queda con el amuleto de Darkhawk. En el #10, Apex controla a Chase y a un centinela y matan a <strong>Nico</strong>; su último hechizo, «ayuda», hace que el Bastón del Uno la resucite en el #12, cambiado. Los supervivientes acaban rescatados, y Arcade cuelga en internet los vídeos de la matanza.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '5.2'
+      titulo: Avengers A.I.
+      cuando: Julio 2013 – abril 2014
+      nota: 'El #7 lleva la cabecera de <em>Inhumanity</em> y el #8 la de <em>All-New Marvel NOW!</em> (en algunas listas, #7.INH y #8.NOW). Viene de <em>Age of Ultron</em>, pero no hace falta haberlo leído.'
+      entradas:
+      - serie:
+          id: rw-b5-avengers-a-i-1-12
+          prioridad: p2
+          titulo: Avengers A.I. <span class="nums">#1–12</span>
+          creditos: Sam Humphries · André Lima Araújo, Valerio Schiti · 2013–2014
+          descripcion:
+          - 'El virus con el que Hank Pym destruyó a Ultrón evoluciona en una inteligencia artificial, Dimitrios, y Pym forma un equipo de Vengadores para pararla: Vision, <strong>Victor Mancha</strong>, Alexis y un <strong>Doombot</strong> reprogramado. Victor y Doombot se hacen amigos, y esa amistad es la que trae a Doombot a los Runaways en el volumen 5. Termina con un viaje al año 12 000.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '5.3'
+      titulo: Mientras tanto
+      cuando: Noviembre 2013 – enero 2014
+      entradas:
+      - serie:
+          id: rw-b5-young-avengers-vol-2-12-15
+          aparicion: true
+          donde: En otra serie · Young Avengers
+          titulo: Young Avengers vol. 2 <span class="nums">#12–15</span>
+          creditos: Kieron Gillen · Jamie McKelvie y otros · 2013–2014
+          descripcion:
+          - Karolina, que sale con Julie Power, aparece en la fiesta de Nochevieja y el final de la serie de Gillen. Es secundaria; la serie es de los Jóvenes Vengadores y está entera en el bloque 4 de su expediente.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '5.4'
+      titulo: Avengers Undercover
+      cuando: Marzo – septiembre 2014
+      entradas:
+      - serie:
+          id: rw-b5-avengers-undercover-1-10
+          prioridad: p2
+          titulo: Avengers Undercover <span class="nums">#1–10</span>
+          creditos: Dennis Hallum · Kev Walker, Timothy Green II y otros · 2014
+          continuidad:
+          - viene: ◂ Viene del tramo 5.1
+          - sigue: ▸ Nico y Chase vuelven en el volumen 5 (bloque 7)
+          descripcion:
+          - 'Tres meses después, Nico y Chase no se hablan: ella ha dejado el grupo y él sale en la tele hablando de Murderworld. Los supervivientes siguen a Cullen Bloodstone hasta Bagalia, el país de los Señores del Mal, matan a Arcade y se infiltran con el Barón Zemo. Allí aparece <strong>Alex Wilder</strong>, de vuelta del Infierno, para enseñarle magia a Nico, y ella lo besa. Al final Nico y Chase vuelven con los Runaways; Alex se queda con los villanos.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+- id: b6
+  fechas: 2015 — 2017
+  titulo: Cada uno por su lado
+  intro: Sin grupo, cada Runaway tiene su historia. Durante <em>Secret Wars</em> hay unos Runaways y una Nico de Battleworld que no son los de siempre; después, Nico se une a la A-Force, Victor muere a manos de la familia de Vision y Alex monta en Harlem su propio Orgullo.
+  navegacion:
+    anio: 2015–2017
+    texto: Cada uno por su lado
+  contenido:
+  - tramo:
+      numero: '6.1'
+      titulo: Battleworld
+      cuando: Mayo – octubre 2015
+      nota: Las dos son miniseries de <em>Secret Wars</em>, ambientadas en el planeta de retazos que gobierna Doom. Sus personajes son versiones de otras realidades.
+      entradas:
+      - serie:
+          id: rw-b6-a-force-1-5
+          prioridad: p4
+          titulo: A-Force <span class="nums">#1–5</span>
+          creditos: G. Willow Wilson y Marguerite Bennett · Jorge Molina · 2015
+          descripcion:
+          - Arcadia, una isla de Battleworld protegida solo por mujeres. En su equipo hay una Sister Grimm que no es la Nico de esta guía, sino la de esa realidad. De aquí sale Singularity, que traerá a la A-Force al universo normal.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+      - serie:
+          id: rw-b6-runaways-vol-4-1-4
+          prioridad: p4
+          titulo: Runaways vol. 4 <span class="nums">#1–4</span>
+          creditos: ND Stevenson · Sanford Greene · 2015
+          descripcion:
+          - 'Unos alumnos del instituto de Doom en Battleworld —Jubilee, Pixie, Amadeus Cho, Skaar, Delphyne Gorgon y otros— acaban huyendo juntos. Solo comparte el nombre: de los Runaways solo sale una Molly de otra realidad, en un recuerdo.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+  - tramo:
+      numero: '6.2'
+      titulo: A-Force
+      cuando: Enero – octubre 2016
+      nota: 'El preludio es una historia de <em>Avengers</em> #0 (octubre de 2015). Los #8–10 llevan la cabecera de <em>Civil War II</em>, y Nico sale con la A-Force en <em>Civil War II</em> #1.'
+      entradas:
+      - serie:
+          id: rw-b6-a-force-vol-2-1-10
+          prioridad: p2
+          titulo: A-Force vol. 2 <span class="nums">#1–10</span>
+          creditos: G. Willow Wilson (#1) y Kelly Thompson · Jorge Molina, Ben Caldwell, Paulo Siqueira · 2016
+          descripcion:
+          - Nico, que ha dejado el grupo para reencontrarse con su familia en Japón, está en la boda de una prima cuando Singularity, She-Hulk y Medusa llegan huyendo de Antimateria. Se une a la A-Force con Capitana Marvel y Dazzler. En el tramo de <em>Civil War II</em>, el inhumano Ulysses predice que <strong>Nico matará a una chica</strong> llamada Alice, Capitana Marvel intenta detenerla y la decisión de Nico cierra la serie.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+  - tramo:
+      numero: '6.3'
+      titulo: Vision
+      cuando: Junio – septiembre 2016
+      entradas:
+      - serie:
+          id: rw-b6-vision-2015-8-11
+          prioridad: p1
+          aparicion: true
+          donde: En otra serie · Vision
+          titulo: Vision (2015) <span class="nums">#8–11</span>
+          creditos: Tom King · Gabriel Hernández Walta · 2016
+          continuidad:
+          - sigue: ▸ Chase recibe su cabeza en el volumen 5 (bloque 7)
+          descripcion:
+          - 'Los Vengadores mandan a Victor a vivir con Vision, su «hermano», para vigilar a la familia sintética que este se ha construido. Vin, el hijo de Vision, lo descubre, y Victor lo mata sin querer al intentar callarlo. En el #11, Virginia, la mujer de Vision, <strong>mata a Victor</strong> para vengarse. Muere en paz: ya no puede convertirse en Victorious.'
+          - Es la recta final de una serie de doce números que merece la pena entera, aunque Victor solo sale en estos.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '6.4'
+      titulo: El nuevo Orgullo
+      cuando: Octubre 2016 – abril 2017
+      nota: 'El #9 lleva la cabecera de <em>Civil War II</em>, pero se entiende sin el evento.'
+      entradas:
+      - serie:
+          id: rw-b6-power-man-and-iron-fist-2016-9-15
+          aparicion: true
+          donde: En otra serie · Power Man and Iron Fist
+          titulo: Power Man and Iron Fist (2016) <span class="nums">#9–15</span>
+          creditos: David Walker · Sanford Greene y otros · 2016–2017
+          descripcion:
+          - 'Alex Wilder aparece en Harlem con la idea de quedarse con el crimen de Nueva York, como su padre en Los Ángeles, y forma un Nuevo Orgullo con Black Mariah, Cottonmouth y otros. Se descubre que está poseído por un demonio, Chadoe, con el que pactó en el Infierno a cambio de magia. En el #15, Iron Fist lo libra de él.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b7
+  fechas: 2017 — 2021
+  titulo: Volver a casa
+  intro: 'La novelista Rainbow Rowell reúne al grupo original treinta y ocho números, con Kris Anka y después Andrés Genolet. Chase trae a Gert del pasado, y los dos deciden que los Runaways eran su familia. Es la etapa más larga desde Vaughan y la que más tiempo dedica a cada miembro: Nico y Karolina por fin juntas, Victor sin cuerpo, Molly creciendo y Gert fuera de lugar en un mundo que siguió sin ella.'
+  navegacion:
+    anio: 2017–2021
+    texto: Volver a casa
+  contenido:
+  - tramo:
+      numero: '7.1'
+      titulo: Find Your Way Home
+      cuando: Septiembre 2017 – febrero 2018
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-1-6
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#1–6</span>
+          creditos: Rainbow Rowell · Kris Anka · 2017–2018
+          continuidad:
+          - viene: ◂ Viene de Avengers Undercover (bloque 5) y de Vision (bloque 6)
+          - sigue: ▸ Continúa en el tramo 7.2
+          descripcion:
+          - Chase arregla la máquina del tiempo y llega tarde a salvar a Gert, pero se trae su cuerpo y Nico la cura. <strong>Gert vuelve</strong>, dos años más joven que sus amigos, y se empeña en reunir al grupo. Karolina estudia en la universidad, Molly vive con su abuela, una científica sin escrúpulos, y Klara está en acogida. En la mochila de Chase va la cabeza de Victor, que le mandó Tony Stark.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.2'
+      titulo: Best Friends Forever
+      cuando: Marzo – agosto 2018
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-7-12
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#7–12</span>
+          creditos: Rainbow Rowell · Kris Anka · 2018
+          continuidad:
+          - viene: ◂ Viene del tramo 7.1
+          - sigue: ▸ Continúa en el tramo 7.3
+          descripcion:
+          - 'De vuelta en el Hostel, Nico y Chase son por magia los tutores de Molly. Abigail, su mejor amiga, lleva desde 1964 con trece años por un pastelito de la Encantadora, y quiere que Molly se coma el otro; se lo come Julie Power. Julie deja a Karolina, Klara decide quedarse con su familia de acogida (#11) y en el #12 <strong>Nico y Karolina se besan</strong>, mientras Victor, que solo es una cabeza, y Gert se besan en otra época.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.3'
+      titulo: That Was Yesterday
+      cuando: Septiembre 2018 – febrero 2019
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-13-18
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#13–18</span>
+          creditos: Rainbow Rowell · David Lafuente, Kris Anka · 2018–2019
+          continuidad:
+          - viene: ◂ Viene del tramo 7.2
+          - sigue: ▸ Continúa en el tramo 7.4
+          descripcion:
+          - '<strong>Vuelve Alex</strong>, perseguido por las mascotas de la Semilla de los Gibborim: tres dioses niños que exigen a los Runaways el sacrificio que hacían sus padres. Encerrados una semana con Alex, Nico descubre qué es de verdad el Bastón del Uno (#15). Uno de los dioses, Gib, se pasa a su lado, y Gert manda a los otros dos al futuro.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.4'
+      titulo: But You Can’t Hide
+      cuando: Marzo – agosto 2019
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-19-24
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#19–24</span>
+          creditos: Rainbow Rowell · Andrés Genolet · 2019
+          continuidad:
+          - viene: ◂ Viene del tramo 7.3
+          - sigue: ▸ Continúa en el tramo 7.5
+          descripcion:
+          - Alex se va y Molly se marcha con él, hasta que el grupo la recupera. Victor se regenera el cuerpo para proteger a Gert, lo que a Chase no le sienta bien, y entra en la mente de Doombot para salvarlo. Karolina deja la universidad y sale a patrullar a escondidas, y Nico se le une.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.5'
+      titulo: Canon Fodder
+      cuando: Octubre 2019 – marzo 2020
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-25-31
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#25–31</span>
+          creditos: Rainbow Rowell · Andrés Genolet, Kris Anka · 2019–2020
+          continuidad:
+          - viene: ◂ Viene del tramo 7.4
+          - sigue: ▸ Continúa en el tramo 7.6
+          descripcion:
+          - 'Sin Hostel, el grupo acepta la casa y el uniforme de <strong>Doc Justice</strong>, el veterano héroe de Los Ángeles, y forma su J-Team. Gert, a la que dejan en la base, descubre que en cincuenta años Doc Justice ha ido provocando la muerte de sus jóvenes compañeros para alimentar su leyenda. En el #31 intenta matar a Karolina; Old Lace acaba con él.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '7.6'
+      titulo: Come Away With Me
+      cuando: Octubre 2020 – agosto 2021
+      nota: 'El #38 es el número 100 de la serie. El especial del Orgullo salió entre el #36 y el #37 y no altera nada.'
+      entradas:
+      - serie:
+          id: rw-b7-runaways-vol-5-32-38
+          prioridad: p1
+          titulo: Runaways vol. 5 <span class="nums">#32–38</span>
+          creditos: Rainbow Rowell · Natacha Bustos, Andrés Genolet · 2020–2021
+          continuidad:
+          - viene: ◂ Viene del tramo 7.5
+          - sigue: ▸ Continúa en el bloque 9; Karolina, en el bloque 8
+          descripcion:
+          - Gert y Victor vuelven al instituto, Lobezno y Pixie vienen a llevarse a Molly a Krakoa y ella se queda (#34–35), y Karolina no se recupera de lo que le hizo Doc Justice. Una <strong>Gert del futuro</strong> sale en secreto con Chase y, con ayuda de la Gert actual y de Molly, se lo lleva a su época para que no se vuelva un villano. La Brigada de la Luz se lleva a Karolina al espacio para curarla, con el Bastón del Uno que Nico le da. Mientras, Alex se queda con el casco de Doc Justice.
+          etiqueta:
+            clase: t1
+            texto: Esencial
+      - serie:
+          id: rw-b7-marvels-voices-pride-2021-1
+          aparicion: true
+          donde: En otra serie · Antología
+          titulo: 'Marvel’s Voices: Pride (2021) <span class="nums">#1</span>'
+          creditos: Mariko Tamaki · Kris Anka (historia «Under the Stars») · 2021
+          descripcion:
+          - Primera antología LGTBI de Marvel. «Under the Stars» es una historia corta de Nico y Karolina como pareja, del dibujante del volumen 5. Sin consecuencias.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b8
+  fechas: 2022 — 2024
+  titulo: Sin el Bastón
+  intro: Tras el número 100 no hay serie del grupo durante cuatro años. Nico, sin el Bastón del Uno, enseña en la Academia Strange y entra en los Midnight Suns; Karolina se cura en el espacio con Xavin; Victor y Doombot pasan por <em>She-Hulk</em>. Buena parte de lo importante salió solo en digital, en las Infinity Comics de Marvel Unlimited.
+  navegacion:
+    anio: 2022–2024
+    texto: Sin el Bastón
+  contenido:
+  - tramo:
+      numero: '8.1'
+      titulo: Midnight Suns
+      cuando: Septiembre 2022 – enero 2023
+      nota: En esta época Nico da clase de lanzamiento creativo de hechizos en <em>Strange Academy</em>, donde solo hace apariciones breves (ver el apéndice).
+      entradas:
+      - serie:
+          id: rw-b8-midnight-suns-1-5
+          titulo: Midnight Suns <span class="nums">#1–5</span>
+          creditos: Ethan Sacks · Luigi Zagaria · 2022–2023
+          descripcion:
+          - Una profecía junta a Magik, Lobezno, Blade, Spirit Rider y Nico contra unos villanos nuevos que van a por Zoe Laveau, una alumna de la Academia Strange. Nico pelea con una fracción de la magia que tenía y aprende hechizos con el Doctor Vudú.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '8.2'
+      titulo: Victor y Doombot
+      cuando: Noviembre 2022 – febrero 2023
+      entradas:
+      - serie:
+          id: rw-b8-she-hulk-2022-7-y-10
+          aparicion: true
+          donde: En otra serie · She-Hulk
+          titulo: She-Hulk (2022) <span class="nums">#7</span> y <span class="nums">#10</span>
+          creditos: Rainbow Rowell · Luca Maresca, Takeshi Miyazawa · 2022–2023
+          descripcion:
+          - Victor y Doombot pasan por la serie de She-Hulk que también escribe Rowell, y Victor defiende que a Doombot no se le puede juzgar por los crímenes de su creador. Dos apariciones breves.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '8.3'
+      titulo: Infinity Comics
+      cuando: Mayo 2023 – marzo 2024
+      nota: Las Infinity Comics se publican en Marvel Unlimited, en formato vertical para leer en el móvil, y no se han reeditado en papel.
+      entradas:
+      - serie:
+          id: rw-b8-doctor-strange-2023-3
+          aparicion: true
+          donde: En otra serie · Doctor Strange
+          titulo: Doctor Strange (2023) <span class="nums">#3</span>
+          creditos: Amy Chu · Tokitokoro (historia corta) · 2023
+          descripcion:
+          - 'Historia de complemento, «Close Encounters of a Strange Kind»: Doctor Strange y Nico, juntos en una aventura corta.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: rw-b8-marvels-voices-infinity-comic-58-63
+          prioridad: p2
+          aparicion: true
+          donde: Infinity Comic · solo digital
+          titulo: Marvel’s Voices Infinity Comic <span class="nums">#58–63</span>
+          creditos: Terry Blas · Bruno Oliveira, Nathan Stockman · 2023
+          continuidad:
+          - viene: ◂ Viene del final del volumen 5 (tramo 7.6)
+          - sigue: ▸ Karolina vuelve en el volumen 6 (bloque 9)
+          descripcion:
+          - Arco «Runaways». Karolina, en el espacio con la Brigada de la Luz, descubre que la manda <strong>Xavin</strong>, ahora general majesdaniano, que consiguió que la absolvieran. Una misión en una base lunar le cuesta usar sus poderes, y un acto generoso le devuelve la luz. El Bastón del Uno se queda con Xavin.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: rw-b8-marvels-voices-infinity-comic-85-94
+          aparicion: true
+          donde: Infinity Comic · solo digital
+          titulo: Marvel’s Voices Infinity Comic <span class="nums">#85–94</span>
+          creditos: Cheryl Lynn Eaton · Federica Mancin · 2024
+          descripcion:
+          - 'Arco «A Force», en diez partes. Singularity se deshace y la antigua A-Force busca cuatro fragmentos por el universo para salvarla. Nico, que sale en el #86–89, el #92 y el #94, descubre que puede seguir haciendo magia sin el Bastón.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+- id: b9
+  fechas: 2025 — hoy
+  titulo: Bajo el imperio de Doom
+  intro: Doom es emperador de la Tierra y reclama a todos sus Doombots, también el de los Runaways. Rowell vuelve para una miniserie que reúne otra vez a casi todos, con Chase de vuelta del futuro y Karolina del espacio, y Nico recupera la magia. Después, una aventura de Halloween con Wiccan y Hulkling y un <em>What If…?</em>.
+  navegacion:
+    anio: 2025–2026
+    texto: Bajo el imperio de Doom
+  contenido:
+  - tramo:
+      numero: '9.1'
+      titulo: Think of the Children
+      cuando: Junio – octubre 2025
+      nota: 'La miniserie salió mientras se publicaba la segunda mitad de <em>One World Under Doom</em>, y Marvel Fandom no da una cronología más precisa. Se entiende sola: basta con saber que Doom gobierna el mundo.'
+      entradas:
+      - evento:
+          id: rw-b9-one-world-under-doom
+          ancla: ev-owud
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Febrero – noviembre 2025
+          titulo: One World Under Doom
+          creditos: Ryan North · R.B. Silva
+          descripcion:
+          - Doom se presenta en la ONU como emperador de la Tierra, ahora «Latveria Unida», y empieza a recoger lo que considera suyo. Para los Runaways eso significa que sus Doombots vienen a por el que vive con ellos.
+          apartados:
+          - apartado: Orden de lectura
+            texto: '<strong>One World Under Doom #1</strong> → <strong>#2</strong> → <strong>#3</strong> → <strong>#4</strong> → <strong>#5</strong> → <strong>#6</strong> → <strong>#7</strong> → <strong>#8</strong> → <strong>#9</strong>'
+          - apartado: Versión mínima
+            texto: Solo la miniserie de la ficha siguiente.
+          - apartado: Conexión
+            texto: El evento está entero en el Expediente 4 Fantásticos (bloque 11), con la muerte y vuelta de Valeria, y en el Mutante II (bloque 5), con sus capítulos mutantes. Léelo una sola vez.
+      - serie:
+          id: rw-b9-runaways-vol-6-1-5
+          prioridad: p1
+          titulo: Runaways vol. 6 <span class="nums">#1–5</span>
+          creditos: Rainbow Rowell · Elena Casagrande · 2025
+          continuidad:
+          - viene: ◂ Viene del volumen 5 (bloque 7) y de las Infinity Comics (bloque 8)
+          descripcion:
+          - 'Meses después del #100, Nico mantiene sola a Gert, Molly, Victor, Gib y Doombot, y casi no puede hacer magia. Cuando los Doombots del emperador vienen a reclamar al suyo, el grupo vuelve a huir. Chase regresa del futuro desconfiando de Gert (#2), Karolina vuelve del espacio y se reúne con ellos (#4), y Gert descubre que Nico puede hacer hechizos si ella la toca. Para el final, el grupo tiene que entenderse con Alex, que lleva el traje de Doc Justice, y Karolina, decidir qué hace con el Bastón del Uno.'
+          etiqueta:
+            clase: t1
+            texto: Esencial
+  - tramo:
+      numero: '9.2'
+      titulo: Strange Tales
+      cuando: Octubre 2025 – enero 2026
+      entradas:
+      - serie:
+          id: rw-b9-strange-tales-2025-1-4
+          aparicion: true
+          donde: En otra serie · Strange Tales
+          titulo: Strange Tales (2025) <span class="nums">#1–4</span>
+          creditos: Jeremy Whitley · Bayleigh Underwood · 2025–2026
+          descripcion:
+          - 'Halloween: Nico, Karolina, Billy y Teddy juegan a rol y los monstruos de la partida se vuelven reales. Sus amigos desaparecen y Nico recorre Nueva York con la Bruja Escarlata, Doctor Strange y Ghost-Spider, y de Wakanda al enfrentamiento con Hela, hasta rescatarlos en el #4.'
+          - 'La misma ficha está en el bloque 9 del Expediente Jóvenes Vengadores.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+  - tramo:
+      numero: '9.3'
+      titulo: What If…?
+      cuando: Agosto 2026
+      entradas:
+      - serie:
+          id: rw-b9-what-if-runaways-1
+          prioridad: p4
+          titulo: What If…? Runaways <span class="nums">#1</span>
+          creditos: Rainbow Rowell · Zulema Lavina · 19 de agosto de 2026
+          descripcion:
+          - ¿Y si no se hubieran escapado? Los seis chicos descubren lo que es el Orgullo y, en vez de huir, les intriga. Una realidad alternativa escrita por la autora de la etapa más larga del grupo.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+  - evento:
+      etiqueta: Frontera de la guía · 2 de noviembre de 2026
+      titulo: Dónde están ahora
+      descripcion:
+      - Tras el volumen 6 y el <em>What If…?</em> de agosto de 2026, <strong>no hay ninguna serie de los Runaways en publicación ni anunciada</strong> que haya podido encontrar.
+      apartados:
+      - apartado: Qué vigilar
+        texto: Qué hace el grupo reunido después de Doom, qué queda de Alex como Doc Justice y qué pasa con el Bastón del Uno.
+apendice:
+  titulo: Cómo recorrerlo
+  notas:
+  - titulo: Un grupo, muchas vidas
+    html: '<p>Esta guía sigue a cada miembro, no solo al grupo: por eso están enteras las series de los equipos por los que han pasado (<em>Avengers Arena</em>, <em>Avengers Undercover</em>, <em>Avengers A.I.</em>, <em>A-Force</em> y <em>Midnight Suns</em>), aunque en algún número no salga el Runaway. El recuadro «Quién es quién», al principio, dice en qué bloques está cada uno.</p>'
+  - titulo: Conexiones con el resto de la colección
+    html: <p>Los tie-ins de <em>Civil War</em> y <em>Secret Invasion</em> son los mismos del Expediente Jóvenes Vengadores. La serie de Daken está también en el Mutante I (bloque 5), y X-23, de ese mismo expediente, es una de las chicas de <em>Avengers Arena</em>. <em>One World Under Doom</em> está entero en el Expediente 4 Fantásticos y en el Mutante II. Si llevas varios expedientes a la vez, lee cada evento una sola vez.</p>
+  - titulo: Las Infinity Comics
+    html: <p>Los dos arcos de <em>Marvel’s Voices Infinity Comic</em> del bloque 8 se publicaron solo en Marvel Unlimited, en formato vertical. El de Karolina y Xavin, que explica dónde está el Bastón del Uno al empezar el volumen 6, es el único que importa para la serie.</p>
+  - titulo: Cameos, 2007–2014
+    html: '<p><em>Eternals</em> vol. 4 #1 (2008): Nico y Alex, en un recuerdo. <em>New Avengers</em> #53 (2009): Nico entre los candidatos a Hechicero Supremo que ve el Ojo de Agamotto. <em>Strange</em> vol. 2 #4 (2010): Nico. <em>Iron Man: Legacy</em> #7–11 (2010–2011): Alex, de secundario. <em>New Avengers</em> vol. 2 #7 (2010): Molly. <em>Avengers Academy</em> #39 (2012): Karolina y Julie Power. <em>Infinity: The Hunt</em> #1 (2013) y <em>X-Men: Legacy</em> vol. 2 #23 (2014): Molly.</p>'
+  - titulo: Cameos, 2015–2019
+    html: '<p><em>Ant-Man</em> #1 (2015): Victor se presenta a jefe de seguridad de Stark. <em>Uncanny Avengers: Ultron Forever</em> #1 (2015) y <em>Vision</em> #12 (2016): Victor, en recuerdos. <em>Spider-Woman</em> vol. 6 #1 (2015) y <em>Civil War II</em> #1 (2016): Nico, con la A-Force. <em>Secret Warriors</em> vol. 2 #8 (2017) y <em>Doctor Strange: Damnation</em> #4 (2018): Nico, en un resumen y en una foto. <em>Jessica Jones – Marvel Digital Original</em> #1 (2018): Nico y Karolina. <em>Uncanny X-Men</em> vol. 5 #8 (2019): una Molly creada por un telépata. <em>Avengers: No Road Home</em> #10 (2019): copias del grupo. <em>Fantastic Four</em> vol. 6 #12 (2019): Nico y Karolina en una foto. <em>History of the Marvel Universe</em> vol. 2 #5 (2019): resumen de su historia.</p>'
+  - titulo: Cameos, 2020–2026
+    html: '<p><em>Dr. Strange</em> #2 (2020), <em>Strange Academy</em> #1, #2 y #18 (2020–2022) y <em>Strange Academy: Finals</em> #3, #5 y #6 (2022–2023): Nico, como profesora. <em>Marvel’s Voices</em> #1 (2020): Nico y Karolina. <em>Captain Marvel</em> vol. 11 #28 (2021): Nico. <em>Death of Doctor Strange</em> #5 (2022): Nico. <em>Rise of the Powers of X</em> #5 (2024): Molly, en forma astral. Y Old Lace en historias de humor: <em>Marvel Meow</em>, <em>It’s Jeff</em> y <em>Ziggy Pig and Silly Seal</em> (Infinity Comics, 2022) y <em>Women of Marvel</em> #1 (2024).</p>'
+  - titulo: Hasta dónde llega esta guía
+    html: '<p>Cerrada a <strong>2 de noviembre de 2026</strong>. Las apariciones están contrastadas con las listas de cada miembro en Marvel Fandom (incluidas las apariciones menores), y las fechas, con sus fichas. El sitio de los crossovers sigue la cronología de Marvel Fandom: <em>Civil War: Young Avengers &amp; Runaways</em> va entre los números 21 y 22 del volumen 2, <em>S.W.O.R.D.</em> y <em>Breaking Into Comics</em> después del volumen 3, y Daken antes de <em>Avengers Academy</em>.</p>'

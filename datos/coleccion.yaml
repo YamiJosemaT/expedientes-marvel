@@ -84,23 +84,35 @@ expedientes:
     tema_clave: expediente-4-fantasticos-tema
     acento: {claro: '#1D5FB0', claro_suave: '#DCE7F5', oscuro: '#72AAF2', oscuro_suave: '#15263D'}
 
+  - clave: rw
+    datos: expediente-runaways.yaml
+    archivo: Expediente Runaways/Expediente-Runaways-2003-2026.html
+    nombre: Expediente Runaways
+    nombre_corto: Runaways
+    subtitulo: Los Runaways, uno a uno
+    periodo: 2003 — hoy
+    resumen: De la huida de Vaughan a la vuelta bajo Doom, con los equipos y las apariciones de cada miembro.
+    numeros_aprox: 230
+    tema_clave: expediente-runaways-tema
+    acento: {claro: '#6A3FA0', claro_suave: '#E9E1F4', oscuro: '#B996F0', oscuro_suave: '#2B1F3D'}
+
 portada:
   archivo: Expedientes Marvel.html
   titulo_pagina: Expedientes Marvel
-  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eternos, Expediente Guardianes, Expediente Jóvenes Vengadores y Expediente 4 Fantásticos.'
+  descripcion_pagina: 'Índice de la colección de guías de lectura: Expediente Mutante I y II, Expediente Eternos, Expediente Guardianes, Expediente Jóvenes Vengadores, Expediente 4 Fantásticos y Expediente Runaways.'
   tema_clave: expedientes-indice-tema
   antetitulo: Colección de guías de lectura · Marvel Comics
   titulo: Expedientes<span class="thin">Marvel 2000 — hoy</span>
-  entradilla: 'Seis guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
+  entradilla: 'Siete guías de lectura con el mismo sistema: bloques por etapas, tramos que se leen en paralelo y eventos con su orden capítulo a capítulo. Desde aquí puedes abrir cualquiera, saltar a un bloque concreto o ver dónde se cruzan entre sí.'
   notas:
     - titulo: Uno detrás de otro
       html: '<p>Los dos expedientes mutantes forman una sola línea: el volumen II empieza justo donde acaba el I, con <em>House of X</em> / <em>Powers of X</em>.</p>'
     - titulo: En paralelo
-      html: '<p>Eternos, Guardianes, Jóvenes Vengadores y 4 Fantásticos son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
-    - titulo: Mismo sistema en los seis
+      html: '<p>Eternos, Guardianes, Jóvenes Vengadores, 4 Fantásticos y Runaways son líneas aparte. Si quieres seguirlas a la vez que los mutantes, usa la cronología para avanzar año a año y la tabla de cruces para no leer dos veces el mismo evento.</p>'
+    - titulo: Mismo sistema en los siete
       html: '<p>Las marcas ▸ y ◂ indican dónde se corta y se retoma una serie; los capítulos en color dentro de un evento son los de la línea de ese expediente, y los recuadros con borde discontinuo, eventos de toda la línea Marvel.</p>'
     - titulo: Hasta dónde llegan
-      html: '<p>El volumen I está cerrado y completo. Los otros cinco llegan al presente y se cerraron en octubre de 2026 (el de los 4 Fantásticos, el día 26): lo más reciente de cada uno puede seguir avanzando.</p>'
+      html: '<p>El volumen I está cerrado y completo. Los otros seis llegan al presente y se cerraron en octubre de 2026 (el de los 4 Fantásticos, el día 26), salvo el de los Runaways, cerrado el 2 de noviembre: lo más reciente de cada uno puede seguir avanzando.</p>'
 
 # Eventos que aparecen en mas de un expediente. "ancla" es el id de bloque (b4) o de recuadro (ev-si).
 cruces:
@@ -110,7 +122,8 @@ cruces:
       - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
       - {expediente: jv, ancla: ev-civilwar, texto: Jóvenes Vengadores · bloque 2}
       - {expediente: 4f, ancla: ev-civilwar, texto: 4 Fantásticos · bloque 3}
-    nota: Cada expediente tiene su propio tie-in del evento; el de los 4 Fantásticos son seis números de su serie.
+      - {expediente: rw, ancla: ev-civilwar, texto: Runaways · bloque 3}
+    nota: Cada expediente tiene su propio tie-in del evento; el de los 4 Fantásticos son seis números de su serie. Jóvenes Vengadores y Runaways comparten el suyo.
   - evento: World War Hulk
     anio: 2007
     enlaces:
@@ -124,7 +137,8 @@ cruces:
       - {expediente: gg, ancla: ev-si, texto: Guardianes · bloque 2}
       - {expediente: jv, ancla: ev-si, texto: Jóvenes Vengadores · bloque 2}
       - {expediente: 4f, ancla: ev-si, texto: 4 Fantásticos · bloque 4}
-    nota: Cada expediente tiene su propio tie-in del evento.
+      - {expediente: rw, ancla: ev-si, texto: Runaways · bloque 3}
+    nota: Cada expediente tiene su propio tie-in del evento; Jóvenes Vengadores y Runaways comparten el suyo.
   - evento: War of Kings
     anio: 2009
     enlaces:
@@ -208,7 +222,8 @@ cruces:
     enlaces:
       - {expediente: m2, ancla: b5, texto: Mutante II · bloque 5}
       - {expediente: 4f, ancla: ev-owud, texto: 4 Fantásticos · bloque 11}
-    nota: En Mutante II, con sus tie-ins mutantes; en 4 Fantásticos, con los números de la serie intercalados y la muerte y vuelta de Valeria.
+      - {expediente: rw, ancla: ev-owud, texto: Runaways · bloque 9}
+    nota: En Mutante II, con sus tie-ins mutantes; en 4 Fantásticos, con los números de la serie intercalados y la muerte y vuelta de Valeria; en Runaways, con la miniserie de 2025.
   - evento: DNX
     anio: 2026
     enlaces:

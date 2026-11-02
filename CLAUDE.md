@@ -32,6 +32,7 @@ C:\Users\josem\Desktop\Josema\
     Expediente Guardianes\Expediente-Guardianes-2007-2026.html (gg)
     Expediente Jovenes Vengadores\Expediente-Jovenes-Vengadores-2005-2026.html (jv)
     Expediente 4 Fantasticos\Expediente-4-Fantasticos-2000-2026.html (4f)
+    Expediente Runaways\Expediente-Runaways-2003-2026.html    (rw)
     */Older Versions\              copias anteriores a mano (Mutante I v0–v7, II v1–v5, Eternos v2, Guardianes v2)
 ```
 
@@ -91,11 +92,11 @@ entre la web y `Comics` solo a través del entorno.
 ## 4. Regla de oro: los `id`
 
 Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p. ej.
-`m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f). Es la clave de las marcas de lectura
+`m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f, rw). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 454 entradas
-marcables (m1 124, m2 80, et 15, gg 36, jv 36, 4f 163).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 504 entradas
+marcables (m1 124, m2 80, et 15, gg 36, jv 36, 4f 163, rw 50).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -296,6 +297,17 @@ Servicio (`servicio/`):
   de Angrir en Fear Itself #5; muere y vuelve en Secret Wars; deja de ser «mutante» en vol.6 #26, y
   en vol.7 #18 se revela que se bloqueó él mismo los poderes salvo un día al año. Valeria muere en
   OWUD #8, vuelve en el #9 a cambio de la vida de Doom y hereda Latveria en *Will of Doom* #1.
+- **Runaways (rw, 2003–2026)**, añadido el 2026-11-02 a petición. Criterio acordado con el
+  usuario: las series del grupo y **enteras** las de los equipos con algún miembro (Avengers Arena,
+  Avengers Undercover, Avengers A.I., A-Force vol. 2, Midnight Suns); ficha para las apariciones
+  que mueven algo (o son crossovers) y cameos en el apéndice por épocas; Battleworld (A-Force y
+  Runaways vol. 4 de 2015), Infinity Comics y el *What If…?* de 2026 como fichas opcionales o «al
+  margen». 9 bloques, 50 entradas; recuadro «Quién es quién» con las paradas de cada miembro.
+  Fuentes: categorías `…/Appearances` y `…/Minor_Appearances` de cada miembro en Marvel Fandom,
+  plantillas `apn` para el orden de los crossovers (Civil War: YA&R entre vol. 2 #21 y #22;
+  vol. 3 #14 → S.W.O.R.D. #2 → Breaking Into Comics → Daken #17–19 → Avengers Academy #27–28) y
+  las biografías de personaje para el vol. 5, que no tiene sinopsis en Fandom. El usuario lo pidió
+  con «Mariko en Fuerza V»; se entendió como Nico Minoru en A-Force.
 - **Portada** (`Expedientes Marvel.html`): índice, cronología 2000–2026 y tabla de 17 «cruces»
   (Civil War, World War Hulk, Secret Invasion, War of Kings, Fear Itself, Age of Ultron, Trial of
   Jean Grey, Black Vortex, Secret Wars, Civil War II, X-Men/Fantastic Four, Empyre, The Last
