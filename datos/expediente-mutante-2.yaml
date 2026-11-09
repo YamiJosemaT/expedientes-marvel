@@ -14,7 +14,7 @@ cabecera:
     texto: Años de continuidad
   - valor: '15'
     texto: Tramos de lectura
-  - valor: '20'
+  - valor: '21'
     texto: Eventos y crossovers
   - valor: ~900
     texto: Números en total
@@ -69,8 +69,8 @@ bloques:
       titulo: House of X / Powers of X
       creditos: Jonathan Hickman · Pepe Larraz &amp; R.B. Silva
       descripcion:
-      - 'Doce números que refundan la especie mutante como nación en la isla viva de Krakoa. <strong>Léelos antes que nada:</strong> aquí se presenta todo lo que el resto del volumen da por sabido (el Consejo Silencioso, las leyes de Krakoa, la resurrección de los Cinco y el secreto de Moira MacTaggert sobre el que gira toda la era). Sin ellos, <em>Dawn of X</em> se lee a ciegas.'
-      - '<strong>Van intercalados, no seguidos:</strong> leerlos por separado destroza la estructura, que está montada para que cada número de <em>Powers</em> reencuadre el anterior de <em>House</em>.'
+      - Doce números que refundan la especie mutante como nación en la isla viva de Krakoa. <strong>Léelos antes que nada:</strong> aquí se presenta todo lo que el resto del volumen da por sabido (el Consejo Silencioso, las leyes de Krakoa, la resurrección de los Cinco y el secreto de Moira MacTaggert sobre el que gira toda la era). Sin ellos, <em>Dawn of X</em> se lee a ciegas.
+      - <strong>Van intercalados, no seguidos:</strong> leerlos por separado destroza la estructura, que está montada para que cada número de <em>Powers</em> reencuadre el anterior de <em>House</em>.
       apartados:
       - apartado: Orden completo
         texto: 'HoX #1 → PoX #1 → HoX #2 → PoX #2 → HoX #3 → PoX #3 → HoX #4 → PoX #4 → HoX #5 → PoX #5 → HoX #6 → PoX #6'
@@ -385,6 +385,26 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - evento:
+          id: m2-b2-death-of-doctor-strange
+          linea_marvel: true
+          etiqueta: Evento de toda la línea Marvel · Septiembre 2021 – enero 2022
+          titulo: Death of Doctor Strange
+          creditos: Jed MacKay · Lee Garbett (serie principal) · tie-in mutante de Si Spurrier y Bob Quinn
+          descripcion:
+          - 'Stephen Strange aparece asesinado y, con él, caen las defensas mágicas de la Tierra: llegan invasiones de otras dimensiones y las Tres Madres, mientras un Strange joven, llegado del pasado, investiga quién lo mató. Magik, profesora de la Academia Strange, está en los números #1, #4 y #5, y los X-Men (Cíclope, Jean Grey, Pícara y Laura Kinney) luchan en la batalla de la Antártida del #5. El peso mutante es secundario: la serie principal es de Strange.'
+          - 'El one-shot <em>X-Men/Black Knight</em> es el capítulo propio de la línea: el equipo de <em>X-Men</em> vol. 6 aparece transformado y atacando Londres, y el Caballero Negro, Jacks Chopra y Faiza Hussain tienen que salvarlo.'
+          apartados:
+          - apartado: Antes de empezar
+            texto: 'Nada imprescindible. Para el one-shot mutante, <em>Black Knight: Curse of the Ebony Blade</em> (2021, de Spurrier) es contexto opcional: el one-shot continúa esa historia.'
+          - apartado: Orden de lectura
+            texto: '<strong>Death of Doctor Strange #1</strong> → <strong>#2</strong> → Death of Doctor Strange: Avengers #1 → Strange Academy Presents: Death of Doctor Strange #1 → <strong>Death of Doctor Strange #3</strong> → Death of Doctor Strange: Spider-Man #1 → Death of Doctor Strange: White Fox #1 → Death of Doctor Strange: Blade #1 → <span class="cap">Death of Doctor Strange: X-Men/Black Knight #1</span> → <strong>Death of Doctor Strange #4</strong> → Death of Doctor Strange: Bloodstone #1 → <strong>#5</strong>'
+          - apartado: Versión mínima
+            texto: Los cinco números de la serie principal, y el one-shot de los X-Men si quieres su parte. Ninguna serie mutante depende del evento, así que también se puede saltar entero.
+          - apartado: Prescindible
+            texto: Los one-shots de los Vengadores, Spider-Man, White Fox, Blade, Bloodstone y la Academia Strange.
+          - apartado: Después
+            texto: '<em>Strange</em> vol. 3 (2022, de MacKay), fuera de la línea mutante: Clea pasa a ser la Hechicera Suprema.'
   - evento:
       id: m2-b2-inferno
       etiqueta: Evento · Septiembre 2021 – enero 2022 · Cierre del bloque

@@ -95,8 +95,8 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f, rw). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 504 entradas
-marcables (m1 124, m2 80, et 15, gg 36, jv 36, 4f 163, rw 50).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 505 entradas
+marcables (m1 124, m2 81, et 15, gg 36, jv 36, 4f 163, rw 50).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -259,10 +259,13 @@ Servicio (`servicio/`):
   corregirlo. Cámbialo solo cuando lo pida.
 - **Mutante II (m2, 2019–2026)**, 7 bloques: Dawn of X → Reign of X → Destiny of X → Fall of X →
   From the Ashes → Age of Revelation → Shadows of Tomorrow. Incluye las tres Hellfire Gala,
-  A.X.E., Sins of Sinister y The Last Annihilation (añadido a petición).
+  A.X.E., Sins of Sinister y The Last Annihilation (añadido a petición). *Death of Doctor Strange*
+  (2021–2022) se añadió a petición el 2026-11-09 como evento de línea al final del tramo 2.2. El
+  orden es el de Comic Book Herald, con *X-Men/Black Knight* antes del #4. El peso mutante es
+  secundario: Magik sale en los #1, #4 y #5, y los X-Men, en la batalla del #5 y en ese one-shot.
 - **HoX/PoX abre el Mutante II** (primera ficha del bloque 1, ancla `hoxpox`, «Léelos antes que
   nada»), a petición del usuario. El Mutante I termina con un recuadro de frontera que enlaza
-  con ella. Cifras: m1 27 eventos, m2 20.
+  con ella. Cifras: m1 27 eventos, m2 21.
 - Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
   plantilla: ruta relativa a la portada).
 - **Eternos (et, 2006–2026; renombrado de «Eterno» el 2026-10-31, conservando la clave `et`, los
