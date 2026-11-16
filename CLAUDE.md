@@ -95,8 +95,8 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f, rw). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 505 entradas
-marcables (m1 124, m2 81, et 15, gg 36, jv 36, 4f 163, rw 50).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 506 entradas
+marcables (m1 125, m2 81, et 15, gg 36, jv 36, 4f 163, rw 50).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -252,8 +252,15 @@ Servicio (`servicio/`):
     contiene) y se unió a esta en una ficha opcional al final del tramo 4.5. Esa ficha conserva el
     `id` `m1-b4-wolverine-and-jubilee-1-4` y lleva el orden interno (verificado en Marvel Fandom):
     X-Men #1–10 → W&J #1–4 → X-Men #11 → *X-Men: Giant-Size* #1 (2011, parte 1 de «First to
-    Last») → X-Men #12–15. *Namor: The First Mutant* #1–4 y la antología *X-Men: To Serve and
-    Protect* #1–4 solo se mencionan ahí.
+    Last») → X-Men #12–15. La antología *X-Men: To Serve and Protect* #1–4 solo se menciona ahí.
+    El 2026-11-16, a petición, los #1–6 pasaron a un recuadro de evento propio, **Curse of the
+    Mutants** («Crossover opcional», `m1-b4-curse-of-the-mutants`), justo antes de la ficha, que
+    queda en X-Men #7–15 + W&J. El orden sigue las notas de Marvel Fandom: *Death of Dracula* #1 →
+    X-Men #1 → *Blade* #1 → X-Men #2 → *Storm & Gambit* #1 → *Namor: The First Mutant* #1 →
+    *X-Men vs. Vampires* #1–2 → X-Men #3 → *Smoke & Blood* #1 → *Namor* #2–4 → X-Men #4–6.
+    Versión mínima: el prólogo + los seis números (y Namor, si se quiere un tie-in).
+    El usuario ha dicho que solo él usa los expedientes y que no hace falta conservar los `id`
+    (se siguen conservando cuando no cuesta nada).
 
   Al principio el usuario pidió no tocar este volumen, pero después pidió verificarlo y
   corregirlo. Cámbialo solo cuando lo pida.
@@ -265,7 +272,7 @@ Servicio (`servicio/`):
   secundario: Magik sale en los #1, #4 y #5, y los X-Men, en la batalla del #5 y en ese one-shot.
 - **HoX/PoX abre el Mutante II** (primera ficha del bloque 1, ancla `hoxpox`, «Léelos antes que
   nada»), a petición del usuario. El Mutante I termina con un recuadro de frontera que enlaza
-  con ella. Cifras: m1 27 eventos, m2 21.
+  con ella. Cifras: m1 28 eventos, m2 21.
 - Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
   plantilla: ruta relativa a la portada).
 - **Eternos (et, 2006–2026; renombrado de «Eterno» el 2026-10-31, conservando la clave `et`, los
