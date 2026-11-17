@@ -20,7 +20,7 @@ expedientes:
     subtitulo: Volumen I
     periodo: 2001 — 2019
     resumen: De la revolución de Morrison a las puertas de Krakoa.
-    numeros_aprox: 1500
+    numeros_aprox: 2700
     tema_clave: expediente-mutante-tema
     acento: {claro: '#BE2A16', claro_suave: '#F5DFDA', oscuro: '#FF7358', oscuro_suave: '#3A1D18'}
 
@@ -143,8 +143,8 @@ cruces:
     anio: 2009
     enlaces:
       - {expediente: gg, ancla: ev-wok, texto: Guardianes · bloque 2}
-      - {expediente: m1, ancla: b2, texto: Mutante I · bloque 2}
-    nota: En el volumen I está su antecedente, <em>The Rise and Fall of the Shi’ar Empire</em>.
+      - {expediente: m1, ancla: ev-wok-m1, texto: Mutante I · bloque 4}
+    nota: 'En el volumen I está también su antecedente, <em>The Rise and Fall of the Shi’ar Empire</em> (bloque 2), y la parte mutante: <em>X-Men: Kingbreaker</em>.'
   - evento: Age of Ultron
     anio: 2013
     enlaces:

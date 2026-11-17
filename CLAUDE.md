@@ -95,8 +95,9 @@ Cada entrada marcable lleva `id` con formato `{exp}-{bloque}-{slug(título)}`, p
 `m1-b4-uncanny-x-men-500-512` (exp: m1, m2, et, gg, jv, 4f, rw). Es la clave de las marcas de lectura
 guardadas por el usuario. **No cambies ni borres un `id`**, aunque cambie el título o la entrada
 se mueva de bloque o de expediente. Al partir una ficha en dos, la parte que conserva el contenido
-original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 506 entradas
-marcables (m1 125, m2 81, et 15, gg 36, jv 36, 4f 163, rw 50).
+original se queda el `id`; la nueva recibe uno automáticamente al generar. Hay 576 entradas
+marcables (m1 168, m2 108, et 15, gg 36, jv 36, 4f 163, rw 50) tras la revisión completa del
+2026-11-17 (§7).
 
 Entradas movidas: `construir.py` detecta las que están en un expediente o bloque distinto del que
 indica su `id` y las inyecta en `lecturas.js` como `REUBICADAS` (`{id: 'exp-bloque'}`). La portada
@@ -264,15 +265,51 @@ Servicio (`servicio/`):
 
   Al principio el usuario pidió no tocar este volumen, pero después pidió verificarlo y
   corregirlo. Cámbialo solo cuando lo pida.
+- **Criterio de los dos expedientes mutantes (decidido el 2026-11-17): exhaustividad.** Deben
+  recoger *todos* los cómics mutantes, de grupo e individuales, «sin dejarse ningún número fuera».
+  Revisión completa hecha ese día en los dos volúmenes:
+  - lo menor va en fichas opcionales agrupadas por año («Miniseries y especiales (AAAA)»,
+    «Especiales (AAAA)»), con título, números, autor y año;
+  - lo publicado en esos años pero ambientado en el pasado, en un futuro posible o en otra realidad
+    va en una ficha «Al margen de la continuidad» por bloque (etiqueta `t4`);
+  - nota «Qué recoge y qué no» al final del apéndice de cada volumen. Quedan fuera a propósito:
+    **Infinity Comics** (cómics digitales verticales, «por ahora», decisión del usuario) y sus
+    ediciones en papel, reediciones, guías y *Handbooks*, infantiles y promocionales, series
+    propias de Deadpool salvo cruces con los X-Men, y *Ultimate X-Men* (2024).
+  - Método: categorías de Marvel Fandom `Comics Released in <Mes>, <Año>` (todo lo publicado cada
+    mes) y, para 2019–2024, las de etapa (`Dawn of X`, `Reign of X`, `Destiny of X`, `Fall of X`,
+    `Fall of the House of X`, `Hellfire Gala`…). Ojo: en `X-Men: From the Ashes` solo están
+    etiquetados los #1. Al cotejar, una cita sin volumen («Nightcrawler #1–12») tapa los demás
+    volúmenes del mismo nombre: revisarlos a mano.
+- **Mutante I tras la revisión**: tramo 1.1 ampliado con lo que cierra la etapa anterior en 2001;
+  fichas propias de *Wolverine* vol. 2 #160–189, *Wolverine* vol. 3 #36–65, *Wolverine Weapon X*,
+  *Wolverine* vol. 4 #300–317, *Uncanny Avengers* (las tres), *All-New X-Factor*, *X-23* (2005 y
+  2018), *Emperor Vulcan*, *Dead Man Logan*, *Gambit* (2012)…; recuadro nuevo **War of Kings**
+  (ancla `ev-wok-m1`, mismo orden que Guardianes; la portada lo enlaza); preludios añadidos a *AvX*
+  (*X-Sanction*) y *Schism* (*Prelude to Schism*). 29 eventos, ~2.700 números.
 - **Mutante II (m2, 2019–2026)**, 7 bloques: Dawn of X → Reign of X → Destiny of X → Fall of X →
   From the Ashes → Age of Revelation → Shadows of Tomorrow. Incluye las tres Hellfire Gala,
   A.X.E., Sins of Sinister y The Last Annihilation (añadido a petición). *Death of Doctor Strange*
   (2021–2022) se añadió a petición el 2026-11-09 como evento de línea al final del tramo 2.2. El
   orden es el de Comic Book Herald, con *X-Men/Black Knight* antes del #4. El peso mutante es
   secundario: Magik sale en los #1, #4 y #5, y los X-Men, en la batalla del #5 y en ese one-shot.
+  Revisión completa del 2026-11-17 (a partir de una guía de Miro que el usuario compartió con
+  capturas): añadidas *Sabretooth & the Exiles*, *Lethal Legion*, *Trial of Magneto*,
+  *Uncanny Spider-Man*, *Invincible Iron Man* vol. 5, *Psylocke*, *Sentinels*, el evento
+  *Giant-Size X-Men* (2025), *X-Men of Apocalypse* y un tramo 4.2 («Entre dos eras»). Corregidos y
+  verificados (no reintroducir los errores):
+  - Gala 2021: 12 partes oficiales en orden de publicación; *Cable* #11 **no** es parte, *X-Corp*
+    #2 y *Way of X* #3 sí;
+  - *Way of X* tiene 5 números + *The Onslaught Revelation*; *X-Factor* #4 es capítulo 2 de *X of
+    Swords*; *X-Men: Forever* tiene 4 números; *NYX* y *X-Force* (2024) acaban en el #10;
+  - *Weapon X-Men* (2024, Gage) y *Weapon X-Men* vol. 2 (2025, Casey) son series distintas;
+  - Fall of the House of X: orden completo de sus 43 números por fecha; capítulos de *Invincible
+    Iron Man* #14–18 (no #15–19);
+  - **no existe una «Hellfire Gala (2026)» de octubre**: la gala de 2026 es *X-Men: The Hellfire
+    Murder* #1 (julio). La ficha conserva el `id` `m2-b7-hellfire-gala-2026`.
 - **HoX/PoX abre el Mutante II** (primera ficha del bloque 1, ancla `hoxpox`, «Léelos antes que
   nada»), a petición del usuario. El Mutante I termina con un recuadro de frontera que enlaza
-  con ella. Cifras: m1 28 eventos, m2 21.
+  con ella. Cifras: m1 29 eventos, m2 22.
 - Las páginas de expediente tienen un botón «Inicio» fijo arriba a la izquierda (`inicio` en la
   plantilla: ruta relativa a la portada).
 - **Eternos (et, 2006–2026; renombrado de «Eterno» el 2026-10-31, conservando la clave `et`, los
@@ -349,6 +386,15 @@ Servicio (`servicio/`):
   ahí se recuperaron los 20 cortes de 4 Fantásticos y Jóvenes Vengadores.
 - La auditoría lee también los apartados de los eventos: citar `X-23 #1–7` en «Antes de empezar»
   cuenta como colocar esos números y da un falso «repetidos». Redáctalo sin el patrón serie + número.
+  Dentro de un mismo recuadro o ficha no hay repetidos (se cuenta por artículo), pero entre fichas
+  sí. Trucos para citar sin que cuente: poner el año entre el nombre y el número («X-23 (2018)
+  #1–12», «X-Force (2004) #1–6»), o escribir los números .1 sin almohadilla («X-Men: Legacy
+  260.1»). Ojo con las reglas sin `bloques`: una cita suelta «X-Men #5» o «Wolverine #3» en
+  cualquier bloque cuenta para X-Men vol. 3 o Wolverine vol. 4.
+- `construir.py` reescribe el YAML al asignar `id` nuevos (`yamlio`), y puede quitar comillas o
+  cambiar el formato de líneas ya escritas: tras generar, vuelve a leer el texto antes de editarlo.
+- Al insertar una ficha nueva justo después de la `descripcion` de otra, la `etiqueta` original pasa
+  a la nueva: comprueba que cada ficha conserva la suya.
 - Plantillas Jinja con el `Undefined` normal (con StrictUndefined fallan los campos opcionales).
   Placeholders en recursos: `{{ NOMBRE }}` (con `%` se rompía el CSS).
 - Pruebas con Chrome headless:
@@ -373,3 +419,7 @@ Servicio (`servicio/`):
 3. Ofertas sin respuesta del usuario:
    - autoenlazar nombres de evento en las notas de continuidad;
    - reformular la mención del one-shot Imperial Guardians #1.
+4. Infinity Comics mutantes: fuera «por ahora» (2026-11-17). Si se incluyen, la recomendación
+   es una lista por bloque en el apéndice (son más de 170 entregas digitales).
+5. El bloque 7 del Mutante II está vivo: revisar cada mes lo nuevo (Fandom publica las
+   solicitudes con un par de meses de adelanto).

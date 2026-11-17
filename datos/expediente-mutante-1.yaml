@@ -14,9 +14,9 @@ cabecera:
     texto: Años de continuidad
   - valor: '25'
     texto: Tramos de lectura
-  - valor: '28'
+  - valor: '29'
     texto: Eventos y crossovers
-  - valor: ~1.500
+  - valor: ~2.700
     texto: Números en total
 leyenda: |-
   <p>Cada bloque se divide en <strong>tramos</strong>: fragmentos de continuidad que se leen en paralelo, alternando las cabeceras que hay dentro. Entre tramo y tramo se intercala el <strong>evento</strong> que los separa, con su orden capítulo a capítulo.</p>
@@ -38,7 +38,7 @@ leyenda: |-
 cajas:
 - ruta:
     titulo: La ruta corta
-    texto: 'Si 1.500 números te parecen demasiados, esta es la columna vertebral: quince paradas que, leídas en orden, cuentan la historia mutante completa de estos dieciocho años sin agujeros importantes.'
+    texto: 'Si 2.700 números te parecen demasiados, esta es la columna vertebral: quince paradas que, leídas en orden, cuentan la historia mutante completa de estos dieciocho años sin agujeros importantes.'
     pasos:
     - <span>New X-Men <em>#114–154</em></span>
     - <span>Astonishing X-Men <em>#1–24</em></span>
@@ -67,9 +67,38 @@ bloques:
   - tramo:
       numero: '1.1'
       titulo: La puerta de entrada
-      cuando: Verano de 2001
-      nota: Seis números de transición que despiden la etapa anterior y colocan a cada equipo en su sitio. Puedes saltártelos y empezar directamente en el tramo 1.2.
+      cuando: Enero – verano de 2001
+      nota: Lo que cierra la etapa anterior y los seis números de transición que colocan a cada equipo en su sitio. Puedes saltártelo todo y empezar directamente en el tramo 1.2.
       entradas:
+      - serie:
+          id: m1-b1-lo-que-termina-en-2001
+          titulo: Lo que termina en 2001
+          creditos: 'Uncanny X-Men #390 · X-Men vol. 2 #110 · Cable #89–96 · X-Force vol. 1 #111–115 · X-Man #73–75 · Generation X #73–75 · Excalibur (2001) #1–4 · enero – junio 2001'
+          continuidad:
+          - sigue: '▸ Cable y X-Force siguen en el tramo 1.2 (desde el #97 y el #116); X-Man y Generation X terminan aquí'
+          descripcion:
+          - Los últimos números de la etapa anterior, publicados en la primera mitad del año. <em>X-Man</em> (Warren Ellis) y <em>Generation X</em> (Brian Wood) se despiden; <em>Excalibur</em> es una miniserie de Ben Raab con Capitán Britania.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-miniseries-y-especiales-que-terminan-en-2001
+          titulo: Miniseries y especiales que terminan en 2001
+          creditos: 'X-Men Forever #1–6 (Fabian Nicieza) · X-Men: The Search for Cyclops #1–4 · Gambit &amp; Bishop: Genesis #1 + Gambit &amp; Bishop #1–6 (Scott Lobdell) · Blink #1–4 (Scott Lobdell) · Magik #1–4 (Andy Lanning) · Sentry/X-Men #1 (Paul Jenkins) · Uncanny X-Men Annual 2000 · finales de 2000 – mayo 2001'
+          descripcion:
+          - Empezaron en 2000 y se cierran antes de la llegada de Morrison. <em>X-Men Forever</em> (2001) no tiene nada que ver con la serie de Claremont de 2009.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-al-margen-de-la-continuidad-hasta-2001
+          titulo: Al margen de la continuidad (hasta 2001)
+          creditos: 'X-Men: The Hidden Years #1–22 (John Byrne, 1999–2001) · Mutant X #1–32 + Annual 2001 (Howard Mackie, 1998–2001)'
+          descripcion:
+          - <em>The Hidden Years</em> continúa la serie original de los sesenta donde se canceló; <em>Mutant X</em> sigue a Havok en una realidad alternativa.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
       - serie:
           id: m1-b1-eve-of-destruction-uncanny-x-men-391-393-x-men-vol-2-111-113
           titulo: '«Eve of Destruction» <span class="nums">Uncanny X-Men #391–393 · X-Men vol. 2 #111–113</span>'
@@ -115,6 +144,17 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b1-wolverine-vol-2-160-189
+          titulo: Wolverine vol. 2 <span class="nums">#160–189</span>
+          creditos: Frank Tieri y otros · 2001–2003
+          continuidad:
+          - sigue: ▸ La serie se relanza como <em>Wolverine</em> vol. 3 (ficha siguiente)
+          descripcion:
+          - Los últimos dos años de la serie de 1988, que llega a su número 189 antes del relanzamiento de 2003. Casi toda la etapa es de Frank Tieri.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
       - serie:
           id: m1-b1-wolverine-vol-3-1-32
           prioridad: p2
@@ -168,9 +208,28 @@ bloques:
       - serie:
           id: m1-b1-solitarios-de-la-etapa
           titulo: Solitarios de la etapa
-          creditos: 'Emma Frost #1–18 · Mystique #1–24 · Nightcrawler #1–12 · Rogue #1–12 · Gambit #1–12 · Chamber #1–4'
+          creditos: 'Emma Frost #1–18 · Mystique #1–24 · Nightcrawler #1–12 · Rogue #1–12 · Gambit #1–12 · Chamber #1–4 · y las miniseries de 2001–2003: Cyclops #1–4 (Brian K. Vaughan) · Rogue #1–4 (Fiona Avery) · Iceman #1–4 (Dan Abnett) · Nightcrawler #1–4 · Domino #1–4 (Joe Pruett)'
           descripcion:
           - Todos prescindibles para la trama general. <em>Mystique</em> (Vaughan) y <em>Emma Frost</em> son los más sólidos si te interesa el personaje.
+          - 'Ojo con los nombres: las miniseries de cuatro números de <em>Cyclops</em>, <em>Rogue</em>, <em>Iceman</em> y <em>Nightcrawler</em> son de 2001–2002 y no tienen relación con las series largas de esos personajes.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-x-men-unlimited-30-50-vol-2-1-14
+          titulo: X-Men Unlimited <span class="nums">#30–50</span> · vol. 2 <span class="nums">#1–14</span>
+          creditos: Antología, varios autores · 2001–2003 y 2004–2006
+          descripcion:
+          - Historias cortas y sueltas de toda clase de personajes, dentro de la continuidad. Ninguna es necesaria para seguir las cabeceras.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b1-miniseries-y-especiales-2001-2004
+          titulo: Miniseries y especiales (2001–2004)
+          creditos: 'X-Treme X-Men: Savage Land #1–4 + Annual 2001 · X-Treme X-Pose #1–2 · Mekanix #1–6 (las tres de Chris Claremont) · New X-Men Annual 2001 (Morrison) · Uncanny X-Men Annual 2001 · Wolverine Annual 2001 · Morlocks #1–4 (Geoff Johns) · X-Factor (2002) #1–4 (Jeff Jensen) · Sabretooth: Mary Shelley Overdrive #1–4 · Weapon X: The Draft (cinco especiales) + Weapon X ½ · Wolverine/Hulk #1–4 (Sam Kieth) · Hulk/Wolverine: 6 Hours #1–4 · Wolverine: Xisle #1–5 · Wolverine/Doop #1–2 (Milligan y Cooke) · Spider-Man and Wolverine #1–4 · Sentinel #1–12 (Sean McKeever) · NYX #1–7 (Joe Quesada) · Wolverine/Captain America #1–4 · Wolverine/Punisher #1–5 · Starjammers #1–6 · Alpha Flight (2004) #1–12 (Scott Lobdell) · Jubilee #1–6 (Robert Kirkman) · X-Force (2004) #1–6 (Rob Liefeld) · Sabretooth (2004) #1–4 (Daniel Way)'
+          descripcion:
+          - Todo lo que se publicó alrededor de las cabeceras en estos años. Destacan <em>Mekanix</em> (Kitty Pryde en la universidad), <em>NYX</em> (adolescentes mutantes en la calle, donde debuta X-23 en el cómic), los cinco especiales de <em>The Draft</em>, que son el prólogo de <em>Weapon X</em> vol. 2, y <em>Sentinel</em>, un chaval que reconstruye un Centinela.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -181,9 +240,20 @@ bloques:
           creditos: Judd Winick, Tony Bedard / Mark Millar, Brian Bendis, Robert Kirkman · 2001–2009
           descripcion:
           - 'Realidades ajenas. No tocan la continuidad principal en ningún punto de esta guía: se leen aparte o no se leen.'
+          - 'Si sigues cualquiera de las dos, esto es lo que viene después. <strong>Exiles</strong>: Exiles Annual #1 (2006), New Exiles #0–18 + Annual #1 (Claremont, 2008–2009), Exiles (2009) #1–6 (Jeff Parker) y Exiles (2018) #1–12 (Saladin Ahmed). <strong>Ultimate</strong>: Ultimate X-Men Annual #1–2 (2005–2006), Ultimatum: X-Men Requiem #1 (2009), Ultimate X #1–5 (Jeph Loeb, 2010–2011), Ultimate Comics X-Men #1–33 (2011–2013), Ultimate Comics Wolverine #1–4 (2013) y Cataclysm: Ultimate X-Men #1–3 (2013–2014), con el que se cierra ese universo.'
           etiqueta:
             clase: t4
             texto: Alterna
+      - serie:
+          id: m1-b1-al-margen-de-la-continuidad-2001-2004
+          titulo: Al margen de la continuidad (2001–2004)
+          creditos: 'Wolverine: The Origin #1–6 (Paul Jenkins y Andy Kubert, 2001–2002) · Elektra and Wolverine: The Redeemer #1–3 · Wolverine: Netsuke #1–4 (George Pratt) · Wolverine: Snikt! #1–5 (Tsutomu Nihei) · Namor #1–12 (2003–2004) · X-Men: Millennial Visions · Marvel Mangaverse: X-Men #1 · X-Men: Ronin #1–5 · X-Men: Phoenix – Legacy of Fire #1–3 · Mutant X: Origin, Dangerous Decisions y Future Shock (2002) · Wolverine: The End #1–6 (2003–2005) · X-Men: The End, libros 1–3 (Claremont, 2004–2006) · Mutant 2099 #1 (2004)'
+          descripcion:
+          - '<em>Wolverine: The Origin</em> cuenta por fin la infancia de Logan en el siglo XIX y es la que más pesa después; <em>Namor</em> narra la juventud del primer mutante.'
+          - Las demás son futuros posibles (<em>The End</em>, <em>Mutant 2099</em>), versiones manga (<em>Mangaverse</em>, <em>Ronin</em>, <em>Snikt!</em>), visiones de autor (<em>Netsuke</em>, <em>The Redeemer</em>) o especiales de <em>Mutant X</em>.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - tramo:
       numero: '1.3'
       titulo: El relevo
@@ -298,6 +368,26 @@ bloques:
           etiqueta:
             clase: t4
             texto: Alterna
+      - serie:
+          id: m1-b2-x-23-1-6-innocence-lost
+          titulo: X-23 <span class="nums">#1–6</span> («Innocence Lost»)
+          creditos: Craig Kyle &amp; Christopher Yost · Billy Tan · enero – mayo 2005
+          continuidad:
+          - sigue: '▸ Continúa en <em>X-23: Target X</em> #1–6 (tramo 2.4)'
+          descripcion:
+          - 'El origen completo de Laura Kinney: quién la creó, cómo y qué relación tiene con Lobezno. Sale de <em>NYX</em>, donde debutó en el cómic, y es la base de todo lo que el personaje hace después.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b2-miniseries-y-especiales-2005
+          titulo: Miniseries y especiales (2005)
+          creditos: 'X-Men/Fantastic Four #1–5 (Akira Yoshida) · X-Men: Phoenix – Endsong #1–5 (Greg Pak) · X-Force: Shatterstar #1–4 (Rob Liefeld) · Wolverine: Soultaker #1–5 (Akira Yoshida) · New X-Men: Hellions #1–4 (DeFilippis &amp; Weir) · X-Men: Kitty Pryde – Shadow &amp; Flame #1–5 (Akira Yoshida y Paul Smith) · X-Men: Colossus – Bloodline #1–5 (David Hine) · Captain Universe: X-23 #1 · Giant-Size X-Men #3–4 · New X-Men: Academy X Yearbook #1 (justo antes de <em>House of M</em>)'
+          descripcion:
+          - '<em>Endsong</em> es la que más pesa: la Fuerza Fénix intenta resucitar a Jean Grey tras su muerte en <em>New X-Men</em>. <em>Hellions</em> sale de <em>New X-Men: Academy X</em> con los alumnos más conflictivos del Instituto.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b2-house-of-m
       etiqueta: Evento · Julio – diciembre 2005
@@ -332,9 +422,10 @@ bloques:
           id: m1-b2-las-miniseries-de-la-decimacion
           prioridad: p2
           titulo: Las miniseries de la Decimación
-          creditos: 'Generation M #1–5 · X-Men: The 198 #1–5 · Sentinel Squad O*N*E #1–5 · 2006'
+          creditos: 'Decimation: House of M – The Day After #1 (Chris Claremont, 2005) · Son of M #1–6 (David Hine) · Generation M #1–5 · X-Men: The 198 #1–5 · Sentinel Squad O*N*E #1–5 · Sentinel vol. 2 #1–5 · 2005–2006'
           descripcion:
           - <em>Generation M</em> (los que perdieron sus poderes) es claramente la mejor de las tres.
+          - Abren el grupo <em>The Day After</em>, el primer día del mundo sin mutantes, y <em>Son of M</em>, con Mercurio, ya sin poderes, intentando recuperarlos con las nieblas terrígenas. <em>Sentinel</em> vol. 2 cierra la serie de Sean McKeever del bloque 1.
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -412,6 +503,27 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b2-wolverine-vol-3-36-65
+          titulo: Wolverine vol. 3 <span class="nums">#36–65</span>
+          creditos: Daniel Way, Marc Guggenheim, Jeph Loeb, Jason Aaron y otros · noviembre 2005 – mayo 2008
+          continuidad:
+          - viene: ◂ Viene de los capítulos de <em>House of M</em> (#33–35)
+          - sigue: ▸ Sigue con «Old Man Logan» (#66–72, tramo 3.2)
+          descripcion:
+          - 'Lobezno ya con toda la memoria recuperada tras <em>House of M</em>. Arcos: «Origins and Endings» (Way, #36–40), «Vendetta» (Guggenheim, #42–48, tie-in de <em>Civil War</em>), «Evolution» (Loeb y Simone Bianchi, #50–55), «Logan Dies» (Guggenheim, #57–61) y «Get Mystique!» (Aaron, #62–65), el mejor de todos.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b2-miniseries-y-especiales-2006
+          titulo: Miniseries y especiales (2006)
+          creditos: 'X-Men: Phoenix – Warsong #1–5 (Greg Pak) · Uncanny X-Men Annual #1 (Chris Claremont) · Giant-Size Wolverine #1 (David Lapham) · 2006–2007'
+          descripcion:
+          - '<em>Warsong</em> sigue a <em>Endsong</em>: las Cucos de Stepford y su vínculo con la Fuerza Fénix. El <em>Annual</em> de Claremont va de Tormenta y África, a las puertas de su boda con Pantera Negra.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - tramo:
       numero: '2.4'
       titulo: Vulcan y el Imperio Shi'ar
@@ -464,6 +576,29 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b2-x-men-emperor-vulcan-1-5
+          titulo: 'X-Men: Emperor Vulcan <span class="nums">#1–5</span>'
+          creditos: Christopher Yost · Paco Diaz · septiembre 2007 – enero 2008
+          continuidad:
+          - viene: '◂ Continúa «The Rise and Fall of the Shi''ar Empire» (<em>Uncanny X-Men</em> #475–486)'
+          - sigue: '▸ Sigue en <em>X-Men: Kingbreaker</em> y <em>War of Kings</em> (bloque 4)'
+          descripcion:
+          - Vulcan, ya emperador shi'ar, contra su hermano Havok y los Starjammers. Es el puente entre la space opera de Brubaker y la guerra de 2009.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b2-mas-miniseries-y-especiales-2006-2008
+          titulo: Más miniseries y especiales (2006–2008)
+          creditos: 'X-23: Target X #1–6 (Kyle &amp; Yost) · X-Men Annual #1 (Mike Carey, 2007) · Mystic Arcana: Magik #1 (Louise Simonson) · Wolverine: Origins Annual #1 · Wolverine Annual #1–2 (Gregg Hurwitz, 2007–2008) · Wolverine: Firebreak #1 (Mike Carey) · 2006–2008'
+          continuidad:
+          - viene: '◂ <em>Target X</em> continúa <em>X-23</em> #1–6 (tramo 2.1)'
+          descripcion:
+          - <em>Target X</em> lleva a Laura de su origen a la vida con los X-Men; los demás son números sueltos.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
       - evento:
           id: m1-b2-world-war-hulk
           linea_marvel: true
@@ -488,6 +623,15 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b2-al-margen-de-la-continuidad-2005-2008
+          titulo: Al margen de la continuidad (2005–2008)
+          creditos: 'Ororo: Before the Storm #1–4 (2005) · Storm #1–6 (Eric Jerome Dickey, 2006) · X-Men: Apocalypse vs. Dracula #1–4 (2006) · Weapon X: Days of Future Now #1–5 (2005) · X-Men Fairy Tales #1–4 (2006) · Onslaught Reborn #1–5 (Loeb y Liefeld, 2006–2008) · House of M: Avengers #1–5 (2007–2008) · Civil War: House of M #1–5 (2008–2009)'
+          descripcion:
+          - 'Historias en el pasado (Tormenta de niña en El Cairo y su primer encuentro con T''Challa; Drácula contra Apocalipsis en el Londres de 1897), en un futuro posible (<em>Days of Future Now</em>, epílogo de <em>Weapon X</em> vol. 2) y en otras realidades: cuentos de hadas, el universo de <em>Heroes Reborn</em> y dos precuelas del mundo de <em>House of M</em>.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
 - id: b3
   fechas: 2007 — 2008
   titulo: El complejo del Mesías
@@ -552,6 +696,15 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b3-divided-we-stand-y-especiales-2008
+          titulo: Divided We Stand y especiales (2008)
+          creditos: 'X-Men: Divided We Stand #1–2 · Free Comic Book Day 2008: X-Men · X-Factor: The Quick and the Dead #1 · X-Factor Special: Layla Miller #1 (los dos de Peter David) · X-Force Special: Ain''t No Dog #1 (Charlie Huston) · 2008'
+          descripcion:
+          - <em>Divided We Stand</em> son dos antologías sobre qué hace cada X-Man ahora que no hay X-Men. Los dos especiales de <em>X-Factor</em> se leen junto a la serie de David.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - tramo:
       numero: '3.2'
       titulo: Las dos ramas del bebé
@@ -585,13 +738,35 @@ bloques:
       - serie:
           id: m1-b3-wolverine-66-72-old-man-logan
           prioridad: p4
-          titulo: Wolverine <span class="nums">#66–72</span> — «Old Man Logan»
-          creditos: Mark Millar · Steve McNiven · 2008
+          titulo: Wolverine <span class="nums">#66–72</span> + Giant-Size <span class="nums">#1</span> — «Old Man Logan»
+          creditos: Mark Millar · Steve McNiven · 2008–2009
           descripcion:
           - Futuro alterno famosísimo, sin ningún impacto en la continuidad… hasta que el personaje cruza a la principal en el bloque 7.
+          - 'El final está en <em>Wolverine: Old Man Logan Giant-Size</em> #1 (septiembre de 2009), que salió aparte con retraso: no lo olvides.'
           etiqueta:
             clase: t4
             texto: Alterna
+      - serie:
+          id: m1-b3-especiales-2008
+          titulo: Especiales (2008)
+          creditos: 'NYX: No Way Home #1–6 (Marjorie Liu, 2008–2009) · King-Size Cable Spectacular #1 (Duane Swierczynski) · 2008'
+          continuidad:
+          - viene: ◂ <em>No Way Home</em> es la secuela de <em>NYX</em> (bloque 1)
+          descripcion:
+          - El <em>King-Size</em> de Cable va con <em>Cable</em> vol. 2, en plena huida con la niña.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b3-al-margen-de-la-continuidad-2006-2010
+          titulo: Al margen de la continuidad (2006–2010)
+          creditos: 'Logan #1–3 (Brian K. Vaughan y Eduardo Risso, 2008) · X-Men: Magneto Testament #1–5 (Greg Pak, 2008–2009) · los once X-Men Origins (Colossus, Jean Grey, Beast, Sabretooth, Wolverine, Gambit, Iceman, Cyclops, Nightcrawler, Emma Frost y Deadpool, 2008–2010) · Angel: Revelations #1–5 (2008) · X-Men: Odd Men Out #1 (Roger Stern y Dave Cockrum, 2008) · X-Men/Spider-Man #1–4 (Christos Gage, 2008–2009) · la familia First Class (2006–2010): X-Men: First Class #1–8, vol. 2 #1–16, Special y Giant-Size Special, X-Men: First Class Finals #1–4, Uncanny X-Men: First Class #1–8 + Giant-Size Special, Wolverine: First Class #1–21 y Weapon X: First Class #1–3'
+          descripcion:
+          - Historias nuevas ambientadas en el pasado. <em>Magneto Testament</em> es la infancia de Magneto en la Alemania nazi y Auschwitz, y la más importante del grupo; <em>Logan</em> lleva a Lobezno a Hiroshima en 1945; los <em>X-Men Origins</em> recuentan el origen de cada personaje.
+          - La familia <em>First Class</em> (Jeff Parker y otros) son aventuras para todos los públicos de los X-Men originales y de los primeros años de Kitty Pryde con Lobezno, metidas entre los números clásicos.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
 - id: b4
   fechas: 2008 — 2011
   titulo: San Francisco, Utopía y la Segunda Venida
@@ -628,6 +803,7 @@ bloques:
           - sigue: '▸ Los números #231–234 son capítulos de <em>Necrosha</em>'
           descripcion:
           - Xavier busca a Rogue y a Gambit; la serie empieza a girar hacia Rogue como protagonista fija.
+          - 'Los dos primeros números son la mitad del cruce «Original Sin» con <em>Wolverine: Origins</em> (#28–29), que arranca en el one-shot <em>X-Men: Original Sin</em> #1 (Daniel Way, octubre de 2008).'
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -667,6 +843,16 @@ bloques:
           creditos: Varios / C.B. Cebulski / Warren Ellis · 2008–2009
           descripcion:
           - Complementos de la mudanza y el regreso de Magik. La etapa Ellis de <em>Astonishing</em> sigue fuera de todo crossover, igual que la de Whedon.
+          - 'Van con ellos <em>Astonishing X-Men: Ghost Boxes</em> #1–2 (Ellis, el complemento de su primer arco), <em>Wolverine: Manifest Destiny</em> #1–4 (Jason Aaron: Lobezno y el barrio chino de San Francisco) y el one-shot <em>X-Men: Manifest Destiny Nightcrawler</em> #1.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b4-especiales-2008-2009
+          titulo: Especiales (2008–2009)
+          creditos: 'X-Men: Worlds Apart #1–4 (Christopher Yost) · Uncanny X-Men Annual #2 (Matt Fraction, 2009) · X-Men vs. Hulk #1 · X-Men: Sword of the Braddocks #1 (los dos de Chris Claremont) · Astonishing Tales: Wolverine/Punisher #1–6 · Astonishing Tales: Mojoworld #1–6 (Jonathan Hickman) · Wolverine: Agent of Atlas #1–3 (Jeff Parker) · one-shots de Lobezno: The Amazing Immortal Man, Dangerous Games, Killing Made Simple, Flies to a Spider, Chop Shop, Switchback, Rampaging Wolverine, Hunger, The Anniversary y Revolver · 2008–2009'
+          descripcion:
+          - <em>Worlds Apart</em> enfrenta a Tormenta con su doble papel de X-Man y reina de Wakanda; el <em>Annual</em> de Fraction es de Emma Frost en pleno <em>Dark Reign</em>. Los one-shots de Lobezno son historias sueltas, muchas en blanco y negro o de autor.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -680,6 +866,8 @@ bloques:
       apartados:
       - apartado: Orden completo
         texto: 'X-Force/Cable: Messiah War #1 → <span class="cap">Cable #13</span> → <span class="cap">X-Force #14</span> → <span class="cap">Cable #14</span> → <span class="cap">X-Force #15</span> → <span class="cap">Cable #15</span> → <span class="cap">X-Force #16</span>'
+      - apartado: Complemento
+        texto: '<em>X-Men: The Times and Life of Lucas Bishop</em> #1–3 (Swierczynski, 2009): por qué Bishop está obsesionado con matar a la niña. Se lee junto al evento.'
   - tramo:
       numero: '4.2'
       titulo: Entre guerras
@@ -698,11 +886,37 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - evento:
+          id: m1-b4-war-of-kings
+          ancla: ev-wok-m1
+          etiqueta: Evento cósmico · Cruce con los Guardianes de la Galaxia · 2009
+          titulo: War of Kings
+          creditos: Dan Abnett &amp; Andy Lanning · Paul Pelletier · <em>Kingbreaker</em> de Christopher Yost
+          descripcion:
+          - 'El imperio shi''ar de Vulcan contra los Kree de Rayo Negro y los Inhumanos. La parte mutante es <em>X-Men: Kingbreaker</em>: Havok, Polaris, Rachel y los Starjammers contra Vulcan, a continuación de <em>Emperor Vulcan</em> (bloque 2). El mismo evento está en el Expediente Guardianes, con el mismo orden.'
+          apartados:
+          - apartado: Orden completo
+            texto: 'Secret Invasion: War of Kings #1 → <span class="cap">X-Men: Kingbreaker #1–4</span> → War of Kings: Darkhawk #1–2 → Nova #23–24 → <strong>War of Kings #1–3</strong> → Guardians of the Galaxy #13–14 → <strong>War of Kings #4–6</strong> → Guardians of the Galaxy #15–17 → Nova #25–28 → War of Kings: Who Will Rule? #1 → Guardians of the Galaxy #18–19 → Nova #29–31'
+          - apartado: Versión mínima
+            texto: '<em>Kingbreaker</em> #1–4 y <em>War of Kings</em> #1–6. Los demás tie-ins (<em>Ascension</em>, <em>Warriors</em>, <em>Savage World of Sakaar</em>) son prescindibles.'
+      - serie:
+          id: m1-b4-wolverine-weapon-x-1-16
+          prioridad: p2
+          titulo: Wolverine Weapon X <span class="nums">#1–16</span>
+          creditos: Jason Aaron · Ron Garney, Yanick Paquette · abril 2009 – agosto 2010
+          continuidad:
+          - sigue: ▸ Aaron continúa con <em>Wolverine</em> vol. 4 (tramo 4.5)
+          descripcion:
+          - 'La serie principal de Lobezno de estos años: los planos del programa Arma X caen en manos de una empresa militar privada, y Logan acaba encerrado en un psiquiátrico. Empieza aquí la larga etapa de Jason Aaron con el personaje.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
       - serie:
           id: m1-b4-dark-wolverine-75-90
           titulo: Dark Wolverine <span class="nums">#75–90</span>
           creditos: Daniel Way &amp; Marjorie Liu · Giuseppe Camuncoli, Stephen Segovia · 2009–2010
           continuidad:
+          - viene: ◂ Hereda la numeración de <em>Wolverine</em> vol. 3, que cierra antes en sus números 73–74 (Aaron y Way, mayo – junio 2009)
           - sigue: '▸ Continúa en el tramo 4.5 como <em>Daken: Dark Wolverine</em>, desde el #1'
           descripcion:
           - 'Daken, el hijo de Lobezno y el Lobezno de los Vengadores Oscuros de Osborn, hereda la numeración de <em>Wolverine</em> vol. 3. Se publicó de junio de 2009 a agosto de 2010: repártela a tu ritmo por los tramos 4.2, 4.3 y 4.4.'
@@ -721,7 +935,7 @@ bloques:
       - apartado: Orden completo
         texto: 'Dark Avengers/Uncanny X-Men: Utopia #1 → <span class="cap">Uncanny #513</span> → Dark Avengers #7 → <span class="cap">Uncanny #514</span> → Dark Avengers #8 → Dark Avengers/Uncanny X-Men: Exodus #1'
       - apartado: Epílogos (opcionales)
-        texto: 'Dark X-Men: The Beginning #1–3 · Dark X-Men #1–5 · X-Men: Nation X #1–4'
+        texto: 'Dark X-Men: The Beginning #1–3 · Dark X-Men: The Confession #1 · Dark X-Men #1–5 · X-Men: Nation X #1–4 · Nation X: X-Factor #1'
   - tramo:
       numero: '4.3'
       titulo: Nación X
@@ -740,6 +954,15 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b4-especiales-finales-de-2009
+          titulo: Especiales (finales de 2009)
+          creditos: 'Dark Reign: The List – X-Men #1 (Matt Fraction) · Dark Reign: The List – Wolverine #1 (Jason Aaron) · X-Men: Legacy Annual #1 (Mike Carey) · X-Men vs. Agents of Atlas #1–2 (Jeff Parker) · Psylocke #1–4 (Christopher Yost) · S.W.O.R.D. #1–5 (Kieron Gillen) · Wolverine vs. Thor #1–3 · one-shots de Lobezno: One Night Only, Under the Boardwalk, Wendigo!, Carni-Brawl, Savage, Worst There Is y Mr. X · 2009–2010'
+          descripcion:
+          - <em>Psylocke</em> devuelve a Betsy al cuerpo de Kwannon en Japón tras <em>Sisterhood</em>. <em>S.W.O.R.D.</em> sale de <em>Astonishing X-Men</em>, con Bestia y Abigail Brand en la agencia espacial.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-necrosha
       etiqueta: Crossover · 2009 – 2010
@@ -750,6 +973,8 @@ bloques:
       apartados:
       - apartado: Orden
         texto: 'X Necrosha #1 → <span class="cap">X-Force #21</span> → <span class="cap">New Mutants #6</span> → <span class="cap">Legacy #231</span> → <span class="cap">X-Force #22</span> → <span class="cap">New Mutants #7</span> → <span class="cap">Legacy #232</span> → <span class="cap">X-Force #23</span> → <span class="cap">New Mutants #8</span> → <span class="cap">Legacy #233</span> → <span class="cap">X-Force #24</span> → <span class="cap">Legacy #234</span> → <span class="cap">X-Force #25</span>'
+      - apartado: Complementos
+        texto: '<em>X Necrosha: The Gathering</em> #1 y el <em>X-Force Annual</em> #1 (2009), que salieron junto al evento, y el one-shot de <em>Dazzler</em> de 2010.'
   - tramo:
       numero: '4.4'
       titulo: Antes del asalto
@@ -768,6 +993,17 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b4-x-men-pixie-strikes-back-1-4-x-23-2010-1
+          titulo: 'X-Men: Pixie Strikes Back <span class="nums">#1–4</span> · X-23 (2010) <span class="nums">#1</span>'
+          creditos: Kathryn Immonen · Sara Pichelli / Marjorie Liu · Filipe Andrade · febrero – mayo 2010
+          continuidad:
+          - sigue: ▸ El one-shot de X-23 lleva a su serie de 2010 (tramo 4.5)
+          descripcion:
+          - 'Pixie, X-23, Armor, Mercury y Blindfold en Utopía: Pixie descubre quién es su padre. El one-shot de Marjorie Liu es el prólogo de su serie de <em>X-23</em>.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-second-coming
       etiqueta: Evento · 14 partes · 2010
@@ -779,7 +1015,7 @@ bloques:
       - apartado: Orden completo
         texto: 'X-Men: Second Coming #1 → <span class="cap">Uncanny #523</span> → <span class="cap">New Mutants #12</span> → <span class="cap">Legacy #235</span> → <span class="cap">X-Force #26</span> → <span class="cap">Uncanny #524</span> → <span class="cap">New Mutants #13</span> → <span class="cap">Legacy #236</span> → <span class="cap">X-Force #27</span> → <span class="cap">Uncanny #525</span> → <span class="cap">New Mutants #14</span> → <span class="cap">Legacy #237</span> → <span class="cap">X-Force #28</span> → X-Men: Second Coming #2'
       - apartado: Qué termina aquí
-        texto: '<em>X-Force</em> vol. 3 cierra en el #28 · <em>Cable</em> vol. 2 cierra en el #25 · complementos opcionales: <em>Second Coming: Prepare</em>, <em>Revelations: Hellbound</em> #1–3 y <em>Blind Science</em> #1'
+        texto: '<em>X-Force</em> vol. 3 cierra en el #28 · <em>Cable</em> vol. 2 cierra en el #25 · complementos opcionales: <em>Second Coming: Prepare</em>, <em>X-Men: Hellbound</em> #1–3 (Magik en el Limbo durante la batalla) y <em>X-Men: Blind Science</em> #1'
   - tramo:
       numero: '4.5'
       titulo: Después de la Segunda Venida
@@ -925,6 +1161,18 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b4-mas-series-y-especiales-2010-2011
+          titulo: Más series y especiales (2010–2011)
+          creditos: 'Astonishing X-Men: Xenogenesis #1–5 (Warren Ellis) · Astonishing Spider-Man &amp; Wolverine #1–6 (Jason Aaron y Adam Kubert) · Wolverine: The Best There Is #1–12 (Charlie Huston) · Namor: The First Mutant #5–11 + Annual #1 · Uncanny X-Men Annual #3 · Uncanny X-Men: The Heroic Age #1 (Matt Fraction) · World War Hulks: Captain America vs. Wolverine #1–2 · X-Force: Sex and Violence #1–3 (Kyle &amp; Yost) · Wolverine #900 y #1000 (antologías) · Magneto (2011) #1 (Howard Chaykin) · Cyclops (2011) #1 · Onslaught Unleashed #1–4 · Wolverine/Hercules: Myths, Monsters &amp; Mutants #1–4 · Wolverine &amp; Black Cat: Claws 2 #1–3 · Wolverine: Debt of Death #1 · 2010–2011'
+          continuidad:
+          - viene: '◂ <em>Namor: The First Mutant</em> sigue tras sus cuatro números de «Curse of the Mutants»'
+          descripcion:
+          - Lo que se publicó alrededor de las cabeceras en la «Heroic Age». <em>Xenogenesis</em> cierra la etapa de Ellis en <em>Astonishing</em>; <em>Astonishing Spider-Man &amp; Wolverine</em> es una aventura de Aaron por el tiempo; el <em>Annual</em> de <em>Uncanny</em> y el de <em>Namor</em> son dos partes del cruce «Escape from the Negative Zone».
+          - 'También salieron en estos años varios <strong>números .1</strong>, pensados como punto de entrada: <em>Uncanny X-Force</em> 5.1, <em>X-Factor</em> 224.1, <em>X-Men</em> vol. 3 15.1, <em>Wolverine</em> vol. 4 5.1, <em>Uncanny X-Men</em> 534.1 y <em>X-Men: Legacy</em> 260.1. Léelos antes del número entero que tienen delante.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b4-age-of-x
       etiqueta: Crossover · 2011
@@ -969,7 +1217,7 @@ bloques:
           - apartado: Versión mínima
             texto: '<em>Uncanny X-Men</em> #540–543 seguidos: se entienden sin el evento.'
           - apartado: Opcional
-            texto: '<em>Fear Itself: Uncanny X-Force</em> #1–3, <em>Fear Itself: Wolverine</em> #1–3 y un arco de <em>New Mutants</em> con Moonstar y Hela, dentro del evento.'
+            texto: '<em>Fear Itself: Uncanny X-Force</em> #1–3, <em>Fear Itself: Wolverine</em> #1–3 y un arco de <em>New Mutants</em> con Moonstar y Hela, dentro del evento. También <em>Alpha Flight</em> (2011) #0.1 y #1–8 (Pak y Van Lente), la vuelta del equipo canadiense, que nace como tie-in.'
           - apartado: Después
             texto: El último número de <em>Uncanny X-Men</em>, el 544, va después de <em>Schism</em>.
       - serie:
@@ -1011,6 +1259,16 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b4-al-margen-de-la-continuidad-2008-2011
+          titulo: Al margen de la continuidad (2008–2011)
+          creditos: 'X-Men Forever (Chris Claremont): Alpha #1, #1–24, Annual #1, Giant-Size #1 y X-Men Forever 2 #1–16 (2009–2011) · X-Factor Forever #1–5 y New Mutants Forever #1–5 (2010) · X-Men Noir #1–4 y X-Men Noir: Mark of Cain #1–4 · Wolverine Noir #1–4 · Weapon X Noir #1 · X-Babies #1–4 · X-Men: Misfits · Timestorm 2009/2099: X-Men #1 · Wolverine: Prodigal Son · X-Women #1 (Claremont y Milo Manara) · Gambit: From the Marvel Vault #1 · Free Comic Book Day 2009: Wolverine · Iceman and Angel #1 (2011)'
+          descripcion:
+          - 'Los <em>Forever</em> son continuaciones de autor: Claremont retoma los X-Men desde 1991 como si no se hubiera ido, y Louise Simonson hace lo mismo con <em>X-Factor</em> y <em>New Mutants</em>. Los <em>Noir</em> trasladan a los personajes a los años 30.'
+          - Las demás son versiones para otros públicos (manga, infantil), futuros alternativos o historias inéditas de los noventa (<em>From the Marvel Vault</em>).
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - evento:
       id: m1-b4-x-men-schism
       etiqueta: Evento · 2011 · Cierre del bloque
@@ -1019,6 +1277,8 @@ bloques:
       descripcion:
       - Cíclope y Lobezno rompen por el uso de menores en combate. La especie se parte en dos bandos y así seguirá hasta 2016.
       apartados:
+      - apartado: Antes de empezar
+        texto: '<em>X-Men: Prelude to Schism</em> #1–4 (Paul Jenkins, mayo – junio 2011): Xavier, Magneto, Cíclope y Lobezno recuerdan qué significa liderar justo antes de la ruptura. Opcional.'
       - apartado: Orden
         texto: 'X-Men: Schism #1–5 → X-Men: Regenesis #1 (reparto de bandos)'
       - apartado: Tie-in
@@ -1125,6 +1385,26 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b5-regenesis-series-y-especiales-2011-2012
+          titulo: Regénesis, series y especiales (2011–2012)
+          creditos: 'Magneto: Not a Hero #1–4 (Skottie Young) · X-Club #1–5 (Simon Spurrier) · Wolverine and the X-Men: Alpha &amp; Omega #1–5 (Brian Wood) · noviembre 2011 – mayo 2012'
+          descripcion:
+          - 'Tres miniseries con el sello <em>Regénesis</em>: Magneto aparece en vídeo matando a antimutantes (¿ha vuelto a las andadas?), el equipo científico de Utopía construye un ascensor espacial que se les va de las manos, y Lobezno y Kid Omega se pelean por el control de la Escuela Jean Grey… dentro de la cabeza de Logan.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b5-wolverine-vol-4-300-317
+          titulo: Wolverine vol. 4 <span class="nums">#300–317</span>
+          creditos: Jason Aaron, luego Cullen Bunn · enero – diciembre 2012
+          continuidad:
+          - viene: '◂ Es la misma serie de 2010 (tramos 4.5 y 4.6), que recupera la numeración clásica y salta al #300'
+          descripcion:
+          - Aaron cierra su etapa con Lobezno de vuelta en Japón, y Cullen Bunn firma los últimos números. Va con el <em>Wolverine Annual</em> de 2012 (Alan Davis).
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b5-avengers-vs-x-men
       etiqueta: Evento · Abril – diciembre 2012
@@ -1133,6 +1413,8 @@ bloques:
       descripcion:
       - 'Cinco mutantes reciben el poder del Fénix. El resultado reconfigura la línea entera y deja a Cíclope como criminal. Los tie-ins de las dos cabeceras mutantes son de lectura muy recomendable: cuentan el evento desde la escuela y desde Utopía.'
       apartados:
+      - apartado: Antes de empezar
+        texto: '<em>Avengers: X-Sanction</em> #1–4 (Jeph Loeb y Ed McGuinness, diciembre 2011 – marzo 2012): Cable vuelve del futuro con 24 horas para acabar con los Vengadores y salvar a Hope. Es el prólogo oficial del evento.'
       - apartado: Columna principal
         texto: 'AvX #0 → AvX #1–12 → AvX: Consequences #1–5'
       - apartado: Capítulos que salen de tus series en marcha
@@ -1178,10 +1460,28 @@ bloques:
           - viene: ◂ Legacy viene de <em>AvX</em>
           - sigue: '▸ X-Treme X-Men #12–13 y Astonishing X-Men #59–61 son capítulos de <em>X-Termination</em> (bloque 6)'
           descripcion:
-          - 'Todas cierran salvo <em>X-Factor</em>, que aguanta hasta el #262.'
+          - 'Todas cierran salvo <em>X-Factor</em>, que aguanta hasta el #262. <em>X-Treme X-Men</em> vol. 2 tiene además un número 7.1, que va antes de su #8.'
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b5-gambit-1-17-2012
+          titulo: Gambit <span class="nums">#1–17</span> (2012)
+          creditos: James Asmus · Clay Mann · agosto 2012 – septiembre 2013
+          descripcion:
+          - Remy vuelve a sus orígenes de ladrón, de golpe en golpe por el mundo. Autoconclusiva y ligera; se lee a la vez que el bloque 6.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b5-al-margen-de-la-continuidad-2011-2013
+          titulo: Al margen de la continuidad (2011–2013)
+          creditos: 'First X-Men #1–5 (Neal Adams, 2012–2013) · X-Men: Season One (2012) · Wolverine: Season One (2013) · A-Babies vs. X-Babies #1 (2012)'
+          descripcion:
+          - <em>First X-Men</em> cuenta un supuesto equipo mutante anterior al de Xavier, con Lobezno y Dientes de Sable. Los <em>Season One</em> son novelas gráficas que vuelven a contar los orígenes para lectores nuevos.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
 - id: b6
   fechas: 2012 — 2015
   titulo: Marvel NOW! y los cinco originales
@@ -1258,6 +1558,28 @@ bloques:
           - sigue: '▸ Astonishing X-Men #59–61 son de <em>X-Termination</em>; sigue en el tramo 6.2 desde el #62'
           descripcion:
           - 'Satélites del relanzamiento. <em>X-Factor</em> cierra en el #262 los siete años de Peter David.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b6-uncanny-avengers-1-22
+          titulo: Uncanny Avengers <span class="nums">#1–22</span>
+          creditos: Rick Remender · John Cassaday, Olivier Coipel, Daniel Acuña · octubre 2012 – 2014
+          continuidad:
+          - sigue: '▸ Los números #23–25 son el preludio de <em>AXIS</em> (tramo 6.2)'
+          descripcion:
+          - 'Tras <em>AvX</em>, el Capitán América monta un equipo mixto de Vengadores y X-Men liderado por Havok: Cráneo Rojo con el cerebro de Xavier, los gemelos de Apocalipsis y la profecía de Kang. Es la serie de Vengadores que más pesa para los mutantes de esta etapa.'
+          - 'Incluye dos números especiales: el 8AU (tie-in de <em>Age of Ultron</em>) y el 18.NOW. Después vienen <em>Uncanny Avengers</em> (2015) #1–5, en el tramo 6.3, y el vol. 3 en el bloque 7.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m1-b6-especiales-2013
+          titulo: Especiales (2013)
+          creditos: 'Savage Wolverine #1–23 (Frank Cho y otros, 2013–2014) · Astonishing X-Men Annual #1 · X-Men: Gold #1 (antología por los 50 años) · Wolverine: In the Flesh #1 · All-New X-Men Special #1 · Longshot Saves the Marvel Universe #1–4 · Wolverine and the X-Men Annual #1 · 2013–2014'
+          descripcion:
+          - <em>Savage Wolverine</em> es una serie de arcos sueltos de autor, empezando por Lobezno en la Tierra Salvaje; ninguno se cruza con el resto.
+          - 'Ojo a los <strong>números con sufijo</strong> de Marvel NOW!, que se leen en su sitio numérico: <em>Wolverine and the X-Men</em> 27AU (tie-in de <em>Age of Ultron</em>), <em>All-New X-Men</em> 22.NOW, <em>Uncanny X-Men</em> vol. 3 15.INH y 19.NOW, <em>X-Men</em> vol. 4 10.NOW y <em>Savage Wolverine</em> 14.NOW.'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -1360,8 +1682,10 @@ bloques:
           prioridad: p2
           titulo: Death of Wolverine <span class="nums">#1–4</span>
           creditos: Charles Soule · Steve McNiven · 2014
+          continuidad:
+          - viene: '◂ Viene de <em>Wolverine</em> vol. 6 #1–12 + Annual (Paul Cornell, 2014), en la que Logan ya ha perdido el factor curativo'
           descripcion:
-          - 'Logan muere y desaparece de la línea hasta 2018. Secuelas opcionales: <em>The Logan Legacy</em> #1–7, <em>The Weapon X Program</em> #1–5, <em>Wolverines</em> #1–20.'
+          - 'Logan muere y desaparece de la línea hasta 2018. Secuelas opcionales: <em>The Logan Legacy</em> #1–7, <em>The Weapon X Program</em> #1–5, <em>Wolverines</em> #1–20, y los one-shots <em>Deadpool &amp; Captain America</em> y <em>Life After Logan</em>.'
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -1374,6 +1698,24 @@ bloques:
           - sigue: '▸ Cyclops #12 es capítulo de <em>The Black Vortex</em>'
           descripcion:
           - 'Todas leíbles, ninguna imprescindible. <em>Amazing X-Men</em> #1–5 devuelve a Rondador Nocturno del más allá.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b6-all-new-x-factor-1-20
+          titulo: All-New X-Factor <span class="nums">#1–20</span>
+          creditos: Peter David · Carmine Di Giandomenico · enero 2014 – enero 2015
+          descripcion:
+          - 'Peter David vuelve a <em>X-Factor</em>: Polaris, Quicksilver y Gambito como equipo corporativo de una multinacional tecnológica. La secuela natural de su etapa larga.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b6-mas-series-y-especiales-2014-2015
+          titulo: Más series y especiales (2014–2015)
+          creditos: 'Wolverine vol. 6 #1–12 + Annual (Paul Cornell, 2014) · Spider-Man and the X-Men #1–6 (Elliott Kalan, 2014–2015) · X-Men: No More Humans (Mike Carey, novela gráfica) · Uncanny X-Men Special #1 · Amazing X-Men Annual #1 · All-New X-Men Annual #1 y Uncanny X-Men Annual #1 (Bendis, 2014) · Death of Wolverine: Deadpool &amp; Captain America #1 · Death of Wolverine: Life After Logan #1'
+          descripcion:
+          - <em>Wolverine</em> vol. 6 lleva a Logan, ya sin factor curativo, hasta <em>Death of Wolverine</em>. En <em>Spider-Man and the X-Men</em>, Spider-Man es orientador en la Escuela Jean Grey. En <em>No More Humans</em> desaparecen todos los humanos de la Tierra y las facciones de X-Men tienen que unirse.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -1393,7 +1735,7 @@ bloques:
           - apartado: Versión mínima
             texto: '<em>AXIS</em> #1–9: la serie de nueve números se sostiene sola.'
           - apartado: Opcional
-            texto: '<em>AXIS: Revolutions</em> #1, que se puede leer tras <em>AXIS</em> #1, y los tie-ins de otras series.'
+            texto: '<em>AXIS: Revolutions</em> #1–4 (el primero se lee tras <em>AXIS</em> #1) y los tie-ins de otras series.'
   - evento:
       id: m1-b6-the-black-vortex
       etiqueta: Crossover · 13 partes · 2015
@@ -1422,10 +1764,31 @@ bloques:
             clase: t1
             texto: Esencial
       - serie:
+          id: m1-b6-uncanny-avengers-2015-1-5
+          titulo: Uncanny Avengers (2015) <span class="nums">#1–5</span>
+          creditos: Rick Remender · Daniel Acuña · enero – junio 2015
+          continuidad:
+          - viene: ◂ Viene de <em>AXIS</em>
+          - sigue: ▸ El equipo sigue en <em>Uncanny Avengers</em> vol. 3 (bloque 7)
+          descripcion:
+          - 'Remender cierra su etapa con el equipo de Vengadores y X-Men tras <em>AXIS</em>. Va con el one-shot <em>Uncanny Avengers: Ultron Forever</em>, parte del cruce «Ultron Forever» (2015).'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b6-al-margen-de-la-continuidad-2012-2015
+          titulo: Al margen de la continuidad (2012–2015)
+          creditos: 'Wolverine Max #1–15 (2012–2014) · Fantomex Max #1–4 (2013–2014) · Marvel Knights: X-Men #1–5 (Brahm Revel, 2013–2014) · Deadpool vs. X-Force #1–4 (2014) · 100th Anniversary Special: X-Men #1 (2014)'
+          descripcion:
+          - Las <em>Max</em> son versiones adultas sin ataduras de continuidad; <em>Marvel Knights</em> es una historia de autor; <em>Deadpool vs. X-Force</em> transcurre en los noventa, y el especial del centenario imagina a los X-Men en 2061.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
+      - serie:
           id: m1-b6-secret-wars-tie-ins-mutantes
           prioridad: p4
           titulo: Secret Wars — tie-ins mutantes
-          creditos: 'E is for Extinction · Years of Future Past · Age of Apocalypse · House of M · X-Tinction Agenda · Inferno · X-Men ''92 · Old Man Logan #1–5 · 2015'
+          creditos: 'E is for Extinction · Years of Future Past · Age of Apocalypse · House of M · X-Tinction Agenda · Inferno · X-Men ''92 · Old Man Logan #1–5 · Star-Lord and Kitty Pryde #1–3 · 2015'
           descripcion:
           - 'El universo Marvel se destruye y se reconstruye. Solo necesitas <em>Secret Wars</em> #1–9 para el contexto; los tie-ins son homenajes a etapas clásicas. <em>Inferno</em> (Coloso y Magik) y <em>Old Man Logan</em> son los únicos con consecuencias posteriores.'
           etiqueta:
@@ -1478,6 +1841,17 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b7-uncanny-avengers-vol-3-1-30
+          titulo: Uncanny Avengers vol. 3 <span class="nums">#1–30</span>
+          creditos: Gerry Duggan · Ryan Stegman, Pepe Larraz · octubre 2015 – diciembre 2017
+          continuidad:
+          - viene: ◂ Viene de <em>Uncanny Avengers</em> (2015), bloque 6
+          descripcion:
+          - La Unidad de Vengadores sigue mezclando mutantes (Rogue, Cable) con Inhumanos y Vengadores en plena crisis de las nieblas terrígenas. Se publica a lo largo de todo el bloque y se cruza con los eventos de Marvel de esos años, no con los mutantes.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - evento:
       id: m1-b7-apocalypse-wars
       etiqueta: Crossover temático · 2016
@@ -1524,6 +1898,27 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m1-b7-especiales-2016
+          titulo: Especiales (2016)
+          creditos: 'X-Men: Worst X-Man Ever #1–5 (Max Bemis) · Deadpool v Gambit #1–5 · All-New Wolverine Annual #1 (Tom Taylor) · Extraordinary X-Men Annual #1 · All-New X-Men Annual #1 · Uncanny X-Men Annual #1 · 2016'
+          descripcion:
+          - Los cuatro <em>Annual</em> de 2016 son historias sueltas de cada cabecera. <em>Worst X-Man Ever</em> es la comedia de un mutante cuyo poder es explotar… una sola vez. <em>All-New X-Men</em> vol. 2 tiene además un número 1.MU (2017), tie-in de <em>Monsters Unleashed</em>.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b7-x-men-92-1-10-2016
+          titulo: X-Men '92 <span class="nums">#1–10</span> (2016)
+          prioridad: p4
+          creditos: Chris Sims &amp; Chad Bowers · Alti Firmansyah · 2016
+          continuidad:
+          - viene: ◂ Continúa el tie-in de <em>Secret Wars</em> del mismo nombre (bloque 6)
+          descripcion:
+          - Los X-Men de la serie de animación de los noventa, en su propia realidad.
+          etiqueta:
+            clase: t4
+            texto: Alterna
       - evento:
           id: m1-b7-civil-war-ii
           linea_marvel: true
@@ -1608,6 +2003,16 @@ bloques:
           creditos: 'Weapon X vol. 3 #1–27 · Generation X #1–9 y #85–87 · Iceman #1–11 + vol. 2 #1–5 · Jean Grey #1–11 · Cable vol. 3 #150–159 · Astonishing X-Men vol. 4 #1–17 · Old Man Logan #15–50 · Rogue &amp; Gambit #1–5 → Mr. and Mrs. X #1–12 · New Mutants: Dead Souls #1–6 · Domino #1–10 · Multiple Man #1–5'
           descripcion:
           - Cabeceras de acompañamiento, ninguna cruzada con los eventos. <em>Mr. and Mrs. X</em> y <em>Domino</em> son las más disfrutables.
+          - 'Dos huecos que cerrar: <em>Cable</em> vol. 3 empieza en sus números 1–5 (James Robinson, 2017) antes de saltar al 150, y <em>Domino</em> sigue en su <em>Annual</em> (2018) y en <em>Domino: Hotshots</em> #1–5 (Gail Simone, 2019). <em>Weapon X</em> vol. 3 se cruza con <em>Totally Awesome Hulk</em> en «Weapons of Mutant Destruction», que arranca en el especial <em>Alpha</em> #1 (2017).'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-especiales-2017
+          titulo: Especiales (2017)
+          creditos: 'Generations: Phoenix &amp; Jean Grey #1 (Cullen Bunn) · Generations: Wolverine &amp; All-New Wolverine #1 (Tom Taylor) · Deadpool vs. Old Man Logan #1–5 (Declan Shalvey, 2017–2018)'
+          descripcion:
+          - Los dos <em>Generations</em> juntan a la Jean Grey joven con la Fénix y a Laura con el Logan clásico; el de Jean prepara su regreso.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -1682,7 +2087,16 @@ bloques:
           titulo: El regreso de Lobezno
           creditos: 'Hunt for Wolverine #1 + 4 miniseries (Adamantium Agenda, Claws of a Killer, Mystery in Madripoor, Weapon Lost) → Return of Wolverine #1–5 · 2018'
           descripcion:
-          - Paquete cerrado y autónomo. Solo hace falta si quieres seguir cómo vuelve Logan.
+          - 'Paquete cerrado y autónomo. Solo hace falta si quieres seguir cómo vuelve Logan. El epílogo de la búsqueda es <em>Hunt for Wolverine: Dead Ends</em> #1 (agosto de 2018), antes de <em>Return of Wolverine</em>.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-mas-series-y-especiales-2018
+          titulo: Más series y especiales (2018)
+          creditos: 'Legion #1–5 (Peter Milligan) · Weapon H #1–12 (Greg Pak, 2018–2019) · Shatterstar #1–5 (Tim Seeley, 2018–2019) · X-Men: The Wedding Special #1 · X-Men: Black (Magneto, Mojo, Mystique, Juggernaut y Emma Frost) · Dazzler: X-Song #1 · Wakanda Forever: X-Men #1 · Typhoid Fever: X-Men #1 · Merry X-Men Holiday Special #1 · Annual de X-Men: Blue, X-Men: Gold (#1–2), X-Men: Red, Astonishing X-Men, Old Man Logan y Cable/Deadpool'
+          descripcion:
+          - '<em>Weapon H</em> es el resultado del programa Arma X de <em>Weapon X</em> vol. 3: un soldado con la fuerza de Hulk y las garras de Lobezno. <em>The Wedding Special</em> prepara la boda de Kitty y Coloso de <em>X-Men Gold</em>; los cinco <em>X-Men: Black</em> están dedicados a villanos.'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -1745,6 +2159,46 @@ bloques:
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m1-b8-dead-man-logan-1-12
+          titulo: Dead Man Logan <span class="nums">#1–12</span>
+          creditos: Ed Brisson · Mike Henderson · noviembre 2018 – octubre 2019
+          continuidad:
+          - viene: '◂ Continúa <em>Old Man Logan</em> tras su #50 (ficha de ResurrXion, tramo 8.1)'
+          descripcion:
+          - 'El final del Logan viejo: el adamantium lo está envenenando, no encuentra cura y usa el tiempo que le queda para cerrar sus cuentas pendientes.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-x-23-2018-1-12
+          titulo: X-23 (2018) <span class="nums">#1–12</span>
+          creditos: Mariko Tamaki · Juan Cabal · julio 2018 – mayo 2019
+          continuidad:
+          - viene: ◂ Laura deja el nombre de Lobezno tras <em>All-New Wolverine</em> (tramo 8.1)
+          descripcion:
+          - Laura vuelve a ser X-23 y, con su hermana Gabby, persigue a quienes clonan a otras como ella.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-especiales-2019
+          titulo: Especiales (2019)
+          creditos: 'Uncanny X-Men Annual #1 (Ed Brisson) · Uncanny X-Men: Winter''s End #1 (Sina Grace) · Wolverine: Exit Wounds #1 (antología) · Giant-Size X-Statix #1 (Milligan y Allred) · Wolverine &amp; Captain America: Weapon Plus #1 · Wolverine vs. Blade Special #1 · Alpha Flight: True North #1 · New Mutants: War Children #1 (Claremont y Sienkiewicz) · Wolverine Annual #1 · 2019'
+          descripcion:
+          - Los últimos números sueltos antes de <em>House of X</em>. <em>War Children</em> reúne al equipo creativo de los <em>New Mutants</em> de los ochenta.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m1-b8-al-margen-de-la-continuidad-2017-2019
+          titulo: Al margen de la continuidad (2017–2019)
+          creditos: 'X-Men: Grand Design #1–2, Second Genesis #1–2 y X-Tinction #1–2 (Ed Piskor, 2017–2019) · Wolverine: The Long Night Adaptation #1–5 (2019) · Infinity Wars: Weapon Hex #1–2 (2018) y Secret Warps: Weapon Hex Annual #1 (2019)'
+          descripcion:
+          - <em>Grand Design</em> vuelve a contar en seis números toda la historia de los X-Men, de los años sesenta a los noventa, como si fuera una sola obra. <em>The Long Night</em> adapta el pódcast de Lobezno; <em>Weapon Hex</em> es una fusión de X-23 y la Bruja Escarlata del universo amalgamado de <em>Infinity Wars</em>.
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
       - evento:
           id: m1-b8-war-of-the-realms
           linea_marvel: true
@@ -1781,4 +2235,6 @@ apendice:
   - titulo: Dónde recortar sin perderte
     html: '<p>Puedes saltarte enteros los tramos alternos (Ultimate, Exiles, Age of X-Man, los tie-ins de Secret Wars) y casi todos los solitarios. Lo que no se puede saltar son los quince eventos en recuadro: son los nudos donde se ata todo lo demás.</p>'
   - titulo: Volumen real
-    html: <p>La lista completa ronda los 1.500 números; la ruta corta se queda en unos 350. Un punto intermedio razonable —todo lo esencial más lo recomendado— son unos 700, que es lo que la mayoría de lectores considera «estar al día» de estos dieciocho años.</p>
+    html: <p>La lista completa ronda los 2.700 números contando todo lo opcional y lo que queda al margen de la continuidad; la ruta corta se queda en unos 350. Un punto intermedio razonable —todo lo esencial más lo recomendado— son unos 700, que es lo que la mayoría de lectores considera «estar al día» de estos dieciocho años.</p>
+  - titulo: Qué recoge y qué no
+    html: '<p>La guía quiere recoger <strong>todos los cómics mutantes publicados entre 2001 y 2019</strong>: las cabeceras, las miniseries de personaje, los especiales, los anuales y los cruces con otras líneas. Se ha cotejado con todo lo publicado mes a mes según Marvel Fandom. Lo que se publicó en estos años pero no forma parte de la historia (ambientado en el pasado, en un futuro posible o en otra realidad) está en las fichas «Al margen de la continuidad» de cada bloque; las realidades con serie larga propia (<em>Exiles</em>, <em>Ultimate</em>, <em>Age of Apocalypse</em>) tienen su ficha de «Alterna».</p><p>Quedan fuera, a propósito: las reediciones y recopilatorios (incluidas las revistas británicas y los <em>Marvel Spotlight</em>), las guías y fichas de personajes (<em>The 198 Files</em>, <em>Mutant Files</em>, los <em>Handbook</em>), los cómics infantiles o promocionales (<em>X-Men: Evolution</em>, <em>Marvel Adventures</em>, <em>X-Men and Power Pack</em>, las adaptaciones de las películas y los videojuegos), las series propias de Deadpool salvo cuando se cruza con los X-Men, y los cómics de otras líneas en los que solo aparece algún mutante.</p>'
