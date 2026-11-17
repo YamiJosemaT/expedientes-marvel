@@ -32,7 +32,7 @@ expedientes:
     subtitulo: Krakoa
     periodo: 2019 — hoy
     resumen: De la fundación de Krakoa a la etapa actual.
-    numeros_aprox: 900
+    numeros_aprox: 1200
     tema_clave: expediente-mutante-ii-tema
     acento: {claro: '#C13F0E', claro_suave: '#F7E3D7', oscuro: '#FF8E52', oscuro_suave: '#3B2114'}
 

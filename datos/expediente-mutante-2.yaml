@@ -12,11 +12,11 @@ cabecera:
   cifras:
   - valor: '7'
     texto: Años de continuidad
-  - valor: '15'
+  - valor: '16'
     texto: Tramos de lectura
-  - valor: '21'
+  - valor: '22'
     texto: Eventos y crossovers
-  - valor: ~900
+  - valor: ~1.200
     texto: Números en total
 leyenda: |-
   <p>Mismo sistema que el volumen I. Cada bloque se divide en <strong>tramos</strong>: fragmentos de continuidad que se leen en paralelo, alternando las cabeceras que hay dentro. Entre tramo y tramo se intercala el <strong>evento</strong> que los separa, con su orden capítulo a capítulo.</p>
@@ -179,8 +179,10 @@ bloques:
       - serie:
           id: m2-b1-x-factor-vol-4-1-4
           prioridad: p2
-          titulo: X-Factor vol. 4 <span class="nums">#1–4</span>
+          titulo: X-Factor vol. 4 <span class="nums">#1–3</span>
           creditos: Leah Williams · David Baldeón · 2020
+          continuidad:
+          - sigue: '▸ El #4 es el capítulo 2 de <em>X of Swords</em>'
           descripcion:
           - 'La oficina forense de la resurrección: hay que certificar cómo murió cada mutante antes de devolverlo. Es la serie que convierte el protocolo en algo incómodo.'
           etiqueta:
@@ -235,10 +237,12 @@ bloques:
       descripcion:
       - 'Diez campeones mutantes y diez espadas contra el reino de Arakko, la mitad gemela de Krakoa. El crossover más coral de la era: se lleva números de las siete cabeceras a la vez. <strong>Cada portada lleva impreso su número de capítulo del 1 al 22</strong>, así que no hace falta memorizar la secuencia: basta ordenarlos por ese número.'
       apartados:
+      - apartado: Preludio
+        texto: 'La historia de los X-Men del <em>Free Comic Book Day 2020</em> (Hickman y Larraz, julio de 2020) lo anticipa. El número 12 de <em>X-Men</em> y el de <em>Excalibur</em> (el último de su ficha) preparan el evento sin ser capítulos numerados: léelos justo antes de <em>Creation</em>.'
       - apartado: Apertura y cierre
         texto: 'X of Swords: Creation #1 (capítulo 1) → … → X of Swords: Stasis #1 (capítulo intermedio) → … → X of Swords: Destruction #1 (capítulo 22)'
       - apartado: Capítulos que salen de tus series en marcha
-        texto: '<span class="cap">X-Men #12–15</span> · <span class="cap">Excalibur #13–15</span> · <span class="cap">Marauders #13–15</span> · <span class="cap">X-Force #13–14</span> · <span class="cap">Hellions #5–6</span> · <span class="cap">Cable #5–6</span> · <span class="cap">Wolverine #6–7</span> · <span class="cap">New Mutants #13</span>'
+        texto: '<span class="cap">X-Men #12–15</span> (el 12 es el preludio) · <span class="cap">X-Factor #4</span> · <span class="cap">Excalibur #13–15</span> · <span class="cap">Marauders #13–15</span> · <span class="cap">X-Force #13–14</span> · <span class="cap">Hellions #5–6</span> · <span class="cap">Cable #5–6</span> · <span class="cap">Wolverine #6–7</span> · <span class="cap">New Mutants #13</span>'
       - apartado: Qué cambia al terminar
         texto: Arakko se instala en la Tierra y pasa a ser un segundo estado mutante. Es la premisa de la que vive el resto de la era.
 - id: b2
@@ -283,12 +287,12 @@ bloques:
       - serie:
           id: m2-b2-way-of-x-1-4
           prioridad: p2
-          titulo: Way of X <span class="nums">#1–4</span>
+          titulo: Way of X <span class="nums">#1–2</span>
           creditos: Simon Spurrier · Bob Quinn · 2021
           continuidad:
-          - sigue: ▸ Continúa como <em>Legion of X</em> en el tramo 3.1
+          - sigue: '▸ El #3 es un capítulo de la <em>Hellfire Gala</em>; la serie termina en el tramo 2.2 y continúa como <em>Legion of X</em> en el 3.1'
           descripcion:
-          - Rondador Nocturno se pregunta qué religión le corresponde a una especie que ya no muere de verdad. Cuatro números y la reflexión más interesante que ha producido la era.
+          - Rondador Nocturno se pregunta qué religión le corresponde a una especie que ya no muere de verdad. La reflexión más interesante que ha producido la era.
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -296,21 +300,41 @@ bloques:
           id: m2-b2-las-cabeceras-que-continuan
           prioridad: p2
           titulo: Las cabeceras que continúan
-          creditos: 'Marauders #16–20 · Excalibur #16–20 · X-Force #15–19 · Hellions #7–11 · X-Factor #5–9 · New Mutants #14–18 · Cable #7–10 · Wolverine #8–12 · 2021'
+          creditos: 'Marauders #16–20 · Excalibur #16–20 · X-Force #15–19 · Hellions #7–11 · X-Factor #5–9 · New Mutants #14–18 · Cable #7–11 · Wolverine #8–12 · 2021'
           continuidad:
           - viene: ◂ La mayoría vienen de <em>X of Swords</em>
-          - sigue: ▸ Cada una entrega su número siguiente a la <em>Hellfire Gala</em>
+          - sigue: ▸ Todas menos <em>Cable</em> entregan su número siguiente a la <em>Hellfire Gala</em>
           descripcion:
-          - Todas retoman tras el crossover y todas entregan un número a la Gala.
+          - 'Todas retoman tras el crossover y casi todas entregan un número a la Gala. <em>Cable</em> no: su #11 salió el mismo mes, pero no forma parte del evento.'
           etiqueta:
             clase: t2
             texto: Recomendado
       - serie:
           id: m2-b2-children-of-the-atom-1-6-x-corp-1-5
-          titulo: Children of the Atom <span class="nums">#1–6</span> · X-Corp <span class="nums">#1–5</span>
+          titulo: 'Children of the Atom <span class="nums">#1–6</span> · X-Corp <span class="nums">#1, #3–5</span>'
           creditos: Vita Ayala / Tini Howard · 2021
+          continuidad:
+          - sigue: '▸ X-Corp #2 es un capítulo de la <em>Hellfire Gala</em>; Children of the Atom #6 transcurre durante la fiesta'
           descripcion:
           - Unos adolescentes que fingen ser mutantes, y la multinacional de Krakoa. Ambas periféricas; <em>X-Corp</em> solo si te interesa el andamiaje económico.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b2-juggernaut-1-5
+          titulo: Juggernaut <span class="nums">#1–5</span>
+          creditos: Fabian Nicieza · Ron Garney · septiembre 2020 – enero 2021
+          descripcion:
+          - Cain Marko, que no es mutante y vive fuera de Krakoa, intenta dejar de destruir cosas y empezar a repararlas. Independiente del resto de la línea.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b2-x-men-curse-of-the-man-thing-1
+          titulo: 'X-Men: Curse of the Man-Thing <span class="nums">#1</span>'
+          creditos: Steve Orlando · Andrea Broccardo · mayo 2021
+          descripcion:
+          - 'Cierre de la trilogía de one-shots de Orlando que empieza en <em>Avengers</em> y <em>Spider-Man: Curse of the Man-Thing</em>: incendios provocados por el miedo que llegan hasta Krakoa.'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -331,14 +355,16 @@ bloques:
             texto: '<em>King in Black: Marauders</em> #1 se lee suelto, como un episodio más de <em>Marauders</em>.'
   - evento:
       id: m2-b2-hellfire-gala-2021
-      etiqueta: Evento · 11 capítulos · Junio 2021
+      etiqueta: Evento · 12 capítulos · Junio 2021
       titulo: Hellfire Gala (2021)
       creditos: Gerry Duggan, Jonathan Hickman, Al Ewing y el resto de la línea
       descripcion:
       - 'La primera gala: Krakoa invita al mundo a una fiesta, presenta un equipo de X-Men elegido por votación popular y, de postre, terraforma Marte. Formato peculiar —cada cabecera aporta un número ambientado en la misma noche— y uno de los puntos altos de la era.'
       apartados:
       - apartado: Orden
-        texto: '<span class="cap">X-Men #21</span> → <span class="cap">Marauders #21</span> → <span class="cap">Hellions #12</span> → <span class="cap">X-Force #20</span> → <span class="cap">Cable #11</span> → <span class="cap">Excalibur #21</span> → <span class="cap">New Mutants #19</span> → <span class="cap">X-Factor #10</span> → <span class="cap">S.W.O.R.D. #6</span> → Planet-Size X-Men #1 → <span class="cap">Wolverine #13</span>'
+        texto: '<span class="cap">Marauders #21</span> → <span class="cap">X-Force #20</span> → <span class="cap">Hellions #12</span> → <span class="cap">Excalibur #21</span> → <span class="cap">X-Men #21</span> → Planet-Size X-Men #1 → <span class="cap">New Mutants #19</span> → <span class="cap">X-Corp #2</span> → <span class="cap">Wolverine #13</span> → <span class="cap">S.W.O.R.D. #6</span> → <span class="cap">Way of X #3</span> → <span class="cap">X-Factor #10</span>'
+      - apartado: De dónde sale el orden
+        texto: 'Es el de publicación, del 2 al 30 de junio de 2021 (lista oficial de las doce partes en Wikipedia; coincide con la mayoría de guías). <em>Children of the Atom</em> #6, de agosto, también transcurre durante la fiesta, pero no es parte del evento.'
       - apartado: El imprescindible
         texto: '<em>Planet-Size X-Men</em> #1 es el número donde pasa lo que importa. Si solo lees uno, es ese.'
   - tramo:
@@ -354,6 +380,18 @@ bloques:
           creditos: Gerry Duggan · Pepe Larraz · 2021
           descripcion:
           - El equipo recién votado, con base en Nueva York y vocación de superhéroes clásicos. Cambio de tono deliberado respecto a Hickman.
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m2-b2-x-men-the-trial-of-magneto-1-5
+          prioridad: p2
+          titulo: 'X-Men: The Trial of Magneto <span class="nums">#1–5</span>'
+          creditos: Leah Williams · Lucas Werneck · agosto – diciembre 2021
+          continuidad:
+          - viene: ◂ Arranca con lo que se descubre al final de la <em>Hellfire Gala</em> (el número de <em>X-Factor</em>)
+          descripcion:
+          - La Bruja Escarlata aparece asesinada tras la Gala y Magneto, su padre, es el principal sospechoso. Krakoa tiene que juzgar a uno de los suyos, y la resurrección no sirve de excusa.
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -385,6 +423,19 @@ bloques:
           etiqueta:
             clase: t2
             texto: Recomendado
+      - serie:
+          id: m2-b2-way-of-x-4-5-x-men-the-onslaught-revelation-1
+          prioridad: p2
+          titulo: 'Way of X <span class="nums">#4–5</span> · X-Men: The Onslaught Revelation <span class="nums">#1</span>'
+          creditos: Simon Spurrier · Bob Quinn · julio – septiembre 2021
+          continuidad:
+          - viene: '◂ Viene de <em>Way of X</em> #3, capítulo de la <em>Hellfire Gala</em>'
+          - sigue: ▸ Continúa como <em>Legion of X</em> en el tramo 3.1
+          descripcion:
+          - 'Final de la serie: Rondador y su pequeño grupo contra Onslaught, que se ha colado en la mente de los líderes de Krakoa. El one-shot es el último capítulo, no un extra.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
       - evento:
           id: m2-b2-death-of-doctor-strange
           linea_marvel: true
@@ -405,6 +456,16 @@ bloques:
             texto: Los one-shots de los Vengadores, Spider-Man, White Fox, Blade, Bloodstone y la Academia Strange.
           - apartado: Después
             texto: '<em>Strange</em> vol. 3 (2022, de MacKay), fuera de la línea mutante: Clea pasa a ser la Hechicera Suprema.'
+      - serie:
+          id: m2-b2-al-margen-de-krakoa-2020-2022
+          titulo: Al margen de Krakoa (2020–2022)
+          creditos: 'X-Men: Marvels Snapshots #1 (2020) · Wolverine: Black, White &amp; Blood #1–4 (2020–2021) · X-Men Legends #1–12 (2021–2022) · X-Force: Killshot Anniversary Special #1 (2021) · Demon Days: X-Men #1 y Demon Days: Rising Storm #1 (2021) · Heroes Reborn: Magneto &amp; the Mutant Force #1 (2021) · Wastelanders: Wolverine #1 (2021)'
+          descripcion:
+          - Publicadas en estos años, pero fuera de la historia de Krakoa. <em>Marvels Snapshots</em> cuenta la adolescencia de Cíclope en el orfanato; <em>X-Men Legends</em> son historias nuevas metidas en etapas clásicas; <em>Black, White &amp; Blood</em> es una antología; el especial de <em>Killshot</em> celebra los 30 años de X-Force.
+          - 'Realidades alternativas: <em>Demon Days</em> (el Japón mitológico de Peach Momoko), <em>Heroes Reborn</em> (el mundo cambiado del evento de 2021) y <em>Wastelanders</em> (el futuro de <em>Old Man Logan</em>).'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - evento:
       id: m2-b2-inferno
       etiqueta: Evento · Septiembre 2021 – enero 2022 · Cierre del bloque
@@ -431,6 +492,15 @@ bloques:
       cuando: Marzo – junio 2022
       nota: Nueve cabeceras a la vez. Las dos primeras son el núcleo; el resto, satélites de calidad desigual.
       entradas:
+      - serie:
+          id: m2-b3-marauders-annual-1-secret-x-men-1
+          titulo: Marauders Annual <span class="nums">#1</span> · Secret X-Men <span class="nums">#1</span>
+          creditos: Steve Orlando / Tini Howard · enero – febrero 2022
+          descripcion:
+          - 'Dos especiales puente entre bloques. En el <em>Annual</em>, Kate Pryde reúne una tripulación nueva para rescatar a Daken: es el arranque de <em>Marauders</em> vol. 2. <em>Secret X-Men</em> manda a los que perdieron la votación de 2021 (Sunspot, Cannonball, Forge y compañía) a una misión secreta para la emperatriz shi''ar Xandra.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
       - evento:
           id: m2-b3-devil-s-reign
           linea_marvel: true
@@ -487,7 +557,7 @@ bloques:
           titulo: Legion of X <span class="nums">#1–5</span>
           creditos: Simon Spurrier · Jan Bazaldua · 2022
           continuidad:
-          - viene: ◂ Viene de <em>Way of X</em> (tramo 2.1)
+          - viene: ◂ Viene de <em>Way of X</em> y <em>The Onslaught Revelation</em> (tramo 2.2)
           descripcion:
           - 'Continuación directa de <em>Way of X</em>: Legión y Rondador montan la policía espiritual de Krakoa.'
           etiqueta:
@@ -496,11 +566,13 @@ bloques:
       - serie:
           id: m2-b3-los-satelites-del-relanzamiento
           titulo: Los satélites del relanzamiento
-          creditos: 'Marauders vol. 2 #1–5 · Knights of X #1–5 · New Mutants #25–29 · X-Force #26–29 · Wolverine #20–23 · Sabretooth #1–5 · 2022'
+          creditos: 'Marauders vol. 2 #1–5 · Knights of X #1–5 · New Mutants #25–29 · X-Force #26–29 · Wolverine #20–23 · Sabretooth #1–5 · X-Force Annual #1 · Giant-Size X-Men: Thunderbird #1 · 2022'
           continuidad:
           - sigue: '▸ X-Force #30–33, Wolverine #24–25 y Marauders vol. 2 #6 son satélites de <em>Judgment Day</em>'
+          - sigue: ▸ <em>Sabretooth</em> continúa en <em>Sabretooth &amp; the Exiles</em> (tramo 3.2)
           descripcion:
           - '<em>Sabretooth</em> (Victor LaValle) es la joya escondida: el castigo de Krakoa a sus criminales es enterrarlos vivos para siempre, y va de eso.'
+          - 'Los dos especiales: en el <em>Annual</em> de X-Force, Orchis le tiende una trampa a Lobezno, Domino y Kid Omega; el <em>Giant-Size</em> de Thunderbird trata su vuelta tras la resurrección.'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -563,10 +635,31 @@ bloques:
             texto: Esencial
       - serie:
           id: m2-b3-x-men-vol-6-15-19-marauders-vol-2-7-10-legion-of-x-7-10-new-mutants-30
-          titulo: 'X-Men vol. 6 <span class="nums">#15–19</span> · Marauders vol. 2 <span class="nums">#7–10</span> · Legion of X <span class="nums">#7–10</span> · New Mutants <span class="nums">#30–33</span> · X-Force <span class="nums">#34–42</span> · Wolverine <span class="nums">#26–35</span> · X-Terminators <span class="nums">#1–5</span> · Bishop: War College <span class="nums">#1–5</span>'
-          creditos: Varios · 2022–2023
+          titulo: 'X-Men vol. 6 <span class="nums">#15–19</span> · Marauders vol. 2 <span class="nums">#7–10</span> · Legion of X <span class="nums">#7–10</span> · New Mutants <span class="nums">#30–33</span> · X-Force <span class="nums">#34–42</span> · Wolverine <span class="nums">#26–35</span> · X-Terminators <span class="nums">#1–5</span> · Bishop: War College <span class="nums">#1–5</span> · X-Men Annual <span class="nums">#1</span>'
+          creditos: Varios · 2022–2023 · el <em>Annual</em> (Steve Foxe, diciembre de 2022) es de Firestar, elegida para los X-Men en la Gala
           continuidad:
           - viene: ◂ X-Men, X-Force, Wolverine, Marauders y Legion of X vienen de <em>Judgment Day</em>
+          - sigue: '▸ <em>New Mutants</em> termina en el #33 y continúa en <em>New Mutants: Lethal Legion</em> (tramo 3.3)'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-sabretooth-the-exiles-1-5
+          titulo: Sabretooth &amp; the Exiles <span class="nums">#1–5</span>
+          creditos: Victor LaValle · Leonard Kirk · noviembre 2022 – marzo 2023
+          continuidad:
+          - viene: ◂ Continuación de <em>Sabretooth</em> (2022), en «Los satélites del relanzamiento» del tramo 3.1
+          descripcion:
+          - 'Los mismos autores y el mismo tono de terror: Dientes de Sable, ya fuera del Foso, con los desterrados de Krakoa detrás. Acaba enfrentando a Victor con Graydon Creed, su hijo. Solo tiene sentido si leíste la primera serie.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-cruces-con-otras-series-2022-2023
+          titulo: Cruces con otras series (2022–2023)
+          creditos: 'Ms. Marvel &amp; Wolverine #1 (Jody Houser, agosto 2022) · X-Men and Moon Girl #1 (Mohale Mashigo, septiembre 2022) · Murderworld: Wolverine #1 (Jim Zub, enero 2023)'
+          descripcion:
+          - One-shots de otras líneas con mutantes de invitados. Kamala Khan y Lobezno, ante una amenaza que compromete la tecnología de Krakoa; Moon Girl y los X-Men, en la historia del secuestro de Devil Dinosaur por el Alto Evolucionador; Lobezno, como cazador en el juego mortal de Arcade.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -631,14 +724,64 @@ bloques:
             clase: opcional
             texto: Opcional
       - serie:
-          id: m2-b3-x-men-before-the-fall
-          titulo: 'X-Men: Before the Fall'
-          creditos: 'Son of X #1 · Heralds of Apocalypse #1 · Sinister Four #1 · 2023'
+          id: m2-b3-new-mutants-lethal-legion-1-5
+          titulo: 'New Mutants: Lethal Legion <span class="nums">#1–5</span>'
+          creditos: Charlie Jane Anders · Enid Balam · marzo – julio 2023
+          continuidad:
+          - viene: '◂ Sigue a <em>New Mutants</em> #33 (tramo 3.2), con la misma guionista'
           descripcion:
-          - 'One-shots que colocan las piezas justo antes de la Gala: Xavier, Apocalipsis y Sinister. Prólogos de la emboscada, no capítulos de ella.'
+          - Escapade, Wolfsbane, Karma y compañía intentan dar un golpe contra el conde Nefaria y su nueva Legión Letal. Aventura ligera y cerrada, sin peso en la trama de Krakoa; el último número salió una semana antes de la Gala.
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m2-b3-betsy-braddock-captain-britain-1-5
+          titulo: 'Betsy Braddock: Captain Britain <span class="nums">#1–5</span>'
+          creditos: Tini Howard · Vasco Georgiev · febrero – junio 2023
+          continuidad:
+          - viene: ◂ Sigue a <em>Knights of X</em> (satélites del tramo 3.1), de la misma guionista
+          descripcion:
+          - Con Otherworld en calma, Betsy vuelve a casa y descubre que Gran Bretaña no quiere a una mutante con el escudo de Capitán Britania.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-rogue-gambit-1-5
+          titulo: Rogue &amp; Gambit <span class="nums">#1–5</span>
+          creditos: Stephanie Phillips · Carlos Gómez · marzo – julio 2023
+          descripcion:
+          - Destino, que ve lo que se le viene encima a Krakoa pero no puede actuar, manda a su hija adoptiva Rogue a una misión, y Gambito se apunta. Termina justo antes de la Gala.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-x-men-unforgiven-1
+          titulo: 'X-Men: Unforgiven <span class="nums">#1</span>'
+          creditos: Tim Seeley · Sid Kotian · marzo 2023
+          descripcion:
+          - 'Secuela del cruce <em>Spider-Man: Unforgiven</em>: los Forgiven, maltrechos tras él, se encuentran con los X-Men cuando empiezan a aparecer restos humanos en la costa de Maine.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-x-men-before-the-fall
+          titulo: 'X-Men: Before the Fall'
+          creditos: 'Free Comic Book Day 2023: Avengers/X-Men #1 (mayo) · Sons of X #1 · Mutants'' First Strike #1 · Heralds of Apocalypse #1 · Sinister Four #1 · mayo – julio 2023'
+          descripcion:
+          - 'One-shots que colocan las piezas justo antes de la Gala: Xavier, Bishop, Apocalipsis y Sinister. El del Free Comic Book Day, de Duggan, abre la cuenta atrás. Prólogos de la emboscada, no capítulos de ella.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b3-al-margen-de-krakoa-2022-2023
+          titulo: Al margen de Krakoa (2022–2023)
+          creditos: 'X-Cellent #1–5 (2022) y vol. 2 #1–5 (2023) · Gambit #1–5 (2022) · Wolverine: Patch #1–5 (2022) · X-Men Legends vol. 2 #1–6 (2022–2023) · X-Treme X-Men #1–5 (2022–2023) · X-Men ''92: House of XCII #1–5 (2022)'
+          descripcion:
+          - '<em>X-Cellent</em> es la vuelta de Milligan y Allred a X-Statix, los mutantes famosos. Las demás son historias nuevas ambientadas en etapas pasadas: Gambito antes de unirse a los X-Men, Lobezno en Madripoor, los X-Men de Roy Thomas antes de <em>Giant-Size</em> y el equipo de <em>X-Treme X-Men</em> justo después de la serie original de Claremont.'
+          - '<em>X-Men ''92</em> es una realidad alternativa: la versión de la serie animada de los 90 fundando su propia Krakoa.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - evento:
       id: m2-b3-hellfire-gala-2023
       etiqueta: Evento · Julio 2023 · Cierre del bloque
@@ -648,11 +791,11 @@ bloques:
       - 'La tercera gala es una emboscada: Orchis ataca durante la fiesta, mata a buena parte de la población mutante y desmantela la nación en una sola noche. El número más importante de toda la era después de <em>House of X</em>.'
       apartados:
       - apartado: Orden
-        texto: 'Hellfire Gala 2023 #1, número único y extenso. <strong>No tiene capítulos en otras series:</strong> todas las cabeceras se detienen justo antes y retoman después, ya con Krakoa caída.'
+        texto: 'Hellfire Gala 2023 #1, número único y extenso. <strong>No tiene capítulos en las series mutantes:</strong> todas las cabeceras se detienen justo antes y retoman después, ya con Krakoa caída. La única serie que la acompaña es <em>Invincible Iron Man</em>, cuyo número 8 vive esa noche desde Nueva York (ficha en el tramo 4.1).'
       - apartado: Advertencia
         texto: No lo leas suelto. Pierde casi todo su efecto si no vienes de <em>Immortal X-Men</em> y <em>X-Men Red</em>.
 - id: b4
-  fechas: Agosto 2023 — junio 2024
+  fechas: Agosto 2023 — julio 2024
   titulo: Fall of X
   intro: Krakoa ha caído. Orchis controla la narrativa, los mutantes están dispersos, cazados o atrapados, y la resurrección —el gran seguro de vida de cinco años— ya no funciona. Diez meses de derrota antes del contraataque.
   navegacion:
@@ -716,9 +859,10 @@ bloques:
       - serie:
           id: m2-b4-las-cabeceras-de-la-resistencia
           titulo: Las cabeceras de la resistencia
-          creditos: 'X-Force #43–46 · Wolverine #36–50 · Dark X-Men vol. 2 #1–4 · Astonishing Iceman #1–5 · Jean Grey #1–4 · Children of the Vault #1–4 · Realm of X #1–4 · Alpha Flight vol. 5 #1–5 · Ms. Marvel: The New Mutant #1–4 · 2023–2024'
+          creditos: 'X-Force #43–46 · Wolverine #36–50 · Dark X-Men vol. 2 #1–5 · Astonishing Iceman #1–5 · Jean Grey #1–4 · Children of the Vault #1–4 · Realm of X #1–4 · Alpha Flight vol. 5 #1–5 · Fallen Friend: The Death of Ms. Marvel #1 + Ms. Marvel: The New Mutant #1–4 · 2023–2024'
           descripcion:
           - 'Dos cabeceras veteranas y siete miniseries paralelas, de calidad desigual. Ninguna imprescindible; <em>Dark X-Men</em> y <em>Children of the Vault</em> son las que mejor aguantan. <em>Wolverine</em> cierra en el #50 a la vez que el evento final: sus últimos números puedes dejarlos para leerlos junto a él.'
+          - 'Dos añadidos que van con estas series: <em>Fallen Friend</em> (julio de 2023) es el homenaje a Kamala Khan tras su muerte en <em>Amazing Spider-Man</em>, y se lee antes de <em>The New Mutant</em>. El primer número de <em>Wolverine</em> de esta lista (el 36) es la tercera parte de <em>Ghost Rider/Wolverine: Weapons of Vengeance</em>: Alpha #1 → Ghost Rider #17 → ese número → Omega #1 (agosto – septiembre de 2023).'
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -732,22 +876,103 @@ bloques:
           etiqueta:
             clase: t4
             texto: Alterna
+      - serie:
+          id: m2-b4-uncanny-spider-man-1-5-x-men-blue-origins-1
+          prioridad: p2
+          titulo: 'Uncanny Spider-Man <span class="nums">#1–5</span> · X-Men Blue: Origins <span class="nums">#1</span>'
+          creditos: Simon Spurrier · Lee Garbett / Wilton Santos · septiembre – diciembre 2023
+          continuidad:
+          - viene: '◂ Cierra la línea de Rondador de Spurrier: <em>Way of X</em> → <em>Legion of X</em> → <em>Nightcrawlers</em>'
+          descripcion:
+          - 'Tras la Gala, Rondador huye disfrazado de Spider-Man por Nueva York y, por primera vez en años, se lo pasa bien siendo un héroe. El one-shot <em>Blue: Origins</em> es su origen definitivo, con Mística.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m2-b4-invincible-iron-man-vol-5-1-13
+          titulo: Invincible Iron Man vol. 5 <span class="nums">#1–13</span>
+          creditos: Gerry Duggan · Juan Frigeri · diciembre 2022 – diciembre 2023
+          continuidad:
+          - sigue: '▸ Los números #14–18 son capítulos del evento final, y los #19–20 cierran la serie después'
+          descripcion:
+          - 'No es de la línea mutante, pero se cose a ella: Tony Stark, arruinado, se enfrenta a los Centinelas de Orchis, vive la Gala de 2023 en su número 8, se casa con Emma Frost y se hace con el Club Fuego Infernal. Los #1–7 salen antes de la caída de Krakoa.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b4-original-x-men-1-weapon-x-men-1-4
+          titulo: Original X-Men <span class="nums">#1</span> · Weapon X-Men <span class="nums">#1–4</span>
+          creditos: Christos N. Gage · Greg Land / Yıldıray Çınar · diciembre 2023 – mayo 2024
+          descripcion:
+          - 'Aventura multiversal de Gage en dos partes: primero los cinco X-Men originales y, después, un equipo de Lobeznos de distintos universos. Independiente de la caída de Krakoa.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b4-al-margen-de-krakoa-2023-2024
+          titulo: Al margen de Krakoa (2023–2024)
+          creditos: 'X-23: Deadly Regenesis #1–5 (2023) · Storm #1–5 (2023) · Magneto #1–4 (2023) · Predator vs. Wolverine #1–4 (2023) · Wolverine: Madripoor Knights #1–5 (2024)'
+          descripcion:
+          - 'Historias nuevas ambientadas en el pasado: Laura en la época de Utopía, Tormenta en una etapa clásica (Ann Nocenti), Magneto al frente de los Nuevos Mutantes en los ochenta (J.M. DeMatteis), el duelo de Lobezno con un depredador a lo largo de su vida y Claremont de vuelta a Madripoor con el Capitán América y la Viuda Negra.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - evento:
       id: m2-b4-fall-of-the-house-of-x-rise-of-the-powers-of-x
-      etiqueta: Evento final · 10 números intercalados · Enero – mayo 2024
+      etiqueta: Evento final · 10 números centrales y 33 de acompañamiento · Enero – junio 2024
       titulo: Fall of the House of X / Rise of the Powers of X
       creditos: Gerry Duggan &amp; Kieron Gillen · Lucas Werneck &amp; R.B. Silva
       descripcion:
       - 'El cierre de la era, construido como espejo deliberado de <em>House of X</em> / <em>Powers of X</em>: una serie cuenta el contraataque en el presente, la otra la partida cósmica que se juega por detrás. <strong>Van intercalados</strong>, igual que el arranque de 2019.'
+      - 'Alrededor van <em>X-Men</em> vol. 6 hasta su final y siete series más con el sello del evento: <em>Invincible Iron Man</em>, <em>Cable</em> (2024), <em>Resurrection of Magneto</em> (Ewing, que cierra lo de <em>X-Men Red</em>), <em>Dead X-Men</em>, <em>Ms. Marvel: Mutant Menace</em>, <em>X-Men: Forever</em> (Gillen, que remata <em>Immortal X-Men</em>) y dos números de <em>Avengers</em>.'
       apartados:
-      - apartado: Orden completo
+      - apartado: Columna vertebral
         texto: 'FoHoX #1 → RoPoX #1 → FoHoX #2 → RoPoX #2 → FoHoX #3 → RoPoX #3 → FoHoX #4 → RoPoX #4 → FoHoX #5 → RoPoX #5'
-      - apartado: Capítulos que salen de tus series en marcha
-        texto: '<span class="cap">X-Men vol. 6 #30–35</span> · <span class="cap">X-Men Red #17–18</span> · <span class="cap">X-Force #47–50</span> · Dead X-Men #1–4 · Invincible Iron Man #15–19'
+      - apartado: Orden completo (por fecha de publicación)
+        texto: '<strong>FoHoX #1</strong> → <strong>RoPoX #1</strong> → <span class="cap">X-Men #30</span> → Invincible Iron Man #14 → Cable #1 → Resurrection of Magneto #1 → Dead X-Men #1 → <span class="cap">X-Men #31</span> → <strong>FoHoX #2</strong> → <strong>RoPoX #2</strong> → Cable #2 → Dead X-Men #2 → Invincible Iron Man #15 → Resurrection of Magneto #2 → Ms. Marvel: Mutant Menace #1 → <span class="cap">X-Men #32</span> → Dead X-Men #3 → <strong>FoHoX #3</strong> → Invincible Iron Man #16 → Resurrection of Magneto #3 → X-Men: Forever #1 → <strong>RoPoX #3</strong> → Cable #3 → Avengers #12 → <span class="cap">X-Men #33</span> → Invincible Iron Man #17 → Ms. Marvel: Mutant Menace #2 → Resurrection of Magneto #4 → Dead X-Men #4 → <strong>FoHoX #4</strong> → Avengers #13 → <strong>RoPoX #4</strong> → X-Men: Forever #2 → Cable #4 → Invincible Iron Man #18 → <span class="cap">X-Men #34</span> → X-Men: Forever #3 → Ms. Marvel: Mutant Menace #3 → X-Men: Forever #4 → <strong>FoHoX #5</strong> → <strong>RoPoX #5</strong> → Ms. Marvel: Mutant Menace #4 → <span class="cap">X-Men #35</span>'
+      - apartado: De dónde sale el orden
+        texto: 'Las 43 entregas que Marvel Fandom asigna al evento, ordenadas por su fecha de salida (enero – junio de 2024). Cuando varias salieron el mismo día, va primero la serie central. Las miniseries se pueden leer también seguidas sin perder nada: lo que importa es no adelantar <em>FoHoX</em> y <em>RoPoX</em>.'
+      - apartado: Versión mínima
+        texto: Los diez números centrales intercalados, con los seis últimos de <em>X-Men</em> en su sitio.
+      - apartado: Acompañan al evento
+        texto: '<span class="cap">X-Men Red #17–18</span> · <span class="cap">X-Force #47–50</span> y los últimos números de <em>Wolverine</em> (ficha de la resistencia) llevan aún el sello <em>Fall of X</em>, pero salen en las mismas semanas y desembocan aquí: léelos antes o a la par del principio del evento.'
       - apartado: El último número
         texto: '<em>X-Men</em> vol. 6 <strong>#35</strong> (junio 2024) es el epílogo real: un salto de quince años que cierra la era en sus propios términos en lugar de restaurar el statu quo anterior. Léelo al final de todo.'
       - apartado: Coda
-        texto: '<em>X-Men: Forever</em> #1–6 (Gillen, 2024) remata los hilos de <em>Immortal X-Men</em>. Muy recomendable si has seguido esa serie.'
+        texto: '<em>Invincible Iron Man</em> #19–20 (junio y julio de 2024) cierran la serie de Duggan: Tony y Emma Frost después de la guerra con Orchis.'
+  - tramo:
+      numero: '4.2'
+      titulo: Entre dos eras
+      cuando: Mayo – julio 2024
+      nota: Tres especiales publicados entre el final de Krakoa y el arranque de <em>From the Ashes</em>. Ninguno es imprescindible.
+      entradas:
+      - serie:
+          id: m2-b4-x-men-the-wedding-special-1
+          titulo: 'X-Men: The Wedding Special <span class="nums">#1</span>'
+          creditos: Kieron Gillen · Rachael Stott · mayo 2024
+          descripcion:
+          - La boda de Mística y Destino, pareja desde hace más de un siglo, que nunca se había contado en viñetas. Salió dentro de la línea del Orgullo de Marvel.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b4-giant-size-x-men-1-2024
+          titulo: Giant-Size X-Men <span class="nums">#1</span> (2024)
+          creditos: Ann Nocenti · Lee Ferguson · mayo 2024
+          descripcion:
+          - 'Ángel atrapado en un laberinto mental por un villano nuevo. Número suelto; incluye una reedición de <em>Marvel Two-in-One</em> #68.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b4-x-men-heir-of-apocalypse-1-4
+          titulo: 'X-Men: Heir of Apocalypse <span class="nums">#1–4</span>'
+          creditos: Steve Foxe · Netho Diaz · junio – julio 2024
+          descripcion:
+          - Apocalipsis ocupa su trono en Arakko y doce mutantes, héroes y villanos, compiten por ser su heredero en la Tierra. Hace de puente con la etapa siguiente.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
 - id: b5
   fechas: Julio 2024 — septiembre 2025
   titulo: From the Ashes
@@ -821,9 +1046,10 @@ bloques:
           titulo: Storm <span class="nums">#1–4</span>
           creditos: Murewa Ayodele · Lucas Werneck · 2024
           continuidad:
-          - sigue: '▸ El #5 es tie-in de <em>One World Under Doom</em> y el #6, capítulo de <em>X-Manhunt</em> (tramo 5.2)'
+          - sigue: '▸ El #5 es tie-in de <em>One World Under Doom</em> y el #6, capítulo de <em>X-Manhunt</em> (tramo 5.2); los #7–12, en el tramo 5.3'
           descripcion:
           - Tormenta tratada como la mutante más poderosa del planeta y con el peso político que eso tiene.
+          - 'A la vez entra en los Vengadores: <em>Avengers</em> (2023) #17–23, de Jed MacKay, es opcional pero tiene bastante de ella.'
           etiqueta:
             clase: t2
             texto: Recomendado
@@ -842,9 +1068,12 @@ bloques:
       - serie:
           id: m2-b5-los-solitarios
           titulo: Los solitarios
-          creditos: 'Wolverine vol. 8 #1–5 (Saladin Ahmed) · Laura Kinney: Wolverine #1–5 (Erica Schultz) · Magik #1–5 · Mystique #1–5 (Declan Shalvey) · Dazzler #1–4 · Weapon X-Men #1–4 · Deadpool/Wolverine · 2024–2025'
+          creditos: 'Wolverine vol. 8 #1–5 (Saladin Ahmed) · Laura Kinney: Wolverine #1–5 (Erica Schultz) · Magik #1–5 (Ashley Allen) · Mystique #1–5 (Declan Shalvey) · Dazzler #1–4 (Jason Loo) · Psylocke #1–5 (Alyssa Wong) · Sentinels #1–5 (Alex Paknadel) · 2024–2025'
+          continuidad:
+          - sigue: ▸ Wolverine, Laura Kinney, Magik y Psylocke siguen en «El resto de la etapa» (tramo 5.3)
           descripcion:
           - Todos independientes del resto. <em>Mystique</em> es el más sólido.
+          - <em>Psylocke</em> es Kwannon por su cuenta, castigando a quien caza mutantes; <em>Sentinels</em> es la nueva generación de Centinelas, ahora en manos mutantes, protegiendo una paz frágil.
           etiqueta:
             clase: opcional
             texto: Opcional
@@ -886,7 +1115,7 @@ bloques:
           - apartado: Antes de empezar
             texto: '<em>Blood Hunt</em> (tramo 5.1), que deja a Doom como Hechicero Supremo, y <em>Fantastic Four</em> #28.'
           - apartado: Orden de lectura
-            texto: 'Fantastic Four #28 → <strong>One World Under Doom #1</strong> → <span class="cap">Storm #5</span> → <span class="cap">X-Factor #7</span> → <span class="cap">Weapon X-Men #1</span> → resto de <strong>One World Under Doom</strong>'
+            texto: 'Fantastic Four #28 → <strong>One World Under Doom #1</strong> → <span class="cap">Storm #5</span> → <span class="cap">X-Factor #7</span> → <span class="cap">Weapon X-Men (2025) #1</span> → resto de <strong>One World Under Doom</strong>'
           - apartado: Nota
             texto: Las guías no coinciden en el orden de los tres tie-ins entre sí, porque salieron el mismo día (19 de febrero de 2025); el de arriba es el de Comic Book Herald. Alguna guía incluye también números posteriores de <em>Storm</em>.
           - apartado: Versión mínima
@@ -936,23 +1165,58 @@ bloques:
       - serie:
           id: m2-b5-el-resto-de-la-etapa
           titulo: El resto de la etapa
-          creditos: 'Exceptional X-Men #8–13 · NYX #10–12 · X-Factor #9–10 · X-Force #10–12 · Phoenix #9–14 · Wolverine vol. 8 #6–13 · 2025'
+          creditos: 'Exceptional X-Men #8–13 · NYX #10 · X-Factor #9–10 · X-Force #10 · Storm #7–12 · Phoenix #9–15 · Wolverine vol. 8 #6–13 · Laura Kinney: Wolverine #6–10 · Magik #6–10 · Psylocke #6–10 · 2025'
           continuidad:
           - viene: ◂ Varias vienen de <em>X-Manhunt</em>
           descripcion:
-          - Varias cierran aquí para dejar hueco al relanzamiento.
+          - 'Todas menos <em>Wolverine</em> terminan aquí para dejar hueco al relanzamiento: <em>NYX</em>, <em>X-Factor</em> y <em>X-Force</em> cierran en su número 10, <em>Storm</em> en el 12, <em>Exceptional</em> en el 13 y <em>Phoenix</em> en el 15.'
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m2-b5-mas-series-de-la-etapa
+          titulo: Más series de la etapa
+          creditos: 'Sabretooth: The Dead Don''t Talk #1–5 (Frank Tieri) · Cable: Love and Chrome #1–5 (David Pepose) · Deadpool/Wolverine #1–10 (Benjamin Percy) · Weapon X-Men vol. 2 #2–5 (Joe Casey) · Spider-Man &amp; Wolverine #1–10 (Marc Guggenheim) · Wolverines &amp; Deadpools #1–3 (Cody Ziglar) · Storm: Lifedream #1 · diciembre 2024 – febrero 2026'
+          continuidad:
+          - viene: ◂ El primer número de <em>Weapon X-Men</em> vol. 2 es tie-in de <em>One World Under Doom</em> (tramo 5.2)
+          descripcion:
+          - Independientes entre sí y de las cabeceras. Lobezno investiga el pasado de Dientes de Sable, muerto, como gánster del Nueva York de principios del siglo XX; Cable queda atrapado en una ciudad futura en plena guerra civil; Lobezno forma pareja con Deadpool y con Spider-Man; <em>Weapon X-Men</em> junta a Lobezno, Deadpool, Cable, Chamber y Thunderbird; <em>Wolverines &amp; Deadpools</em> suma a sus hijas, Laura y Ellie.
+          - '<em>Storm: Lifedream</em> es una antología por los 50 años del personaje, toda ella de autores negros.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - evento:
+          id: m2-b5-giant-size-x-men-2025
+          etiqueta: Crossover · 6 números · Mayo – agosto 2025
+          titulo: Giant-Size X-Men (2025)
+          creditos: Jackson Lanzing &amp; Collin Kelly · Adam Kubert, Rod Reis, C.F. Villa, Francesco Manna
+          descripcion:
+          - 'Por los 50 años de <em>Giant-Size X-Men</em> #1, Kamala Khan persigue a un Legión desatado por los grandes momentos de la historia mutante: la llegada del equipo de 1975, la Saga de Fénix Oscura, la Era de Apocalipsis y <em>House of M</em>. Viaje en el tiempo dentro de la continuidad, no una realidad alternativa.'
+          apartados:
+          - apartado: Orden de lectura
+            texto: 'Free Comic Book Day 2025: Fantastic Four/X-Men #1 (la historia de los X-Men) → <strong>Giant-Size X-Men #1</strong> → Giant-Size Dark Phoenix Saga #1 → Giant-Size Age of Apocalypse #1 → Giant-Size House of M #1 → <strong>Giant-Size X-Men #2</strong>'
+          - apartado: De dónde sale el orden
+            texto: 'Es el de publicación (del 3 de mayo al 13 de agosto de 2025), y cada número da por leídos los anteriores. El #1 trae además una historia corta de Al Ewing que presenta al «X-Man que nunca existió».'
       - serie:
           id: m2-b5-imperial-1-4
           titulo: Imperial <span class="nums">#1–4</span>
           creditos: Jonathan Hickman · Federico Vicentini, Marco Checchetto · junio – octubre 2025
           descripcion:
           - Evento cósmico que refunda los imperios galácticos como la Unión Galáctica. Toca a los mutantes solo de refilón; donde de verdad pesa es en los Guardianes de la Galaxia.
+          - 'El tie-in mutante es <em>Imperial War: Exiles</em> #1 (Steve Foxe, septiembre de 2025): un golpe de estado deja a la majestrix shi''ar Xandra sin trono, y la rescatan sus padres, Xavier y Lilandra, resucitada.'
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m2-b5-al-margen-de-la-continuidad-2024-2025
+          titulo: Al margen de la continuidad (2024–2025)
+          creditos: 'Wolverine: Deep Cut #1–4 (2024) · Wolverine: Revenge #1–5 (2024–2025) · Rogue: The Savage Land #1–5 (2025) · Wolverine and Kitty Pryde #1–5 (2025) · Emma Frost: The White Queen #1–5 (2025) · Godzilla vs. X-Men #1 (2025)'
+          descripcion:
+          - 'Historias nuevas ambientadas en etapas pasadas: la misión secreta de Lobezno tras <em>Uncanny X-Men</em> #246 y su viaje a Japón con Kitty Pryde (las dos de Claremont), Rogue en la Tierra Salvaje cuando no tenía poderes y Emma Frost como Reina Blanca del Club Fuego Infernal.'
+          - '<em>Wolverine: Revenge</em> es la miniserie de prestigio de Hickman y Capullo, independiente de la línea (hay también una edición <em>Red Band</em>, más violenta). <em>Godzilla vs. X-Men</em> es parte de la serie de one-shots de Godzilla contra Marvel.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
 - id: b6
   fechas: Octubre — diciembre 2025
   titulo: Age of Revelation
@@ -971,12 +1235,21 @@ bloques:
           id: m2-b6-x-men-age-of-revelation-0-overture-1
           prioridad: p1
           titulo: 'X-Men: Age of Revelation <span class="nums">#0</span> + Overture <span class="nums">#1</span>'
-          creditos: Jed MacKay · varios · octubre 2025
+          creditos: 'Jed MacKay · varios · el #0 en julio y Overture en octubre de 2025'
           descripcion:
           - El salto temporal y la caída. Empieza aquí obligatoriamente.
           etiqueta:
             clase: t1
             texto: Esencial
+      - serie:
+          id: m2-b6-world-of-revelation-1
+          titulo: World of Revelation <span class="nums">#1</span>
+          creditos: Al Ewing · octubre 2025
+          descripcion:
+          - 'El resto del mundo diez años después: qué ha sido de los Cuatro Fantásticos, qué horrores hay en la costa este y qué piensa Apocalipsis, desde Arakko, del imperio de su heredero.'
+          etiqueta:
+            clase: opcional
+            texto: Opcional
   - tramo:
       numero: '6.2'
       titulo: Las dieciséis miniseries
@@ -1052,7 +1325,7 @@ bloques:
       - serie:
           id: m2-b7-uncanny-x-men-vol-6-22-33
           prioridad: p1
-          titulo: Uncanny X-Men vol. 6 <span class="nums">#22–33</span>
+          titulo: Uncanny X-Men vol. 6 <span class="nums">#22–</span>
           creditos: Gail Simone · David Marquez · desde enero 2026
           continuidad:
           - viene: ◂ Viene del tramo 5.3
@@ -1093,19 +1366,53 @@ bloques:
       - serie:
           id: m2-b7-las-limitadas-de-personaje
           titulo: Las limitadas de personaje
-          creditos: 'Rogue #1–5 (enero) · Magik and Colossus #1–5 (febrero) · Cyclops #1–5 (febrero) · Moonstar #1–5 (marzo) · Storm: Earth''s Mightiest Mutant #1–5 (junio) · Bishop #1–5 (junio) · Tomb of Apocalypse (agosto) · 2026'
+          creditos: 'Rogue #1–5 (enero) · Magik and Colossus #1–5 (febrero) · Cyclops #1–5 (febrero) · Wolverine: Weapons of Armageddon #1–4 (febrero, Chip Zdarsky) · Moonstar #1–5 (marzo) · Storm: Earth''s Mightiest Mutant #1–5 (junio) · Bishop #1–5 (junio) · Tomb of Apocalypse (agosto) · 2026'
           descripcion:
-          - Siete miniseries de cinco números. Todas autoconclusivas; varias cierran arcos personales abiertos antes del salto temporal.
+          - Ocho miniseries de cuatro o cinco números. Todas autoconclusivas; varias cierran arcos personales abiertos antes del salto temporal.
+          - '<em>Weapons of Armageddon</em> es la parte de Lobezno del evento <em>Armageddon</em> de 2026: alguien ha resucitado los métodos del programa Arma X. El Comics Giveaway Day de mayo (<em>Armageddon/X-Men</em>) prepara el evento.'
           etiqueta:
             clase: opcional
             texto: Opcional
       - serie:
           id: m2-b7-numeros-especiales
           titulo: Números especiales
-          creditos: 'X-Men Annual #1 (marzo) · Uncanny X-Men Annual #1 (abril) · X-Men: The Hellfire Murder #1 (julio) · 2026'
+          creditos: 'X-Men Annual #1 (marzo) · Uncanny X-Men Annual #1 (abril) · Comics Giveaway Day 2026: Armageddon/X-Men #1 (mayo) · Jubilee: Deadly Reunion #1 (mayo) · Infernal Hulk vs. Wolverine #1 (septiembre) · Punisher Showdowns: Wolverine #1 (noviembre) · 2026'
+          descripcion:
+          - 'Los dos <em>Annual</em> son de las cabeceras: el de <em>Uncanny</em> sale de su arco <em>The Dark Artery</em>. Júbilo busca a un primo al que no conocía (Gene Luen Yang); el de Hulk es la antesala del evento <em>Hulk War</em>: Lobezno contra el Hulk Infernal, que ha secuestrado mutantes.'
           etiqueta:
             clase: opcional
             texto: Opcional
+      - serie:
+          id: m2-b7-hellfire-gala-2026
+          prioridad: p2
+          titulo: 'X-Men: The Hellfire Murder <span class="nums">#1</span>'
+          creditos: Jed MacKay, Gail Simone, Eve L. Ewing, Saladin Ahmed y Erica Schultz · Tony S. Daniel y otros · julio 2026
+          descripcion:
+          - 'La Hellfire Gala de 2026: una mascarada organizada por Sebastian Shaw donde asesinan a un mutante de peso, y Lobezno y Júbilo tienen que resolver el crimen antes de que acabe la fiesta. Escrita entre los guionistas de las cabeceras, y con la presentación de un Club Fuego Infernal nuevo.'
+          etiqueta:
+            clase: t2
+            texto: Recomendado
+      - serie:
+          id: m2-b7-x-men-of-apocalypse-1-4
+          titulo: X-Men of Apocalypse <span class="nums">#1–4</span>
+          creditos: 'Jeph Loeb · Simone Di Meo · Alpha #1 (septiembre 2025), #1–4 (noviembre 2025 – junio 2026) y Omega #1 (agosto 2026)'
+          continuidad:
+          - sigue: ▸ El final del Omega da pie a <em>Gambit Gone</em> (tramo 7.2)
+          descripcion:
+          - Los X-Men de la Era de Apocalipsis irrumpen en el universo principal y chocan con los Uncanny X-Men. El Alpha salió antes de <em>Age of Revelation</em>, pero la historia se lee aquí.
+          etiqueta:
+            clase: opcional
+            texto: Opcional
+      - serie:
+          id: m2-b7-al-margen-de-la-continuidad-2026
+          titulo: Al margen de la continuidad (2026)
+          creditos: 'Psylocke: Ninja #1–5 (Tim Seeley) · X-Men: Outback #1–5 (Steve Orlando) · X-Men: Elsewhen (John Byrne, novela gráfica) · Gambit: Wanted #1–5 (Chris Claremont) · Captain Britain 50th Anniversary Special #1 · X-Men: Incursions #1 (Alex Paknadel)'
+          descripcion:
+          - 'Historias nuevas en etapas pasadas: Psylocke convertida en ninja por la Mano, los X-Men que se hacían pasar por muertos desde el interior de Australia, Gambito antes de unirse al equipo y la Capitana Britania en su 50 aniversario. <em>Incursions</em> abre una serie de cinco one-shots ambientados en los días anteriores a <em>Secret Wars</em> (2015).'
+          - '<em>Elsewhen</em> retoma la etapa de Byrne en <em>Uncanny X-Men</em> por caminos nuevos, fuera de la continuidad: es el primero de tres volúmenes.'
+          etiqueta:
+            clase: t4
+            texto: Al margen de la continuidad
   - evento:
       id: m2-b7-dnx
       etiqueta: Evento en curso · Agosto – noviembre 2026
@@ -1117,7 +1424,7 @@ bloques:
       - apartado: Orden completo
         texto: '<span class="cap">X-Men #35</span> → <span class="cap">X-Men #36</span> (prólogos) → DNX #1 → <span class="cap">X-Men #37</span> → DNX #2 → <span class="cap">X-Men #38</span> → Fantastic Four #17 → DNX #3 → <span class="cap">X-Men #39</span> → <span class="cap">X-Men #40</span> → Fantastic Four #18 → DNX #4 → <span class="cap">X-Men #41</span> → DNX #5'
       - apartado: Dónde está ahora
-        texto: 'A 8 de octubre de 2026 van publicados hasta <em>DNX</em> #2 y <em>X-Men</em> #38. <em>DNX</em> #3 y <em>X-Men</em> #39 salen el 14 de octubre; el evento cierra con <em>DNX</em> #5 el 18 de noviembre.'
+        texto: 'A 17 de noviembre de 2026 está todo publicado menos el último número: <em>DNX</em> #5 sale el 18 de noviembre y cierra el evento.'
   - tramo:
       numero: '7.2'
       titulo: Lo que está saliendo ahora
@@ -1125,15 +1432,16 @@ bloques:
       nota: La frontera de la guía. Todo lo de aquí abajo está en curso o anunciado, y conviene comprobarlo en la tienda.
       entradas:
       - serie:
-          id: m2-b7-hellfire-gala-2026
-          prioridad: p2
-          titulo: Hellfire Gala (2026)
-          creditos: Octubre 2026
+          id: m2-b7-otras-series-en-curso
+          titulo: Otras series en curso
+          creditos: 'Gambit Gone #1– (Steve Orlando, desde septiembre) · Alien vs. X-Men #1– (Kieron Gillen, desde septiembre) · Wolverine: Paradise #1– (Dan Panosian, desde octubre) · 2026'
+          continuidad:
+          - viene: ◂ <em>Gambit Gone</em> sale del final de <em>X-Men of Apocalypse</em> (tramo 7.1)
           descripcion:
-          - 'Vuelve la gala, y con ella el guiño más gordo al pasado krakoano: se presenta el primer equipo de X-Men krakoanos elegido democráticamente desde la caída. Si has leído el bloque 2, este número es para ti.'
+          - Gambito se enfrenta a sus demonios y a los de toda la especie; los X-Men vuelven del espacio con un huevo del Fénix… y un xenomorfo (con una historia de Claremont de complemento); Lobezno se aparta del equipo y acaba en los bajos fondos de Miami, con Dazzler.
           etiqueta:
-            clase: t2
-            texto: Recomendado
+            clase: opcional
+            texto: Opcional
       - serie:
           id: m2-b7-midnight-x-men-1
           prioridad: p4
@@ -1147,7 +1455,7 @@ bloques:
       - serie:
           id: m2-b7-anunciado-y-aun-por-salir
           titulo: Anunciado y aún por salir
-          creditos: 'X-Orcists #1–5 (noviembre) · Jean Grey #1–5 (noviembre, Jed MacKay) · Fugitive X-Force #1–5 (diciembre) · Maximum X-Men #1– (diciembre, Christopher Yost &amp; Tony S. Daniel) · 2026'
+          creditos: 'X-Orcists #1–5 (noviembre) · Jean Grey #1–5 (noviembre, Jed MacKay) · Fugitive X-Force #1–5 (diciembre) · Maximum X-Men #1– (diciembre, Christopher Yost &amp; Tony S. Daniel) · Wolverine: Origin III – The Dark Age #1– (diciembre) · 2026'
           descripcion:
           - Lo que viene en los próximos dos meses según las solicitudes publicadas. <em>Maximum X-Men</em> apunta a ser la siguiente cabecera de peso.
           etiqueta:
@@ -1165,10 +1473,12 @@ apendice:
   - titulo: Dos clases de tie-in
     html: '<p>Casi todos los eventos de esta era <strong>van entrelazados</strong>: <em>X of Swords</em>, <em>Judgment Day</em>, <em>Sins of Sinister</em>, el final de la era, <em>Raid on Graymalkin</em>, <em>X-Manhunt</em> y <em>DNX</em>. Ahí los números de tus series son capítulos del evento y hay que leerlos en su sitio. Lo que sí puede quedarse para después son los <strong>satélites</strong> que cada ficha separa aparte: <em>X-Force</em> y <em>Wolverine</em> en <em>Judgment Day</em>, <em>Dead X-Men</em> e <em>Invincible Iron Man</em> en el final, o las quince miniseries secundarias de <em>Age of Revelation</em>.</p>'
   - titulo: Las galas son el calendario
-    html: '<p>Las cuatro Hellfire Gala (2021, 2022, 2023 y 2026) funcionan como marcas de año dentro de la era. Si te pierdes, localiza la gala más cercana: cada una reparte equipos nuevos y marca el inicio de una fase.</p>'
+    html: '<p>Las tres Hellfire Gala de Krakoa (2021, 2022 y 2023) funcionan como marcas de año dentro de la era: si te pierdes, localiza la gala más cercana, porque cada una reparte equipos nuevos y marca el inicio de una fase. Después de la caída la fiesta vuelve en formato reducido: <em>The Hellfire Vigil</em> (2025) y <em>The Hellfire Murder</em> (2026).</p>'
   - titulo: Si vienes con prisa
     html: '<p>La ruta mínima absoluta de los años de Krakoa son cuatro cosas: <em>X-Men</em> vol. 5 de Hickman, <em>Immortal X-Men</em> entera, <em>X-Men Red</em> entera y el par final intercalado. Con eso tienes el arco completo de la nación mutante, de la fundación a la caída, en unos 70 números.</p>'
   - titulo: El salto de diez años
     html: '<p>Ojo con esto al comprar: las cabeceras de 2024 (<em>X-Men</em> vol. 7, <em>Uncanny</em> vol. 6, <em>Wolverine</em> vol. 8) <strong>no reiniciaron</strong> su numeración en 2026. Siguen donde estaban, pero la historia ha saltado una década por medio de <em>Age of Revelation</em>. Un <em>X-Men</em> #34 y un <em>X-Men</em> #22 están separados por diez años de ficción.</p>'
   - titulo: Hasta dónde llega esta guía
-    html: '<p>Cerrada a <strong>8 de octubre de 2026</strong>, con las solicitudes publicadas hasta diciembre. El bloque 7 está vivo: <em>DNX</em> no termina hasta el 18 de noviembre y las series en curso seguirán sumando números. Todo lo anterior al bloque 7 está ya completo y no va a cambiar.</p>'
+    html: '<p>Revisada a <strong>17 de noviembre de 2026</strong>, con las solicitudes publicadas hasta diciembre. El bloque 7 está vivo: las series en curso seguirán sumando números. Todo lo anterior al bloque 7 está completo.</p>'
+  - titulo: Qué recoge y qué no
+    html: '<p>La guía quiere recoger <strong>todos los cómics mutantes publicados desde 2019</strong>: las cabeceras, las miniseries de personaje, los especiales y los cruces con otras líneas. Se ha cotejado con las listas de Marvel Fandom por etapa (<em>Dawn of X</em>, <em>Reign of X</em>, <em>Destiny of X</em>, <em>Fall of X</em>, <em>Fall of the House of X</em>, <em>From the Ashes</em>…) y con todo lo publicado mes a mes. Lo que se publicó en estos años pero no forma parte de la historia (ambientado en el pasado o en otra realidad) está en las fichas «Al margen de la continuidad» de cada bloque.</p><p>Quedan fuera, a propósito: los <strong>Infinity Comics</strong> (cómics digitales en formato vertical, como <em>X-Men Unlimited</em>, <em>X-Men: From the Ashes Infinity Comic</em> o <em>X-Men: Age of Revelation Infinity Comic</em>) y sus ediciones en papel (<em>X-Men: Xavier''s Secret</em>, <em>Demons and Death</em>, <em>Tooth and Claw</em>, <em>The Undertow</em>, <em>Iceman: Omega</em>, <em>Savage Wolverine</em>, <em>Omega Red Dawn</em>, <em>X-Men Green</em>…); las reediciones y recopilatorios; las guías (<em>Hellfire Gala Guide</em>, <em>X of Swords Handbook</em>, las tiras de la votación de los X-Men); los cómics infantiles o promocionales (<em>X-Men: X-Verse</em>, <em>Uncanny X-Men: Days of Future Fun</em>, <em>Marvel Rivals: Hellfire Gala</em>); el homenaje <em>Giant-Size X-Men: Tribute to Wein &amp; Cockrum</em>, que vuelve a dibujar el número de 1975; las series propias de Deadpool, salvo cuando se cruza con los X-Men, y las de otros universos con línea propia, como <em>Ultimate X-Men</em> (2024).</p>'
